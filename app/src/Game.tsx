@@ -41,10 +41,15 @@ export function Game({
     fishing = task?.kind === "fishing";
   const cycleQuestion = cycle && r.phase.startsWith("question");
   const cycleStop = Number(r.phase.replace(/\D/g, "")) || 0;
-  const cycleWord = ["helmet", "bicycle", "rod"][cycleStop] ?? "helmet";
-  const bg = cycle ? "meadow-trail" : q.background;
-  const instructionKey =
-    r.phase === "intro"
+  const cycleWords = task?.cycleWords ?? ["helmet", "bicycle", "rod"];
+  const cycleWord = cycleWords[cycleStop] ?? "helmet";
+  const bg = task?.background ?? (cycle ? "meadow-trail" : q.background);
+  const narrative = task?.kind === "narrative" && r.phase !== "summary";
+  const [storyActing, setStoryActing] = useState(false);
+  const [heard, setHeard] = useState(false);
+  const instructionKey = narrative
+    ? null
+    : r.phase === "intro"
       ? null
       : r.phase === "summary"
         ? null
@@ -71,8 +76,9 @@ export function Game({
                       ? "find"
                       : "cycle"
                   : task?.kind;
-  const instruction =
-    r.phase === "intro"
+  const instruction = narrative
+    ? task.text![ui]
+    : r.phase === "intro"
       ? ui === "cs"
         ? q.scriptCs
         : q.scriptEn
@@ -82,11 +88,21 @@ export function Game({
           : "Our adventure is complete. Now we can take a break."
         : line((instructionKey ?? "find") as Parameters<typeof line>[0], ui);
   const cues = () => {
+    if (narrative) return [`story.${q.id}.${task.id}.${ui}`];
     if (r.phase === "intro") return [`quest.${q.id}.intro.${ui}`];
-    if (r.phase === "summary") return [`ui.finish.${ui}`];
+    if (r.phase === "summary") return [`questui.finish-story.${ui}`];
+    if (r.phase === "correct")
+      return [`game.packed.${ui}`, `word.${task.concept}.${r.language}`];
     if (task.kind === "learn")
       return ui === "en"
-        ? [`meaning.${task.concept}.en`, `word.${task.concept}.cs`]
+        ? task.concept === "hello"
+          ? ["questui.greeting.en", "word.hello.cs"]
+          : [
+              `word.${task.concept}.en`,
+              `meaning.${task.concept}.en`,
+              "questui.bridge.en",
+              `word.${task.concept}.cs`,
+            ]
         : [`word.${task.concept}.cs`, `meaning.${task.concept}.cs`];
     if (cycleQuestion)
       return [`game.find.${ui}`, `word.${cycleWord}.${r.language}`];
@@ -101,12 +117,26 @@ export function Game({
         : []),
     ];
   };
-  const replay = () => void play(cues());
+  const replay = () => {
+    setHeard(false);
+    void play(cues()).then(() => setHeard(true));
+  };
   useEffect(() => {
     setFeedback("");
+    setStoryActing(false);
     if (!paused) replay();
     return () => stopAudio();
   }, [r.id, r.step, r.phase, paused]);
+  useEffect(() => {
+    if (!storyActing || paused) return;
+    const timer = setTimeout(() => {
+      setStoryActing(false);
+      void mutate((s) => {
+        if (s.run?.id === r.id) advance(s, r.step);
+      });
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, [storyActing, paused, r.id, r.step]);
   useEffect(() => {
     if (fishing && r.phase === "wait" && !paused) {
       const timer = setTimeout(
@@ -232,7 +262,7 @@ export function Game({
   const totalDiscovered = discovered(save).size;
   return (
     <main
-      className={`game-screen ${fishing ? "fishing-scene" : ""} ${paused ? "paused" : ""}`}
+      className={`game-screen ${fishing ? "fishing-scene" : ""} ${narrative ? "narrative-scene" : ""} ${paused ? "paused" : ""}`}
     >
       <div className="quest-ribbon">
         <span>
@@ -257,6 +287,7 @@ export function Game({
         </div>
       </div>
       <Narrator
+        compact={narrative}
         instruction={instruction}
         lang={ui}
         onReplay={replay}
@@ -285,7 +316,7 @@ export function Game({
         }
       />
       <div
-        className={`scene scene-${bg} ${cycle ? "cycling" : ""}`}
+        className={`scene scene-${bg} ${cycle ? "cycling" : ""} ${storyActing ? "story-acting" : ""}`}
         style={{ backgroundImage: `url(${asset(bg)})` }}
       >
         <div className="scene-vignette" />
@@ -313,8 +344,8 @@ export function Game({
                 : undefined
             }
           />
-          {!cycle &&
-            q.cast
+          {(!cycle || !q.archived) &&
+            (task?.cast ?? q.cast)
               .filter((id) => id !== "adam")
               .slice(0, 3)
               .map((id, i) => (
@@ -326,6 +357,47 @@ export function Game({
                 />
               ))}
         </div>
+        {narrative && (
+          <div className="story-stage">
+            <span className="story-chapter">{title(q, ui)}</span>
+            <button
+              className={`story-touch ${task.action === "plane" ? "ocean-touch" : ""} ${heard ? "invite-touch" : ""}`}
+              aria-label={
+                ui === "cs" ? "Pokračovat v příběhu" : "Continue the story"
+              }
+              disabled={storyActing || paused}
+              onClick={() => {
+                stopAudio();
+                chime();
+                setStoryActing(true);
+              }}
+            >
+              <Sprite id={task.art!} className="story-object" />
+              <span className="touch-cue">
+                <Icon
+                  name={
+                    task.action === "wave" ? "heart" : (task.action ?? "next")
+                  }
+                />
+              </span>
+              {task.action === "plane" && (
+                <span className="story-plane">
+                  <Icon name="plane" />
+                </span>
+              )}
+            </button>
+            <div
+              className="story-dots"
+              aria-label={ui === "cs" ? "Příběhové scény" : "Story scenes"}
+            >
+              {tasks
+                .filter((t) => t.kind === "narrative")
+                .map((t) => (
+                  <i key={t.id} className={t.id === task.id ? "current" : ""} />
+                ))}
+            </div>
+          </div>
+        )}
         {intro && (
           <div className="intro-scroll paper">
             <span className="eyebrow">
@@ -360,7 +432,13 @@ export function Game({
                 : `You have ${totalDiscovered} discovered cards in your atlas.`}
             </p>
             <div className="summary-cards">
-              {[...new Set(tasks.map((t) => t.concept))]
+              {[
+                ...new Set(
+                  tasks
+                    .filter((t) => t.kind !== "narrative")
+                    .map((t) => t.concept),
+                ),
+              ]
                 .slice(0, 5)
                 .map((id) => (
                   <button
@@ -429,9 +507,11 @@ export function Game({
             >
               {task.kind === "story" && (
                 <div className="story-strip">
-                  {(q.id === "travel"
-                    ? ["hello", "please", "thanks"]
-                    : ["fish", "boot", "apple"]
+                  {(!q.archived && task.options
+                    ? task.options
+                    : q.id === "travel"
+                      ? ["hello", "please", "thanks"]
+                      : ["fish", "boot", "apple"]
                   ).map((id, i) => (
                     <div
                       key={id}
@@ -698,7 +778,10 @@ export function Game({
                     {
                       kind: "find",
                       concept: cycleWord,
-                      options: [cycleWord, "apple"],
+                      options: [
+                        cycleWord,
+                        cycleWord === "apple" ? "helmet" : "apple",
+                      ],
                     },
                     r.orderSeed + cycleStop,
                   ).map((id) => (

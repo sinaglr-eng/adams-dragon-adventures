@@ -1,0 +1,181 @@
+{
+  "id": "grandparents-home",
+  "title": "Domov u dědy a babi",
+  "titleEn": "Grandma and Grandpa’s home",
+  "region": "pribram",
+  "background": "pribram-home",
+  "cast": [
+    "adam",
+    "matyas",
+    "babi",
+    "deda"
+  ],
+  "narrator": "romca",
+  "mechanics": [
+    "narrative",
+    "learn",
+    "find",
+    "pack",
+    "story"
+  ],
+  "concepts": [
+    "hello",
+    "watering-can",
+    "please",
+    "cup",
+    "apple",
+    "thanks"
+  ],
+  "prerequisites": [],
+  "scriptCs": "Po dlouhé cestě přes oceán dorazil Adam do Příbrami. U branky čekají babi a děda, dva starší draci s velikým úsměvem. Klepni na babi a zamávej jí.",
+  "scriptEn": "After a long trip across the ocean, Adam arrives in Příbram. Grandma and Grandpa, two older dragons with big smiles, are waiting at the garden gate. Tap Grandma to wave hello.",
+  "suggestedMinutes": [
+    6,
+    12
+  ],
+  "speechOptionalForCompletion": true,
+  "archived": false,
+  "version": 1,
+  "tasks": [
+    {
+      "id": "arrival",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Po dlouhé cestě přes oceán dorazil Adam do Příbrami. U branky čekají babi a děda, dva starší draci s velikým úsměvem. Klepni na babi a zamávej jí.",
+        "en": "After a long trip across the ocean, Adam arrives in Příbram. Grandma and Grandpa, two older dragons with big smiles, are waiting at the garden gate. Tap Grandma to wave hello."
+      },
+      "art": "family/babi",
+      "action": "wave"
+    },
+    {
+      "kind": "learn",
+      "concept": "hello"
+    },
+    {
+      "kind": "find",
+      "concept": "hello"
+    },
+    {
+      "id": "garden",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Babi ukazuje Adamovi zahradu. Květiny mají žízeň a konvička čeká u dveří. Adam jí chce pomoct. Najdeme, čím se zalévá? Klepni na konvičku.",
+        "en": "Grandma shows Adam the garden. The flowers are thirsty, and a watering can is waiting by the door. Adam wants to help. What can we use to water the flowers? Tap the watering can."
+      },
+      "art": "props/watering-can",
+      "action": "next"
+    },
+    {
+      "kind": "learn",
+      "concept": "watering-can"
+    },
+    {
+      "kind": "find",
+      "concept": "watering-can"
+    },
+    {
+      "kind": "pack",
+      "concept": "watering-can",
+      "options": [
+        "watering-can",
+        "helmet",
+        "rod"
+      ]
+    },
+    {
+      "id": "table",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Děda mezitím připravil stůl. Adam dostane jablko a hrnek. Když něco potřebuje, zkusí české prosím. Děda má radost z každého pokusu. Klepni na jablko.",
+        "en": "Meanwhile, Grandpa has set the table. Adam will have an apple and a cup. When he needs something, he can try the Czech word for please. Grandpa is happy to hear him try. Tap the apple."
+      },
+      "art": "props/apple",
+      "action": "next"
+    },
+    {
+      "kind": "learn",
+      "concept": "please"
+    },
+    {
+      "kind": "find",
+      "concept": "please"
+    },
+    {
+      "kind": "learn",
+      "concept": "cup"
+    },
+    {
+      "kind": "find",
+      "concept": "cup"
+    },
+    {
+      "kind": "learn",
+      "concept": "apple"
+    },
+    {
+      "kind": "find",
+      "concept": "apple"
+    },
+    {
+      "kind": "pack",
+      "concept": "cup",
+      "options": [
+        "cup",
+        "bucket",
+        "stone"
+      ]
+    },
+    {
+      "id": "photo",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Babi by ráda slyšela, co Adam dělal doma v Iowě. Adam jí ukáže obrázky a děda mu pomůže najít slovíčko. Dnes vyprávíme spolu. Klepni na knihu.",
+        "en": "Grandma wants to hear about Adam’s home in Iowa. Adam shows her pictures, and Grandpa helps him find a word. Today we are telling a story together. Tap the book."
+      },
+      "art": "adam-actions/atlas",
+      "action": "atlas"
+    },
+    {
+      "kind": "learn",
+      "concept": "thanks"
+    },
+    {
+      "kind": "find",
+      "concept": "thanks"
+    },
+    {
+      "kind": "story",
+      "concept": "apple",
+      "options": [
+        "apple",
+        "cup",
+        "watering-can"
+      ]
+    },
+    {
+      "id": "ending",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Květiny mají vodu a všichni si užili svačinu. Adam nemusí umět všechna slova, aby mohl vyprávět. Obrázek, gesto a jedno slovíčko jsou krásný začátek. Klepni na hvězdičku.",
+        "en": "The flowers have water, and everyone enjoyed the snack. Adam does not need every word to tell a story. A picture, a gesture, and one word are a lovely beginning. Tap the star."
+      },
+      "art": "family/deda",
+      "action": "star"
+    }
+  ],
+  "callPrompts": [
+    {
+      "cs": "Čím jsme zalévali květiny? Ukaž, jak se to dělá.",
+      "en": "What did we use to water the flowers? Show me how."
+    },
+    {
+      "cs": "Co jsme měli na stole? Řekni jedno slovo česky, já anglicky.",
+      "en": "What was on the table? Say one word in Czech, and I will say it in English."
+    }
+  ]
+}

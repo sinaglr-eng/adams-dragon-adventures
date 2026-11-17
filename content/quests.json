@@ -30,7 +30,61 @@
         5,
         8
       ],
-      "speechOptionalForCompletion": true
+      "speechOptionalForCompletion": true,
+      "titleEn": "Home in Iowa",
+      "archived": true,
+      "tasks": [
+        {
+          "kind": "learn",
+          "concept": "hello"
+        },
+        {
+          "kind": "find",
+          "concept": "hello"
+        },
+        {
+          "kind": "learn",
+          "concept": "helmet"
+        },
+        {
+          "kind": "find",
+          "concept": "helmet"
+        },
+        {
+          "kind": "pack",
+          "concept": "helmet",
+          "options": [
+            "apple",
+            "helmet",
+            "bucket"
+          ]
+        },
+        {
+          "kind": "learn",
+          "concept": "apple"
+        },
+        {
+          "kind": "find",
+          "concept": "apple"
+        },
+        {
+          "kind": "pack",
+          "concept": "apple",
+          "options": [
+            "apple",
+            "net",
+            "stone"
+          ]
+        },
+        {
+          "kind": "learn",
+          "concept": "bicycle"
+        },
+        {
+          "kind": "find",
+          "concept": "bicycle"
+        }
+      ]
     },
     {
       "id": "iowa-fishing",
@@ -61,7 +115,47 @@
         5,
         8
       ],
-      "speechOptionalForCompletion": true
+      "speechOptionalForCompletion": true,
+      "titleEn": "The secret of the lake",
+      "archived": true,
+      "tasks": [
+        {
+          "kind": "learn",
+          "concept": "rod"
+        },
+        {
+          "kind": "pack",
+          "concept": "rod"
+        },
+        {
+          "kind": "learn",
+          "concept": "float"
+        },
+        {
+          "kind": "pack",
+          "concept": "float"
+        },
+        {
+          "kind": "learn",
+          "concept": "bucket"
+        },
+        {
+          "kind": "pack",
+          "concept": "bucket"
+        },
+        {
+          "kind": "fishing",
+          "concept": "fish"
+        },
+        {
+          "kind": "learn",
+          "concept": "fish"
+        },
+        {
+          "kind": "find",
+          "concept": "fish"
+        }
+      ]
     },
     {
       "id": "klarka-atlas",
@@ -104,6 +198,142 @@
         "frog",
         "dragonfly",
         "stone"
+      ],
+      "titleEn": "Klárka’s tiny neighbors",
+      "archived": true,
+      "tasks": [
+        {
+          "kind": "learn",
+          "concept": "magnifier"
+        },
+        {
+          "kind": "find",
+          "concept": "magnifier"
+        },
+        {
+          "kind": "learn",
+          "concept": "leaf"
+        },
+        {
+          "kind": "find",
+          "concept": "leaf"
+        },
+        {
+          "kind": "learn",
+          "concept": "jar"
+        },
+        {
+          "kind": "find",
+          "concept": "jar"
+        },
+        {
+          "kind": "discover",
+          "concept": "earthworm"
+        },
+        {
+          "kind": "learn",
+          "concept": "earthworm"
+        },
+        {
+          "kind": "find",
+          "concept": "earthworm"
+        },
+        {
+          "kind": "discover",
+          "concept": "ladybird"
+        },
+        {
+          "kind": "learn",
+          "concept": "ladybird"
+        },
+        {
+          "kind": "find",
+          "concept": "ladybird"
+        },
+        {
+          "kind": "discover",
+          "concept": "caterpillar"
+        },
+        {
+          "kind": "learn",
+          "concept": "caterpillar"
+        },
+        {
+          "kind": "find",
+          "concept": "caterpillar"
+        },
+        {
+          "kind": "discover",
+          "concept": "butterfly"
+        },
+        {
+          "kind": "learn",
+          "concept": "butterfly"
+        },
+        {
+          "kind": "find",
+          "concept": "butterfly"
+        },
+        {
+          "kind": "discover",
+          "concept": "snail"
+        },
+        {
+          "kind": "learn",
+          "concept": "snail"
+        },
+        {
+          "kind": "find",
+          "concept": "snail"
+        },
+        {
+          "kind": "discover",
+          "concept": "ant"
+        },
+        {
+          "kind": "learn",
+          "concept": "ant"
+        },
+        {
+          "kind": "find",
+          "concept": "ant"
+        },
+        {
+          "kind": "discover",
+          "concept": "frog"
+        },
+        {
+          "kind": "learn",
+          "concept": "frog"
+        },
+        {
+          "kind": "find",
+          "concept": "frog"
+        },
+        {
+          "kind": "discover",
+          "concept": "dragonfly"
+        },
+        {
+          "kind": "learn",
+          "concept": "dragonfly"
+        },
+        {
+          "kind": "find",
+          "concept": "dragonfly"
+        },
+        {
+          "kind": "discover",
+          "concept": "stone"
+        },
+        {
+          "kind": "learn",
+          "concept": "stone"
+        },
+        {
+          "kind": "find",
+          "concept": "stone"
+        }
       ]
     },
     {
@@ -134,7 +364,62 @@
         5,
         8
       ],
-      "speechOptionalForCompletion": true
+      "speechOptionalForCompletion": true,
+      "titleEn": "Off to Příbram!",
+      "archived": true,
+      "tasks": [
+        {
+          "kind": "learn",
+          "concept": "hello"
+        },
+        {
+          "kind": "find",
+          "concept": "hello"
+        },
+        {
+          "kind": "learn",
+          "concept": "please"
+        },
+        {
+          "kind": "find",
+          "concept": "please"
+        },
+        {
+          "kind": "learn",
+          "concept": "thanks"
+        },
+        {
+          "kind": "find",
+          "concept": "thanks"
+        },
+        {
+          "kind": "story",
+          "concept": "hello",
+          "options": [
+            "hello",
+            "please",
+            "thanks"
+          ]
+        },
+        {
+          "kind": "story",
+          "concept": "please",
+          "options": [
+            "thanks",
+            "hello",
+            "please"
+          ]
+        },
+        {
+          "kind": "story",
+          "concept": "thanks",
+          "options": [
+            "please",
+            "thanks",
+            "hello"
+          ]
+        }
+      ]
     },
     {
       "id": "workshop",
@@ -167,7 +452,65 @@
         5,
         8
       ],
-      "speechOptionalForCompletion": true
+      "speechOptionalForCompletion": true,
+      "titleEn": "Grandpa’s bike workshop",
+      "archived": true,
+      "tasks": [
+        {
+          "kind": "learn",
+          "concept": "key"
+        },
+        {
+          "kind": "find",
+          "concept": "key"
+        },
+        {
+          "kind": "learn",
+          "concept": "red"
+        },
+        {
+          "kind": "find",
+          "concept": "red"
+        },
+        {
+          "kind": "learn",
+          "concept": "blue"
+        },
+        {
+          "kind": "find",
+          "concept": "blue"
+        },
+        {
+          "kind": "assemble",
+          "concept": "bicycle",
+          "options": [
+            "bicycle",
+            "bucket",
+            "rod"
+          ]
+        },
+        {
+          "kind": "assemble",
+          "concept": "helmet",
+          "options": [
+            "helmet",
+            "cup",
+            "apple"
+          ]
+        },
+        {
+          "kind": "cycle",
+          "concept": "helmet"
+        },
+        {
+          "kind": "find",
+          "concept": "red"
+        },
+        {
+          "kind": "find",
+          "concept": "blue"
+        }
+      ]
     },
     {
       "id": "mystery-catch",
@@ -204,7 +547,87 @@
         5,
         8
       ],
-      "speechOptionalForCompletion": true
+      "speechOptionalForCompletion": true,
+      "titleEn": "Romča’s mystery catch",
+      "archived": true,
+      "tasks": [
+        {
+          "kind": "learn",
+          "concept": "rod"
+        },
+        {
+          "kind": "pack",
+          "concept": "rod"
+        },
+        {
+          "kind": "learn",
+          "concept": "net"
+        },
+        {
+          "kind": "pack",
+          "concept": "net"
+        },
+        {
+          "kind": "learn",
+          "concept": "earthworm"
+        },
+        {
+          "kind": "pack",
+          "concept": "earthworm"
+        },
+        {
+          "kind": "cycle",
+          "concept": "helmet"
+        },
+        {
+          "kind": "fishing",
+          "concept": "boot"
+        },
+        {
+          "kind": "learn",
+          "concept": "boot"
+        },
+        {
+          "kind": "find",
+          "concept": "boot"
+        },
+        {
+          "kind": "fishing",
+          "concept": "carp"
+        },
+        {
+          "kind": "learn",
+          "concept": "carp"
+        },
+        {
+          "kind": "find",
+          "concept": "carp"
+        },
+        {
+          "kind": "fishing",
+          "concept": "perch"
+        },
+        {
+          "kind": "learn",
+          "concept": "perch"
+        },
+        {
+          "kind": "find",
+          "concept": "perch"
+        },
+        {
+          "kind": "fishing",
+          "concept": "fish"
+        },
+        {
+          "kind": "learn",
+          "concept": "fish"
+        },
+        {
+          "kind": "find",
+          "concept": "fish"
+        }
+      ]
     },
     {
       "id": "big-fish",
@@ -239,7 +662,103 @@
         5,
         8
       ],
-      "speechOptionalForCompletion": true
+      "speechOptionalForCompletion": true,
+      "titleEn": "The big fish adventure",
+      "archived": true,
+      "tasks": [
+        {
+          "kind": "learn",
+          "concept": "big"
+        },
+        {
+          "kind": "compare",
+          "concept": "big",
+          "options": [
+            "big",
+            "small"
+          ]
+        },
+        {
+          "kind": "learn",
+          "concept": "small"
+        },
+        {
+          "kind": "compare",
+          "concept": "small",
+          "options": [
+            "big",
+            "small"
+          ]
+        },
+        {
+          "kind": "fishing",
+          "concept": "catfish"
+        },
+        {
+          "kind": "learn",
+          "concept": "catfish"
+        },
+        {
+          "kind": "find",
+          "concept": "catfish"
+        },
+        {
+          "kind": "fishing",
+          "concept": "pike"
+        },
+        {
+          "kind": "learn",
+          "concept": "pike"
+        },
+        {
+          "kind": "find",
+          "concept": "pike"
+        },
+        {
+          "kind": "fishing",
+          "concept": "cup"
+        },
+        {
+          "kind": "learn",
+          "concept": "cup"
+        },
+        {
+          "kind": "find",
+          "concept": "cup"
+        },
+        {
+          "kind": "fishing",
+          "concept": "treasure"
+        },
+        {
+          "kind": "learn",
+          "concept": "treasure"
+        },
+        {
+          "kind": "find",
+          "concept": "treasure"
+        },
+        {
+          "kind": "find",
+          "concept": "carp"
+        },
+        {
+          "kind": "find",
+          "concept": "earthworm"
+        },
+        {
+          "kind": "find",
+          "concept": "rod"
+        },
+        {
+          "kind": "find",
+          "concept": "net"
+        },
+        {
+          "kind": "find",
+          "concept": "helmet"
+        }
+      ]
     },
     {
       "id": "tell-grandma",
@@ -274,7 +793,62 @@
         5,
         8
       ],
-      "speechOptionalForCompletion": true
+      "speechOptionalForCompletion": true,
+      "titleEn": "Tell Grandma a story",
+      "archived": true,
+      "tasks": [
+        {
+          "kind": "learn",
+          "concept": "apple"
+        },
+        {
+          "kind": "find",
+          "concept": "apple"
+        },
+        {
+          "kind": "learn",
+          "concept": "watering-can"
+        },
+        {
+          "kind": "find",
+          "concept": "watering-can"
+        },
+        {
+          "kind": "learn",
+          "concept": "thanks"
+        },
+        {
+          "kind": "find",
+          "concept": "thanks"
+        },
+        {
+          "kind": "story",
+          "concept": "fish",
+          "options": [
+            "boot",
+            "fish",
+            "apple"
+          ]
+        },
+        {
+          "kind": "story",
+          "concept": "boot",
+          "options": [
+            "fish",
+            "apple",
+            "boot"
+          ]
+        },
+        {
+          "kind": "story",
+          "concept": "apple",
+          "options": [
+            "apple",
+            "boot",
+            "fish"
+          ]
+        }
+      ]
     }
   ]
 }

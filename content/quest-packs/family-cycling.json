@@ -1,0 +1,184 @@
+{
+  "id": "family-cycling",
+  "title": "Cyklistika s rodiči",
+  "titleEn": "A bike ride with Mom and Dad",
+  "region": "iowa",
+  "background": "iowa-home",
+  "cast": [
+    "adam",
+    "mama",
+    "tata"
+  ],
+  "narrator": "romca",
+  "mechanics": [
+    "narrative",
+    "learn",
+    "find",
+    "assemble",
+    "pack",
+    "cycle"
+  ],
+  "concepts": [
+    "bicycle",
+    "helmet",
+    "apple",
+    "red",
+    "blue",
+    "leaf"
+  ],
+  "prerequisites": [],
+  "scriptCs": "V Iowě je pěkný den na kolo. Máma s tátou plánují krátkou rodinnou vyjížďku. Adam pojede svým tempem a cestou bude spousta zastávek. Klepni na kolo!",
+  "scriptEn": "It is a lovely day for a bike ride in Iowa. Mom and Dad are planning a short family ride. Adam can go at his own pace, with plenty of stops along the way. Tap the bicycle!",
+  "suggestedMinutes": [
+    6,
+    12
+  ],
+  "speechOptionalForCompletion": true,
+  "archived": false,
+  "version": 1,
+  "tasks": [
+    {
+      "id": "plan",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "V Iowě je pěkný den na kolo. Máma s tátou plánují krátkou rodinnou vyjížďku. Adam pojede svým tempem a cestou bude spousta zastávek. Klepni na kolo!",
+        "en": "It is a lovely day for a bike ride in Iowa. Mom and Dad are planning a short family ride. Adam can go at his own pace, with plenty of stops along the way. Tap the bicycle!"
+      },
+      "art": "props/bicycle",
+      "action": "bicycle"
+    },
+    {
+      "kind": "learn",
+      "concept": "bicycle"
+    },
+    {
+      "kind": "find",
+      "concept": "bicycle"
+    },
+    {
+      "kind": "learn",
+      "concept": "helmet"
+    },
+    {
+      "kind": "find",
+      "concept": "helmet"
+    },
+    {
+      "kind": "assemble",
+      "concept": "helmet",
+      "options": [
+        "helmet",
+        "cup",
+        "bucket"
+      ]
+    },
+    {
+      "id": "snack",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Táta zkontroloval kola a máma má připravenou helmu. Ještě svačinu! Adam přibalí jablko a podívá se na barvu svého kola. Klepni na košík.",
+        "en": "Dad checks the bicycles, and Mom has her helmet ready. One more thing: a snack! Adam packs an apple and looks at the color of his bicycle. Tap the basket."
+      },
+      "art": "props/apple",
+      "action": "suitcase"
+    },
+    {
+      "kind": "learn",
+      "concept": "apple"
+    },
+    {
+      "kind": "find",
+      "concept": "apple"
+    },
+    {
+      "kind": "pack",
+      "concept": "apple",
+      "options": [
+        "apple",
+        "rod",
+        "stone"
+      ]
+    },
+    {
+      "kind": "learn",
+      "concept": "red"
+    },
+    {
+      "kind": "find",
+      "concept": "red"
+    },
+    {
+      "kind": "learn",
+      "concept": "blue"
+    },
+    {
+      "kind": "find",
+      "concept": "blue"
+    },
+    {
+      "id": "trail",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Vyjeli jsme na klidnou cestu. Máma i táta jsou s Adamem. U každé zastávky si poslechneme slovíčko a vybereme obrázek. Nikam nespěcháme. Klepni na kolo.",
+        "en": "We are on a quiet trail now. Mom and Dad are with Adam. At each stop, we will hear a word and choose its picture. There is no hurry. Tap the bicycle."
+      },
+      "art": "props/bicycle",
+      "action": "bicycle",
+      "background": "meadow-trail"
+    },
+    {
+      "kind": "cycle",
+      "concept": "helmet",
+      "cycleWords": [
+        "helmet",
+        "bicycle",
+        "apple"
+      ],
+      "background": "meadow-trail"
+    },
+    {
+      "id": "leaf",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "U cesty se zatřepetal list. Adam zastavil a všichni se rozhlédli. I malá zastávka může být objev. Najdeme list a pak se vrátíme domů. Klepni na list.",
+        "en": "A leaf flutters beside the trail. Adam stops, and everyone looks around. Even a little stop can become a discovery. Let us find the leaf before we head home. Tap the leaf."
+      },
+      "art": "props/leaf",
+      "action": "next",
+      "background": "meadow-trail"
+    },
+    {
+      "kind": "learn",
+      "concept": "leaf"
+    },
+    {
+      "kind": "find",
+      "concept": "leaf"
+    },
+    {
+      "id": "ending",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Rodina je zpátky doma v Iowě. Adam jel s helmou, zastavoval a užil si cestu s rodiči. Babi a dědovi může vyprávět, co viděl. Klepni na hvězdičku.",
+        "en": "The family is back home in Iowa. Adam wore his helmet, took breaks, and enjoyed the ride with Mom and Dad. He can tell Grandma and Grandpa what he saw. Tap the star."
+      },
+      "art": "adam-actions/cycling",
+      "action": "star"
+    }
+  ],
+  "callPrompts": [
+    {
+      "cs": "Co sis dal na hlavu před jízdou? Ukaž mi helmu.",
+      "en": "What did you put on your head before the ride? Show me your helmet."
+    },
+    {
+      "cs": "Jel jsi s mámou a tátou? Co jsi viděl u cesty?",
+      "en": "Did you ride with Mom and Dad? What did you see by the trail?"
+    }
+  ]
+}

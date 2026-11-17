@@ -189,15 +189,21 @@ export function Narrator({
   onReplay,
   onHelp,
   csTarget,
+  compact = false,
 }: {
   instruction: string;
   lang: Lang;
   onReplay: () => void;
   onHelp?: () => void;
   csTarget?: string;
+  compact?: boolean;
 }) {
+  const [expanded, setExpanded] = useState(false);
+  useEffect(() => setExpanded(false), [instruction]);
   return (
-    <div className="narrator">
+    <div
+      className={`narrator ${compact && !expanded ? "compact-narrator" : ""}`}
+    >
       <Sprite id="family/romca" className="narrator-portrait" />
       <div className="narrator-copy">
         <small>
@@ -216,6 +222,18 @@ export function Narrator({
           aria-label={lang === "cs" ? "Poslechnout znovu" : "Listen again"}
           onClick={onReplay}
         />
+        {compact && (
+          <button
+            className="transcript-toggle"
+            aria-label={
+              lang === "cs" ? "Celý text příběhu" : "Full story transcript"
+            }
+            aria-expanded={expanded}
+            onClick={() => setExpanded(!expanded)}
+          >
+            <Icon name="atlas" />
+          </button>
+        )}
         {onHelp && (
           <Button className="help-button" onClick={onHelp}>
             EN

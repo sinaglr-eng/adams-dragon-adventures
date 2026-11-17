@@ -1,8 +1,9 @@
 import script from "../../content/audio-script.json";
 import lines from "../../content/game-lines.json";
+import storyAudio from "../../content/story-audio.json";
 import type { Lang } from "./data";
 const texts: Record<string, string> = Object.fromEntries(
-  script.lines.map((l) => [l.id, l.text]),
+  [...script.lines, ...storyAudio.lines].map((l) => [l.id, l.text]),
 );
 for (const [id, pair] of Object.entries(lines))
   for (const lang of ["cs", "en"] as const)

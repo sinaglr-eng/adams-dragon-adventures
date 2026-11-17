@@ -1,3 +1,5 @@
+> Aktualizace: aktuální strukturu pěti samostatných příběhových questů a rozhraní pro prarodiče popisuje [docs/QUEST_AUTHORING.md](docs/QUEST_AUTHORING.md). Původních osm kapitol níže zůstává jako kompatibilní archiv. Nové zadání má přednost před původní pevnou posloupností.
+
 # Kompletní implementační prompt — Adamovy dračí výpravy
 
 Jsi zkušený game developer, frontend engineer a designer her pro předškoláky. Implementuj plně hratelnou webovou hru **Adamovy dračí výpravy / Adam's Dragon Adventures** podle tohoto zadání, dat v content/ a dodané grafiky. Toto zadání je podklad pro následnou implementaci; nynější repozitář je preprodukční balíček, nikoli hotová aplikace.

@@ -34,17 +34,8 @@ export type Reward = {
   confirmedAt?: number;
   redeemedAt?: number;
 };
-export type TaskKind =
-  | "learn"
-  | "find"
-  | "pack"
-  | "fishing"
-  | "discover"
-  | "cycle"
-  | "assemble"
-  | "story"
-  | "compare";
-export type Task = { kind: TaskKind; concept: string; options?: string[] };
+import type { Task } from "./quest-content";
+export type { Task, TaskKind } from "./quest-content";
 export type Run = {
   id: string;
   questId: string;
@@ -65,6 +56,7 @@ export type Save = {
   rewards: Reward[];
   redeemed: string[];
   run: Run | null;
+  runs?: Record<string, Run>;
   prefs: {
     language: Lang;
     muted: boolean;
@@ -242,112 +234,23 @@ export function redeemReward(s: Save, id: string) {
   return true;
 }
 
-const t = (kind: TaskKind, concept: string, options?: string[]): Task => ({
-  kind,
-  concept,
-  options,
-});
-const learning = (ids: string[]) =>
-  ids.flatMap((id) => [t("learn", id), t("find", id)]);
 export function tasksFor(id: string): Task[] {
-  switch (id) {
-    case "iowa-home":
-      return [
-        ...learning(["hello", "helmet"]),
-        t("pack", "helmet", ["apple", "helmet", "bucket"]),
-        ...learning(["apple"]),
-        t("pack", "apple", ["apple", "net", "stone"]),
-        ...learning(["bicycle"]),
-      ];
-    case "iowa-fishing":
-      return [
-        ...["rod", "float", "bucket"].flatMap((id) => [
-          t("learn", id),
-          t("pack", id),
-        ]),
-        t("fishing", "fish"),
-        t("learn", "fish"),
-        t("find", "fish"),
-      ];
-    case "klarka-atlas":
-      return [
-        ...learning(["magnifier", "leaf", "jar"]),
-        ...[
-          "earthworm",
-          "ladybird",
-          "caterpillar",
-          "butterfly",
-          "snail",
-          "ant",
-          "frog",
-          "dragonfly",
-          "stone",
-        ].flatMap((id) => [t("discover", id), t("learn", id), t("find", id)]),
-      ];
-    case "travel":
-      return [
-        ...learning(["hello", "please", "thanks"]),
-        t("story", "hello", ["hello", "please", "thanks"]),
-        t("story", "please", ["thanks", "hello", "please"]),
-        t("story", "thanks", ["please", "thanks", "hello"]),
-      ];
-    case "workshop":
-      return [
-        ...learning(["key", "red", "blue"]),
-        t("assemble", "bicycle", ["bicycle", "bucket", "rod"]),
-        t("assemble", "helmet", ["helmet", "cup", "apple"]),
-        t("cycle", "helmet"),
-        t("find", "red"),
-        t("find", "blue"),
-      ];
-    case "mystery-catch":
-      return [
-        ...["rod", "net", "earthworm"].flatMap((id) => [
-          t("learn", id),
-          t("pack", id),
-        ]),
-        t("cycle", "helmet"),
-        ...["boot", "carp", "perch", "fish"].flatMap((id) => [
-          t("fishing", id),
-          t("learn", id),
-          t("find", id),
-        ]),
-      ];
-    case "big-fish":
-      return [
-        ...["big", "small"].flatMap((id) => [
-          t("learn", id),
-          t("compare", id, ["big", "small"]),
-        ]),
-        ...["catfish", "pike", "cup", "treasure"].flatMap((id) => [
-          t("fishing", id),
-          t("learn", id),
-          t("find", id),
-        ]),
-        t("find", "carp"),
-        t("find", "earthworm"),
-        t("find", "rod"),
-        t("find", "net"),
-        t("find", "helmet"),
-      ];
-    case "tell-grandma":
-      return [
-        ...learning(["apple", "watering-can", "thanks"]),
-        t("story", "fish", ["boot", "fish", "apple"]),
-        t("story", "boot", ["fish", "apple", "boot"]),
-        t("story", "apple", ["apple", "boot", "fish"]),
-      ];
-    default:
-      return [];
-  }
+  return quests.find((q) => q.id === id)?.tasks ?? [];
 }
 export function startRun(s: Save, questId: string, lang: Lang) {
   if (!unlocked(s, questId)) return;
+  s.runs ??= {};
+  if (s.run) s.runs[s.run.questId] = structuredClone(s.run);
+  const previous = s.runs[questId];
+  if (previous && previous.phase !== "summary") {
+    s.run = structuredClone(previous);
+    return;
+  }
   s.run = {
     id: uid(),
     questId,
-    step: -1,
-    phase: "intro",
+    step: quests.find((q) => q.id === questId)?.archived ? -1 : 0,
+    phase: quests.find((q) => q.id === questId)?.archived ? "intro" : "ready",
     selected: null,
     helped: false,
     attempts: 0,
@@ -538,17 +441,27 @@ export function migrate(input: unknown): Save {
   )
     throw Error("Damaged redemption ledger");
   if (
-    raw.run &&
-    (!quests.some((q) => q.id === raw.run!.questId) ||
-      !Number.isInteger(raw.run.step) ||
-      raw.run.step < -1 ||
-      raw.run.step > tasksFor(raw.run.questId).length ||
-      !["cs", "en"].includes(raw.run.language) ||
-      typeof raw.run.id !== "string" ||
-      typeof raw.run.phase !== "string" ||
-      !Number.isFinite(raw.run.orderSeed))
+    raw.runs &&
+    (typeof raw.runs !== "object" ||
+      Array.isArray(raw.runs) ||
+      Object.keys(raw.runs).length > quests.length)
   )
-    throw Error("Damaged adventure");
+    throw Error("Damaged adventure history");
+  for (const [key, run] of Object.entries(raw.runs ?? {}))
+    if (key !== run.questId) throw Error("Damaged adventure history");
+  for (const run of [raw.run, ...Object.values(raw.runs ?? {})])
+    if (
+      run &&
+      (!quests.some((q) => q.id === run.questId) ||
+        !Number.isInteger(run.step) ||
+        run.step < -1 ||
+        run.step > tasksFor(run.questId).length ||
+        !["cs", "en"].includes(run.language) ||
+        typeof run.id !== "string" ||
+        typeof run.phase !== "string" ||
+        !Number.isFinite(run.orderSeed))
+    )
+      throw Error("Damaged adventure");
   refreshRewards(raw);
   return raw;
 }
@@ -577,6 +490,7 @@ export function mergeBackup(current: Save, incoming: Save): Save {
     ).values(),
   ];
   merged.session = current.session;
+  merged.runs = { ...current.runs, ...merged.runs };
   merged.revision = current.revision;
   refreshRewards(merged);
   return merged;

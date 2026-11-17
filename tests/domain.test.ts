@@ -131,7 +131,7 @@ describe("adventures", () => {
       expect(s.run?.phase).toBe("summary");
       expect(completed(s).has(q.id)).toBe(true);
     }
-    expect(completed(s).size).toBe(8);
+    expect(completed(s).size).toBe(quests.length);
   });
   it("fishing waits indefinitely for a bite action and ignores stale transitions", () => {
     const s = freshSave();

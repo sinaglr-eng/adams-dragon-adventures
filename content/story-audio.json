@@ -1,0 +1,380 @@
+{
+  "lines": [
+    {
+      "id": "title.story-iowa.cs",
+      "text": "Domov v Iowě"
+    },
+    {
+      "id": "title.story-iowa.en",
+      "text": "Home in Iowa"
+    },
+    {
+      "id": "story.story-iowa.morning.cs",
+      "text": "V Iowě se probudil malý zelený dráček Adam. Bydlí tu s mámou, tátou a malým bráškou Matyášem. Já jsem strejda Romča a budu ti vyprávět. Klepni na Adama a zamáváme mu!"
+    },
+    {
+      "id": "story.story-iowa.morning.en",
+      "text": "In Iowa, a little green dragon named Adam wakes up. He lives with Mom, Dad, and his little brother Matyáš. I am Uncle Romča, your storyteller. Tap Adam to give him a wave!"
+    },
+    {
+      "id": "story.story-iowa.ocean.cs",
+      "text": "Máma a táta pocházejí z Česka, země za velikým oceánem. V Příbrami tam žijí babi a děda. Klepni na letadlo a přeletíme oceán na mapě."
+    },
+    {
+      "id": "story.story-iowa.ocean.en",
+      "text": "Mom and Dad come from Czechia, a country across a great big ocean. Grandma and Grandpa live there, in Příbram. Tap the airplane to fly across the ocean on our map."
+    },
+    {
+      "id": "story.story-iowa.languages.cs",
+      "text": "Doma v Iowě Adam často slyší angličtinu. Babi a děda mluví česky. Stejnou věc můžeme pojmenovat dvěma způsoby! Pomůžeme Adamovi najít česká slovíčka. Klepni na šipku."
+    },
+    {
+      "id": "story.story-iowa.languages.en",
+      "text": "At home in Iowa, Adam often hears English. Grandma and Grandpa speak Czech. We can name the very same thing in two different ways! Let us help Adam discover the Czech words. Tap the arrow."
+    },
+    {
+      "id": "story.story-iowa.snack.cs",
+      "text": "Matyáš si hraje a máma chystá svačinu. Adamovi zakručelo v bříšku! Pomůže mámě najít jablko a hrnek. Klepni na košík."
+    },
+    {
+      "id": "story.story-iowa.snack.en",
+      "text": "Matyáš is playing while Mom gets a snack ready. Adam’s tummy gives a little rumble! He can help Mom find an apple and a cup. Tap the basket."
+    },
+    {
+      "id": "story.story-iowa.kindness.cs",
+      "text": "Táta přinesl svačinu. Adam ji nemusí brát beze slova. Může o ni poprosit a pak poděkovat. I laskavá slova mají dvě podoby. Klepni na srdíčko."
+    },
+    {
+      "id": "story.story-iowa.kindness.en",
+      "text": "Dad brings the snack. Adam can ask kindly, then say thank you. Kind words have two versions, too. Tap the heart and let us try them."
+    },
+    {
+      "id": "story.story-iowa.ending.cs",
+      "text": "Adam dnes pozdravil a pomohl se svačinou. Pět českých slov může putovat až za oceán! Až bude volat babi, může jí zamávat a říct ahoj. Klepni na hvězdičku."
+    },
+    {
+      "id": "story.story-iowa.ending.en",
+      "text": "Adam said hello and helped with the snack. Five Czech words can travel all the way across the ocean! When he calls Grandma, he can wave and say ahoj. Tap the star to finish our story."
+    },
+    {
+      "id": "call.story-iowa.0.cs",
+      "text": "Co sis dal doma ke svačině? Ukaž mi jablko nebo hrnek."
+    },
+    {
+      "id": "call.story-iowa.0.en",
+      "text": "What did you have for a snack? Show me an apple or a cup."
+    },
+    {
+      "id": "call.story-iowa.1.cs",
+      "text": "Zamávej mi a pozdrav mě česky. Já tě pozdravím anglicky."
+    },
+    {
+      "id": "call.story-iowa.1.en",
+      "text": "Wave and say hello in Czech. I will say it in English."
+    },
+    {
+      "id": "title.home-kindergarten.cs",
+      "text": "Školka doma"
+    },
+    {
+      "id": "title.home-kindergarten.en",
+      "text": "Preschool at home"
+    },
+    {
+      "id": "story.home-kindergarten.pretend.cs",
+      "text": "Dnes si Adam s mámou hrají na školku doma. Matyáš bude malý pomocník. Máma připravila obrázky a schovala mezi ně barevné poklady. Klepni na Adama a přidej se!"
+    },
+    {
+      "id": "story.home-kindergarten.pretend.en",
+      "text": "Today Adam and Mom are playing preschool at home. Matyáš is their little helper. Mom has pictures and colorful treasures ready. Tap Adam to join in!"
+    },
+    {
+      "id": "story.home-kindergarten.colors.cs",
+      "text": "Máma ukázala na jablko. Je červené! Vedle stojí modrý kbelík. Matyáš by je rád roztřídil. Nejdřív se naučíme jména barev. Klepni na šipku."
+    },
+    {
+      "id": "story.home-kindergarten.colors.en",
+      "text": "Mom points to an apple. It is red! A blue bucket sits beside it. Matyáš wants to sort the colors. First, let us learn what to call them. Tap the arrow."
+    },
+    {
+      "id": "story.home-kindergarten.sizes.cs",
+      "text": "Adam otevřel obrázkovou knihu. Jedna ryba je veliká, druhá maličká. Obě potřebují ve vodě místo. Najdeme větší a menší obrázek. Klepni na knihu."
+    },
+    {
+      "id": "story.home-kindergarten.sizes.en",
+      "text": "Adam opens a picture book. One fish is big, and one is small. Both need room in the water. Let us find the bigger and smaller picture. Tap the book."
+    },
+    {
+      "id": "story.home-kindergarten.garden.cs",
+      "text": "Teď si uděláme malou přestávku na zahradě. Pod listem se schovala beruška. Jemně list odklopíme, podíváme se a zase jí dáme klid. Klepni na lupu."
+    },
+    {
+      "id": "story.home-kindergarten.garden.en",
+      "text": "Time for a little garden break. A ladybug is hiding under a leaf. We can gently peek, look closely, and let her be. Tap the magnifying glass."
+    },
+    {
+      "id": "story.home-kindergarten.ending.cs",
+      "text": "Matyáš zamával berušce. Adam poznal dvě barvy, dvě velikosti a malého souseda ze zahrady. Až zavolá dědovi, může mu ukázat něco červeného. Klepni na hvězdičku."
+    },
+    {
+      "id": "story.home-kindergarten.ending.en",
+      "text": "Matyáš waves to the ladybug. Adam found two colors, two sizes, and a tiny garden neighbor. When Grandpa calls, Adam can show him something red. Tap the star."
+    },
+    {
+      "id": "call.home-kindergarten.0.cs",
+      "text": "Najdeš doma něco červeného? Já najdu něco modrého."
+    },
+    {
+      "id": "call.home-kindergarten.0.en",
+      "text": "Can you find something red? I will find something blue."
+    },
+    {
+      "id": "call.home-kindergarten.1.cs",
+      "text": "Která ryba byla veliká? Ukaž mi to rukama."
+    },
+    {
+      "id": "call.home-kindergarten.1.en",
+      "text": "Which fish was big? Show me with your hands."
+    },
+    {
+      "id": "title.grandparents-home.cs",
+      "text": "Domov u dědy a babi"
+    },
+    {
+      "id": "title.grandparents-home.en",
+      "text": "Grandma and Grandpa’s home"
+    },
+    {
+      "id": "story.grandparents-home.arrival.cs",
+      "text": "Po dlouhé cestě přes oceán dorazil Adam do Příbrami. U branky čekají babi a děda, dva starší draci s velikým úsměvem. Klepni na babi a zamávej jí."
+    },
+    {
+      "id": "story.grandparents-home.arrival.en",
+      "text": "After a long trip across the ocean, Adam arrives in Příbram. Grandma and Grandpa, two older dragons with big smiles, are waiting at the garden gate. Tap Grandma to wave hello."
+    },
+    {
+      "id": "story.grandparents-home.garden.cs",
+      "text": "Babi ukazuje Adamovi zahradu. Květiny mají žízeň a konvička čeká u dveří. Adam jí chce pomoct. Najdeme, čím se zalévá? Klepni na konvičku."
+    },
+    {
+      "id": "story.grandparents-home.garden.en",
+      "text": "Grandma shows Adam the garden. The flowers are thirsty, and a watering can is waiting by the door. Adam wants to help. What can we use to water the flowers? Tap the watering can."
+    },
+    {
+      "id": "story.grandparents-home.table.cs",
+      "text": "Děda mezitím připravil stůl. Adam dostane jablko a hrnek. Když něco potřebuje, zkusí české prosím. Děda má radost z každého pokusu. Klepni na jablko."
+    },
+    {
+      "id": "story.grandparents-home.table.en",
+      "text": "Meanwhile, Grandpa has set the table. Adam will have an apple and a cup. When he needs something, he can try the Czech word for please. Grandpa is happy to hear him try. Tap the apple."
+    },
+    {
+      "id": "story.grandparents-home.photo.cs",
+      "text": "Babi by ráda slyšela, co Adam dělal doma v Iowě. Adam jí ukáže obrázky a děda mu pomůže najít slovíčko. Dnes vyprávíme spolu. Klepni na knihu."
+    },
+    {
+      "id": "story.grandparents-home.photo.en",
+      "text": "Grandma wants to hear about Adam’s home in Iowa. Adam shows her pictures, and Grandpa helps him find a word. Today we are telling a story together. Tap the book."
+    },
+    {
+      "id": "story.grandparents-home.ending.cs",
+      "text": "Květiny mají vodu a všichni si užili svačinu. Adam nemusí umět všechna slova, aby mohl vyprávět. Obrázek, gesto a jedno slovíčko jsou krásný začátek. Klepni na hvězdičku."
+    },
+    {
+      "id": "story.grandparents-home.ending.en",
+      "text": "The flowers have water, and everyone enjoyed the snack. Adam does not need every word to tell a story. A picture, a gesture, and one word are a lovely beginning. Tap the star."
+    },
+    {
+      "id": "call.grandparents-home.0.cs",
+      "text": "Čím jsme zalévali květiny? Ukaž, jak se to dělá."
+    },
+    {
+      "id": "call.grandparents-home.0.en",
+      "text": "What did we use to water the flowers? Show me how."
+    },
+    {
+      "id": "call.grandparents-home.1.cs",
+      "text": "Co jsme měli na stole? Řekni jedno slovo česky, já anglicky."
+    },
+    {
+      "id": "call.grandparents-home.1.en",
+      "text": "What was on the table? Say one word in Czech, and I will say it in English."
+    },
+    {
+      "id": "title.family-cycling.cs",
+      "text": "Cyklistika s rodiči"
+    },
+    {
+      "id": "title.family-cycling.en",
+      "text": "A bike ride with Mom and Dad"
+    },
+    {
+      "id": "story.family-cycling.plan.cs",
+      "text": "V Iowě je pěkný den na kolo. Máma s tátou plánují krátkou rodinnou vyjížďku. Adam pojede svým tempem a cestou bude spousta zastávek. Klepni na kolo!"
+    },
+    {
+      "id": "story.family-cycling.plan.en",
+      "text": "It is a lovely day for a bike ride in Iowa. Mom and Dad are planning a short family ride. Adam can go at his own pace, with plenty of stops along the way. Tap the bicycle!"
+    },
+    {
+      "id": "story.family-cycling.snack.cs",
+      "text": "Táta zkontroloval kola a máma má připravenou helmu. Ještě svačinu! Adam přibalí jablko a podívá se na barvu svého kola. Klepni na košík."
+    },
+    {
+      "id": "story.family-cycling.snack.en",
+      "text": "Dad checks the bicycles, and Mom has her helmet ready. One more thing: a snack! Adam packs an apple and looks at the color of his bicycle. Tap the basket."
+    },
+    {
+      "id": "story.family-cycling.trail.cs",
+      "text": "Vyjeli jsme na klidnou cestu. Máma i táta jsou s Adamem. U každé zastávky si poslechneme slovíčko a vybereme obrázek. Nikam nespěcháme. Klepni na kolo."
+    },
+    {
+      "id": "story.family-cycling.trail.en",
+      "text": "We are on a quiet trail now. Mom and Dad are with Adam. At each stop, we will hear a word and choose its picture. There is no hurry. Tap the bicycle."
+    },
+    {
+      "id": "story.family-cycling.leaf.cs",
+      "text": "U cesty se zatřepetal list. Adam zastavil a všichni se rozhlédli. I malá zastávka může být objev. Najdeme list a pak se vrátíme domů. Klepni na list."
+    },
+    {
+      "id": "story.family-cycling.leaf.en",
+      "text": "A leaf flutters beside the trail. Adam stops, and everyone looks around. Even a little stop can become a discovery. Let us find the leaf before we head home. Tap the leaf."
+    },
+    {
+      "id": "story.family-cycling.ending.cs",
+      "text": "Rodina je zpátky doma v Iowě. Adam jel s helmou, zastavoval a užil si cestu s rodiči. Babi a dědovi může vyprávět, co viděl. Klepni na hvězdičku."
+    },
+    {
+      "id": "story.family-cycling.ending.en",
+      "text": "The family is back home in Iowa. Adam wore his helmet, took breaks, and enjoyed the ride with Mom and Dad. He can tell Grandma and Grandpa what he saw. Tap the star."
+    },
+    {
+      "id": "call.family-cycling.0.cs",
+      "text": "Co sis dal na hlavu před jízdou? Ukaž mi helmu."
+    },
+    {
+      "id": "call.family-cycling.0.en",
+      "text": "What did you put on your head before the ride? Show me your helmet."
+    },
+    {
+      "id": "call.family-cycling.1.cs",
+      "text": "Jel jsi s mámou a tátou? Co jsi viděl u cesty?"
+    },
+    {
+      "id": "call.family-cycling.1.en",
+      "text": "Did you ride with Mom and Dad? What did you see by the trail?"
+    },
+    {
+      "id": "title.romca-fishing.cs",
+      "text": "Rybaření s Romčou"
+    },
+    {
+      "id": "title.romca-fishing.en",
+      "text": "Fishing with Uncle Romča"
+    },
+    {
+      "id": "story.romca-fishing.promise.cs",
+      "text": "Dnes čeká u rybníka nedaleko Příbrami strejda Romča. Slíbil Adamovi rybaření a jednu malou vylomeninu. Teta Klárka přinesla atlas. Klepni na Romču a vyrazíme!"
+    },
+    {
+      "id": "story.romca-fishing.promise.en",
+      "text": "Uncle Romča is waiting by a pond near Příbram. He promised Adam a fishing trip and a little bit of silliness. Aunt Klárka brought the atlas. Tap Romča and let us go!"
+    },
+    {
+      "id": "story.romca-fishing.water.cs",
+      "text": "U břehu je ticho. Romča ukazuje, kam nahodit. Adam nemusí spěchat. Až se splávek pohne, počká na něj. Klepni na prut a zkusíme první úlovek."
+    },
+    {
+      "id": "story.romca-fishing.water.en",
+      "text": "It is quiet by the water. Romča shows Adam where to cast. There is no rush. When the float moves, it will wait for him. Tap the rod and let us try our first catch."
+    },
+    {
+      "id": "story.romca-fishing.boot.cs",
+      "text": "Romča se tváří tajemně. Další úlovek bude prý obrovský! Jenže pod hladinou se houpe něco, co nemá ploutve. Co by to mohlo být? Klepni na prut."
+    },
+    {
+      "id": "story.romca-fishing.boot.en",
+      "text": "Romča looks mysterious. He says the next catch will be enormous! But something under the water has no fins at all. What could it be? Tap the rod."
+    },
+    {
+      "id": "story.romca-fishing.carp.cs",
+      "text": "Bota! Romča se směje a Klárka kroutí hlavou. Botu uklidíme z vody. Podívej, támhle se zaleskla opravdová ryba. Klárka hledá její obrázek v atlasu. Klepni na knihu."
+    },
+    {
+      "id": "story.romca-fishing.carp.en",
+      "text": "A boot! Romča laughs, and Klárka shakes her head. We will take the boot out of the water. Look, a real fish is shining over there. Klárka finds its picture in the atlas. Tap the book."
+    },
+    {
+      "id": "story.romca-fishing.ending.cs",
+      "text": "Kapr už zase plave a bota skončila mimo rybník. Adam má obrázkové karty a veselý příběh pro babi a dědu. Ulovil rybu, nebo botu? Obojí! Klepni na hvězdičku."
+    },
+    {
+      "id": "story.romca-fishing.ending.en",
+      "text": "The carp is swimming again, and the boot is out of the pond. Adam has picture cards and a funny story for Grandma and Grandpa. Did he catch a fish or a boot? Both! Tap the star."
+    },
+    {
+      "id": "call.romca-fishing.0.cs",
+      "text": "Co legračního jste s Romčou vytáhli z vody?"
+    },
+    {
+      "id": "call.romca-fishing.0.en",
+      "text": "What funny thing did you and Romča pull out of the water?"
+    },
+    {
+      "id": "call.romca-fishing.1.cs",
+      "text": "Kam se vrátil kapr? Ukaž, jak plave."
+    },
+    {
+      "id": "call.romca-fishing.1.en",
+      "text": "Where did the carp go back to? Show me how it swims."
+    },
+    {
+      "id": "questui.bridge.cs",
+      "text": "Tohle slovo znáš česky. V angličtině stejnou věc pojmenujeme takto."
+    },
+    {
+      "id": "questui.bridge.en",
+      "text": "You know this word in English. In Czech, the same thing is called:"
+    },
+    {
+      "id": "questui.greeting.cs",
+      "text": "Ahoj je pozdrav. Můžeme tak někoho přivítat. V angličtině řekneme hello nebo hi. Poslechni si to."
+    },
+    {
+      "id": "questui.greeting.en",
+      "text": "Hi and hello are greetings in English. We use them to greet someone. In Czech, you can say:"
+    },
+    {
+      "id": "questui.picture-choice.cs",
+      "text": "Poslechni si slovo a klepni na správný obrázek."
+    },
+    {
+      "id": "questui.picture-choice.en",
+      "text": "Listen to the Czech word, then tap its picture. You do not need to read."
+    },
+    {
+      "id": "questui.choose-quest.cs",
+      "text": "Vyber si obrázek výpravy. Reproduktor ti poví, kam se vydáme. Velká šipka výpravu spustí."
+    },
+    {
+      "id": "questui.choose-quest.en",
+      "text": "Choose an adventure picture. Tap its speaker to hear where we are going. The big arrow starts your adventure."
+    },
+    {
+      "id": "questui.family-welcome.cs",
+      "text": "Vítejte, babi a dědo. Adam se učí česky a vy si můžete zkusit stejná slova anglicky. Vyberte téma, poslechněte si slovo a potom poznávejte obrázky."
+    },
+    {
+      "id": "questui.family-welcome.en",
+      "text": "Welcome to our family storybook."
+    },
+    {
+      "id": "questui.finish-story.cs",
+      "text": "Výprava je hotová! Můžeš si odpočinout. Domeček znamená pro dnešek hotovo. Mapa tě zavede k dalším příběhům."
+    },
+    {
+      "id": "questui.finish-story.en",
+      "text": "Our adventure is complete! You can take a break. Tap the house to finish for today, or the map to explore more stories."
+    }
+  ]
+}

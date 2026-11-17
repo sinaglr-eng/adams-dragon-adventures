@@ -6,6 +6,7 @@ import "@fontsource/nunito/latin-ext-900.css";
 import "@fontsource/nunito/latin-900.css";
 import App from "./App";
 import "./styles.css";
+import "./quests.css";
 import { primeAudio } from "./audio";
 document.addEventListener("pointerdown", primeAudio, { once: true });
 document.addEventListener("keydown", primeAudio, { once: true });

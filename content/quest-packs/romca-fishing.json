@@ -1,0 +1,183 @@
+{
+  "id": "romca-fishing",
+  "title": "Rybaření s Romčou",
+  "titleEn": "Fishing with Uncle Romča",
+  "region": "pribram",
+  "background": "pribram-pond",
+  "cast": [
+    "adam",
+    "romca",
+    "klarka"
+  ],
+  "narrator": "romca",
+  "mechanics": [
+    "narrative",
+    "learn",
+    "find",
+    "pack",
+    "fishing"
+  ],
+  "concepts": [
+    "rod",
+    "net",
+    "earthworm",
+    "fish",
+    "boot",
+    "carp"
+  ],
+  "prerequisites": [],
+  "scriptCs": "Dnes čeká u rybníka nedaleko Příbrami strejda Romča. Slíbil Adamovi rybaření a jednu malou vylomeninu. Teta Klárka přinesla atlas. Klepni na Romču a vyrazíme!",
+  "scriptEn": "Uncle Romča is waiting by a pond near Příbram. He promised Adam a fishing trip and a little bit of silliness. Aunt Klárka brought the atlas. Tap Romča and let us go!",
+  "suggestedMinutes": [
+    6,
+    12
+  ],
+  "speechOptionalForCompletion": true,
+  "archived": false,
+  "version": 1,
+  "tasks": [
+    {
+      "id": "promise",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Dnes čeká u rybníka nedaleko Příbrami strejda Romča. Slíbil Adamovi rybaření a jednu malou vylomeninu. Teta Klárka přinesla atlas. Klepni na Romču a vyrazíme!",
+        "en": "Uncle Romča is waiting by a pond near Příbram. He promised Adam a fishing trip and a little bit of silliness. Aunt Klárka brought the atlas. Tap Romča and let us go!"
+      },
+      "art": "family/romca",
+      "action": "wave"
+    },
+    {
+      "kind": "learn",
+      "concept": "rod"
+    },
+    {
+      "kind": "find",
+      "concept": "rod"
+    },
+    {
+      "kind": "pack",
+      "concept": "rod",
+      "options": [
+        "rod",
+        "bicycle",
+        "cup"
+      ]
+    },
+    {
+      "kind": "learn",
+      "concept": "net"
+    },
+    {
+      "kind": "find",
+      "concept": "net"
+    },
+    {
+      "kind": "learn",
+      "concept": "earthworm"
+    },
+    {
+      "kind": "find",
+      "concept": "earthworm"
+    },
+    {
+      "kind": "pack",
+      "concept": "net",
+      "options": [
+        "net",
+        "helmet",
+        "apple"
+      ]
+    },
+    {
+      "id": "water",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "U břehu je ticho. Romča ukazuje, kam nahodit. Adam nemusí spěchat. Až se splávek pohne, počká na něj. Klepni na prut a zkusíme první úlovek.",
+        "en": "It is quiet by the water. Romča shows Adam where to cast. There is no rush. When the float moves, it will wait for him. Tap the rod and let us try our first catch."
+      },
+      "art": "props/rod",
+      "action": "fishing"
+    },
+    {
+      "kind": "learn",
+      "concept": "fish"
+    },
+    {
+      "kind": "find",
+      "concept": "fish"
+    },
+    {
+      "kind": "fishing",
+      "concept": "fish"
+    },
+    {
+      "id": "boot",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Romča se tváří tajemně. Další úlovek bude prý obrovský! Jenže pod hladinou se houpe něco, co nemá ploutve. Co by to mohlo být? Klepni na prut.",
+        "en": "Romča looks mysterious. He says the next catch will be enormous! But something under the water has no fins at all. What could it be? Tap the rod."
+      },
+      "art": "props/rod",
+      "action": "fishing"
+    },
+    {
+      "kind": "learn",
+      "concept": "boot"
+    },
+    {
+      "kind": "find",
+      "concept": "boot"
+    },
+    {
+      "kind": "fishing",
+      "concept": "boot"
+    },
+    {
+      "id": "carp",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Bota! Romča se směje a Klárka kroutí hlavou. Botu uklidíme z vody. Podívej, támhle se zaleskla opravdová ryba. Klárka hledá její obrázek v atlasu. Klepni na knihu.",
+        "en": "A boot! Romča laughs, and Klárka shakes her head. We will take the boot out of the water. Look, a real fish is shining over there. Klárka finds its picture in the atlas. Tap the book."
+      },
+      "art": "props/boot",
+      "action": "atlas"
+    },
+    {
+      "kind": "learn",
+      "concept": "carp"
+    },
+    {
+      "kind": "find",
+      "concept": "carp"
+    },
+    {
+      "kind": "fishing",
+      "concept": "carp"
+    },
+    {
+      "id": "ending",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Kapr už zase plave a bota skončila mimo rybník. Adam má obrázkové karty a veselý příběh pro babi a dědu. Ulovil rybu, nebo botu? Obojí! Klepni na hvězdičku.",
+        "en": "The carp is swimming again, and the boot is out of the pond. Adam has picture cards and a funny story for Grandma and Grandpa. Did he catch a fish or a boot? Both! Tap the star."
+      },
+      "art": "adam-poses/celebrate",
+      "action": "star"
+    }
+  ],
+  "callPrompts": [
+    {
+      "cs": "Co legračního jste s Romčou vytáhli z vody?",
+      "en": "What funny thing did you and Romča pull out of the water?"
+    },
+    {
+      "cs": "Kam se vrátil kapr? Ukaž, jak plave.",
+      "en": "Where did the carp go back to? Show me how it swims."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "story-iowa",
+  "title": "Domov v Iowě",
+  "titleEn": "Home in Iowa",
+  "region": "iowa",
+  "background": "iowa-home",
+  "cast": [
+    "adam",
+    "matyas",
+    "mama",
+    "tata"
+  ],
+  "narrator": "romca",
+  "mechanics": [
+    "narrative",
+    "learn",
+    "find",
+    "pack"
+  ],
+  "concepts": [
+    "hello",
+    "apple",
+    "cup",
+    "please",
+    "thanks"
+  ],
+  "prerequisites": [],
+  "scriptCs": "V Iowě se probudil malý zelený dráček Adam. Bydlí tu s mámou, tátou a malým bráškou Matyášem. Já jsem strejda Romča a budu ti vyprávět. Klepni na Adama a zamáváme mu!",
+  "scriptEn": "In Iowa, a little green dragon named Adam wakes up. He lives with Mom, Dad, and his little brother Matyáš. I am Uncle Romča, your storyteller. Tap Adam to give him a wave!",
+  "suggestedMinutes": [
+    6,
+    12
+  ],
+  "speechOptionalForCompletion": true,
+  "archived": false,
+  "version": 1,
+  "tasks": [
+    {
+      "id": "morning",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "V Iowě se probudil malý zelený dráček Adam. Bydlí tu s mámou, tátou a malým bráškou Matyášem. Já jsem strejda Romča a budu ti vyprávět. Klepni na Adama a zamáváme mu!",
+        "en": "In Iowa, a little green dragon named Adam wakes up. He lives with Mom, Dad, and his little brother Matyáš. I am Uncle Romča, your storyteller. Tap Adam to give him a wave!"
+      },
+      "art": "family/adam",
+      "action": "wave"
+    },
+    {
+      "id": "ocean",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Máma a táta pocházejí z Česka, země za velikým oceánem. V Příbrami tam žijí babi a děda. Klepni na letadlo a přeletíme oceán na mapě.",
+        "en": "Mom and Dad come from Czechia, a country across a great big ocean. Grandma and Grandpa live there, in Příbram. Tap the airplane to fly across the ocean on our map."
+      },
+      "art": "world-map",
+      "action": "plane"
+    },
+    {
+      "id": "languages",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Doma v Iowě Adam často slyší angličtinu. Babi a děda mluví česky. Stejnou věc můžeme pojmenovat dvěma způsoby! Pomůžeme Adamovi najít česká slovíčka. Klepni na šipku.",
+        "en": "At home in Iowa, Adam often hears English. Grandma and Grandpa speak Czech. We can name the very same thing in two different ways! Let us help Adam discover the Czech words. Tap the arrow."
+      },
+      "art": "family/adam",
+      "action": "next"
+    },
+    {
+      "kind": "learn",
+      "concept": "hello"
+    },
+    {
+      "kind": "find",
+      "concept": "hello"
+    },
+    {
+      "id": "snack",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Matyáš si hraje a máma chystá svačinu. Adamovi zakručelo v bříšku! Pomůže mámě najít jablko a hrnek. Klepni na košík.",
+        "en": "Matyáš is playing while Mom gets a snack ready. Adam’s tummy gives a little rumble! He can help Mom find an apple and a cup. Tap the basket."
+      },
+      "art": "props/apple",
+      "action": "suitcase"
+    },
+    {
+      "kind": "learn",
+      "concept": "apple"
+    },
+    {
+      "kind": "find",
+      "concept": "apple"
+    },
+    {
+      "kind": "pack",
+      "concept": "apple",
+      "options": [
+        "apple",
+        "cup",
+        "helmet"
+      ]
+    },
+    {
+      "kind": "learn",
+      "concept": "cup"
+    },
+    {
+      "kind": "find",
+      "concept": "cup"
+    },
+    {
+      "kind": "pack",
+      "concept": "cup",
+      "options": [
+        "cup",
+        "rod",
+        "apple"
+      ]
+    },
+    {
+      "id": "kindness",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Táta přinesl svačinu. Adam ji nemusí brát beze slova. Může o ni poprosit a pak poděkovat. I laskavá slova mají dvě podoby. Klepni na srdíčko.",
+        "en": "Dad brings the snack. Adam can ask kindly, then say thank you. Kind words have two versions, too. Tap the heart and let us try them."
+      },
+      "art": "family/tata",
+      "action": "heart"
+    },
+    {
+      "kind": "learn",
+      "concept": "please"
+    },
+    {
+      "kind": "find",
+      "concept": "please"
+    },
+    {
+      "kind": "learn",
+      "concept": "thanks"
+    },
+    {
+      "kind": "find",
+      "concept": "thanks"
+    },
+    {
+      "id": "ending",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Adam dnes pozdravil a pomohl se svačinou. Pět českých slov může putovat až za oceán! Až bude volat babi, může jí zamávat a říct ahoj. Klepni na hvězdičku.",
+        "en": "Adam said hello and helped with the snack. Five Czech words can travel all the way across the ocean! When he calls Grandma, he can wave and say ahoj. Tap the star to finish our story."
+      },
+      "art": "adam-poses/celebrate",
+      "action": "star"
+    }
+  ],
+  "callPrompts": [
+    {
+      "cs": "Co sis dal doma ke svačině? Ukaž mi jablko nebo hrnek.",
+      "en": "What did you have for a snack? Show me an apple or a cup."
+    },
+    {
+      "cs": "Zamávej mi a pozdrav mě česky. Já tě pozdravím anglicky.",
+      "en": "Wave and say hello in Czech. I will say it in English."
+    }
+  ]
+}

@@ -13,6 +13,7 @@ import {
 import { mutate } from "./store";
 import { Button, Icon, Sprite, Modal } from "./components";
 import { play } from "./audio";
+import { FamilyShare } from "./Family";
 export function download(data: unknown, name: string) {
   const url = URL.createObjectURL(
     new Blob([JSON.stringify(data, null, 2)], { type: "application/json" }),
@@ -155,12 +156,14 @@ export function Parents({
           ["rewards", "Odměny"],
           ["evidence", "Pokroky"],
           ["backup", "Záloha"],
+          ["family", "Babi a děda"],
         ].map(([id, label]) => (
           <button aria-pressed={tab === id} key={id} onClick={() => setTab(id)}>
             {label}
           </button>
         ))}
       </nav>
+      {tab === "family" && <FamilyShare save={save} />}
       {tab === "settings" && (
         <div className="settings-grid">
           <section className="paper">

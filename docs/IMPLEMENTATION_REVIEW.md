@@ -1,3 +1,16 @@
+# Ověření aktualizace: příběhové questy a rodinná kniha
+
+- Pět nových questů načítaných z JSON: Domov v Iowě, Školka doma, Domov u dědy a babi, Cyklistika s rodiči, Rybaření s Romčou.
+- V prohlížeči dokončeno všech pět celých příběhů přes skutečné ovládací prvky, včetně obrázkových voleb, balení, broučího průzkumu, cyklistických zastávek a tří úlovků.
+- Vyzkoušeno vytvoření pohlednice rodičem, její otevření přes URL fragment v rodinné knize, správné zobrazení pěti dokončených témat a samostatně poznaných pojmů. Žádná testovací data nejsou součástí sestavení.
+- Vyzkoušeno samostatné anglické procvičování: babi získala jedno samostatně poznané slovo, děda zůstal na nule. Hlasové otázky a obrázkové nápovědy pro hovory se mění s tématem.
+- 30 automatických testů v šesti souborech: původní učení/odměny/ukládání/audio/mikrofon; nově zachování rozehrané pozice pro každé téma, kompatibilita původních uložených her, validace obsahu, omezené pohlednice a render každého nového kroku v obou jazycích.
+- Audio validátor ověřuje 392 skutečných MP3 se SHA-256 a délkou; 94 je nových. Všechny nové scény mají audionahrávku. Kompletní poslechová kontrola dospělým zůstává ručním krokem.
+- Fyzický iPad/Safari není dostupný. Rozměrová kontrola v prohlížeči tuto platformní zkoušku nenahrazuje.
+- Sledování postupu je rodičem sdílená pohlednice s časem vytvoření. Není to průběžná synchronizace. Anglické procvičování prarodičů a jejich pohlednice jsou lokální a nikdy nepřepisují Adamův save.
+
+## Předchozí vydání — archiv ověření původních osmi kapitol
+
 # Implementační kontrola — 17. listopadu 2026
 
 Hratelná implementace používá původní grafiku, rodinný kánon a připravený obsah. Zdroj je v `app/src/`, veřejné sestavení v kořeni repozitáře. Historický preprodukční report popisuje dřívější stav, nikoli aktuální hru.

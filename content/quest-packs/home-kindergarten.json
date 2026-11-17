@@ -1,0 +1,181 @@
+{
+  "id": "home-kindergarten",
+  "title": "Školka doma",
+  "titleEn": "Preschool at home",
+  "region": "iowa",
+  "background": "iowa-home",
+  "cast": [
+    "adam",
+    "mama",
+    "matyas"
+  ],
+  "narrator": "romca",
+  "mechanics": [
+    "narrative",
+    "learn",
+    "find",
+    "compare",
+    "discover"
+  ],
+  "concepts": [
+    "red",
+    "blue",
+    "big",
+    "small",
+    "leaf",
+    "ladybird"
+  ],
+  "prerequisites": [],
+  "scriptCs": "Dnes si Adam s mámou hrají na školku doma. Matyáš bude malý pomocník. Máma připravila obrázky a schovala mezi ně barevné poklady. Klepni na Adama a přidej se!",
+  "scriptEn": "Today Adam and Mom are playing preschool at home. Matyáš is their little helper. Mom has pictures and colorful treasures ready. Tap Adam to join in!",
+  "suggestedMinutes": [
+    6,
+    12
+  ],
+  "speechOptionalForCompletion": true,
+  "archived": false,
+  "version": 1,
+  "tasks": [
+    {
+      "id": "pretend",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Dnes si Adam s mámou hrají na školku doma. Matyáš bude malý pomocník. Máma připravila obrázky a schovala mezi ně barevné poklady. Klepni na Adama a přidej se!",
+        "en": "Today Adam and Mom are playing preschool at home. Matyáš is their little helper. Mom has pictures and colorful treasures ready. Tap Adam to join in!"
+      },
+      "art": "family/adam",
+      "action": "wave"
+    },
+    {
+      "id": "colors",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Máma ukázala na jablko. Je červené! Vedle stojí modrý kbelík. Matyáš by je rád roztřídil. Nejdřív se naučíme jména barev. Klepni na šipku.",
+        "en": "Mom points to an apple. It is red! A blue bucket sits beside it. Matyáš wants to sort the colors. First, let us learn what to call them. Tap the arrow."
+      },
+      "art": "props/apple",
+      "action": "next"
+    },
+    {
+      "kind": "learn",
+      "concept": "red"
+    },
+    {
+      "kind": "find",
+      "concept": "red"
+    },
+    {
+      "kind": "learn",
+      "concept": "blue"
+    },
+    {
+      "kind": "find",
+      "concept": "blue"
+    },
+    {
+      "kind": "find",
+      "concept": "red",
+      "options": [
+        "red",
+        "blue"
+      ]
+    },
+    {
+      "kind": "find",
+      "concept": "blue",
+      "options": [
+        "blue",
+        "red"
+      ]
+    },
+    {
+      "id": "sizes",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Adam otevřel obrázkovou knihu. Jedna ryba je veliká, druhá maličká. Obě potřebují ve vodě místo. Najdeme větší a menší obrázek. Klepni na knihu.",
+        "en": "Adam opens a picture book. One fish is big, and one is small. Both need room in the water. Let us find the bigger and smaller picture. Tap the book."
+      },
+      "art": "adam-actions/atlas",
+      "action": "atlas"
+    },
+    {
+      "kind": "learn",
+      "concept": "big"
+    },
+    {
+      "kind": "compare",
+      "concept": "big",
+      "options": [
+        "big",
+        "small"
+      ]
+    },
+    {
+      "kind": "learn",
+      "concept": "small"
+    },
+    {
+      "kind": "compare",
+      "concept": "small",
+      "options": [
+        "big",
+        "small"
+      ]
+    },
+    {
+      "id": "garden",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Teď si uděláme malou přestávku na zahradě. Pod listem se schovala beruška. Jemně list odklopíme, podíváme se a zase jí dáme klid. Klepni na lupu.",
+        "en": "Time for a little garden break. A ladybug is hiding under a leaf. We can gently peek, look closely, and let her be. Tap the magnifying glass."
+      },
+      "art": "props/magnifier",
+      "action": "bug"
+    },
+    {
+      "kind": "learn",
+      "concept": "leaf"
+    },
+    {
+      "kind": "find",
+      "concept": "leaf"
+    },
+    {
+      "kind": "discover",
+      "concept": "ladybird"
+    },
+    {
+      "kind": "learn",
+      "concept": "ladybird"
+    },
+    {
+      "kind": "find",
+      "concept": "ladybird"
+    },
+    {
+      "id": "ending",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Matyáš zamával berušce. Adam poznal dvě barvy, dvě velikosti a malého souseda ze zahrady. Až zavolá dědovi, může mu ukázat něco červeného. Klepni na hvězdičku.",
+        "en": "Matyáš waves to the ladybug. Adam found two colors, two sizes, and a tiny garden neighbor. When Grandpa calls, Adam can show him something red. Tap the star."
+      },
+      "art": "creatures/ladybird",
+      "action": "star"
+    }
+  ],
+  "callPrompts": [
+    {
+      "cs": "Najdeš doma něco červeného? Já najdu něco modrého.",
+      "en": "Can you find something red? I will find something blue."
+    },
+    {
+      "cs": "Která ryba byla veliká? Ukaž mi to rukama.",
+      "en": "Which fish was big? Show me with your hands."
+    }
+  ]
+}

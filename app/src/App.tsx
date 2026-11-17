@@ -1,6 +1,7 @@
 import { useEffect, useState, useSyncExternalStore } from "react";
 import {
   quests,
+  activeQuests,
   words,
   vocabulary,
   achievements,
@@ -40,6 +41,7 @@ import {
   Narrator,
 } from "./components";
 import { Game } from "./Game";
+import { Family } from "./Family";
 import { Speech, WordCard } from "./Speech";
 import { Parents, Requirement, download } from "./Parents";
 import {
@@ -50,11 +52,15 @@ import {
   line,
   chime,
 } from "./audio";
-type View = "title" | "map" | "game" | "atlas" | "book" | "parents";
+type View = "title" | "map" | "game" | "atlas" | "book" | "parents" | "family";
 export default function App() {
   const save = useSyncExternalStore(subscribe, snapshot),
     lang = save.prefs.language;
-  const [view, setView] = useState<View>("title"),
+  const [view, setView] = useState<View>(() =>
+      location.hash.startsWith("#family=") || location.hash === "#grandparents"
+        ? "family"
+        : "title",
+    ),
     [pause, setPause] = useState(false),
     [card, setCard] = useState<string | null>(null),
     [speech, setSpeech] = useState<string | null>(null),
@@ -68,6 +74,17 @@ export default function App() {
   useEffect(() => {
     void initialize();
     audioNotice(setNotice);
+    const route = () => {
+      if (
+        location.hash.startsWith("#family=") ||
+        location.hash === "#grandparents"
+      ) {
+        stopAudio();
+        setView("family");
+        setPause(false);
+      }
+    };
+    window.addEventListener("hashchange", route);
     const hide = () => {
       if (document.hidden) {
         stopAudio();
@@ -75,7 +92,10 @@ export default function App() {
       }
     };
     document.addEventListener("visibilitychange", hide);
-    return () => document.removeEventListener("visibilitychange", hide);
+    return () => {
+      document.removeEventListener("visibilitychange", hide);
+      window.removeEventListener("hashchange", route);
+    };
   }, []);
   useEffect(() => {
     configureAudio(save.prefs.muted, save.prefs.volume);
@@ -93,6 +113,8 @@ export default function App() {
     setCard(null);
     setSpeech(null);
     setView(v);
+    if (v !== "family" && location.hash)
+      history.replaceState(null, "", location.pathname);
     window.scrollTo({ top: 0, behavior: "instant" });
   };
   const start = async (id: string) => {
@@ -101,18 +123,18 @@ export default function App() {
     setJournal(false);
   };
   const playStart = () => {
-    if (save.run) {
+    if (save.run && save.run.phase !== "summary") {
       go("game");
     } else if (save.events.length) {
       go("map");
       void play(`game.map.${lang}`);
-    } else void start("iowa-home");
+    } else void start(activeQuests[0].id);
   };
   const opened = discovered(save),
     finished = completed(save),
     points = xp(save),
     level = Math.min(8, 1 + Math.floor(points / 160));
-  const recommendations = quests
+  const recommendations = activeQuests
     .filter((q) => unlocked(save, q.id) && !finished.has(q.id))
     .slice(0, 2);
   const categoryIds: Record<string, string[]> = {
@@ -184,7 +206,7 @@ export default function App() {
     );
   return (
     <div className={`app view-${view} ${pause ? "is-paused" : ""}`}>
-      {view !== "parents" && (
+      {view !== "parents" && view !== "family" && (
         <header className={`topbar ${view === "title" ? "title-bar" : ""}`}>
           <button
             className="brand"
@@ -298,6 +320,9 @@ export default function App() {
                 Česky
               </button>
             </div>
+            <button className="family-entry" onClick={() => go("family")}>
+              <Icon name="heart" /> Pro babi a dědu · Learn English
+            </button>
           </div>
           <div className="title-note">
             <Icon name="heart" />
@@ -375,8 +400,8 @@ export default function App() {
                 <Icon name="star" />
                 <span>
                   {lang === "cs"
-                    ? "Všech osm výprav je tvých!"
-                    : "All eight adventures are yours!"}
+                    ? "Další příběh si vybereš dole!"
+                    : "Choose another story below!"}
                 </span>
               </button>
             )}
@@ -388,11 +413,76 @@ export default function App() {
                   : "TWO HOMES. ONE FAMILY."}
               </span>
               <strong>
-                {finished.size} / 8{" "}
+                {activeQuests.filter((q) => finished.has(q.id)).length} /{" "}
+                {activeQuests.length}{" "}
                 {lang === "cs" ? "výprav dokončeno" : "adventures complete"}
               </strong>
             </div>
           </div>
+          <section
+            className="quest-shelf"
+            aria-label={lang === "cs" ? "Vyber příběh" : "Choose your story"}
+          >
+            <div className="quest-shelf-heading">
+              <h2>
+                {lang === "cs"
+                  ? "Tvoje příběhové výpravy"
+                  : "Your story quests"}
+              </h2>
+              <Button
+                icon="speaker"
+                className="round"
+                aria-label="Poslechnout výběr výprav / Hear instructions"
+                onClick={() => void play(`questui.choose-quest.${lang}`)}
+              />
+            </div>
+            <div className="quest-covers">
+              {activeQuests.map((q) => (
+                <article
+                  className="quest-cover"
+                  key={q.id}
+                  style={{ backgroundImage: `url(${asset(q.background)})` }}
+                >
+                  <Sprite
+                    id={
+                      q.id === "romca-fishing"
+                        ? "family/romca"
+                        : q.id === "grandparents-home"
+                          ? "family/babi"
+                          : q.id === "family-cycling"
+                            ? "adam-actions/cycling"
+                            : "family/adam"
+                    }
+                    className="quest-cover-actor"
+                  />
+                  {finished.has(q.id) && (
+                    <span className="quest-stamp">
+                      <Icon name="check" />
+                    </span>
+                  )}
+                  <div className="quest-cover-copy">
+                    <h3>{title(q, lang)}</h3>
+                    <div className="button-row">
+                      <Button
+                        icon="speaker"
+                        className="round secondary"
+                        aria-label={`Poslechnout: ${title(q, lang)}`}
+                        onClick={() => void play(`title.${q.id}.${lang}`)}
+                      />
+                      <Button
+                        icon="play"
+                        disabled={!unlocked(save, q.id)}
+                        aria-label={`Hrát: ${title(q, lang)}`}
+                        onClick={() => void start(q.id)}
+                      >
+                        {lang === "cs" ? "Hrát" : "Play"}
+                      </Button>
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
           {save.run && save.run.phase !== "summary" && (
             <div className="resume-strip">
               <span>
@@ -585,7 +675,8 @@ export default function App() {
         </main>
       )}
       {view === "parents" && <Parents save={save} onClose={() => go("map")} />}
-      {view !== "title" && view !== "parents" && (
+      {view === "family" && <Family onClose={() => go("title")} />}
+      {view !== "title" && view !== "parents" && view !== "family" && (
         <nav
           className="bottom-nav"
           aria-label="Hlavní navigace / Main navigation"
@@ -600,7 +691,11 @@ export default function App() {
               aria-current={view === v ? "page" : undefined}
               onClick={() => {
                 go(v as View);
-                void play(`game.${v}.${lang}`);
+                void play(
+                  v === "map"
+                    ? `questui.choose-quest.${lang}`
+                    : `game.${v}.${lang}`,
+                );
               }}
             >
               <Icon name={icon} />
@@ -618,7 +713,7 @@ export default function App() {
           </button>
         </div>
       )}
-      {pause && view !== "title" && view !== "parents" && (
+      {pause && view !== "title" && view !== "parents" && view !== "family" && (
         <Pause
           lang={lang}
           onClose={() => setPause(false)}
@@ -653,7 +748,11 @@ export default function App() {
       )}
       {journal && (
         <Modal
-          title={lang === "cs" ? "Deník osmi výprav" : "Eight adventures"}
+          title={
+            lang === "cs"
+              ? "Deník výprav a původní kapitoly"
+              : "Quest journal & original chapters"
+          }
           onClose={() => setJournal(false)}
           className="journal"
         >
@@ -667,6 +766,11 @@ export default function App() {
                 <img src={asset(q.background)} alt="" />
                 <span>
                   <small>
+                    {q.archived
+                      ? lang === "cs"
+                        ? "Původní kapitola · "
+                        : "Original chapter · "
+                      : ""}
                     {i + 1}.{" "}
                     {q.region === "pribram"
                       ? "Příbram"

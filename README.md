@@ -1,16 +1,18 @@
-# Adam's Dragon Adventures
+# Adamovy dračí výpravy — příběhové questy
 
-**Adamovy dračí výpravy — dva domovy, dva jazyky a jedna dračí rodina.**
+[Hrát](https://sinaglr-eng.github.io/adams-dragon-adventures/) · [Pro babi a dědu](https://sinaglr-eng.github.io/adams-dragon-adventures/#grandparents)
 
-**[Hrát v prohlížeči](https://sinaglr-eng.github.io/adams-dragon-adventures/)** · [Grafický katalog](art/catalog.html) · [Implementační zadání](IMPLEMENTATION_PROMPT.md)
+Nová verze nabízí pět samostatných příběhových questů: Domov v Iowě, Školka doma, Domov u dědy a babi, Cyklistika s rodiči a Rybaření s Romčou. Obrázkové interakce a namluvené příběhy vedou dítě bez nutnosti číst. Anglické vysvětlení propojí význam s českým slovem, následuje obrázková volba podle českého poslechu.
 
-Osm hratelných výprav, rybaření, broučí průzkum s Klárkou, dědova cyklodílna, cyklotrasy, vyprávění babi, 36 sběratelských karet a 298 českých a anglických zvukových replik. Romča vypráví. Matyáš je příběhový společník. Máma a táta vystupují v Iowě, babi a děda v Příbrami.
+Babi a děda mají české rozhraní, vlastní anglické procvičování a přípravu společného hovoru. Adamův postup dostanou **rodičem poslanou pohlednicí**, nikoli automatickou synchronizací. Původních osm kapitol a uložený postup zůstávají zachované. Audio knihovna obsahuje 392 MP3 včetně 94 nových replik.
+
+[Jak přidat quest a jak funguje rodinná kniha](docs/QUEST_AUTHORING.md)
 
 ![Dračí rodina](art/source/cover.png)
 
 ## Hraní
 
-Otevřete web a klepněte na velké tlačítko. Výchozí průvodce mluví anglicky a učí česká slova; rodič může přepnout průvodce do češtiny. Atlas nabízí i opačný směr. Výpravy se odemykají postupně, deník dovoluje opakování. Žádné časové tresty, ztracené série ani placené balíčky.
+Otevřete web a klepněte na velké tlačítko. Výchozí průvodce mluví anglicky a učí česká slova; rodič může přepnout průvodce do češtiny. Atlas nabízí i opačný směr. Nových pět questů si lze vybrat podle tématu; každý si pamatuje vlastní rozehranou pozici. Původní kapitoly v deníku zachovávají své odemykání. Žádné časové tresty, ztracené série ani placené balíčky.
 
 Na iPadu lze použít Safari → Sdílet → Přidat na plochu. Rozložení podporuje šířku i výšku, klepnutí namísto přetahování a klávesnici. Navštívené obrázky a repliky se ukládají do offline cache. Nové výpravy a dosud nepřehrané audio vyžadují připojení; nejde o plně předstaženou offline aplikaci.
 
@@ -53,6 +55,8 @@ pnpm publish:prepare
 - `app/src/store.ts`: verzované atomické ukládání do IndexedDB.
 - `Speech.tsx`, `microphone.ts`, `audio.ts`: rodičovské ověření, lokální nahrávání, hlas.
 - `Parents.tsx`: nastavení, důkazy, aktivace a předání odměn, zálohy.
+- `quest-content.ts`, `content/quest-packs/`: ověřovaný datový katalog příběhů.
+- `Family.tsx`, `family-data.ts`: angličtina pro prarodiče a omezené rodinné pohlednice.
 - `content/`: slovní zásoba, rodinný kánon, kapitoly, scénáře a původ audia.
 - `art/source/`: originální grafika; `game-assets/`: publikovaná verze a zdrojové MP3.
 - `tests/`: přechody, učení, odměny, migrace, obnova, transakce a mikrofon.
