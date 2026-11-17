@@ -1,0 +1,88 @@
+[
+  {
+    "id": "family",
+    "width": 1774,
+    "height": 887,
+    "transparentPercent": 52.34,
+    "frameCount": 8,
+    "rowSplits": [
+      0,
+      443,
+      887
+    ]
+  },
+  {
+    "id": "adam-poses",
+    "width": 1536,
+    "height": 1024,
+    "transparentPercent": 62.98,
+    "frameCount": 6,
+    "rowSplits": [
+      0,
+      512,
+      1024
+    ]
+  },
+  {
+    "id": "creatures",
+    "width": 1448,
+    "height": 1086,
+    "transparentPercent": 67.5,
+    "frameCount": 12,
+    "rowSplits": [
+      0,
+      362,
+      707,
+      1086
+    ]
+  },
+  {
+    "id": "props",
+    "width": 1261,
+    "height": 1247,
+    "transparentPercent": 61.36,
+    "frameCount": 16,
+    "rowSplits": [
+      0,
+      312,
+      623,
+      935,
+      1247
+    ]
+  },
+  {
+    "id": "badges",
+    "width": 1983,
+    "height": 793,
+    "transparentPercent": 47.29,
+    "frameCount": 10,
+    "rowSplits": [
+      0,
+      396,
+      793
+    ]
+  },
+  {
+    "id": "card-frames",
+    "width": 2172,
+    "height": 724,
+    "transparentPercent": 55.05,
+    "frameCount": 3,
+    "rowSplits": [
+      0,
+      724
+    ]
+  },
+  {
+    "id": "adam-actions",
+    "width": 1217,
+    "height": 1293,
+    "transparentPercent": 58.84,
+    "frameCount": 4,
+    "rowSplits": [
+      0,
+      646,
+      1293
+    ]
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "coordinateSystem": "Normalized 0..1, origin top-left. Actor x/y is bottom-center. Starting composition guidelines; adapt and visually verify responsive layouts.",
+  "layouts": [
+    {
+      "id": "pribram-pond",
+      "region": "pribram",
+      "background": "pribram-pond",
+      "adam": {
+        "x": 0.27,
+        "y": 0.73,
+        "height": 0.38
+      },
+      "npc": {
+        "x": 0.12,
+        "y": 0.72,
+        "height": 0.44
+      },
+      "interaction": {
+        "x": 0.48,
+        "y": 0.48,
+        "w": 0.43,
+        "h": 0.32
+      },
+      "notes": "Adam and Romca stand on the left jetty; fishing targets in open water to the right."
+    },
+    {
+      "id": "iowa-lake",
+      "region": "iowa",
+      "background": "iowa-lake",
+      "adam": {
+        "x": 0.72,
+        "y": 0.77,
+        "height": 0.38
+      },
+      "npc": {
+        "x": 0.88,
+        "y": 0.77,
+        "height": 0.44
+      },
+      "interaction": {
+        "x": 0.1,
+        "y": 0.43,
+        "w": 0.48,
+        "h": 0.32
+      },
+      "notes": "Actors stand on right jetty; open water on left."
+    },
+    {
+      "id": "pribram-home",
+      "region": "pribram",
+      "background": "pribram-home",
+      "adam": {
+        "x": 0.39,
+        "y": 0.88,
+        "height": 0.42
+      },
+      "npc": {
+        "x": 0.67,
+        "y": 0.88,
+        "height": 0.49
+      },
+      "interaction": {
+        "x": 0.18,
+        "y": 0.58,
+        "w": 0.64,
+        "h": 0.27
+      },
+      "notes": "Grandparents only; overlay selectable props on lawn rather than pretend every painted object is interactive."
+    },
+    {
+      "id": "iowa-home",
+      "region": "iowa",
+      "background": "iowa-home",
+      "adam": {
+        "x": 0.36,
+        "y": 0.9,
+        "height": 0.42
+      },
+      "npc": {
+        "x": 0.64,
+        "y": 0.9,
+        "height": 0.49
+      },
+      "interaction": {
+        "x": 0.12,
+        "y": 0.62,
+        "w": 0.74,
+        "h": 0.25
+      },
+      "notes": "Mom and Dad; Adam and Matyas. Keep house door visible."
+    },
+    {
+      "id": "meadow-trail",
+      "region": "shared-stylized",
+      "background": "meadow-trail",
+      "adam": {
+        "x": 0.32,
+        "y": 0.86,
+        "height": 0.38
+      },
+      "npc": {
+        "x": 0.7,
+        "y": 0.86,
+        "height": 0.46
+      },
+      "interaction": {
+        "x": 0.16,
+        "y": 0.45,
+        "w": 0.67,
+        "h": 0.36
+      },
+      "notes": "Stylized nature scene reusable across regions, not exact Iowa/Czech landscape. Overlay movable discovery objects."
+    },
+    {
+      "id": "grandpa-workshop",
+      "region": "pribram",
+      "background": "grandpa-workshop",
+      "adam": {
+        "x": 0.25,
+        "y": 0.94,
+        "height": 0.38
+      },
+      "npc": {
+        "x": 0.79,
+        "y": 0.94,
+        "height": 0.46
+      },
+      "interaction": {
+        "x": 0.28,
+        "y": 0.34,
+        "w": 0.43,
+        "h": 0.25
+      },
+      "notes": "Object tray on workbench. Keep oversized characters below bench so tools remain visible."
+    }
+  ]
+}

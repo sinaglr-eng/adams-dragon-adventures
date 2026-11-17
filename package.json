@@ -1,0 +1,12 @@
+{
+  "name": "adamovy-draci-vypravy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Preproduction brief, content and original art kit; game implementation pending",
+  "type": "module",
+  "scripts": {
+    "kit:build": "node tools/build-kit.mjs",
+    "kit:validate": "node tools/validate-kit.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

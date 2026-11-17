@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "quests": [
+    {
+      "id": "iowa-home",
+      "title": "Doma v Iowě",
+      "region": "iowa",
+      "background": "iowa-home",
+      "cast": [
+        "adam",
+        "matyas",
+        "mama",
+        "tata"
+      ],
+      "narrator": "romca",
+      "mechanics": [
+        "find",
+        "pack"
+      ],
+      "concepts": [
+        "bicycle",
+        "helmet",
+        "apple",
+        "hello"
+      ],
+      "prerequisites": [],
+      "scriptCs": "Adame, dneska začíná tvoje dračí výprava! Sbalíme helmu, svačinu a atlas.",
+      "scriptEn": "Adam, your dragon adventure starts today! Let's pack your helmet, snack, and atlas.",
+      "suggestedMinutes": [
+        5,
+        8
+      ],
+      "speechOptionalForCompletion": true
+    },
+    {
+      "id": "iowa-fishing",
+      "title": "Tajemství iowského jezera",
+      "region": "iowa",
+      "background": "iowa-lake",
+      "cast": [
+        "adam",
+        "tata"
+      ],
+      "narrator": "romca",
+      "mechanics": [
+        "pack",
+        "fishing"
+      ],
+      "concepts": [
+        "fish",
+        "rod",
+        "bucket",
+        "float"
+      ],
+      "prerequisites": [
+        "iowa-home"
+      ],
+      "scriptCs": "U jezera se něco pohnulo. Připrav si prut a podíváme se, co tam plave.",
+      "scriptEn": "Something moved in the lake. Get your fishing rod and let's see what is swimming there.",
+      "suggestedMinutes": [
+        5,
+        8
+      ],
+      "speechOptionalForCompletion": true
+    },
+    {
+      "id": "klarka-atlas",
+      "title": "Klárčin atlas malých tvorů",
+      "region": "iowa",
+      "background": "meadow-trail",
+      "cast": [
+        "adam",
+        "klarka",
+        "matyas"
+      ],
+      "narrator": "romca",
+      "mechanics": [
+        "discover",
+        "find",
+        "release"
+      ],
+      "concepts": [
+        "earthworm",
+        "ladybird",
+        "caterpillar",
+        "magnifier",
+        "leaf",
+        "jar"
+      ],
+      "prerequisites": [
+        "iowa-home"
+      ],
+      "scriptCs": "Klárka přijela na návštěvu a vzala lupu. Pod tím listem se schovává malý soused!",
+      "scriptEn": "Aunt Klárka is visiting, and she brought a magnifying glass. A tiny neighbor is hiding under that leaf!",
+      "suggestedMinutes": [
+        5,
+        8
+      ],
+      "speechOptionalForCompletion": true,
+      "bonusConcepts": [
+        "butterfly",
+        "snail",
+        "ant",
+        "frog",
+        "dragonfly",
+        "stone"
+      ]
+    },
+    {
+      "id": "travel",
+      "title": "Letíme do Příbrami",
+      "region": "travel",
+      "background": "world-map",
+      "cast": [
+        "adam",
+        "matyas"
+      ],
+      "narrator": "romca",
+      "mechanics": [
+        "map",
+        "story"
+      ],
+      "concepts": [
+        "hello",
+        "please",
+        "thanks"
+      ],
+      "prerequisites": [
+        "iowa-fishing"
+      ],
+      "scriptCs": "Atlas máme, kufřík také. Letíme za babi a dědou do Příbrami!",
+      "scriptEn": "We have our atlas and our suitcase. We are flying to see Grandma and Grandpa in Příbram!",
+      "suggestedMinutes": [
+        5,
+        8
+      ],
+      "speechOptionalForCompletion": true
+    },
+    {
+      "id": "workshop",
+      "title": "Dědova cyklodílna",
+      "region": "pribram",
+      "background": "grandpa-workshop",
+      "cast": [
+        "adam",
+        "deda"
+      ],
+      "narrator": "romca",
+      "mechanics": [
+        "assemble",
+        "find",
+        "cycle"
+      ],
+      "concepts": [
+        "bicycle",
+        "helmet",
+        "red",
+        "blue",
+        "key"
+      ],
+      "prerequisites": [
+        "travel"
+      ],
+      "scriptCs": "Děda už otevřel dílnu. Připravíme kolo a pak vyrazíme k rybníku.",
+      "scriptEn": "Grandpa has opened the workshop. Let's get your bicycle ready and ride to the pond.",
+      "suggestedMinutes": [
+        5,
+        8
+      ],
+      "speechOptionalForCompletion": true
+    },
+    {
+      "id": "mystery-catch",
+      "title": "Romča a záhadný úlovek",
+      "region": "pribram",
+      "background": "pribram-pond",
+      "cast": [
+        "adam",
+        "romca",
+        "matyas"
+      ],
+      "narrator": "romca",
+      "mechanics": [
+        "pack",
+        "cycle",
+        "fishing",
+        "release"
+      ],
+      "concepts": [
+        "rod",
+        "net",
+        "earthworm",
+        "carp",
+        "perch",
+        "boot",
+        "fish"
+      ],
+      "prerequisites": [
+        "workshop"
+      ],
+      "scriptCs": "Adame, Matyáši, něco tam šplouchlo! Děda říká, že ryba. Já si myslím, že moje ztracená bota!",
+      "scriptEn": "Adam, Matyáš, something splashed! Grandpa says it is a fish. I think it might be my missing boot!",
+      "suggestedMinutes": [
+        5,
+        8
+      ],
+      "speechOptionalForCompletion": true
+    },
+    {
+      "id": "big-fish",
+      "title": "Výprava za velkou rybou",
+      "region": "pribram",
+      "background": "pribram-pond",
+      "cast": [
+        "adam",
+        "romca",
+        "klarka"
+      ],
+      "narrator": "romca",
+      "mechanics": [
+        "fishing",
+        "compare",
+        "discover"
+      ],
+      "concepts": [
+        "catfish",
+        "pike",
+        "big",
+        "small",
+        "cup",
+        "treasure"
+      ],
+      "prerequisites": [
+        "mystery-catch"
+      ],
+      "scriptCs": "Dneska porovnáme malé a velké úlovky. Klárka nám je pomůže zakreslit do atlasu.",
+      "scriptEn": "Today we will compare small and big catches. Aunt Klárka will help us add them to the atlas.",
+      "suggestedMinutes": [
+        5,
+        8
+      ],
+      "speechOptionalForCompletion": true
+    },
+    {
+      "id": "tell-grandma",
+      "title": "Povím to babi",
+      "region": "pribram",
+      "background": "pribram-home",
+      "cast": [
+        "adam",
+        "babi",
+        "deda",
+        "matyas"
+      ],
+      "narrator": "romca",
+      "mechanics": [
+        "story",
+        "find",
+        "speak"
+      ],
+      "concepts": [
+        "fish",
+        "boot",
+        "apple",
+        "watering-can",
+        "thanks"
+      ],
+      "prerequisites": [
+        "mystery-catch"
+      ],
+      "scriptCs": "Babi už čeká na zahradě. Ukážeme jí atlas a povíme, co jsme chytili.",
+      "scriptEn": "Grandma is waiting in the garden. Let's show her the atlas and tell her what we caught.",
+      "suggestedMinutes": [
+        5,
+        8
+      ],
+      "speechOptionalForCompletion": true
+    }
+  ]
+}

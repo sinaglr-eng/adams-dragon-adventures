@@ -1,0 +1,15 @@
+{
+  "tool": "built-in image_gen",
+  "revisions": [
+    {
+      "asset": "adam-poses",
+      "prompt": "Edit this exact six-pose Adam character sheet. Preserve every character, pose, color, shape, 3-column 2-row placement and image dimensions exactly. Remove ALL background haze, brown green gradients, light glows and floor shadows so only the six dragon character silhouettes and the fishing rod remain on genuinely transparent alpha, including gaps between wings, hands, tails and rod. Absolutely no replacement background. Do not add elements or redraw poses. Leave clear transparent gutters.",
+      "reason": "Remove background haze; verify true alpha in browser"
+    },
+    {
+      "asset": "badges",
+      "prompt": "Precise edit of the supplied ten-badge atlas, preserve dimensions, 5 columns by 2 rows, all badges and transparency. Change ONLY the portrait inside the second badge from the left in the bottom row. It must depict GRANDMA from the second reference: dusty rose pink elderly female dragon with round golden glasses, soft grey hair, cream cardigan, small peach horns, NO mustache NO beard. Keep the heart speech bubble and round badge frame/ribbon. All other nine badges unchanged. Truly transparent background outside all badges.",
+      "reason": "Grandma badge must match grandma, not grandpa"
+    }
+  ]
+}

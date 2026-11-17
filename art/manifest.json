@@ -1,0 +1,1259 @@
+{
+  "schemaVersion": 1,
+  "title": "Adamovy dračí výpravy",
+  "generatedWith": "built-in image_gen",
+  "notes": [
+    "Original PNGs preserved; wrapper SVGs only reference source rectangles.",
+    "Frames must be used with clipping; preserve alpha.",
+    "Family scale differs by age; set actor display height per character.",
+    "No audio or gameplay implementation included."
+  ],
+  "assets": [
+    {
+      "id": "family",
+      "path": "art/source/family.png",
+      "category": "characters",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2631483,
+      "sha256": "eb8e2c75690ddc9bc28258685d0ea73849bb14217bcfe7f715168ec1d6f69a5b",
+      "alphaRequested": true,
+      "grid": {
+        "cols": 4,
+        "rows": 2
+      },
+      "frames": [
+        {
+          "id": "family/adam",
+          "name": "adam",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 443,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/family.adam.svg"
+        },
+        {
+          "id": "family/matyas",
+          "name": "matyas",
+          "rect": {
+            "x": 443,
+            "y": 0,
+            "w": 444,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/family.matyas.svg"
+        },
+        {
+          "id": "family/romca",
+          "name": "romca",
+          "rect": {
+            "x": 887,
+            "y": 0,
+            "w": 443,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/family.romca.svg"
+        },
+        {
+          "id": "family/klarka",
+          "name": "klarka",
+          "rect": {
+            "x": 1330,
+            "y": 0,
+            "w": 444,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/family.klarka.svg"
+        },
+        {
+          "id": "family/babi",
+          "name": "babi",
+          "rect": {
+            "x": 0,
+            "y": 443,
+            "w": 443,
+            "h": 444
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/family.babi.svg"
+        },
+        {
+          "id": "family/deda",
+          "name": "deda",
+          "rect": {
+            "x": 443,
+            "y": 443,
+            "w": 444,
+            "h": 444
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/family.deda.svg"
+        },
+        {
+          "id": "family/mama",
+          "name": "mama",
+          "rect": {
+            "x": 887,
+            "y": 443,
+            "w": 443,
+            "h": 444
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/family.mama.svg"
+        },
+        {
+          "id": "family/tata",
+          "name": "tata",
+          "rect": {
+            "x": 1330,
+            "y": 443,
+            "w": 444,
+            "h": 444
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/family.tata.svg"
+        }
+      ],
+      "animation": "Static artwork; animate at runtime"
+    },
+    {
+      "id": "adam-poses",
+      "path": "art/source/adam-poses.png",
+      "category": "characters",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2397117,
+      "sha256": "afd181fc624815b905dc9a82d48a53ea82a42c7ff69f8b1bd410b999bcc9ed2a",
+      "alphaRequested": true,
+      "grid": {
+        "cols": 3,
+        "rows": 2
+      },
+      "frames": [
+        {
+          "id": "adam-poses/idle",
+          "name": "idle",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/adam-poses.idle.svg"
+        },
+        {
+          "id": "adam-poses/wave",
+          "name": "wave",
+          "rect": {
+            "x": 512,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/adam-poses.wave.svg"
+        },
+        {
+          "id": "adam-poses/listen",
+          "name": "listen",
+          "rect": {
+            "x": 1024,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/adam-poses.listen.svg"
+        },
+        {
+          "id": "adam-poses/speak",
+          "name": "speak",
+          "rect": {
+            "x": 0,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/adam-poses.speak.svg"
+        },
+        {
+          "id": "adam-poses/celebrate",
+          "name": "celebrate",
+          "rect": {
+            "x": 512,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/adam-poses.celebrate.svg"
+        },
+        {
+          "id": "adam-poses/fish",
+          "name": "fish",
+          "rect": {
+            "x": 1024,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/adam-poses.fish.svg"
+        }
+      ],
+      "animation": "Discrete poses; tween/crossfade, not a frame cycle"
+    },
+    {
+      "id": "creatures",
+      "path": "art/source/creatures.png",
+      "category": "collectibles",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 1644767,
+      "sha256": "1355332009ae03f10eaf1a79bd10d968cb83d3d540644eee2c4841d941a769d7",
+      "alphaRequested": true,
+      "grid": {
+        "cols": 4,
+        "rows": 3
+      },
+      "frames": [
+        {
+          "id": "creatures/carp",
+          "name": "carp",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/creatures.carp.svg"
+        },
+        {
+          "id": "creatures/perch",
+          "name": "perch",
+          "rect": {
+            "x": 362,
+            "y": 0,
+            "w": 355,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/creatures.perch.svg"
+        },
+        {
+          "id": "creatures/catfish",
+          "name": "catfish",
+          "rect": {
+            "x": 717,
+            "y": 0,
+            "w": 341,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/creatures.catfish.svg"
+        },
+        {
+          "id": "creatures/pike",
+          "name": "pike",
+          "rect": {
+            "x": 1058,
+            "y": 0,
+            "w": 390,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/creatures.pike.svg"
+        },
+        {
+          "id": "creatures/ladybird",
+          "name": "ladybird",
+          "rect": {
+            "x": 0,
+            "y": 362,
+            "w": 362,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/creatures.ladybird.svg"
+        },
+        {
+          "id": "creatures/earthworm",
+          "name": "earthworm",
+          "rect": {
+            "x": 362,
+            "y": 362,
+            "w": 329,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/creatures.earthworm.svg"
+        },
+        {
+          "id": "creatures/caterpillar",
+          "name": "caterpillar",
+          "rect": {
+            "x": 691,
+            "y": 362,
+            "w": 388,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/creatures.caterpillar.svg"
+        },
+        {
+          "id": "creatures/butterfly",
+          "name": "butterfly",
+          "rect": {
+            "x": 1079,
+            "y": 362,
+            "w": 369,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/creatures.butterfly.svg"
+        },
+        {
+          "id": "creatures/snail",
+          "name": "snail",
+          "rect": {
+            "x": 0,
+            "y": 707,
+            "w": 362,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/creatures.snail.svg"
+        },
+        {
+          "id": "creatures/ant",
+          "name": "ant",
+          "rect": {
+            "x": 362,
+            "y": 707,
+            "w": 336,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/creatures.ant.svg"
+        },
+        {
+          "id": "creatures/frog",
+          "name": "frog",
+          "rect": {
+            "x": 698,
+            "y": 707,
+            "w": 357,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/creatures.frog.svg"
+        },
+        {
+          "id": "creatures/dragonfly",
+          "name": "dragonfly",
+          "rect": {
+            "x": 1055,
+            "y": 707,
+            "w": 393,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/creatures.dragonfly.svg"
+        }
+      ],
+      "animation": "Static artwork; animate at runtime"
+    },
+    {
+      "id": "props",
+      "path": "art/source/props.png",
+      "category": "objects",
+      "width": 1261,
+      "height": 1247,
+      "bytes": 1975921,
+      "sha256": "0c859f672df8c13de463becb1eeb7c15739aa855111d868a63799d9921386b6e",
+      "alphaRequested": true,
+      "grid": {
+        "cols": 4,
+        "rows": 4
+      },
+      "frames": [
+        {
+          "id": "props/rod",
+          "name": "rod",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 315,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.rod.svg"
+        },
+        {
+          "id": "props/bucket",
+          "name": "bucket",
+          "rect": {
+            "x": 315,
+            "y": 0,
+            "w": 315,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.bucket.svg"
+        },
+        {
+          "id": "props/net",
+          "name": "net",
+          "rect": {
+            "x": 630,
+            "y": 0,
+            "w": 316,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.net.svg"
+        },
+        {
+          "id": "props/float",
+          "name": "float",
+          "rect": {
+            "x": 946,
+            "y": 0,
+            "w": 315,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.float.svg"
+        },
+        {
+          "id": "props/boot",
+          "name": "boot",
+          "rect": {
+            "x": 0,
+            "y": 312,
+            "w": 315,
+            "h": 311
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.boot.svg"
+        },
+        {
+          "id": "props/key",
+          "name": "key",
+          "rect": {
+            "x": 315,
+            "y": 312,
+            "w": 315,
+            "h": 311
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.key.svg"
+        },
+        {
+          "id": "props/cup",
+          "name": "cup",
+          "rect": {
+            "x": 630,
+            "y": 312,
+            "w": 316,
+            "h": 311
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.cup.svg"
+        },
+        {
+          "id": "props/treasure",
+          "name": "treasure",
+          "rect": {
+            "x": 946,
+            "y": 312,
+            "w": 315,
+            "h": 311
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.treasure.svg"
+        },
+        {
+          "id": "props/bicycle",
+          "name": "bicycle",
+          "rect": {
+            "x": 0,
+            "y": 623,
+            "w": 315,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.bicycle.svg"
+        },
+        {
+          "id": "props/helmet",
+          "name": "helmet",
+          "rect": {
+            "x": 315,
+            "y": 623,
+            "w": 315,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.helmet.svg"
+        },
+        {
+          "id": "props/magnifier",
+          "name": "magnifier",
+          "rect": {
+            "x": 630,
+            "y": 623,
+            "w": 316,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.magnifier.svg"
+        },
+        {
+          "id": "props/jar",
+          "name": "jar",
+          "rect": {
+            "x": 946,
+            "y": 623,
+            "w": 315,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.jar.svg"
+        },
+        {
+          "id": "props/apple",
+          "name": "apple",
+          "rect": {
+            "x": 0,
+            "y": 935,
+            "w": 315,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.apple.svg"
+        },
+        {
+          "id": "props/leaf",
+          "name": "leaf",
+          "rect": {
+            "x": 315,
+            "y": 935,
+            "w": 315,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.leaf.svg"
+        },
+        {
+          "id": "props/stone",
+          "name": "stone",
+          "rect": {
+            "x": 630,
+            "y": 935,
+            "w": 312,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.stone.svg"
+        },
+        {
+          "id": "props/watering-can",
+          "name": "watering-can",
+          "rect": {
+            "x": 942,
+            "y": 935,
+            "w": 319,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/props.watering-can.svg"
+        }
+      ],
+      "animation": "Static artwork; animate at runtime"
+    },
+    {
+      "id": "badges",
+      "path": "art/source/badges.png",
+      "category": "ui",
+      "width": 1983,
+      "height": 793,
+      "bytes": 2103208,
+      "sha256": "c0996192e9ddc54666adbf0991dae1ae17871978a3c87470d21690ab353d01c6",
+      "alphaRequested": true,
+      "grid": {
+        "cols": 5,
+        "rows": 2
+      },
+      "frames": [
+        {
+          "id": "badges/first-catch",
+          "name": "first-catch",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/badges.first-catch.svg"
+        },
+        {
+          "id": "badges/little-creatures",
+          "name": "little-creatures",
+          "rect": {
+            "x": 397,
+            "y": 0,
+            "w": 396,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/badges.little-creatures.svg"
+        },
+        {
+          "id": "badges/five-words",
+          "name": "five-words",
+          "rect": {
+            "x": 793,
+            "y": 0,
+            "w": 397,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/badges.five-words.svg"
+        },
+        {
+          "id": "badges/cycling",
+          "name": "cycling",
+          "rect": {
+            "x": 1190,
+            "y": 0,
+            "w": 396,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/badges.cycling.svg"
+        },
+        {
+          "id": "badges/speaking-cards",
+          "name": "speaking-cards",
+          "rect": {
+            "x": 1586,
+            "y": 0,
+            "w": 397,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/badges.speaking-cards.svg"
+        },
+        {
+          "id": "badges/mechanic",
+          "name": "mechanic",
+          "rect": {
+            "x": 0,
+            "y": 396,
+            "w": 397,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/badges.mechanic.svg"
+        },
+        {
+          "id": "badges/tell-grandma",
+          "name": "tell-grandma",
+          "rect": {
+            "x": 397,
+            "y": 396,
+            "w": 396,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/badges.tell-grandma.svg"
+        },
+        {
+          "id": "badges/two-languages",
+          "name": "two-languages",
+          "rect": {
+            "x": 793,
+            "y": 396,
+            "w": 397,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/badges.two-languages.svg"
+        },
+        {
+          "id": "badges/family-team",
+          "name": "family-team",
+          "rect": {
+            "x": 1190,
+            "y": 396,
+            "w": 396,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/badges.family-team.svg"
+        },
+        {
+          "id": "badges/romca-adventure",
+          "name": "romca-adventure",
+          "rect": {
+            "x": 1586,
+            "y": 396,
+            "w": 397,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/badges.romca-adventure.svg"
+        }
+      ],
+      "animation": "Static artwork; animate at runtime"
+    },
+    {
+      "id": "card-frames",
+      "path": "art/source/card-frames.png",
+      "category": "ui",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1984715,
+      "sha256": "7b0e4b917a0041f818c8b88d58accca43f0a5bff2f82853c450c62cbf7ce4b49",
+      "alphaRequested": true,
+      "grid": {
+        "cols": 3,
+        "rows": 1
+      },
+      "frames": [
+        {
+          "id": "card-frames/discovered",
+          "name": "discovered",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 724,
+            "h": 724
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/card-frames.discovered.svg"
+        },
+        {
+          "id": "card-frames/understood",
+          "name": "understood",
+          "rect": {
+            "x": 724,
+            "y": 0,
+            "w": 724,
+            "h": 724
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/card-frames.understood.svg"
+        },
+        {
+          "id": "card-frames/spoken",
+          "name": "spoken",
+          "rect": {
+            "x": 1448,
+            "y": 0,
+            "w": 724,
+            "h": 724
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "previewWrapper": "art/frames/card-frames.spoken.svg"
+        }
+      ],
+      "animation": "Static artwork; animate at runtime"
+    },
+    {
+      "id": "pribram-pond",
+      "path": "art/source/pribram-pond.png",
+      "category": "backgrounds",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3273951,
+      "sha256": "1db8ff31ad6b16a32b51396d187076bb75ba3674d2b0927b178ff6aaee0444a8",
+      "alphaRequested": false,
+      "grid": {
+        "cols": 1,
+        "rows": 1
+      },
+      "frames": [],
+      "animation": "Static artwork; animate at runtime"
+    },
+    {
+      "id": "pribram-home",
+      "path": "art/source/pribram-home.png",
+      "category": "backgrounds",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3526250,
+      "sha256": "99f65deedc14948dcc3bdc2edf7a4b6b9d10d4cb16891c196a984cda9e1b577f",
+      "alphaRequested": false,
+      "grid": {
+        "cols": 1,
+        "rows": 1
+      },
+      "frames": [],
+      "animation": "Static artwork; animate at runtime"
+    },
+    {
+      "id": "iowa-home",
+      "path": "art/source/iowa-home.png",
+      "category": "backgrounds",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3319745,
+      "sha256": "7a5ac4012e5cd17b7b868953ced81256aa422fc258c53610b487c4edd00159a8",
+      "alphaRequested": false,
+      "grid": {
+        "cols": 1,
+        "rows": 1
+      },
+      "frames": [],
+      "animation": "Static artwork; animate at runtime"
+    },
+    {
+      "id": "iowa-lake",
+      "path": "art/source/iowa-lake.png",
+      "category": "backgrounds",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3226232,
+      "sha256": "9791f522096894c5dca6102087ead9b963d98877062b961aead79ba1c566e9bf",
+      "alphaRequested": false,
+      "grid": {
+        "cols": 1,
+        "rows": 1
+      },
+      "frames": [],
+      "animation": "Static artwork; animate at runtime"
+    },
+    {
+      "id": "meadow-trail",
+      "path": "art/source/meadow-trail.png",
+      "category": "backgrounds",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3370873,
+      "sha256": "99a5a4a3cf2a2eecc0a1bbe693ed8e1ec4213fed89f52d0247e3ec9c2be105b0",
+      "alphaRequested": false,
+      "grid": {
+        "cols": 1,
+        "rows": 1
+      },
+      "frames": [],
+      "animation": "Static artwork; animate at runtime"
+    },
+    {
+      "id": "grandpa-workshop",
+      "path": "art/source/grandpa-workshop.png",
+      "category": "backgrounds",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2748254,
+      "sha256": "4ed8fcefe22d6a2150618ab9d89f42dd983b1472765e41d967aad9a1c8282229",
+      "alphaRequested": false,
+      "grid": {
+        "cols": 1,
+        "rows": 1
+      },
+      "frames": [],
+      "animation": "Static artwork; animate at runtime"
+    },
+    {
+      "id": "world-map",
+      "path": "art/source/world-map.png",
+      "category": "backgrounds",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3594516,
+      "sha256": "6e829ee6de1530dd7c1ba7d46fbc64d835dc8f33fb3c1f7ea5227a2e45cf294c",
+      "alphaRequested": false,
+      "grid": {
+        "cols": 1,
+        "rows": 1
+      },
+      "frames": [],
+      "animation": "Static artwork; animate at runtime"
+    },
+    {
+      "id": "cover",
+      "path": "art/source/cover.png",
+      "category": "marketing",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3230605,
+      "sha256": "ceab4f1863be76e5b5101531bbdd7d9328f6f5cbf4337f16d1ef8185e479214b",
+      "alphaRequested": false,
+      "grid": {
+        "cols": 1,
+        "rows": 1
+      },
+      "frames": [],
+      "animation": "Static artwork; animate at runtime"
+    },
+    {
+      "id": "adam-actions",
+      "path": "art/source/adam-actions.png",
+      "category": "characters",
+      "width": 1217,
+      "height": 1293,
+      "bytes": 1945705,
+      "sha256": "ebdf83a47d1b8e88e78dfd94a619fd54843a1594d72dfc3a6c5ffa301e7af8b2",
+      "alphaRequested": true,
+      "grid": {
+        "cols": 2,
+        "rows": 2
+      },
+      "frames": [
+        {
+          "id": "adam-actions/cycling",
+          "name": "cycling",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 608,
+            "h": 646
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/adam-actions.cycling.svg"
+        },
+        {
+          "id": "adam-actions/landing-net",
+          "name": "landing-net",
+          "rect": {
+            "x": 608,
+            "y": 0,
+            "w": 609,
+            "h": 646
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/adam-actions.landing-net.svg"
+        },
+        {
+          "id": "adam-actions/magnifier",
+          "name": "magnifier",
+          "rect": {
+            "x": 0,
+            "y": 646,
+            "w": 608,
+            "h": 647
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/adam-actions.magnifier.svg"
+        },
+        {
+          "id": "adam-actions/atlas",
+          "name": "atlas",
+          "rect": {
+            "x": 608,
+            "y": 646,
+            "w": 609,
+            "h": 647
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.94
+          },
+          "previewWrapper": "art/frames/adam-actions.atlas.svg"
+        }
+      ],
+      "animation": "Static artwork; animate at runtime"
+    }
+  ],
+  "icons": [
+    {
+      "id": "play",
+      "path": "art/ui/play.svg"
+    },
+    {
+      "id": "pause",
+      "path": "art/ui/pause.svg"
+    },
+    {
+      "id": "speaker",
+      "path": "art/ui/speaker.svg"
+    },
+    {
+      "id": "microphone",
+      "path": "art/ui/microphone.svg"
+    },
+    {
+      "id": "home",
+      "path": "art/ui/home.svg"
+    },
+    {
+      "id": "atlas",
+      "path": "art/ui/atlas.svg"
+    },
+    {
+      "id": "map",
+      "path": "art/ui/map.svg"
+    },
+    {
+      "id": "back",
+      "path": "art/ui/back.svg"
+    },
+    {
+      "id": "next",
+      "path": "art/ui/next.svg"
+    },
+    {
+      "id": "close",
+      "path": "art/ui/close.svg"
+    },
+    {
+      "id": "check",
+      "path": "art/ui/check.svg"
+    },
+    {
+      "id": "lock",
+      "path": "art/ui/lock.svg"
+    },
+    {
+      "id": "star",
+      "path": "art/ui/star.svg"
+    },
+    {
+      "id": "heart",
+      "path": "art/ui/heart.svg"
+    },
+    {
+      "id": "replay",
+      "path": "art/ui/replay.svg"
+    },
+    {
+      "id": "help",
+      "path": "art/ui/help.svg"
+    },
+    {
+      "id": "settings",
+      "path": "art/ui/settings.svg"
+    },
+    {
+      "id": "gift",
+      "path": "art/ui/gift.svg"
+    },
+    {
+      "id": "suitcase",
+      "path": "art/ui/suitcase.svg"
+    },
+    {
+      "id": "plane",
+      "path": "art/ui/plane.svg"
+    },
+    {
+      "id": "fishing",
+      "path": "art/ui/fishing.svg"
+    },
+    {
+      "id": "bug",
+      "path": "art/ui/bug.svg"
+    },
+    {
+      "id": "bicycle",
+      "path": "art/ui/bicycle.svg"
+    },
+    {
+      "id": "parent",
+      "path": "art/ui/parent.svg"
+    },
+    {
+      "id": "toycar",
+      "path": "art/ui/toycar.svg"
+    },
+    {
+      "id": "cards",
+      "path": "art/ui/cards.svg"
+    },
+    {
+      "id": "snack",
+      "path": "art/ui/snack.svg"
+    },
+    {
+      "id": "soundoff",
+      "path": "art/ui/soundoff.svg"
+    }
+  ]
+}

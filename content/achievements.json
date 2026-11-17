@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "achievements": [
+    {
+      "id": "first-catch",
+      "title": "Můj první rybářský příběh",
+      "badge": "badges/first-catch",
+      "conditions": {
+        "questId": "mystery-catch",
+        "distinctRecognizedConcepts": 3,
+        "distinctVerifiedSpokenConcepts": 1,
+        "language": "cs-CZ",
+        "withoutModelCount": 0,
+        "laterSessionRecallCount": 0,
+        "newContextCount": 0
+      },
+      "suggestedReward": {
+        "type": "stickers",
+        "label": "Samolepka nebo malá dobrota"
+      },
+      "realRewardEnabledByDefault": false,
+      "repeatable": false,
+      "expiry": null,
+      "notes": null
+    },
+    {
+      "id": "little-creatures",
+      "title": "Kamarád malých tvorů",
+      "badge": "badges/little-creatures",
+      "conditions": {
+        "questId": "klarka-atlas",
+        "distinctRecognizedConcepts": 4,
+        "distinctVerifiedSpokenConcepts": 2,
+        "language": "cs-CZ",
+        "withoutModelCount": 0,
+        "laterSessionRecallCount": 0,
+        "newContextCount": 0
+      },
+      "suggestedReward": {
+        "type": "snack",
+        "label": "Oblíbená svačina na výlet"
+      },
+      "realRewardEnabledByDefault": false,
+      "repeatable": false,
+      "expiry": null,
+      "notes": null
+    },
+    {
+      "id": "five-words",
+      "title": "Pět dračích slov",
+      "badge": "badges/five-words",
+      "conditions": {
+        "questId": null,
+        "distinctRecognizedConcepts": 5,
+        "distinctVerifiedSpokenConcepts": 5,
+        "language": "cs-CZ",
+        "withoutModelCount": 0,
+        "laterSessionRecallCount": 3,
+        "newContextCount": 0
+      },
+      "suggestedReward": {
+        "type": "custom",
+        "label": "Malá domluvená odměna"
+      },
+      "realRewardEnabledByDefault": false,
+      "repeatable": false,
+      "expiry": null,
+      "notes": null
+    },
+    {
+      "id": "cycling",
+      "title": "Dědův cykloparťák",
+      "badge": "badges/cycling",
+      "conditions": {
+        "questId": "workshop",
+        "distinctRecognizedConcepts": 3,
+        "distinctVerifiedSpokenConcepts": 2,
+        "language": "cs-CZ",
+        "withoutModelCount": 0,
+        "laterSessionRecallCount": 0,
+        "newContextCount": 0
+      },
+      "suggestedReward": {
+        "type": "bike-trip",
+        "label": "Společný cyklovýlet"
+      },
+      "realRewardEnabledByDefault": false,
+      "repeatable": false,
+      "expiry": null,
+      "notes": null
+    },
+    {
+      "id": "speaking-cards",
+      "title": "Sběratel mluvících karet",
+      "badge": "badges/speaking-cards",
+      "conditions": {
+        "questId": null,
+        "distinctRecognizedConcepts": 6,
+        "distinctVerifiedSpokenConcepts": 6,
+        "language": "cs-CZ",
+        "withoutModelCount": 3,
+        "laterSessionRecallCount": 0,
+        "newContextCount": 0
+      },
+      "suggestedReward": {
+        "type": "pokemon-cards",
+        "label": "Pokémon kartičky"
+      },
+      "realRewardEnabledByDefault": false,
+      "repeatable": false,
+      "expiry": null,
+      "notes": null
+    },
+    {
+      "id": "mechanic",
+      "title": "Dračí mechanik",
+      "badge": "badges/mechanic",
+      "conditions": {
+        "questId": "workshop",
+        "distinctRecognizedConcepts": 3,
+        "distinctVerifiedSpokenConcepts": 2,
+        "language": "cs-CZ",
+        "withoutModelCount": 0,
+        "laterSessionRecallCount": 0,
+        "newContextCount": 0
+      },
+      "suggestedReward": {
+        "type": "hot-wheels",
+        "label": "Nové autíčko Hot Wheels"
+      },
+      "realRewardEnabledByDefault": false,
+      "repeatable": false,
+      "expiry": null,
+      "notes": null
+    },
+    {
+      "id": "tell-grandma",
+      "title": "Povím to babi",
+      "badge": "badges/tell-grandma",
+      "conditions": {
+        "questId": "tell-grandma",
+        "distinctRecognizedConcepts": 3,
+        "distinctVerifiedSpokenConcepts": 3,
+        "language": "cs-CZ",
+        "withoutModelCount": 0,
+        "laterSessionRecallCount": 0,
+        "newContextCount": 0
+      },
+      "suggestedReward": {
+        "type": "baking",
+        "label": "Společné pečení nebo dobrota"
+      },
+      "realRewardEnabledByDefault": false,
+      "repeatable": false,
+      "expiry": null,
+      "notes": null
+    },
+    {
+      "id": "two-languages",
+      "title": "Slova přes oceán",
+      "badge": "badges/two-languages",
+      "conditions": {
+        "questId": null,
+        "distinctRecognizedConcepts": 5,
+        "distinctVerifiedSpokenConcepts": 5,
+        "language": "both",
+        "withoutModelCount": 0,
+        "laterSessionRecallCount": 0,
+        "newContextCount": 0
+      },
+      "suggestedReward": {
+        "type": "family-trip",
+        "label": "Rodinný zážitek"
+      },
+      "realRewardEnabledByDefault": false,
+      "repeatable": false,
+      "expiry": null,
+      "notes": "Pět stejných pojmů rozpoznat i pojmenovat v obou jazycích; evidovat každý směr."
+    },
+    {
+      "id": "family-team",
+      "title": "Pomocník dračí rodiny",
+      "badge": "badges/family-team",
+      "conditions": {
+        "questId": "tell-grandma",
+        "distinctRecognizedConcepts": 3,
+        "distinctVerifiedSpokenConcepts": 1,
+        "language": "cs-CZ",
+        "withoutModelCount": 0,
+        "laterSessionRecallCount": 0,
+        "newContextCount": 0
+      },
+      "suggestedReward": {
+        "type": "family-game",
+        "label": "Společná rodinná hra"
+      },
+      "realRewardEnabledByDefault": false,
+      "repeatable": false,
+      "expiry": null,
+      "notes": "Adam pomáhá NPC rodině; nevyžaduje Matyášovo hraní."
+    },
+    {
+      "id": "romca-adventure",
+      "title": "Velká výprava s Romčou",
+      "badge": "badges/romca-adventure",
+      "conditions": {
+        "questId": "big-fish",
+        "distinctRecognizedConcepts": 5,
+        "distinctVerifiedSpokenConcepts": 5,
+        "language": "cs-CZ",
+        "withoutModelCount": 0,
+        "laterSessionRecallCount": 0,
+        "newContextCount": 5
+      },
+      "suggestedReward": {
+        "type": "fishing-trip",
+        "label": "Rybaření s Romčou nebo větší domluvená odměna"
+      },
+      "realRewardEnabledByDefault": false,
+      "repeatable": false,
+      "expiry": null,
+      "notes": null
+    }
+  ]
+}

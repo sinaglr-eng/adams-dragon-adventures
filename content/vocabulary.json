@@ -1,0 +1,1013 @@
+{
+  "schemaVersion": 1,
+  "vocabulary": [
+    {
+      "id": "fish",
+      "cs": "ryba",
+      "en": "fish",
+      "meaning": {
+        "cs": "Ryba plave ve vodě.",
+        "en": "A fish swims in water."
+      },
+      "phrase": {
+        "cs": "Mám rybu.",
+        "en": "I have a fish."
+      },
+      "art": "creatures/perch",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.fish.cs",
+        "wordEn": "word.fish.en",
+        "meaningCs": "meaning.fish.cs",
+        "meaningEn": "meaning.fish.en",
+        "phraseCs": "phrase.fish.cs",
+        "phraseEn": "phrase.fish.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "carp",
+      "cs": "kapr",
+      "en": "carp",
+      "meaning": {
+        "cs": "Kapr je ryba.",
+        "en": "A carp is a fish."
+      },
+      "phrase": {
+        "cs": "Vidím kapra.",
+        "en": "I see a carp."
+      },
+      "art": "creatures/carp",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.carp.cs",
+        "wordEn": "word.carp.en",
+        "meaningCs": "meaning.carp.cs",
+        "meaningEn": "meaning.carp.en",
+        "phraseCs": "phrase.carp.cs",
+        "phraseEn": "phrase.carp.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "perch",
+      "cs": "okoun",
+      "en": "perch",
+      "meaning": {
+        "cs": "Okoun má na těle pruhy.",
+        "en": "A perch has stripes on its body."
+      },
+      "phrase": {
+        "cs": "To je okoun.",
+        "en": "This is a perch."
+      },
+      "art": "creatures/perch",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.perch.cs",
+        "wordEn": "word.perch.en",
+        "meaningCs": "meaning.perch.cs",
+        "meaningEn": "meaning.perch.en",
+        "phraseCs": "phrase.perch.cs",
+        "phraseEn": "phrase.perch.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "catfish",
+      "cs": "sumec",
+      "en": "catfish",
+      "meaning": {
+        "cs": "Sumec má vousky.",
+        "en": "A catfish has whiskers."
+      },
+      "phrase": {
+        "cs": "Vidím sumce.",
+        "en": "I see a catfish."
+      },
+      "art": "creatures/catfish",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.catfish.cs",
+        "wordEn": "word.catfish.en",
+        "meaningCs": "meaning.catfish.cs",
+        "meaningEn": "meaning.catfish.en",
+        "phraseCs": "phrase.catfish.cs",
+        "phraseEn": "phrase.catfish.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "pike",
+      "cs": "štika",
+      "en": "pike",
+      "meaning": {
+        "cs": "Štika má dlouhé tělo.",
+        "en": "A pike has a long body."
+      },
+      "phrase": {
+        "cs": "To je štika.",
+        "en": "This is a pike."
+      },
+      "art": "creatures/pike",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.pike.cs",
+        "wordEn": "word.pike.en",
+        "meaningCs": "meaning.pike.cs",
+        "meaningEn": "meaning.pike.en",
+        "phraseCs": "phrase.pike.cs",
+        "phraseEn": "phrase.pike.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "earthworm",
+      "cs": "žížala",
+      "en": "earthworm",
+      "meaning": {
+        "cs": "Žížala žije v půdě.",
+        "en": "An earthworm lives in soil."
+      },
+      "phrase": {
+        "cs": "Našel jsem žížalu.",
+        "en": "I found an earthworm."
+      },
+      "art": "creatures/earthworm",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.earthworm.cs",
+        "wordEn": "word.earthworm.en",
+        "meaningCs": "meaning.earthworm.cs",
+        "meaningEn": "meaning.earthworm.en",
+        "phraseCs": "phrase.earthworm.cs",
+        "phraseEn": "phrase.earthworm.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "ladybird",
+      "cs": "beruška",
+      "en": "ladybug",
+      "meaning": {
+        "cs": "Beruška je malý brouk.",
+        "en": "A ladybug is a small beetle."
+      },
+      "phrase": {
+        "cs": "Vidím berušku.",
+        "en": "I see a ladybug."
+      },
+      "art": "creatures/ladybird",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.ladybird.cs",
+        "wordEn": "word.ladybird.en",
+        "meaningCs": "meaning.ladybird.cs",
+        "meaningEn": "meaning.ladybird.en",
+        "phraseCs": "phrase.ladybird.cs",
+        "phraseEn": "phrase.ladybird.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "caterpillar",
+      "cs": "housenka",
+      "en": "caterpillar",
+      "meaning": {
+        "cs": "Housenka leze po listu.",
+        "en": "A caterpillar crawls on a leaf."
+      },
+      "phrase": {
+        "cs": "To je housenka.",
+        "en": "This is a caterpillar."
+      },
+      "art": "creatures/caterpillar",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.caterpillar.cs",
+        "wordEn": "word.caterpillar.en",
+        "meaningCs": "meaning.caterpillar.cs",
+        "meaningEn": "meaning.caterpillar.en",
+        "phraseCs": "phrase.caterpillar.cs",
+        "phraseEn": "phrase.caterpillar.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "butterfly",
+      "cs": "motýl",
+      "en": "butterfly",
+      "meaning": {
+        "cs": "Motýl má křídla.",
+        "en": "A butterfly has wings."
+      },
+      "phrase": {
+        "cs": "Motýl létá.",
+        "en": "The butterfly flies."
+      },
+      "art": "creatures/butterfly",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.butterfly.cs",
+        "wordEn": "word.butterfly.en",
+        "meaningCs": "meaning.butterfly.cs",
+        "meaningEn": "meaning.butterfly.en",
+        "phraseCs": "phrase.butterfly.cs",
+        "phraseEn": "phrase.butterfly.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "snail",
+      "cs": "hlemýžď",
+      "en": "snail",
+      "meaning": {
+        "cs": "Hlemýžď má ulitu.",
+        "en": "A snail has a shell."
+      },
+      "phrase": {
+        "cs": "Vidím hlemýždě.",
+        "en": "I see a snail."
+      },
+      "art": "creatures/snail",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.snail.cs",
+        "wordEn": "word.snail.en",
+        "meaningCs": "meaning.snail.cs",
+        "meaningEn": "meaning.snail.en",
+        "phraseCs": "phrase.snail.cs",
+        "phraseEn": "phrase.snail.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "ant",
+      "cs": "mravenec",
+      "en": "ant",
+      "meaning": {
+        "cs": "Mravenec má šest nohou.",
+        "en": "An ant has six legs."
+      },
+      "phrase": {
+        "cs": "Mravenec leze.",
+        "en": "The ant crawls."
+      },
+      "art": "creatures/ant",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.ant.cs",
+        "wordEn": "word.ant.en",
+        "meaningCs": "meaning.ant.cs",
+        "meaningEn": "meaning.ant.en",
+        "phraseCs": "phrase.ant.cs",
+        "phraseEn": "phrase.ant.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "frog",
+      "cs": "žába",
+      "en": "frog",
+      "meaning": {
+        "cs": "Žába umí skákat.",
+        "en": "A frog can jump."
+      },
+      "phrase": {
+        "cs": "Žába skáče.",
+        "en": "The frog jumps."
+      },
+      "art": "creatures/frog",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.frog.cs",
+        "wordEn": "word.frog.en",
+        "meaningCs": "meaning.frog.cs",
+        "meaningEn": "meaning.frog.en",
+        "phraseCs": "phrase.frog.cs",
+        "phraseEn": "phrase.frog.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "dragonfly",
+      "cs": "vážka",
+      "en": "dragonfly",
+      "meaning": {
+        "cs": "Vážka létá nad vodou.",
+        "en": "A dragonfly flies over the water."
+      },
+      "phrase": {
+        "cs": "Vidím vážku.",
+        "en": "I see a dragonfly."
+      },
+      "art": "creatures/dragonfly",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.dragonfly.cs",
+        "wordEn": "word.dragonfly.en",
+        "meaningCs": "meaning.dragonfly.cs",
+        "meaningEn": "meaning.dragonfly.en",
+        "phraseCs": "phrase.dragonfly.cs",
+        "phraseEn": "phrase.dragonfly.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "rod",
+      "cs": "prut",
+      "en": "fishing rod",
+      "meaning": {
+        "cs": "Prut používáme k chytání ryb.",
+        "en": "We use a fishing rod to catch fish."
+      },
+      "phrase": {
+        "cs": "Romčo, podej mi prut.",
+        "en": "Uncle Romča, pass me the fishing rod."
+      },
+      "art": "props/rod",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.rod.cs",
+        "wordEn": "word.rod.en",
+        "meaningCs": "meaning.rod.cs",
+        "meaningEn": "meaning.rod.en",
+        "phraseCs": "phrase.rod.cs",
+        "phraseEn": "phrase.rod.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "bucket",
+      "cs": "kbelík",
+      "en": "bucket",
+      "meaning": {
+        "cs": "Do kbelíku můžeme nalít vodu.",
+        "en": "We can put water in a bucket."
+      },
+      "phrase": {
+        "cs": "Dej mi kbelík.",
+        "en": "Give me the bucket."
+      },
+      "art": "props/bucket",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.bucket.cs",
+        "wordEn": "word.bucket.en",
+        "meaningCs": "meaning.bucket.cs",
+        "meaningEn": "meaning.bucket.en",
+        "phraseCs": "phrase.bucket.cs",
+        "phraseEn": "phrase.bucket.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "net",
+      "cs": "podběrák",
+      "en": "landing net",
+      "meaning": {
+        "cs": "Podběrák pomáhá vytáhnout rybu.",
+        "en": "A landing net helps us lift a fish."
+      },
+      "phrase": {
+        "cs": "Podej mi podběrák.",
+        "en": "Pass me the landing net."
+      },
+      "art": "props/net",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.net.cs",
+        "wordEn": "word.net.en",
+        "meaningCs": "meaning.net.cs",
+        "meaningEn": "meaning.net.en",
+        "phraseCs": "phrase.net.cs",
+        "phraseEn": "phrase.net.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "float",
+      "cs": "splávek",
+      "en": "bobber",
+      "meaning": {
+        "cs": "Splávek plave na hladině.",
+        "en": "A bobber floats on the water."
+      },
+      "phrase": {
+        "cs": "Splávek se hýbe.",
+        "en": "The bobber is moving."
+      },
+      "art": "props/float",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.float.cs",
+        "wordEn": "word.float.en",
+        "meaningCs": "meaning.float.cs",
+        "meaningEn": "meaning.float.en",
+        "phraseCs": "phrase.float.cs",
+        "phraseEn": "phrase.float.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "boot",
+      "cs": "bota",
+      "en": "boot",
+      "meaning": {
+        "cs": "Botu nosíme na noze.",
+        "en": "We wear a boot on our foot."
+      },
+      "phrase": {
+        "cs": "To je bota!",
+        "en": "It is a boot!"
+      },
+      "art": "props/boot",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.boot.cs",
+        "wordEn": "word.boot.en",
+        "meaningCs": "meaning.boot.cs",
+        "meaningEn": "meaning.boot.en",
+        "phraseCs": "phrase.boot.cs",
+        "phraseEn": "phrase.boot.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "key",
+      "cs": "klíč",
+      "en": "key",
+      "meaning": {
+        "cs": "Klíčem odemykáme zámek.",
+        "en": "We use a key to unlock a lock."
+      },
+      "phrase": {
+        "cs": "Našel jsem klíč.",
+        "en": "I found a key."
+      },
+      "art": "props/key",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.key.cs",
+        "wordEn": "word.key.en",
+        "meaningCs": "meaning.key.cs",
+        "meaningEn": "meaning.key.en",
+        "phraseCs": "phrase.key.cs",
+        "phraseEn": "phrase.key.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "cup",
+      "cs": "hrnek",
+      "en": "mug",
+      "meaning": {
+        "cs": "Z hrnku pijeme.",
+        "en": "We drink from a mug."
+      },
+      "phrase": {
+        "cs": "To je hrnek.",
+        "en": "This is a mug."
+      },
+      "art": "props/cup",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.cup.cs",
+        "wordEn": "word.cup.en",
+        "meaningCs": "meaning.cup.cs",
+        "meaningEn": "meaning.cup.en",
+        "phraseCs": "phrase.cup.cs",
+        "phraseEn": "phrase.cup.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "treasure",
+      "cs": "poklad",
+      "en": "treasure",
+      "meaning": {
+        "cs": "Poklad je něco vzácného, co objevíme.",
+        "en": "A treasure is something special we discover."
+      },
+      "phrase": {
+        "cs": "Našel jsem poklad.",
+        "en": "I found a treasure."
+      },
+      "art": "props/treasure",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.treasure.cs",
+        "wordEn": "word.treasure.en",
+        "meaningCs": "meaning.treasure.cs",
+        "meaningEn": "meaning.treasure.en",
+        "phraseCs": "phrase.treasure.cs",
+        "phraseEn": "phrase.treasure.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "bicycle",
+      "cs": "kolo",
+      "en": "bicycle",
+      "meaning": {
+        "cs": "Na kole se vozíme.",
+        "en": "We ride a bicycle."
+      },
+      "phrase": {
+        "cs": "Jedeme na kole.",
+        "en": "We are riding bicycles."
+      },
+      "art": "props/bicycle",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.bicycle.cs",
+        "wordEn": "word.bicycle.en",
+        "meaningCs": "meaning.bicycle.cs",
+        "meaningEn": "meaning.bicycle.en",
+        "phraseCs": "phrase.bicycle.cs",
+        "phraseEn": "phrase.bicycle.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "helmet",
+      "cs": "helma",
+      "en": "helmet",
+      "meaning": {
+        "cs": "Helma chrání hlavu.",
+        "en": "A helmet protects your head."
+      },
+      "phrase": {
+        "cs": "Mám helmu.",
+        "en": "I have my helmet."
+      },
+      "art": "props/helmet",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.helmet.cs",
+        "wordEn": "word.helmet.en",
+        "meaningCs": "meaning.helmet.cs",
+        "meaningEn": "meaning.helmet.en",
+        "phraseCs": "phrase.helmet.cs",
+        "phraseEn": "phrase.helmet.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "magnifier",
+      "cs": "lupa",
+      "en": "magnifying glass",
+      "meaning": {
+        "cs": "Lupa ukáže drobné věci větší.",
+        "en": "A magnifying glass makes small things look bigger."
+      },
+      "phrase": {
+        "cs": "Klárko, podej mi lupu.",
+        "en": "Aunt Klárka, pass me the magnifying glass."
+      },
+      "art": "props/magnifier",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.magnifier.cs",
+        "wordEn": "word.magnifier.en",
+        "meaningCs": "meaning.magnifier.cs",
+        "meaningEn": "meaning.magnifier.en",
+        "phraseCs": "phrase.magnifier.cs",
+        "phraseEn": "phrase.magnifier.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "jar",
+      "cs": "sklenice",
+      "en": "jar",
+      "meaning": {
+        "cs": "Ve sklenici můžeme broučka krátce pozorovat.",
+        "en": "We can briefly observe a bug in an open jar."
+      },
+      "phrase": {
+        "cs": "Broučka zase pustíme.",
+        "en": "We will let the bug go again."
+      },
+      "art": "props/jar",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.jar.cs",
+        "wordEn": "word.jar.en",
+        "meaningCs": "meaning.jar.cs",
+        "meaningEn": "meaning.jar.en",
+        "phraseCs": "phrase.jar.cs",
+        "phraseEn": "phrase.jar.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "apple",
+      "cs": "jablko",
+      "en": "apple",
+      "meaning": {
+        "cs": "Jablko je ovoce a roste na stromě.",
+        "en": "An apple is a fruit that grows on a tree."
+      },
+      "phrase": {
+        "cs": "Chci jablko, prosím.",
+        "en": "I would like an apple, please."
+      },
+      "art": "props/apple",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.apple.cs",
+        "wordEn": "word.apple.en",
+        "meaningCs": "meaning.apple.cs",
+        "meaningEn": "meaning.apple.en",
+        "phraseCs": "phrase.apple.cs",
+        "phraseEn": "phrase.apple.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "leaf",
+      "cs": "list",
+      "en": "leaf",
+      "meaning": {
+        "cs": "List roste na rostlině.",
+        "en": "A leaf grows on a plant."
+      },
+      "phrase": {
+        "cs": "Brouk je pod listem.",
+        "en": "The bug is under the leaf."
+      },
+      "art": "props/leaf",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.leaf.cs",
+        "wordEn": "word.leaf.en",
+        "meaningCs": "meaning.leaf.cs",
+        "meaningEn": "meaning.leaf.en",
+        "phraseCs": "phrase.leaf.cs",
+        "phraseEn": "phrase.leaf.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "stone",
+      "cs": "kámen",
+      "en": "stone",
+      "meaning": {
+        "cs": "Kámen je tvrdý.",
+        "en": "A stone is hard."
+      },
+      "phrase": {
+        "cs": "To je malý kámen.",
+        "en": "This is a small stone."
+      },
+      "art": "props/stone",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.stone.cs",
+        "wordEn": "word.stone.en",
+        "meaningCs": "meaning.stone.cs",
+        "meaningEn": "meaning.stone.en",
+        "phraseCs": "phrase.stone.cs",
+        "phraseEn": "phrase.stone.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "watering-can",
+      "cs": "konev",
+      "en": "watering can",
+      "meaning": {
+        "cs": "Konví zaléváme rostliny.",
+        "en": "We water plants with a watering can."
+      },
+      "phrase": {
+        "cs": "Babi, podej mi konev.",
+        "en": "Grandma, pass me the watering can."
+      },
+      "art": "props/watering-can",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.watering-can.cs",
+        "wordEn": "word.watering-can.en",
+        "meaningCs": "meaning.watering-can.cs",
+        "meaningEn": "meaning.watering-can.en",
+        "phraseCs": "phrase.watering-can.cs",
+        "phraseEn": "phrase.watering-can.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "hello",
+      "cs": "ahoj",
+      "en": "hello",
+      "meaning": {
+        "cs": "Slovem ahoj můžeme někoho pozdravit.",
+        "en": "We can say hello to greet someone."
+      },
+      "phrase": {
+        "cs": "Ahoj, babi!",
+        "en": "Hello, Grandma!"
+      },
+      "art": "family/babi",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.hello.cs",
+        "wordEn": "word.hello.en",
+        "meaningCs": "meaning.hello.cs",
+        "meaningEn": "meaning.hello.en",
+        "phraseCs": "phrase.hello.cs",
+        "phraseEn": "phrase.hello.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "please",
+      "cs": "prosím",
+      "en": "please",
+      "meaning": {
+        "cs": "Prosím říkáme, když o něco žádáme.",
+        "en": "We say please when we ask for something."
+      },
+      "phrase": {
+        "cs": "Prut, prosím.",
+        "en": "The fishing rod, please."
+      },
+      "art": "props/rod",
+      "level": 2,
+      "audio": {
+        "wordCs": "word.please.cs",
+        "wordEn": "word.please.en",
+        "meaningCs": "meaning.please.cs",
+        "meaningEn": "meaning.please.en",
+        "phraseCs": "phrase.please.cs",
+        "phraseEn": "phrase.please.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "thanks",
+      "cs": "děkuji",
+      "en": "thank you",
+      "meaning": {
+        "cs": "Děkuji říkáme, když chceme poděkovat.",
+        "en": "We say thank you to show our thanks."
+      },
+      "phrase": {
+        "cs": "Děkuji, dědo.",
+        "en": "Thank you, Grandpa."
+      },
+      "art": "family/deda",
+      "level": 2,
+      "audio": {
+        "wordCs": "word.thanks.cs",
+        "wordEn": "word.thanks.en",
+        "meaningCs": "meaning.thanks.cs",
+        "meaningEn": "meaning.thanks.en",
+        "phraseCs": "phrase.thanks.cs",
+        "phraseEn": "phrase.thanks.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "big",
+      "cs": "velký",
+      "en": "big",
+      "meaning": {
+        "cs": "Velká ryba je větší než malá ryba.",
+        "en": "A big fish is larger than a small fish."
+      },
+      "phrase": {
+        "cs": "Mám velkou rybu.",
+        "en": "I have a big fish."
+      },
+      "art": "creatures/carp",
+      "level": 2,
+      "audio": {
+        "wordCs": "word.big.cs",
+        "wordEn": "word.big.en",
+        "meaningCs": "meaning.big.cs",
+        "meaningEn": "meaning.big.en",
+        "phraseCs": "phrase.big.cs",
+        "phraseEn": "phrase.big.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "small",
+      "cs": "malý",
+      "en": "small",
+      "meaning": {
+        "cs": "Malý kámen je menší než velký kámen.",
+        "en": "A small stone is smaller than a big stone."
+      },
+      "phrase": {
+        "cs": "To je malý kámen.",
+        "en": "This is a small stone."
+      },
+      "art": "props/stone",
+      "level": 2,
+      "audio": {
+        "wordCs": "word.small.cs",
+        "wordEn": "word.small.en",
+        "meaningCs": "meaning.small.cs",
+        "meaningEn": "meaning.small.en",
+        "phraseCs": "phrase.small.cs",
+        "phraseEn": "phrase.small.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "red",
+      "cs": "červený",
+      "en": "red",
+      "meaning": {
+        "cs": "Toto jablko je červené.",
+        "en": "This apple is red."
+      },
+      "phrase": {
+        "cs": "Vidím červené jablko.",
+        "en": "I see a red apple."
+      },
+      "art": "props/apple",
+      "level": 2,
+      "audio": {
+        "wordCs": "word.red.cs",
+        "wordEn": "word.red.en",
+        "meaningCs": "meaning.red.cs",
+        "meaningEn": "meaning.red.en",
+        "phraseCs": "phrase.red.cs",
+        "phraseEn": "phrase.red.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    },
+    {
+      "id": "blue",
+      "cs": "modrý",
+      "en": "blue",
+      "meaning": {
+        "cs": "Tento kbelík je modrý.",
+        "en": "This bucket is blue."
+      },
+      "phrase": {
+        "cs": "Mám modrý kbelík.",
+        "en": "I have a blue bucket."
+      },
+      "art": "props/bucket",
+      "level": 2,
+      "audio": {
+        "wordCs": "word.blue.cs",
+        "wordEn": "word.blue.en",
+        "meaningCs": "meaning.blue.cs",
+        "meaningEn": "meaning.blue.en",
+        "phraseCs": "phrase.blue.cs",
+        "phraseEn": "phrase.blue.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      }
+    }
+  ]
+}

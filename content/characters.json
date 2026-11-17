@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "characters": [
+    {
+      "id": "adam",
+      "art": "family/adam",
+      "playable": true,
+      "narrator": false,
+      "allowedPhysicalRegions": [
+        "iowa",
+        "pribram",
+        "travel"
+      ]
+    },
+    {
+      "id": "matyas",
+      "art": "family/matyas",
+      "playable": false,
+      "narrator": false,
+      "allowedPhysicalRegions": [
+        "iowa",
+        "pribram",
+        "travel"
+      ]
+    },
+    {
+      "id": "romca",
+      "art": "family/romca",
+      "playable": false,
+      "narrator": true,
+      "allowedPhysicalRegions": [
+        "iowa",
+        "pribram",
+        "travel"
+      ]
+    },
+    {
+      "id": "klarka",
+      "art": "family/klarka",
+      "playable": false,
+      "narrator": false,
+      "allowedPhysicalRegions": [
+        "iowa",
+        "pribram",
+        "travel"
+      ]
+    },
+    {
+      "id": "babi",
+      "art": "family/babi",
+      "playable": false,
+      "narrator": false,
+      "allowedPhysicalRegions": [
+        "pribram"
+      ]
+    },
+    {
+      "id": "deda",
+      "art": "family/deda",
+      "playable": false,
+      "narrator": false,
+      "allowedPhysicalRegions": [
+        "pribram"
+      ]
+    },
+    {
+      "id": "mama",
+      "art": "family/mama",
+      "playable": false,
+      "narrator": false,
+      "allowedPhysicalRegions": [
+        "iowa"
+      ]
+    },
+    {
+      "id": "tata",
+      "art": "family/tata",
+      "playable": false,
+      "narrator": false,
+      "allowedPhysicalRegions": [
+        "iowa"
+      ]
+    }
+  ]
+}

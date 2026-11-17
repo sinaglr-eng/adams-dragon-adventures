@@ -1,0 +1,207 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "art/reference/approved-fishing-concept.png",
+  "jobs": [
+    {
+      "id": "family",
+      "category": "characters",
+      "transparent": true,
+      "cols": 4,
+      "rows": 2,
+      "cells": [
+        "adam",
+        "matyas",
+        "romca",
+        "klarka",
+        "babi",
+        "deda",
+        "mama",
+        "tata"
+      ],
+      "prompt": "Original production artwork for Adamovy dračí výpravy, a preschool Czech-American browser adventure. Match the supplied style reference: richly colored warm gouache storybook painting, rounded friendly 2.5D shapes, visible subtle paper texture, honey sunshine, forest green, turquoise, cornflower blue and apricot, crisp readable silhouettes. No text, lettering, labels, logos, watermarks, UI text, borders around the whole image, or licensed characters. Transparent production character atlas, EXACT 4 columns x 2 rows equal cells, one full-body dragon per cell, centered with 12% clear padding, no overlap, no scenery or ground shadows. Row 1 left to right: Adam older preschool forest-green dragon boy cream belly peach horns blue cap mustard fishing vest; Matyas toddler sky-blue dragon boy tiny peach horns orange overalls noticeably smaller; uncle Romca adult rust-orange dragon cream belly khaki fishing hat olive vest friendly mischievous face; aunt Klarka adult lavender dragon cream belly teal outdoor jacket coral neck scarf magnifying glass. Row 2: grandma elderly dusty-rose dragon round glasses cream cardigan small horns; grandpa elderly sage dragon silver eyebrows brown vest flat cap; mom adult turquoise dragon cream belly coral sweater; dad adult indigo-blue dragon cream belly mustard checked overshirt. All clearly dragons with visible small wings and tails, no humans. Family designs distinct and consistent. Neutral welcoming three-quarter poses. Transparent pixels between characters."
+    },
+    {
+      "id": "adam-poses",
+      "category": "characters",
+      "transparent": true,
+      "cols": 3,
+      "rows": 2,
+      "cells": [
+        "idle",
+        "wave",
+        "listen",
+        "speak",
+        "celebrate",
+        "fish"
+      ],
+      "prompt": "Original production artwork for Adamovy dračí výpravy, a preschool Czech-American browser adventure. Match the supplied style reference: richly colored warm gouache storybook painting, rounded friendly 2.5D shapes, visible subtle paper texture, honey sunshine, forest green, turquoise, cornflower blue and apricot, crisp readable silhouettes. No text, lettering, labels, logos, watermarks, UI text, borders around the whole image, or licensed characters. Transparent pose atlas EXACT 3 columns x 2 rows equal cells of ONE IDENTICAL Adam dragon boy, forest-green scales, cream belly, peach horns, blue cap, mustard fishing vest. Same scale and baseline all cells, 12% empty padding. Row1: neutral idle facing right; waving facing viewer; listening cupped ear eyes attentive. Row2: speaking mouth gently open hand on chest; celebrating both hands up smiling; fishing stance facing right holding small short rod fully inside cell. Full bodies, tails and feet visible, no scenery, no text, no shared items crossing cells. These are discrete poses for tween animation, not a walk cycle."
+    },
+    {
+      "id": "creatures",
+      "category": "collectibles",
+      "transparent": true,
+      "cols": 4,
+      "rows": 3,
+      "cells": [
+        "carp",
+        "perch",
+        "catfish",
+        "pike",
+        "ladybird",
+        "earthworm",
+        "caterpillar",
+        "butterfly",
+        "snail",
+        "ant",
+        "frog",
+        "dragonfly"
+      ],
+      "prompt": "Original production artwork for Adamovy dračí výpravy, a preschool Czech-American browser adventure. Match the supplied style reference: richly colored warm gouache storybook painting, rounded friendly 2.5D shapes, visible subtle paper texture, honey sunshine, forest green, turquoise, cornflower blue and apricot, crisp readable silhouettes. No text, lettering, labels, logos, watermarks, UI text, borders around the whole image, or licensed characters. Transparent natural-history collectible atlas EXACT 4 columns x 3 rows of equal cells, ONE recognizable friendly creature per cell, generous 14% padding. Row1: golden common carp with small barbels; European perch green vertical stripes red lower fins; whiskered freshwater catfish; long slender pike. Row2: red black-spotted ladybird; pink segmented earthworm no legs; green caterpillar many small legs; orange butterfly. Row3: brown spiral-shelled snail; black ant six legs; green frog; blue dragonfly four wings. Attractive plausible anatomy made approachable for children, tiny expressive eyes, no props, no labels. Keep individual silhouettes separate."
+    },
+    {
+      "id": "props",
+      "category": "objects",
+      "transparent": true,
+      "cols": 4,
+      "rows": 4,
+      "cells": [
+        "rod",
+        "bucket",
+        "net",
+        "float",
+        "boot",
+        "key",
+        "cup",
+        "treasure",
+        "bicycle",
+        "helmet",
+        "magnifier",
+        "jar",
+        "apple",
+        "leaf",
+        "stone",
+        "watering-can"
+      ],
+      "prompt": "Original production artwork for Adamovy dračí výpravy, a preschool Czech-American browser adventure. Match the supplied style reference: richly colored warm gouache storybook painting, rounded friendly 2.5D shapes, visible subtle paper texture, honey sunshine, forest green, turquoise, cornflower blue and apricot, crisp readable silhouettes. No text, lettering, labels, logos, watermarks, UI text, borders around the whole image, or licensed characters. Transparent object atlas EXACT 4 columns x 4 rows equal cells, one clear large isolated object per cell, 15% clear margins. Row1 short fishing rod with reel, blue bucket, rounded landing net, red-white fishing float. Row2 old brown boot, brass key, turquoise mug, small open wooden treasure chest with colorful smooth stones. Row3 red child bicycle, blue bicycle helmet, large wooden-handled magnifying glass, open empty observation jar. Row4 red apple, green leaf, rounded grey stone, coral watering can. Consistent storybook game prop scale, no characters, no text. Rod and bicycle fully contained within their cells."
+    },
+    {
+      "id": "badges",
+      "category": "ui",
+      "transparent": true,
+      "cols": 5,
+      "rows": 2,
+      "cells": [
+        "first-catch",
+        "little-creatures",
+        "five-words",
+        "cycling",
+        "speaking-cards",
+        "mechanic",
+        "tell-grandma",
+        "two-languages",
+        "family-team",
+        "romca-adventure"
+      ],
+      "prompt": "Original production artwork for Adamovy dračí výpravy, a preschool Czech-American browser adventure. Match the supplied style reference: richly colored warm gouache storybook painting, rounded friendly 2.5D shapes, visible subtle paper texture, honey sunshine, forest green, turquoise, cornflower blue and apricot, crisp readable silhouettes. No text, lettering, labels, logos, watermarks, UI text, borders around the whole image, or licensed characters. Transparent achievement medal atlas EXACT 5 columns x 2 rows equal cells. Ten distinct warm wooden round badges with embossed painted icons and small colorful ribbons, one per cell, 15% margin. Row1: fish and fishing float; ladybird and leaf; microphone with five tiny stars; bicycle helmet and wheel; three collectible cards with speech bubble. Row2: red toy car and wooden wrench; elderly dragon glasses with heart speech bubble; two overlapping speech bubbles and tiny globe; two dragon footprints with heart; fishing hat and treasure map. No words or numerals. Small-size readable, medium visual detail, no intense glow, no external brand logos."
+    },
+    {
+      "id": "card-frames",
+      "category": "ui",
+      "transparent": true,
+      "cols": 3,
+      "rows": 1,
+      "cells": [
+        "discovered",
+        "understood",
+        "spoken"
+      ],
+      "prompt": "Original production artwork for Adamovy dračí výpravy, a preschool Czech-American browser adventure. Match the supplied style reference: richly colored warm gouache storybook painting, rounded friendly 2.5D shapes, visible subtle paper texture, honey sunshine, forest green, turquoise, cornflower blue and apricot, crisp readable silhouettes. No text, lettering, labels, logos, watermarks, UI text, borders around the whole image, or licensed characters. Transparent UI atlas EXACT 3 columns x 1 row equal cells containing three large portrait collectible card FRAMES, generously spaced and fully visible. Rounded handcrafted cream paper and wood leaf-and-pond design, large empty TRANSPARENT illustration window in upper 65%, blank cream caption area lower 25%, circular empty icon socket lower right. Left: simple light wood discovered frame. Middle: green leaf border understood frame. Right: elegant golden border with small embossed microphone medallion spoken achievement frame. No text no pictures inside windows, no Pokemon visual motifs, consistent frame dimensions, subtle tactile depth. Real alpha in illustration windows and outside frames."
+    },
+    {
+      "id": "pribram-pond",
+      "category": "backgrounds",
+      "transparent": false,
+      "cols": 1,
+      "rows": 1,
+      "cells": [],
+      "prompt": "Original production artwork for Adamovy dračí výpravy, a preschool Czech-American browser adventure. Match the supplied style reference: richly colored warm gouache storybook painting, rounded friendly 2.5D shapes, visible subtle paper texture, honey sunshine, forest green, turquoise, cornflower blue and apricot, crisp readable silhouettes. No text, lettering, labels, logos, watermarks, UI text, borders around the whole image, or licensed characters. Single wide 16:9 playable background of a fictional pond near Pribram in Czech countryside. No characters, fish or UI. Camera at child's eye level slightly raised. Wooden jetty across lower left 35% for character placement, open calm water across center and right lower half for fishing interactions, reeds at far right edge, willow tree at left, soft wooded Brdy-like hills and small distant Czech cottage. Keep middle open and readable, foreground occupies lower 20%, sky upper 20%. Beautiful full bleed game environment."
+    },
+    {
+      "id": "pribram-home",
+      "category": "backgrounds",
+      "transparent": false,
+      "cols": 1,
+      "rows": 1,
+      "cells": [],
+      "prompt": "Original production artwork for Adamovy dračí výpravy, a preschool Czech-American browser adventure. Match the supplied style reference: richly colored warm gouache storybook painting, rounded friendly 2.5D shapes, visible subtle paper texture, honey sunshine, forest green, turquoise, cornflower blue and apricot, crisp readable silhouettes. No text, lettering, labels, logos, watermarks, UI text, borders around the whole image, or licensed characters. Single wide 16:9 playable background: grandparents' welcoming fictional Czech house and garden in Pribram, red tile roof, cream facade, apple tree, modest greenhouse, small workshop entrance on right. No people or dragons. Broad uncluttered lawn and stone path in lower half for characters and activities, picnic bench left edge, flower beds framing edges. Not a geographical reconstruction or real address. Warm sunny afternoon, full bleed."
+    },
+    {
+      "id": "iowa-home",
+      "category": "backgrounds",
+      "transparent": false,
+      "cols": 1,
+      "rows": 1,
+      "cells": [],
+      "prompt": "Original production artwork for Adamovy dračí výpravy, a preschool Czech-American browser adventure. Match the supplied style reference: richly colored warm gouache storybook painting, rounded friendly 2.5D shapes, visible subtle paper texture, honey sunshine, forest green, turquoise, cornflower blue and apricot, crisp readable silhouettes. No text, lettering, labels, logos, watermarks, UI text, borders around the whole image, or licensed characters. Single wide 16:9 playable background: Adam's fictional family home in Iowa, friendly white two-story wood-sided house with blue trim and front porch, maple tree, distant red barn and cornfields, expansive Midwest sky. No people or dragons. Clear broad lawn and curved path across foreground for Mom Dad Adam characters, bicycle shed at side. Cozy lived-in storybook home, not a real address, full bleed."
+    },
+    {
+      "id": "iowa-lake",
+      "category": "backgrounds",
+      "transparent": false,
+      "cols": 1,
+      "rows": 1,
+      "cells": [],
+      "prompt": "Original production artwork for Adamovy dračí výpravy, a preschool Czech-American browser adventure. Match the supplied style reference: richly colored warm gouache storybook painting, rounded friendly 2.5D shapes, visible subtle paper texture, honey sunshine, forest green, turquoise, cornflower blue and apricot, crisp readable silhouettes. No text, lettering, labels, logos, watermarks, UI text, borders around the whole image, or licensed characters. Single wide 16:9 playable background: peaceful fictional Iowa freshwater lake, wooden fishing platform lower right, open blue-green water center and lower left, cottonwood trees, far red barn and cornfields under broad soft cloud sky, tiny picnic area on distant bank. No characters, creatures, equipment, UI. Clear lower foreground for separately placed characters, uncluttered fishing area, full bleed."
+    },
+    {
+      "id": "meadow-trail",
+      "category": "backgrounds",
+      "transparent": false,
+      "cols": 1,
+      "rows": 1,
+      "cells": [],
+      "prompt": "Original production artwork for Adamovy dračí výpravy, a preschool Czech-American browser adventure. Match the supplied style reference: richly colored warm gouache storybook painting, rounded friendly 2.5D shapes, visible subtle paper texture, honey sunshine, forest green, turquoise, cornflower blue and apricot, crisp readable silhouettes. No text, lettering, labels, logos, watermarks, UI text, borders around the whole image, or licensed characters. Single wide 16:9 playable background for cycling and bug discovery: gentle winding bicycle path crossing a sunny meadow from lower left toward upper right, large foreground leaves and flowers at outer edges, a flat pale stone and small log at edge of grass, rolling green hills, open center where collectible insects and dragon characters can be placed. No creatures or bikes baked into art. Readable path, charming tiny environmental details at edges, full bleed."
+    },
+    {
+      "id": "grandpa-workshop",
+      "category": "backgrounds",
+      "transparent": false,
+      "cols": 1,
+      "rows": 1,
+      "cells": [],
+      "prompt": "Original production artwork for Adamovy dračí výpravy, a preschool Czech-American browser adventure. Match the supplied style reference: richly colored warm gouache storybook painting, rounded friendly 2.5D shapes, visible subtle paper texture, honey sunshine, forest green, turquoise, cornflower blue and apricot, crisp readable silhouettes. No text, lettering, labels, logos, watermarks, UI text, borders around the whole image, or licensed characters. Single wide 16:9 playable interior background for grandpa dragon's workshop in Pribram. Cozy wood beams, round window to sunny Czech garden, broad empty child-height workbench across middle, simple empty tool pegs and shelves on back wall, space on lower floor for characters and a child bicycle to be added later. No characters, no selectable tools baked into art, no machinery hazards. Warm wood grain, teal cabinets, amber daylight, full bleed."
+    },
+    {
+      "id": "world-map",
+      "category": "backgrounds",
+      "transparent": false,
+      "cols": 1,
+      "rows": 1,
+      "cells": [],
+      "prompt": "Original production artwork for Adamovy dračí výpravy, a preschool Czech-American browser adventure. Match the supplied style reference: richly colored warm gouache storybook painting, rounded friendly 2.5D shapes, visible subtle paper texture, honey sunshine, forest green, turquoise, cornflower blue and apricot, crisp readable silhouettes. No text, lettering, labels, logos, watermarks, UI text, borders around the whole image, or licensed characters. Single wide 16:9 illustrated navigation background, a STORYBOOK TWO-PAGE OPEN ATLAS laid almost flat. Left page is a charming miniature Iowa region with white family house, red barn, lake, winding cycle trail, cornfield. Right page is a charming miniature Czech Pribram region with red-roof grandparents house, fishing pond, workshop, forest meadow, gentle hills. A dotted flight path with small toy plane connects pages near top. Leave lower center of each page open for interactive location buttons. No text no flags no labels no characters. This is a fantasy travel map not a geographically accurate map."
+    },
+    {
+      "id": "cover",
+      "category": "marketing",
+      "transparent": false,
+      "cols": 1,
+      "rows": 1,
+      "cells": [],
+      "prompt": "Original production artwork for Adamovy dračí výpravy, a preschool Czech-American browser adventure. Match the supplied style reference: richly colored warm gouache storybook painting, rounded friendly 2.5D shapes, visible subtle paper texture, honey sunshine, forest green, turquoise, cornflower blue and apricot, crisp readable silhouettes. No text, lettering, labels, logos, watermarks, UI text, borders around the whole image, or licensed characters. Single wide 16:9 premium key art for the game. Adam forest-green dragon boy blue cap mustard fishing vest is the large central hero, joyfully holding a fishing rod and his open collectible atlas. Younger smaller sky-blue Matyas orange overalls peeks behind him. Uncle Romca rust-orange dragon fishing hat and aunt Klarka lavender dragon teal jacket coral scarf are supportive smaller figures behind him. Left background Iowa house and red barn, right Czech red-roof cottage and pond, charming leaf and card motifs. Upper quarter mostly calm clear blue sky left blank for real typographic game title to be overlaid later. No words no logos. Strong joyous cinematic composition, reassuring expressive faces, not busy."
+    },
+    {
+      "id": "adam-actions",
+      "category": "characters",
+      "transparent": true,
+      "cols": 2,
+      "rows": 2,
+      "cells": [
+        "cycling",
+        "landing-net",
+        "magnifier",
+        "atlas"
+      ],
+      "prompt": "Original production sprite atlas for Adamovy dračí výpravy. Match Adam exactly from the supplied character reference: forest-green preschool boy dragon, cream belly, peach horns, mustard fishing vest, expressive eyes. EXACT 2 columns x 2 rows equal cells, 12% empty transparent margins, whole figures and equipment contained within each cell. Top left: Adam riding a small red child bicycle to the right, wearing a blue bicycle HELMET instead of cap, both hands on handlebars, fully visible bicycle wheels. Top right: Adam in blue cap holding a rounded landing net to help catch fish. Bottom left: Adam in blue cap kneeling and examining a tiny ladybird through a magnifying glass. Bottom right: Adam in blue cap proudly holding an open illustrated collectible atlas with blank small card slots, no letters. Identical character proportions, separate discrete action poses. Warm polished gouache storybook painting, crisp readable silhouettes, no ground plane, no background, no text, no shadows around the whole cell. Truly transparent alpha outside characters and props, generous clear gutters."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "created": "2026-11-17",
+  "assets": [
+    {
+      "id": "family",
+      "path": "art/source/family.png",
+      "tool": "built-in image_gen",
+      "sourceFilename": "exec-08f9e83a-869c-40f4-9a17-33f64c0ff2fc.png",
+      "promptFile": "art/generation-prompts.json",
+      "revision": null
+    },
+    {
+      "id": "adam-poses",
+      "path": "art/source/adam-poses.png",
+      "tool": "built-in image_gen",
+      "sourceFilename": "exec-d8860388-0026-485b-ba0a-e70927745f8b.png",
+      "promptFile": "art/generation-prompts.json",
+      "revision": "art/generation-revisions.json"
+    },
+    {
+      "id": "creatures",
+      "path": "art/source/creatures.png",
+      "tool": "built-in image_gen",
+      "sourceFilename": "exec-c26fe025-9784-4194-bfa1-a0ad3315a930.png",
+      "promptFile": "art/generation-prompts.json",
+      "revision": null
+    },
+    {
+      "id": "props",
+      "path": "art/source/props.png",
+      "tool": "built-in image_gen",
+      "sourceFilename": "exec-76c1c273-6ba0-46b9-8767-c1ade4e7d5a8.png",
+      "promptFile": "art/generation-prompts.json",
+      "revision": null
+    },
+    {
+      "id": "badges",
+      "path": "art/source/badges.png",
+      "tool": "built-in image_gen",
+      "sourceFilename": "exec-162f5943-b7a2-4f99-a727-e89365bf93bd.png",
+      "promptFile": "art/generation-prompts.json",
+      "revision": "art/generation-revisions.json"
+    },
+    {
+      "id": "card-frames",
+      "path": "art/source/card-frames.png",
+      "tool": "built-in image_gen",
+      "sourceFilename": "exec-3bf6e9c2-bfdf-478e-8940-0cd1cc67742d.png",
+      "promptFile": "art/generation-prompts.json",
+      "revision": null
+    },
+    {
+      "id": "pribram-pond",
+      "path": "art/source/pribram-pond.png",
+      "tool": "built-in image_gen",
+      "sourceFilename": "exec-6167b751-b7f3-48f8-a55c-8a74e584c8f7.png",
+      "promptFile": "art/generation-prompts.json",
+      "revision": null
+    },
+    {
+      "id": "pribram-home",
+      "path": "art/source/pribram-home.png",
+      "tool": "built-in image_gen",
+      "sourceFilename": "exec-bd892edf-fef5-468b-9eff-abb71a867ce7.png",
+      "promptFile": "art/generation-prompts.json",
+      "revision": null
+    },
+    {
+      "id": "iowa-home",
+      "path": "art/source/iowa-home.png",
+      "tool": "built-in image_gen",
+      "sourceFilename": "exec-dda4ccf4-45eb-4da8-b553-67b264783db1.png",
+      "promptFile": "art/generation-prompts.json",
+      "revision": null
+    },
+    {
+      "id": "iowa-lake",
+      "path": "art/source/iowa-lake.png",
+      "tool": "built-in image_gen",
+      "sourceFilename": "exec-d72f6bd5-2e8b-446e-ab15-10ba6c5337e2.png",
+      "promptFile": "art/generation-prompts.json",
+      "revision": null
+    },
+    {
+      "id": "meadow-trail",
+      "path": "art/source/meadow-trail.png",
+      "tool": "built-in image_gen",
+      "sourceFilename": "exec-65a35be7-8b05-473c-92ed-3342709a0c28.png",
+      "promptFile": "art/generation-prompts.json",
+      "revision": null
+    },
+    {
+      "id": "grandpa-workshop",
+      "path": "art/source/grandpa-workshop.png",
+      "tool": "built-in image_gen",
+      "sourceFilename": "exec-f8b83fcb-8efa-4ef3-8a7f-cad12e913347.png",
+      "promptFile": "art/generation-prompts.json",
+      "revision": null
+    },
+    {
+      "id": "world-map",
+      "path": "art/source/world-map.png",
+      "tool": "built-in image_gen",
+      "sourceFilename": "exec-ef4d6894-770b-47c1-81bc-8ebde89e1cd7.png",
+      "promptFile": "art/generation-prompts.json",
+      "revision": null
+    },
+    {
+      "id": "cover",
+      "path": "art/source/cover.png",
+      "tool": "built-in image_gen",
+      "sourceFilename": "exec-6bc5a3db-2844-41f8-964d-18d6aa73b39e.png",
+      "promptFile": "art/generation-prompts.json",
+      "revision": null
+    },
+    {
+      "id": "adam-actions",
+      "path": "art/source/adam-actions.png",
+      "tool": "built-in image_gen",
+      "sourceFilename": "exec-85f4245b-4362-4f85-9d7f-4c47c188b173.png",
+      "promptFile": "art/generation-prompts.json",
+      "revision": null
+    }
+  ]
+}
