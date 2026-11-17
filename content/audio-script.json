@@ -1,1942 +1,1942 @@
 {
   "schemaVersion": 1,
-  "note": "Scénář, nikoli vyrobené audio. Před vydáním jazyková a výslovnostní kontrola.",
+  "note": "Scénář a vyrobené MP3. Úplná poslechová kontrola rodilým dospělým zatím neproběhla; viz content/audio-batches/all.json.",
   "lines": [
     {
       "id": "word.fish.cs",
       "locale": "cs-CZ",
       "text": "ryba",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.fish.cs.mp3"
     },
     {
       "id": "meaning.fish.cs",
       "locale": "cs-CZ",
       "text": "Ryba plave ve vodě.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.fish.cs.mp3"
     },
     {
       "id": "phrase.fish.cs",
       "locale": "cs-CZ",
       "text": "Mám rybu.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.fish.cs.mp3"
     },
     {
       "id": "word.fish.en",
       "locale": "en-US",
       "text": "fish",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.fish.en.mp3"
     },
     {
       "id": "meaning.fish.en",
       "locale": "en-US",
       "text": "A fish swims in water.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.fish.en.mp3"
     },
     {
       "id": "phrase.fish.en",
       "locale": "en-US",
       "text": "I have a fish.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.fish.en.mp3"
     },
     {
       "id": "word.carp.cs",
       "locale": "cs-CZ",
       "text": "kapr",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.carp.cs.mp3"
     },
     {
       "id": "meaning.carp.cs",
       "locale": "cs-CZ",
       "text": "Kapr je ryba.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.carp.cs.mp3"
     },
     {
       "id": "phrase.carp.cs",
       "locale": "cs-CZ",
       "text": "Vidím kapra.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.carp.cs.mp3"
     },
     {
       "id": "word.carp.en",
       "locale": "en-US",
       "text": "carp",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.carp.en.mp3"
     },
     {
       "id": "meaning.carp.en",
       "locale": "en-US",
       "text": "A carp is a fish.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.carp.en.mp3"
     },
     {
       "id": "phrase.carp.en",
       "locale": "en-US",
       "text": "I see a carp.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.carp.en.mp3"
     },
     {
       "id": "word.perch.cs",
       "locale": "cs-CZ",
       "text": "okoun",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.perch.cs.mp3"
     },
     {
       "id": "meaning.perch.cs",
       "locale": "cs-CZ",
       "text": "Okoun má na těle pruhy.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.perch.cs.mp3"
     },
     {
       "id": "phrase.perch.cs",
       "locale": "cs-CZ",
       "text": "To je okoun.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.perch.cs.mp3"
     },
     {
       "id": "word.perch.en",
       "locale": "en-US",
       "text": "perch",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.perch.en.mp3"
     },
     {
       "id": "meaning.perch.en",
       "locale": "en-US",
       "text": "A perch has stripes on its body.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.perch.en.mp3"
     },
     {
       "id": "phrase.perch.en",
       "locale": "en-US",
       "text": "This is a perch.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.perch.en.mp3"
     },
     {
       "id": "word.catfish.cs",
       "locale": "cs-CZ",
       "text": "sumec",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.catfish.cs.mp3"
     },
     {
       "id": "meaning.catfish.cs",
       "locale": "cs-CZ",
       "text": "Sumec má vousky.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.catfish.cs.mp3"
     },
     {
       "id": "phrase.catfish.cs",
       "locale": "cs-CZ",
       "text": "Vidím sumce.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.catfish.cs.mp3"
     },
     {
       "id": "word.catfish.en",
       "locale": "en-US",
       "text": "catfish",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.catfish.en.mp3"
     },
     {
       "id": "meaning.catfish.en",
       "locale": "en-US",
       "text": "A catfish has whiskers.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.catfish.en.mp3"
     },
     {
       "id": "phrase.catfish.en",
       "locale": "en-US",
       "text": "I see a catfish.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.catfish.en.mp3"
     },
     {
       "id": "word.pike.cs",
       "locale": "cs-CZ",
       "text": "štika",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.pike.cs.mp3"
     },
     {
       "id": "meaning.pike.cs",
       "locale": "cs-CZ",
       "text": "Štika má dlouhé tělo.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.pike.cs.mp3"
     },
     {
       "id": "phrase.pike.cs",
       "locale": "cs-CZ",
       "text": "To je štika.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.pike.cs.mp3"
     },
     {
       "id": "word.pike.en",
       "locale": "en-US",
       "text": "pike",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.pike.en.mp3"
     },
     {
       "id": "meaning.pike.en",
       "locale": "en-US",
       "text": "A pike has a long body.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.pike.en.mp3"
     },
     {
       "id": "phrase.pike.en",
       "locale": "en-US",
       "text": "This is a pike.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.pike.en.mp3"
     },
     {
       "id": "word.earthworm.cs",
       "locale": "cs-CZ",
       "text": "žížala",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.earthworm.cs.mp3"
     },
     {
       "id": "meaning.earthworm.cs",
       "locale": "cs-CZ",
       "text": "Žížala žije v půdě.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.earthworm.cs.mp3"
     },
     {
       "id": "phrase.earthworm.cs",
       "locale": "cs-CZ",
       "text": "Našel jsem žížalu.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.earthworm.cs.mp3"
     },
     {
       "id": "word.earthworm.en",
       "locale": "en-US",
       "text": "earthworm",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.earthworm.en.mp3"
     },
     {
       "id": "meaning.earthworm.en",
       "locale": "en-US",
       "text": "An earthworm lives in soil.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.earthworm.en.mp3"
     },
     {
       "id": "phrase.earthworm.en",
       "locale": "en-US",
       "text": "I found an earthworm.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.earthworm.en.mp3"
     },
     {
       "id": "word.ladybird.cs",
       "locale": "cs-CZ",
       "text": "beruška",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.ladybird.cs.mp3"
     },
     {
       "id": "meaning.ladybird.cs",
       "locale": "cs-CZ",
       "text": "Beruška je malý brouk.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.ladybird.cs.mp3"
     },
     {
       "id": "phrase.ladybird.cs",
       "locale": "cs-CZ",
       "text": "Vidím berušku.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.ladybird.cs.mp3"
     },
     {
       "id": "word.ladybird.en",
       "locale": "en-US",
       "text": "ladybug",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.ladybird.en.mp3"
     },
     {
       "id": "meaning.ladybird.en",
       "locale": "en-US",
       "text": "A ladybug is a small beetle.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.ladybird.en.mp3"
     },
     {
       "id": "phrase.ladybird.en",
       "locale": "en-US",
       "text": "I see a ladybug.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.ladybird.en.mp3"
     },
     {
       "id": "word.caterpillar.cs",
       "locale": "cs-CZ",
       "text": "housenka",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.caterpillar.cs.mp3"
     },
     {
       "id": "meaning.caterpillar.cs",
       "locale": "cs-CZ",
       "text": "Housenka leze po listu.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.caterpillar.cs.mp3"
     },
     {
       "id": "phrase.caterpillar.cs",
       "locale": "cs-CZ",
       "text": "To je housenka.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.caterpillar.cs.mp3"
     },
     {
       "id": "word.caterpillar.en",
       "locale": "en-US",
       "text": "caterpillar",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.caterpillar.en.mp3"
     },
     {
       "id": "meaning.caterpillar.en",
       "locale": "en-US",
       "text": "A caterpillar crawls on a leaf.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.caterpillar.en.mp3"
     },
     {
       "id": "phrase.caterpillar.en",
       "locale": "en-US",
       "text": "This is a caterpillar.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.caterpillar.en.mp3"
     },
     {
       "id": "word.butterfly.cs",
       "locale": "cs-CZ",
       "text": "motýl",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.butterfly.cs.mp3"
     },
     {
       "id": "meaning.butterfly.cs",
       "locale": "cs-CZ",
       "text": "Motýl má křídla.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.butterfly.cs.mp3"
     },
     {
       "id": "phrase.butterfly.cs",
       "locale": "cs-CZ",
       "text": "Motýl létá.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.butterfly.cs.mp3"
     },
     {
       "id": "word.butterfly.en",
       "locale": "en-US",
       "text": "butterfly",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.butterfly.en.mp3"
     },
     {
       "id": "meaning.butterfly.en",
       "locale": "en-US",
       "text": "A butterfly has wings.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.butterfly.en.mp3"
     },
     {
       "id": "phrase.butterfly.en",
       "locale": "en-US",
       "text": "The butterfly flies.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.butterfly.en.mp3"
     },
     {
       "id": "word.snail.cs",
       "locale": "cs-CZ",
       "text": "hlemýžď",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.snail.cs.mp3"
     },
     {
       "id": "meaning.snail.cs",
       "locale": "cs-CZ",
       "text": "Hlemýžď má ulitu.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.snail.cs.mp3"
     },
     {
       "id": "phrase.snail.cs",
       "locale": "cs-CZ",
       "text": "Vidím hlemýždě.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.snail.cs.mp3"
     },
     {
       "id": "word.snail.en",
       "locale": "en-US",
       "text": "snail",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.snail.en.mp3"
     },
     {
       "id": "meaning.snail.en",
       "locale": "en-US",
       "text": "A snail has a shell.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.snail.en.mp3"
     },
     {
       "id": "phrase.snail.en",
       "locale": "en-US",
       "text": "I see a snail.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.snail.en.mp3"
     },
     {
       "id": "word.ant.cs",
       "locale": "cs-CZ",
       "text": "mravenec",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.ant.cs.mp3"
     },
     {
       "id": "meaning.ant.cs",
       "locale": "cs-CZ",
       "text": "Mravenec má šest nohou.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.ant.cs.mp3"
     },
     {
       "id": "phrase.ant.cs",
       "locale": "cs-CZ",
       "text": "Mravenec leze.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.ant.cs.mp3"
     },
     {
       "id": "word.ant.en",
       "locale": "en-US",
       "text": "ant",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.ant.en.mp3"
     },
     {
       "id": "meaning.ant.en",
       "locale": "en-US",
       "text": "An ant has six legs.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.ant.en.mp3"
     },
     {
       "id": "phrase.ant.en",
       "locale": "en-US",
       "text": "The ant crawls.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.ant.en.mp3"
     },
     {
       "id": "word.frog.cs",
       "locale": "cs-CZ",
       "text": "žába",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.frog.cs.mp3"
     },
     {
       "id": "meaning.frog.cs",
       "locale": "cs-CZ",
       "text": "Žába umí skákat.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.frog.cs.mp3"
     },
     {
       "id": "phrase.frog.cs",
       "locale": "cs-CZ",
       "text": "Žába skáče.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.frog.cs.mp3"
     },
     {
       "id": "word.frog.en",
       "locale": "en-US",
       "text": "frog",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.frog.en.mp3"
     },
     {
       "id": "meaning.frog.en",
       "locale": "en-US",
       "text": "A frog can jump.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.frog.en.mp3"
     },
     {
       "id": "phrase.frog.en",
       "locale": "en-US",
       "text": "The frog jumps.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.frog.en.mp3"
     },
     {
       "id": "word.dragonfly.cs",
       "locale": "cs-CZ",
       "text": "vážka",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.dragonfly.cs.mp3"
     },
     {
       "id": "meaning.dragonfly.cs",
       "locale": "cs-CZ",
       "text": "Vážka létá nad vodou.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.dragonfly.cs.mp3"
     },
     {
       "id": "phrase.dragonfly.cs",
       "locale": "cs-CZ",
       "text": "Vidím vážku.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.dragonfly.cs.mp3"
     },
     {
       "id": "word.dragonfly.en",
       "locale": "en-US",
       "text": "dragonfly",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.dragonfly.en.mp3"
     },
     {
       "id": "meaning.dragonfly.en",
       "locale": "en-US",
       "text": "A dragonfly flies over the water.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.dragonfly.en.mp3"
     },
     {
       "id": "phrase.dragonfly.en",
       "locale": "en-US",
       "text": "I see a dragonfly.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.dragonfly.en.mp3"
     },
     {
       "id": "word.rod.cs",
       "locale": "cs-CZ",
       "text": "prut",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.rod.cs.mp3"
     },
     {
       "id": "meaning.rod.cs",
       "locale": "cs-CZ",
       "text": "Prut používáme k chytání ryb.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.rod.cs.mp3"
     },
     {
       "id": "phrase.rod.cs",
       "locale": "cs-CZ",
       "text": "Romčo, podej mi prut.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.rod.cs.mp3"
     },
     {
       "id": "word.rod.en",
       "locale": "en-US",
       "text": "fishing rod",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.rod.en.mp3"
     },
     {
       "id": "meaning.rod.en",
       "locale": "en-US",
       "text": "We use a fishing rod to catch fish.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.rod.en.mp3"
     },
     {
       "id": "phrase.rod.en",
       "locale": "en-US",
       "text": "Uncle Romča, pass me the fishing rod.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.rod.en.mp3"
     },
     {
       "id": "word.bucket.cs",
       "locale": "cs-CZ",
       "text": "kbelík",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.bucket.cs.mp3"
     },
     {
       "id": "meaning.bucket.cs",
       "locale": "cs-CZ",
       "text": "Do kbelíku můžeme nalít vodu.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.bucket.cs.mp3"
     },
     {
       "id": "phrase.bucket.cs",
       "locale": "cs-CZ",
       "text": "Dej mi kbelík.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.bucket.cs.mp3"
     },
     {
       "id": "word.bucket.en",
       "locale": "en-US",
       "text": "bucket",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.bucket.en.mp3"
     },
     {
       "id": "meaning.bucket.en",
       "locale": "en-US",
       "text": "We can put water in a bucket.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.bucket.en.mp3"
     },
     {
       "id": "phrase.bucket.en",
       "locale": "en-US",
       "text": "Give me the bucket.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.bucket.en.mp3"
     },
     {
       "id": "word.net.cs",
       "locale": "cs-CZ",
       "text": "podběrák",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.net.cs.mp3"
     },
     {
       "id": "meaning.net.cs",
       "locale": "cs-CZ",
       "text": "Podběrák pomáhá vytáhnout rybu.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.net.cs.mp3"
     },
     {
       "id": "phrase.net.cs",
       "locale": "cs-CZ",
       "text": "Podej mi podběrák.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.net.cs.mp3"
     },
     {
       "id": "word.net.en",
       "locale": "en-US",
       "text": "landing net",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.net.en.mp3"
     },
     {
       "id": "meaning.net.en",
       "locale": "en-US",
       "text": "A landing net helps us lift a fish.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.net.en.mp3"
     },
     {
       "id": "phrase.net.en",
       "locale": "en-US",
       "text": "Pass me the landing net.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.net.en.mp3"
     },
     {
       "id": "word.float.cs",
       "locale": "cs-CZ",
       "text": "splávek",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.float.cs.mp3"
     },
     {
       "id": "meaning.float.cs",
       "locale": "cs-CZ",
       "text": "Splávek plave na hladině.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.float.cs.mp3"
     },
     {
       "id": "phrase.float.cs",
       "locale": "cs-CZ",
       "text": "Splávek se hýbe.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.float.cs.mp3"
     },
     {
       "id": "word.float.en",
       "locale": "en-US",
       "text": "bobber",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.float.en.mp3"
     },
     {
       "id": "meaning.float.en",
       "locale": "en-US",
       "text": "A bobber floats on the water.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.float.en.mp3"
     },
     {
       "id": "phrase.float.en",
       "locale": "en-US",
       "text": "The bobber is moving.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.float.en.mp3"
     },
     {
       "id": "word.boot.cs",
       "locale": "cs-CZ",
       "text": "bota",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.boot.cs.mp3"
     },
     {
       "id": "meaning.boot.cs",
       "locale": "cs-CZ",
       "text": "Botu nosíme na noze.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.boot.cs.mp3"
     },
     {
       "id": "phrase.boot.cs",
       "locale": "cs-CZ",
       "text": "To je bota!",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.boot.cs.mp3"
     },
     {
       "id": "word.boot.en",
       "locale": "en-US",
       "text": "boot",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.boot.en.mp3"
     },
     {
       "id": "meaning.boot.en",
       "locale": "en-US",
       "text": "We wear a boot on our foot.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.boot.en.mp3"
     },
     {
       "id": "phrase.boot.en",
       "locale": "en-US",
       "text": "It is a boot!",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.boot.en.mp3"
     },
     {
       "id": "word.key.cs",
       "locale": "cs-CZ",
       "text": "klíč",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.key.cs.mp3"
     },
     {
       "id": "meaning.key.cs",
       "locale": "cs-CZ",
       "text": "Klíčem odemykáme zámek.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.key.cs.mp3"
     },
     {
       "id": "phrase.key.cs",
       "locale": "cs-CZ",
       "text": "Našel jsem klíč.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.key.cs.mp3"
     },
     {
       "id": "word.key.en",
       "locale": "en-US",
       "text": "key",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.key.en.mp3"
     },
     {
       "id": "meaning.key.en",
       "locale": "en-US",
       "text": "We use a key to unlock a lock.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.key.en.mp3"
     },
     {
       "id": "phrase.key.en",
       "locale": "en-US",
       "text": "I found a key.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.key.en.mp3"
     },
     {
       "id": "word.cup.cs",
       "locale": "cs-CZ",
       "text": "hrnek",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.cup.cs.mp3"
     },
     {
       "id": "meaning.cup.cs",
       "locale": "cs-CZ",
       "text": "Z hrnku pijeme.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.cup.cs.mp3"
     },
     {
       "id": "phrase.cup.cs",
       "locale": "cs-CZ",
       "text": "To je hrnek.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.cup.cs.mp3"
     },
     {
       "id": "word.cup.en",
       "locale": "en-US",
       "text": "mug",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.cup.en.mp3"
     },
     {
       "id": "meaning.cup.en",
       "locale": "en-US",
       "text": "We drink from a mug.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.cup.en.mp3"
     },
     {
       "id": "phrase.cup.en",
       "locale": "en-US",
       "text": "This is a mug.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.cup.en.mp3"
     },
     {
       "id": "word.treasure.cs",
       "locale": "cs-CZ",
       "text": "poklad",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.treasure.cs.mp3"
     },
     {
       "id": "meaning.treasure.cs",
       "locale": "cs-CZ",
       "text": "Poklad je něco vzácného, co objevíme.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.treasure.cs.mp3"
     },
     {
       "id": "phrase.treasure.cs",
       "locale": "cs-CZ",
       "text": "Našel jsem poklad.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.treasure.cs.mp3"
     },
     {
       "id": "word.treasure.en",
       "locale": "en-US",
       "text": "treasure",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.treasure.en.mp3"
     },
     {
       "id": "meaning.treasure.en",
       "locale": "en-US",
       "text": "A treasure is something special we discover.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.treasure.en.mp3"
     },
     {
       "id": "phrase.treasure.en",
       "locale": "en-US",
       "text": "I found a treasure.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.treasure.en.mp3"
     },
     {
       "id": "word.bicycle.cs",
       "locale": "cs-CZ",
       "text": "kolo",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.bicycle.cs.mp3"
     },
     {
       "id": "meaning.bicycle.cs",
       "locale": "cs-CZ",
       "text": "Na kole se vozíme.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.bicycle.cs.mp3"
     },
     {
       "id": "phrase.bicycle.cs",
       "locale": "cs-CZ",
       "text": "Jedeme na kole.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.bicycle.cs.mp3"
     },
     {
       "id": "word.bicycle.en",
       "locale": "en-US",
       "text": "bicycle",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.bicycle.en.mp3"
     },
     {
       "id": "meaning.bicycle.en",
       "locale": "en-US",
       "text": "We ride a bicycle.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.bicycle.en.mp3"
     },
     {
       "id": "phrase.bicycle.en",
       "locale": "en-US",
       "text": "We are riding bicycles.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.bicycle.en.mp3"
     },
     {
       "id": "word.helmet.cs",
       "locale": "cs-CZ",
       "text": "helma",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.helmet.cs.mp3"
     },
     {
       "id": "meaning.helmet.cs",
       "locale": "cs-CZ",
       "text": "Helma chrání hlavu.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.helmet.cs.mp3"
     },
     {
       "id": "phrase.helmet.cs",
       "locale": "cs-CZ",
       "text": "Mám helmu.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.helmet.cs.mp3"
     },
     {
       "id": "word.helmet.en",
       "locale": "en-US",
       "text": "helmet",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.helmet.en.mp3"
     },
     {
       "id": "meaning.helmet.en",
       "locale": "en-US",
       "text": "A helmet protects your head.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.helmet.en.mp3"
     },
     {
       "id": "phrase.helmet.en",
       "locale": "en-US",
       "text": "I have my helmet.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.helmet.en.mp3"
     },
     {
       "id": "word.magnifier.cs",
       "locale": "cs-CZ",
       "text": "lupa",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.magnifier.cs.mp3"
     },
     {
       "id": "meaning.magnifier.cs",
       "locale": "cs-CZ",
       "text": "Lupa ukáže drobné věci větší.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.magnifier.cs.mp3"
     },
     {
       "id": "phrase.magnifier.cs",
       "locale": "cs-CZ",
       "text": "Klárko, podej mi lupu.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.magnifier.cs.mp3"
     },
     {
       "id": "word.magnifier.en",
       "locale": "en-US",
       "text": "magnifying glass",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.magnifier.en.mp3"
     },
     {
       "id": "meaning.magnifier.en",
       "locale": "en-US",
       "text": "A magnifying glass makes small things look bigger.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.magnifier.en.mp3"
     },
     {
       "id": "phrase.magnifier.en",
       "locale": "en-US",
       "text": "Aunt Klárka, pass me the magnifying glass.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.magnifier.en.mp3"
     },
     {
       "id": "word.jar.cs",
       "locale": "cs-CZ",
       "text": "sklenice",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.jar.cs.mp3"
     },
     {
       "id": "meaning.jar.cs",
       "locale": "cs-CZ",
       "text": "Ve sklenici můžeme broučka krátce pozorovat.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.jar.cs.mp3"
     },
     {
       "id": "phrase.jar.cs",
       "locale": "cs-CZ",
       "text": "Broučka zase pustíme.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.jar.cs.mp3"
     },
     {
       "id": "word.jar.en",
       "locale": "en-US",
       "text": "jar",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.jar.en.mp3"
     },
     {
       "id": "meaning.jar.en",
       "locale": "en-US",
       "text": "We can briefly observe a bug in an open jar.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.jar.en.mp3"
     },
     {
       "id": "phrase.jar.en",
       "locale": "en-US",
       "text": "We will let the bug go again.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.jar.en.mp3"
     },
     {
       "id": "word.apple.cs",
       "locale": "cs-CZ",
       "text": "jablko",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.apple.cs.mp3"
     },
     {
       "id": "meaning.apple.cs",
       "locale": "cs-CZ",
       "text": "Jablko je ovoce a roste na stromě.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.apple.cs.mp3"
     },
     {
       "id": "phrase.apple.cs",
       "locale": "cs-CZ",
       "text": "Chci jablko, prosím.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.apple.cs.mp3"
     },
     {
       "id": "word.apple.en",
       "locale": "en-US",
       "text": "apple",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.apple.en.mp3"
     },
     {
       "id": "meaning.apple.en",
       "locale": "en-US",
       "text": "An apple is a fruit that grows on a tree.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.apple.en.mp3"
     },
     {
       "id": "phrase.apple.en",
       "locale": "en-US",
       "text": "I would like an apple, please.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.apple.en.mp3"
     },
     {
       "id": "word.leaf.cs",
       "locale": "cs-CZ",
       "text": "list",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.leaf.cs.mp3"
     },
     {
       "id": "meaning.leaf.cs",
       "locale": "cs-CZ",
       "text": "List roste na rostlině.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.leaf.cs.mp3"
     },
     {
       "id": "phrase.leaf.cs",
       "locale": "cs-CZ",
       "text": "Brouk je pod listem.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.leaf.cs.mp3"
     },
     {
       "id": "word.leaf.en",
       "locale": "en-US",
       "text": "leaf",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.leaf.en.mp3"
     },
     {
       "id": "meaning.leaf.en",
       "locale": "en-US",
       "text": "A leaf grows on a plant.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.leaf.en.mp3"
     },
     {
       "id": "phrase.leaf.en",
       "locale": "en-US",
       "text": "The bug is under the leaf.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.leaf.en.mp3"
     },
     {
       "id": "word.stone.cs",
       "locale": "cs-CZ",
       "text": "kámen",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.stone.cs.mp3"
     },
     {
       "id": "meaning.stone.cs",
       "locale": "cs-CZ",
       "text": "Kámen je tvrdý.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.stone.cs.mp3"
     },
     {
       "id": "phrase.stone.cs",
       "locale": "cs-CZ",
       "text": "To je malý kámen.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.stone.cs.mp3"
     },
     {
       "id": "word.stone.en",
       "locale": "en-US",
       "text": "stone",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.stone.en.mp3"
     },
     {
       "id": "meaning.stone.en",
       "locale": "en-US",
       "text": "A stone is hard.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.stone.en.mp3"
     },
     {
       "id": "phrase.stone.en",
       "locale": "en-US",
       "text": "This is a small stone.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.stone.en.mp3"
     },
     {
       "id": "word.watering-can.cs",
       "locale": "cs-CZ",
       "text": "konev",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.watering-can.cs.mp3"
     },
     {
       "id": "meaning.watering-can.cs",
       "locale": "cs-CZ",
       "text": "Konví zaléváme rostliny.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.watering-can.cs.mp3"
     },
     {
       "id": "phrase.watering-can.cs",
       "locale": "cs-CZ",
       "text": "Babi, podej mi konev.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.watering-can.cs.mp3"
     },
     {
       "id": "word.watering-can.en",
       "locale": "en-US",
       "text": "watering can",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.watering-can.en.mp3"
     },
     {
       "id": "meaning.watering-can.en",
       "locale": "en-US",
       "text": "We water plants with a watering can.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.watering-can.en.mp3"
     },
     {
       "id": "phrase.watering-can.en",
       "locale": "en-US",
       "text": "Grandma, pass me the watering can.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.watering-can.en.mp3"
     },
     {
       "id": "word.hello.cs",
       "locale": "cs-CZ",
       "text": "ahoj",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.hello.cs.mp3"
     },
     {
       "id": "meaning.hello.cs",
       "locale": "cs-CZ",
       "text": "Slovem ahoj můžeme někoho pozdravit.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.hello.cs.mp3"
     },
     {
       "id": "phrase.hello.cs",
       "locale": "cs-CZ",
       "text": "Ahoj, babi!",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.hello.cs.mp3"
     },
     {
       "id": "word.hello.en",
       "locale": "en-US",
       "text": "hello",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.hello.en.mp3"
     },
     {
       "id": "meaning.hello.en",
       "locale": "en-US",
       "text": "We can say hello to greet someone.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.hello.en.mp3"
     },
     {
       "id": "phrase.hello.en",
       "locale": "en-US",
       "text": "Hello, Grandma!",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.hello.en.mp3"
     },
     {
       "id": "word.please.cs",
       "locale": "cs-CZ",
       "text": "prosím",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.please.cs.mp3"
     },
     {
       "id": "meaning.please.cs",
       "locale": "cs-CZ",
       "text": "Prosím říkáme, když o něco žádáme.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.please.cs.mp3"
     },
     {
       "id": "phrase.please.cs",
       "locale": "cs-CZ",
       "text": "Prut, prosím.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.please.cs.mp3"
     },
     {
       "id": "word.please.en",
       "locale": "en-US",
       "text": "please",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.please.en.mp3"
     },
     {
       "id": "meaning.please.en",
       "locale": "en-US",
       "text": "We say please when we ask for something.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.please.en.mp3"
     },
     {
       "id": "phrase.please.en",
       "locale": "en-US",
       "text": "The fishing rod, please.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.please.en.mp3"
     },
     {
       "id": "word.thanks.cs",
       "locale": "cs-CZ",
       "text": "děkuji",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.thanks.cs.mp3"
     },
     {
       "id": "meaning.thanks.cs",
       "locale": "cs-CZ",
       "text": "Děkuji říkáme, když chceme poděkovat.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.thanks.cs.mp3"
     },
     {
       "id": "phrase.thanks.cs",
       "locale": "cs-CZ",
       "text": "Děkuji, dědo.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.thanks.cs.mp3"
     },
     {
       "id": "word.thanks.en",
       "locale": "en-US",
       "text": "thank you",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.thanks.en.mp3"
     },
     {
       "id": "meaning.thanks.en",
       "locale": "en-US",
       "text": "We say thank you to show our thanks.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.thanks.en.mp3"
     },
     {
       "id": "phrase.thanks.en",
       "locale": "en-US",
       "text": "Thank you, Grandpa.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.thanks.en.mp3"
     },
     {
       "id": "word.big.cs",
       "locale": "cs-CZ",
       "text": "velký",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.big.cs.mp3"
     },
     {
       "id": "meaning.big.cs",
       "locale": "cs-CZ",
       "text": "Velká ryba je větší než malá ryba.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.big.cs.mp3"
     },
     {
       "id": "phrase.big.cs",
       "locale": "cs-CZ",
       "text": "Mám velkou rybu.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.big.cs.mp3"
     },
     {
       "id": "word.big.en",
       "locale": "en-US",
       "text": "big",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.big.en.mp3"
     },
     {
       "id": "meaning.big.en",
       "locale": "en-US",
       "text": "A big fish is larger than a small fish.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.big.en.mp3"
     },
     {
       "id": "phrase.big.en",
       "locale": "en-US",
       "text": "I have a big fish.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.big.en.mp3"
     },
     {
       "id": "word.small.cs",
       "locale": "cs-CZ",
       "text": "malý",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.small.cs.mp3"
     },
     {
       "id": "meaning.small.cs",
       "locale": "cs-CZ",
       "text": "Malý kámen je menší než velký kámen.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.small.cs.mp3"
     },
     {
       "id": "phrase.small.cs",
       "locale": "cs-CZ",
       "text": "To je malý kámen.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.small.cs.mp3"
     },
     {
       "id": "word.small.en",
       "locale": "en-US",
       "text": "small",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.small.en.mp3"
     },
     {
       "id": "meaning.small.en",
       "locale": "en-US",
       "text": "A small stone is smaller than a big stone.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.small.en.mp3"
     },
     {
       "id": "phrase.small.en",
       "locale": "en-US",
       "text": "This is a small stone.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.small.en.mp3"
     },
     {
       "id": "word.red.cs",
       "locale": "cs-CZ",
       "text": "červený",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.red.cs.mp3"
     },
     {
       "id": "meaning.red.cs",
       "locale": "cs-CZ",
       "text": "Toto jablko je červené.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.red.cs.mp3"
     },
     {
       "id": "phrase.red.cs",
       "locale": "cs-CZ",
       "text": "Vidím červené jablko.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.red.cs.mp3"
     },
     {
       "id": "word.red.en",
       "locale": "en-US",
       "text": "red",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.red.en.mp3"
     },
     {
       "id": "meaning.red.en",
       "locale": "en-US",
       "text": "This apple is red.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.red.en.mp3"
     },
     {
       "id": "phrase.red.en",
       "locale": "en-US",
       "text": "I see a red apple.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.red.en.mp3"
     },
     {
       "id": "word.blue.cs",
       "locale": "cs-CZ",
       "text": "modrý",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.blue.cs.mp3"
     },
     {
       "id": "meaning.blue.cs",
       "locale": "cs-CZ",
       "text": "Tento kbelík je modrý.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.blue.cs.mp3"
     },
     {
       "id": "phrase.blue.cs",
       "locale": "cs-CZ",
       "text": "Mám modrý kbelík.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.blue.cs.mp3"
     },
     {
       "id": "word.blue.en",
       "locale": "en-US",
       "text": "blue",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.blue.en.mp3"
     },
     {
       "id": "meaning.blue.en",
       "locale": "en-US",
       "text": "This bucket is blue.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.blue.en.mp3"
     },
     {
       "id": "phrase.blue.en",
       "locale": "en-US",
       "text": "I have a blue bucket.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.blue.en.mp3"
     },
     {
       "id": "quest.iowa-home.intro.cs",
       "locale": "cs-CZ",
       "text": "Adame, dneska začíná tvoje dračí výprava! Sbalíme helmu, svačinu a atlas.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.iowa-home.intro.cs.mp3"
     },
     {
       "id": "quest.iowa-home.intro.en",
       "locale": "en-US",
       "text": "Adam, your dragon adventure starts today! Let's pack your helmet, snack, and atlas.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.iowa-home.intro.en.mp3"
     },
     {
       "id": "quest.iowa-fishing.intro.cs",
       "locale": "cs-CZ",
       "text": "U jezera se něco pohnulo. Připrav si prut a podíváme se, co tam plave.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.iowa-fishing.intro.cs.mp3"
     },
     {
       "id": "quest.iowa-fishing.intro.en",
       "locale": "en-US",
       "text": "Something moved in the lake. Get your fishing rod and let's see what is swimming there.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.iowa-fishing.intro.en.mp3"
     },
     {
       "id": "quest.klarka-atlas.intro.cs",
       "locale": "cs-CZ",
       "text": "Klárka přijela na návštěvu a vzala lupu. Pod tím listem se schovává malý soused!",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.klarka-atlas.intro.cs.mp3"
     },
     {
       "id": "quest.klarka-atlas.intro.en",
       "locale": "en-US",
       "text": "Aunt Klárka is visiting, and she brought a magnifying glass. A tiny neighbor is hiding under that leaf!",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.klarka-atlas.intro.en.mp3"
     },
     {
       "id": "quest.travel.intro.cs",
       "locale": "cs-CZ",
       "text": "Atlas máme, kufřík také. Letíme za babi a dědou do Příbrami!",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.travel.intro.cs.mp3"
     },
     {
       "id": "quest.travel.intro.en",
       "locale": "en-US",
       "text": "We have our atlas and our suitcase. We are flying to see Grandma and Grandpa in Příbram!",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.travel.intro.en.mp3"
     },
     {
       "id": "quest.workshop.intro.cs",
       "locale": "cs-CZ",
       "text": "Děda už otevřel dílnu. Připravíme kolo a pak vyrazíme k rybníku.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.workshop.intro.cs.mp3"
     },
     {
       "id": "quest.workshop.intro.en",
       "locale": "en-US",
       "text": "Grandpa has opened the workshop. Let's get your bicycle ready and ride to the pond.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.workshop.intro.en.mp3"
     },
     {
       "id": "quest.mystery-catch.intro.cs",
       "locale": "cs-CZ",
       "text": "Adame, Matyáši, něco tam šplouchlo! Děda říká, že ryba. Já si myslím, že moje ztracená bota!",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.mystery-catch.intro.cs.mp3"
     },
     {
       "id": "quest.mystery-catch.intro.en",
       "locale": "en-US",
       "text": "Adam, Matyáš, something splashed! Grandpa says it is a fish. I think it might be my missing boot!",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.mystery-catch.intro.en.mp3"
     },
     {
       "id": "quest.big-fish.intro.cs",
       "locale": "cs-CZ",
       "text": "Dneska porovnáme malé a velké úlovky. Klárka nám je pomůže zakreslit do atlasu.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.big-fish.intro.cs.mp3"
     },
     {
       "id": "quest.big-fish.intro.en",
       "locale": "en-US",
       "text": "Today we will compare small and big catches. Aunt Klárka will help us add them to the atlas.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.big-fish.intro.en.mp3"
     },
     {
       "id": "quest.tell-grandma.intro.cs",
       "locale": "cs-CZ",
       "text": "Babi už čeká na zahradě. Ukážeme jí atlas a povíme, co jsme chytili.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.tell-grandma.intro.cs.mp3"
     },
     {
       "id": "quest.tell-grandma.intro.en",
       "locale": "en-US",
       "text": "Grandma is waiting in the garden. Let's show her the atlas and tell her what we caught.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/quest.tell-grandma.intro.en.mp3"
     },
     {
       "id": "ui.replay.cs",
       "locale": "cs-CZ",
       "text": "Poslechneme si to ještě jednou.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/ui.replay.cs.mp3"
     },
     {
       "id": "ui.replay.en",
       "locale": "en-US",
       "text": "Let's listen one more time.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/ui.replay.en.mp3"
     },
     {
       "id": "ui.uncertain.cs",
       "locale": "cs-CZ",
       "text": "Neslyšel jsem tě dobře. Zkusíme to znovu, nebo půjdeme dál?",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/ui.uncertain.cs.mp3"
     },
     {
       "id": "ui.uncertain.en",
       "locale": "en-US",
       "text": "I couldn't hear you clearly. Shall we try again or keep going?",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/ui.uncertain.en.mp3"
     },
     {
       "id": "ui.verified.cs",
       "locale": "cs-CZ",
       "text": "Karta má novou hlasovou pečeť!",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/ui.verified.cs.mp3"
     },
     {
       "id": "ui.verified.en",
       "locale": "en-US",
       "text": "Your card has a new speaking badge!",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/ui.verified.en.mp3"
     },
     {
       "id": "ui.parent.cs",
       "locale": "cs-CZ",
       "text": "Pojď ukázat někomu doma, co už dokážeš.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/ui.parent.cs.mp3"
     },
     {
       "id": "ui.parent.en",
       "locale": "en-US",
       "text": "Let's show someone at home what you can do.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/ui.parent.en.mp3"
     },
     {
       "id": "ui.finish.cs",
       "locale": "cs-CZ",
       "text": "Výprava je hotová. Teď si můžeme odpočinout.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/ui.finish.cs.mp3"
     },
     {
       "id": "ui.finish.en",
       "locale": "en-US",
       "text": "Our adventure is complete. Now we can take a break.",
       "speaker": "romca",
-      "status": "script-only",
-      "file": null
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/ui.finish.en.mp3"
     }
   ]
 }

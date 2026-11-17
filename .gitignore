@@ -12,3 +12,5 @@ Thumbs.db
 tmp/
 recordings/
 art/review/github-created.*
+app/public/game-assets/
+art/review/browser/

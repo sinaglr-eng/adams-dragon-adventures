@@ -1,4 +1,6 @@
-# Akceptační kritéria budoucí implementace
+# Akceptační kritéria implementace
+
+Aktuální výsledky a ruční limity jsou v [IMPLEMENTATION_REVIEW.md](IMPLEMENTATION_REVIEW.md). Níže je původní kontrolní seznam zadání; výsledky rozlišují automatické testy, browser QA a dosud neprovedený fyzický test iPadu.
 
 ## Funkční průchody
 
@@ -41,4 +43,4 @@
 - [ ] Klíče nejsou v klientském bundle; bez nevyžádaného audia v síti, logu nebo úložišti.
 - [ ] Reálné odměny neprovádějí žádný nákup a nesdělují údaje třetí straně.
 
-Aktuální preprodukční balíček tato herní kritéria ještě nesplňuje — jsou určena pro implementační fázi. Jeho kontrola ověřuje soubory, odkazy, data a grafické podklady, nikoli funkčnost neexistující hry.
+Hratelná implementace je v app/src/. Přehled ověřených průchodů a výslovně neověřených hranic je v reportu IMPLEMENTATION_REVIEW.md.

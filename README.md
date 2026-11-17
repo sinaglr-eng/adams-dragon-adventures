@@ -1,58 +1,72 @@
 # Adam's Dragon Adventures
 
-**Adam's Dragon Adventures — Dva domovy. Dva jazyky. Spousta dobrodružství.**
+**Adamovy dračí výpravy — dva domovy, dva jazyky a jedna dračí rodina.**
 
-Veřejný přípravný repozitář osobní česko-americké webové hry **Adamovy dračí výpravy** pro Adama (přibližně 5 let). Obsahuje úplné zadání implementace, strukturovaný obsah a originální grafické podklady. **Herní aplikace zatím není implementována.**
+**[Hrát v prohlížeči](https://sinaglr-eng.github.io/adams-dragon-adventures/)** · [Grafický katalog](art/catalog.html) · [Implementační zadání](IMPLEMENTATION_PROMPT.md)
 
-**[Online náhled grafiky](https://sinaglr-eng.github.io/adams-dragon-adventures/)** — dostupný v prohlížeči včetně iPadu, bez GitHub účtu. Zatím jde o grafický katalog, nikoli hratelnou hru. Repo: [sinaglr-eng/adams-dragon-adventures](https://github.com/sinaglr-eng/adams-dragon-adventures).
+Osm hratelných výprav, rybaření, broučí průzkum s Klárkou, dědova cyklodílna, cyklotrasy, vyprávění babi, 36 sběratelských karet a 298 českých a anglických zvukových replik. Romča vypráví. Matyáš je příběhový společník. Máma a táta vystupují v Iowě, babi a děda v Příbrami.
 
-![Adam, Matyáš, Romča a Klárka](art/source/cover.png)
+![Dračí rodina](art/source/cover.png)
 
-## Začněte zde
+## Hraní
 
-1. [Kompletní implementační prompt](IMPLEMENTATION_PROMPT.md) — zadání pro vývojáře nebo implementačního agenta.
-2. [Rodinný kánon a herní návrh](docs/GAME_DESIGN.md).
-3. [Výtvarná a animační pravidla](docs/ART_DIRECTION.md).
-4. [Mluvení a skutečné odměny](docs/SPEECH_AND_REWARDS.md).
-5. [Kritéria dokončení a ověření](docs/ACCEPTANCE.md).
-6. [Grafický katalog](art/catalog.html) — otevřít lokálně v prohlížeči; nejde o hru.
-7. [Manifest grafiky](art/manifest.json) a [přesné generační prompty](art/generation-prompts.json).
+Otevřete web a klepněte na velké tlačítko. Výchozí průvodce mluví anglicky a učí česká slova; rodič může přepnout průvodce do češtiny. Atlas nabízí i opačný směr. Výpravy se odemykají postupně, deník dovoluje opakování. Žádné časové tresty, ztracené série ani placené balíčky.
 
-## Závazná fakta
+Na iPadu lze použít Safari → Sdílet → Přidat na plochu. Rozložení podporuje šířku i výšku, klepnutí namísto přetahování a klávesnici. Navštívené obrázky a repliky se ukládají do offline cache. Nové výpravy a dosud nepřehrané audio vyžadují připojení; nejde o plně předstaženou offline aplikaci.
 
-- Adam je jediný hratelný hlavní hrdina. Matyáš je mladší příběhová postava, bez profilu a vlastních úkolů.
-- Všichni členové rodiny jsou draci. Máma a táta žijí v Iowě; babi a děda vystupují pouze v Příbrami v ČR.
-- Strejda Romča je vypravěč, Adamův nejlepší kamarád a rybářský parťák. Teta Klárka pomáhá s přírodou, atlasem a výpravami.
-- Jádro: rybaření, cyklistika, brouci a žížaly, objevování, sběratelské karty, česká řeč s anglickou oporou.
-- Základní karta za objev; bonus za skutečně ověřený mluvní úkol. Rozpoznání textu samo neprokazuje správnou výslovnost.
-- Reálné odměny nejdříve nastavuje rodič a jejich předání potvrzuje jednou. Hra nic nekupuje ani nikomu neposílá zprávy.
+## Mluvení a odměny
 
-## Struktura
+- **S dospělým:** Adam vysloví konkrétní slovo nebo větu, dospělý projde rodičovskou bránou a potvrdí srozumitelný výkon. Pečeť uvádí rodičovské ověření.
+- **Lokální pokus:** rodič může povolit mikrofon. Dítě spustí nejvýše šestisekundový pokus, poslechne si ho a při zavření dialogu se audio zahodí. Nic se neposílá na server.
+- Automatické hodnocení české dětské výslovnosti není aktivní. Hlasitost, přepis ani kliknutí ho nenahrazují. Hra funguje bez mikrofonu.
+- Hot Wheels, Pokémon kartičky, svačinu, výlet či vlastní odměnu nejprve aktivuje rodič. Po splnění podmínek ověří důkazy a potvrdí skutečné předání. Každou odměnu lze předat jednou. Hra nic nenakupuje.
 
-`content/` — slovní zásoba, kapitoly, postavy, achievementy a návrh audio scénáře.
+Syntetické hlasy pocházejí z ElevenLabs: český Petr a americký anglický Udem. Nejde o hlasové klony rodiny. Všechny soubory jsou součástí webu; hraní nevyžaduje API klíč. **Kompletní poslechová kontrola rodilým dospělým ještě neproběhla; před samostatným hraním nahrávky zkontrolujte.** Při nedostupném souboru může pomoci označený náhradní hlas zařízení, pouze pokud je dostupný správný jazyk.
 
-`art/source/` — originální PNG generované vestavěným image_gen; průhledné atlasy a samostatná prostředí.
+## Spuštění a build
 
-`art/ui/` — jednoduché vektorové ovládací ikony, generované deterministicky.
+Node **22.12+**, pnpm **11.25.0**. React 19.3, Vite 8.3, TypeScript 6.0. Přístupné DOM scény a CSS animace; verze jsou připnuté lockfilem.
 
-`art/reference/` — dřívější schválený concept art, pouze reference; jeho starší nápis Adam & Matyáš nenahrazuje aktuální název.
+```sh
+pnpm install --frozen-lockfile
+pnpm dev
+```
 
-`tools/` — nástroje pro katalog, manifest a kontrolu přípravných podkladů; nejsou herní implementací.
+Lokální URL: `http://127.0.0.1:5173/adams-dragon-adventures/`.
 
-## Rozsah grafické sady
+```sh
+pnpm typecheck
+pnpm lint
+pnpm test
+pnpm kit:validate
+pnpm game:validate
+pnpm build
+pnpm publish:prepare
+```
 
-Sada pokrývá definované lokace, postavy a aktivity první verze. Atlasy obsahují statické samostatné pózy a předměty; pohyb se při implementaci vytvoří tweeny, částicemi a přepínáním póz. Nejde o předrenderované video ani hotové kosterní animace. Audio nahrávky nejsou součástí tohoto grafického balíčku; připraven je scénář a pravidla produkce.
+`dev` a `build` připraví WebP z původních atlasů a zkopírují existující audio z `game-assets/audio` do pracovní veřejné složky. PNG se nemění. `build` vytvoří `dist/`; `publish:prepare` připraví výstup v kořeni repozitáře. GitHub Pages publikuje kořen větve `codex/preproduction`. Po pushi se aktualizuje web. Base musí zůstat `/adams-dragon-adventures/`. Build nikdy znovu negeneruje ani neúčtuje audio.
 
-## Soukromí a původ
+## Orientace v kódu
 
-Repozitář je na výslovné přání vlastníka veřejný. Žádné skutečné adresy, fotografie, biometrické profily nebo hlasové klony nejsou přiloženy. Soukromé uložené postupy, hlasové nahrávky a API klíče do repozitáře nepatří. Grafika je původní AI tvorba; Pokémon a Hot Wheels jsou pouze rodičem volené reálné odměny, jejich loga ani postavy nejsou součástí grafiky.
+- `app/src/App.tsx`, `Game.tsx`: obrazovky, výpravy, mapa a atlas.
+- `app/src/domain.ts`: události, učení, XP, podmínky a jednorázové odměny.
+- `app/src/store.ts`: verzované atomické ukládání do IndexedDB.
+- `Speech.tsx`, `microphone.ts`, `audio.ts`: rodičovské ověření, lokální nahrávání, hlas.
+- `Parents.tsx`: nastavení, důkazy, aktivace a předání odměn, zálohy.
+- `content/`: slovní zásoba, rodinný kánon, kapitoly, scénáře a původ audia.
+- `art/source/`: originální grafika; `game-assets/`: publikovaná verze a zdrojové MP3.
+- `tests/`: přechody, učení, odměny, migrace, obnova, transakce a mikrofon.
 
-## Web pro iPad
+XP se počítají podle unikátních milníků. Pozdější vybavení vyžaduje jinou session, výpravu i úkol a alespoň 20 hodin odstupu. Evidence rozlišuje pomoc a samostatný výkon. Nejde o klinické měření.
 
-GitHub Pages publikuje kořen větve `codex/preproduction`. Současný `index.html` otevírá existující grafický katalog; `.nojekyll` zajišťuje přímé podávání statických souborů. Veřejný repozitář a hostovaný web jsou dvě různé věci. Až vznikne herní aplikace, její sestavení musí nahradit tento náhled. Pro Vite použijte base `/adams-dragon-adventures/` a ověřte Safari na iPadu. Npm `private: true` brání omylem publikovanému npm balíčku; neovlivňuje veřejnost GitHub repozitáře ani webu.
+## Zálohy a soukromí
 
-## Předání implementaci
+Rodičovská část → Záloha → Stáhnout zálohu. JSON neobsahuje dětské audio. Import nejprve validuje formát, potom sloučí důkazy a zachová zde evidované předané odměny. Reset vyžaduje potvrzení a také zachovává předané odměny. Poškozená data se tiše nemažou; lze je exportovat pro obnovu.
 
-Přípravný balíček lze zkontrolovat příkazy `npm run kit:build` a `npm run kit:validate` (Node 22+; bez npm závislostí). Při změně atlasů nejprve spusťte `python tools/inspect-atlases.py` s Pillow pro nové souřadnice. HTML katalog otevřete přímo nebo přes lokální HTTP server. SVG wrappers jsou pomocné výřezy se závislostí na původním PNG; pro runtime použijte PNG + manifest, případně inline SVG, ne externí SVG uvnitř img.
+Žádné účty, analytika, reklamy, chat ani automatická synchronizace. Postup patří prohlížeči; vymazání dat Safari ho může odstranit. Na jiném zařízení musí rodič porovnat již předané odměny. Matematická rodičovská brána chrání před náhodným klikáním, není zabezpečením účtu.
 
-Otevřete tento repozitář a zadejte: **„Implementuj hru podle IMPLEMENTATION_PROMPT.md; použij dodaná data a grafiku, projdi všechna akceptační kritéria a poctivě popiš omezení hlasového hodnocení.“**
+Repozitář je veřejný na přání vlastníka. Neobsahuje skutečné adresy, fotografie, dětské nahrávky, API klíče ani rodinné hlasové klony. Grafika je původní AI tvorba. Pokémon a Hot Wheels označují volitelné rodinné odměny; jejich loga a postavy se nepoužívají. Licence Nunito: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## Ověření
+
+Výsledky a ruční limity: [report ověření](docs/IMPLEMENTATION_REVIEW.md). Kontrolované rozměry jsou 1024×768, 1440×900 a 390×844. **Fyzický iPad se Safari nebyl v tomto prostředí dostupný**; audio, instalaci na plochu, mikrofon a výkon je ještě potřeba ověřit na zařízení. V produkci není žádný testovací adaptér pro falešné hlasové pečetě.

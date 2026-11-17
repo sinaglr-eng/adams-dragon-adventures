@@ -1,12 +1,43 @@
 {
   "name": "adams-dragon-adventures",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
-  "description": "Preproduction brief, content and original art kit; game implementation pending",
+  "description": "An illustrated Czech-English adventure for Adam",
   "type": "module",
   "scripts": {
     "kit:build": "node tools/build-kit.mjs",
-    "kit:validate": "node tools/validate-kit.mjs"
+    "kit:validate": "node tools/validate-kit.mjs",
+    "dev": "node tools/build-runtime-art.mjs && vite",
+    "art:build": "node tools/build-runtime-art.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --root .",
+    "build": "node tools/build-runtime-art.mjs && vite build && node tools/finalize-build.mjs",
+    "publish:prepare": "node tools/publish-build.mjs",
+    "lint": "eslint app/src tests vite.config.ts",
+    "format": "prettier --write app/src tests vite.config.ts",
+    "game:validate": "node tools/validate-game.mjs"
   },
-  "engines": { "node": ">=22" }
+  "engines": {
+    "node": ">=22.12"
+  },
+  "dependencies": {
+    "@fontsource/nunito": "5.3.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "eslint": "10.15.0",
+    "fake-indexeddb": "6.2.8",
+    "globals": "17.14.0",
+    "prettier": "3.10.1",
+    "sharp": "0.35.5",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.2",
+    "vite": "8.3.8",
+    "vitest": "5.1.0"
+  },
+  "packageManager": "pnpm@11.25.0"
 }
