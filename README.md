@@ -1,8 +1,10 @@
-# Adamovy dračí výpravy
+# Adam's Dragon Adventures
 
 **Adam's Dragon Adventures — Dva domovy. Dva jazyky. Spousta dobrodružství.**
 
-Soukromý přípravný repozitář osobní česko-americké webové hry pro Adama (přibližně 5 let). Obsahuje úplné zadání implementace, strukturovaný obsah a originální grafické podklady. **Herní aplikace zatím není implementována.**
+Veřejný přípravný repozitář osobní česko-americké webové hry **Adamovy dračí výpravy** pro Adama (přibližně 5 let). Obsahuje úplné zadání implementace, strukturovaný obsah a originální grafické podklady. **Herní aplikace zatím není implementována.**
+
+**[Online náhled grafiky](https://sinaglr-eng.github.io/adams-dragon-adventures/)** — dostupný v prohlížeči včetně iPadu, bez GitHub účtu. Zatím jde o grafický katalog, nikoli hratelnou hru. Repo: [sinaglr-eng/adams-dragon-adventures](https://github.com/sinaglr-eng/adams-dragon-adventures).
 
 ![Adam, Matyáš, Romča a Klárka](art/source/cover.png)
 
@@ -43,7 +45,11 @@ Sada pokrývá definované lokace, postavy a aktivity první verze. Atlasy obsah
 
 ## Soukromí a původ
 
-Rodinné podrobnosti držte v soukromém repozitáři. Žádné skutečné adresy, fotografie, biometrické profily nebo hlasové klony nejsou přiloženy. Grafika je původní AI tvorba; Pokémon a Hot Wheels jsou pouze rodičem volené reálné odměny, jejich loga ani postavy nejsou součástí grafiky.
+Repozitář je na výslovné přání vlastníka veřejný. Žádné skutečné adresy, fotografie, biometrické profily nebo hlasové klony nejsou přiloženy. Soukromé uložené postupy, hlasové nahrávky a API klíče do repozitáře nepatří. Grafika je původní AI tvorba; Pokémon a Hot Wheels jsou pouze rodičem volené reálné odměny, jejich loga ani postavy nejsou součástí grafiky.
+
+## Web pro iPad
+
+GitHub Pages publikuje kořen větve `codex/preproduction`. Současný `index.html` otevírá existující grafický katalog; `.nojekyll` zajišťuje přímé podávání statických souborů. Veřejný repozitář a hostovaný web jsou dvě různé věci. Až vznikne herní aplikace, její sestavení musí nahradit tento náhled. Pro Vite použijte base `/adams-dragon-adventures/` a ověřte Safari na iPadu. Npm `private: true` brání omylem publikovanému npm balíčku; neovlivňuje veřejnost GitHub repozitáře ani webu.
 
 ## Předání implementaci
 

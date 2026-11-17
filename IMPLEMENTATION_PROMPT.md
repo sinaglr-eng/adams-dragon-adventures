@@ -6,7 +6,7 @@ Jsi zkušený game developer, frontend engineer a designer her pro předškolák
 
 Dodej fungující aplikaci v prohlížeči, ne landing page, klikací obrázek nebo pouhý seznam kartiček. Hráč musí projít 8 výpravami, lovit, sbírat, poslouchat české a americké anglické názvy, dobrovolně mluvit, ukládat postup a ukázat rodiči splněnou výzvu. Každá dostupná akce musí mít skutečnou implementaci. Nedostupné integrace poctivě popiš a nabídni funkční rodičovskou alternativu.
 
-Přečti docs/GAME_DESIGN.md, docs/ART_DIRECTION.md, docs/SPEECH_AND_REWARDS.md, docs/ACCEPTANCE.md, art/manifest.json a všechny soubory content/. Zachovej rodinný kánon i grafickou identitu. Dokonči práci včetně přiměřených testů a vizuálního ověření. Nasazení na veřejný hosting není automaticky součástí zadání; připrav spustitelný build a postup nasazení. Nové externí placené služby nevytvářej bez samostatného zadání.
+Přečti docs/GAME_DESIGN.md, docs/ART_DIRECTION.md, docs/SPEECH_AND_REWARDS.md, docs/ACCEPTANCE.md, art/manifest.json a všechny soubory content/. Zachovej rodinný kánon i grafickou identitu. Dokonči práci včetně přiměřených testů a vizuálního ověření. Veřejný repozitář se jmenuje `sinaglr-eng/adams-dragon-adventures`; cílový web pro iPad je `https://sinaglr-eng.github.io/adams-dragon-adventures/`. Aktuálně je tam pouze grafický katalog. Pro herní sestavení použij base `/adams-dragon-adventures/`, připrav Pages deployment a ověř Safari na iPadu; zachovej jasné rozlišení náhledu a hotové hry. Nové externí placené služby nevytvářej bez samostatného zadání.
 
 ## 2. Závazný rodinný kánon
 

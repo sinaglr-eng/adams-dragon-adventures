@@ -12,4 +12,4 @@
 
 Pohyby, částice, světelné zvýraznění a UI stavy se implementují podle `docs/ART_DIRECTION.md`. Sada nemá předrenderované animace, audio ani hotovou herní logiku. Obrázky mají jednotný styl, ale výšky jednotlivých postav ve scéně se řídí věkem a rolí, nikoli velikostí původní buňky atlasu.
 
-Před buildem runtime doporučeno lazy loading prostředí a komprimované deriváty se zachovanou alfou; PNG source uchovat. Tyto soubory jsou přípravné podklady pro soukromý rodinný projekt.
+Před buildem runtime doporučeno lazy loading prostředí a komprimované deriváty se zachovanou alfou; PNG source uchovat. Tyto soubory jsou přípravné podklady rodinného projektu zveřejněného na výslovné přání vlastníka.
