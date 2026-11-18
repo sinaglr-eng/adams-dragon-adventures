@@ -101,7 +101,7 @@ export function Game({
       return [
         `lesson.${q.id}.${task.concept}.en`,
         `model.${task.concept}.cs`,
-        "lesson.repeat.cs",
+        "lesson.repeat.en",
         `echo.${task.concept}.cs`,
       ];
     if (task.kind === "learn")
@@ -508,9 +508,9 @@ export function Game({
               <h2>{words[task.concept].cs}</h2>
               <p className="translation">{words[task.concept].en}</p>
               {lesson ? (
-                <p lang="cs">
-                  A nyní opakuj po mně.{" "}
-                  <strong>{words[task.concept].syllablesCs}</strong>
+                <p lang="en">
+                  Repeat after me.{" "}
+                  <strong lang="cs">{words[task.concept].syllablesCs}</strong>
                 </p>
               ) : (
                 <p>{words[task.concept].meaning[ui]}</p>
@@ -525,7 +525,7 @@ export function Game({
                         lesson
                           ? [
                               `model.${task.concept}.cs`,
-                              "lesson.repeat.cs",
+                              "lesson.repeat.en",
                               `echo.${task.concept}.cs`,
                             ]
                           : `word.${task.concept}.cs`,

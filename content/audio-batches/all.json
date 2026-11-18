@@ -4824,12 +4824,12 @@
     "status": "generated-awaiting-adult-review"
   },
   {
-    "id": "lesson.repeat.cs",
-    "file": "game-assets/audio/lesson.repeat.cs.mp3",
-    "bytes": 15408,
-    "sha256": "183816db8e9696db4bb01108c1fd36ca1cdbe7495cc35c84ea8028e8dabab840",
-    "duration": 2.568,
-    "voice": "cs-CZ-AntoninNeural",
+    "id": "lesson.repeat.en",
+    "file": "game-assets/audio/lesson.repeat.en.mp3",
+    "bytes": 13968,
+    "sha256": "07cdbef5882ab2f409e8bcf076cdef0f2461e1e986b234c3c0b68d40c2502437",
+    "duration": 2.328,
+    "voice": "en-US-GuyNeural",
     "status": "generated-awaiting-adult-review"
   },
   {
