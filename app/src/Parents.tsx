@@ -1,5 +1,11 @@
 import { useState, type ChangeEvent } from "react";
-import { achievements, words, type Lang } from "./data";
+import {
+  achievements,
+  activeQuests,
+  questById,
+  words,
+  type Lang,
+} from "./data";
 import {
   activateReward,
   confirmReward,
@@ -71,7 +77,9 @@ export function Requirement({
     <ul className="requirements">
       <li>
         {p.quest ? "✓" : "○"} Dokončit kapitolu:{" "}
-        {conditions.questId ?? "libovolná"}
+        {conditions.questId
+          ? (questById[conditions.questId]?.title ?? conditions.questId)
+          : "libovolná"}
       </li>
       <li>
         {Math.min(p.recognized, conditions.distinctRecognizedConcepts)} /{" "}
@@ -249,100 +257,108 @@ export function Parents({
             podmínky i popis zůstávají zachované. Hra nic nenakupuje.
           </p>
           <div className="reward-grid">
-            {achievements.map((a) => {
-              const r = save.rewards.find((r) => r.id === a.id);
-              return (
-                <section className="paper reward-setting" key={a.id}>
-                  <Sprite id={a.badge} />
-                  <div>
-                    <h2>{a.title}</h2>
-                    <Requirement
-                      save={save}
-                      conditions={r?.conditions ?? a.conditions}
-                    />
-                    {!r ? (
-                      <>
-                        <label>
-                          Domluvená odměna
-                          <input
-                            value={labels[a.id] ?? a.suggestedReward.label}
-                            maxLength={120}
-                            onChange={(e) =>
-                              setLabels({ ...labels, [a.id]: e.target.value })
-                            }
-                          />
-                        </label>
-                        <Button
-                          icon="gift"
-                          onClick={() =>
-                            void mutate((s) =>
-                              activateReward(
-                                s,
-                                a.id,
-                                labels[a.id] ?? a.suggestedReward.label,
-                              ),
-                            )
-                          }
-                        >
-                          Aktivovat výzvu
-                        </Button>
-                      </>
-                    ) : (
-                      <>
-                        <strong className="reward-label">
-                          <Icon name="gift" />
-                          {r.label}
-                        </strong>
-                        <p>
-                          Stav:{" "}
-                          {
-                            {
-                              active: "plníme",
-                              earned: "splněno – čeká na ověření",
-                              parent_confirmed: "ověřeno – čeká na předání",
-                              redeemed: "odměna byla předána",
-                            }[r.state]
-                          }
-                        </p>
-                        {r.state === "earned" && (
-                          <Button
-                            icon="check"
-                            onClick={() =>
-                              void mutate((s) => confirmReward(s, a.id))
-                            }
-                          >
-                            Ověřil/a jsem důkazy
-                          </Button>
-                        )}
-                        {r.state === "parent_confirmed" && (
+            {achievements
+              .filter(
+                (a) =>
+                  !a.conditions.questId ||
+                  activeQuests.some((q) => q.id === a.conditions.questId) ||
+                  save.rewards.some((r) => r.id === a.id) ||
+                  progress(save, a.conditions).earned,
+              )
+              .map((a) => {
+                const r = save.rewards.find((r) => r.id === a.id);
+                return (
+                  <section className="paper reward-setting" key={a.id}>
+                    <Sprite id={a.badge} />
+                    <div>
+                      <h2>{a.title}</h2>
+                      <Requirement
+                        save={save}
+                        conditions={r?.conditions ?? a.conditions}
+                      />
+                      {!r ? (
+                        <>
+                          <label>
+                            Domluvená odměna
+                            <input
+                              value={labels[a.id] ?? a.suggestedReward.label}
+                              maxLength={120}
+                              onChange={(e) =>
+                                setLabels({ ...labels, [a.id]: e.target.value })
+                              }
+                            />
+                          </label>
                           <Button
                             icon="gift"
                             onClick={() =>
-                              void mutate((s) => {
-                                redeemReward(s, a.id);
-                              })
+                              void mutate((s) =>
+                                activateReward(
+                                  s,
+                                  a.id,
+                                  labels[a.id] ?? a.suggestedReward.label,
+                                ),
+                              )
                             }
                           >
-                            Odměna skutečně předána
+                            Aktivovat výzvu
                           </Button>
-                        )}
-                        {r.state === "redeemed" && (
-                          <small>
-                            Předáno{" "}
-                            {r.redeemedAt
-                              ? new Date(r.redeemedAt).toLocaleDateString(
-                                  "cs-CZ",
-                                )
-                              : ""}
-                            . Tuto odměnu nelze vyzvednout podruhé.
-                          </small>
-                        )}
-                      </>
-                    )}
-                  </div>
-                </section>
-              );
-            })}
+                        </>
+                      ) : (
+                        <>
+                          <strong className="reward-label">
+                            <Icon name="gift" />
+                            {r.label}
+                          </strong>
+                          <p>
+                            Stav:{" "}
+                            {
+                              {
+                                active: "plníme",
+                                earned: "splněno – čeká na ověření",
+                                parent_confirmed: "ověřeno – čeká na předání",
+                                redeemed: "odměna byla předána",
+                              }[r.state]
+                            }
+                          </p>
+                          {r.state === "earned" && (
+                            <Button
+                              icon="check"
+                              onClick={() =>
+                                void mutate((s) => confirmReward(s, a.id))
+                              }
+                            >
+                              Ověřil/a jsem důkazy
+                            </Button>
+                          )}
+                          {r.state === "parent_confirmed" && (
+                            <Button
+                              icon="gift"
+                              onClick={() =>
+                                void mutate((s) => {
+                                  redeemReward(s, a.id);
+                                })
+                              }
+                            >
+                              Odměna skutečně předána
+                            </Button>
+                          )}
+                          {r.state === "redeemed" && (
+                            <small>
+                              Předáno{" "}
+                              {r.redeemedAt
+                                ? new Date(r.redeemedAt).toLocaleDateString(
+                                    "cs-CZ",
+                                  )
+                                : ""}
+                              . Tuto odměnu nelze vyzvednout podruhé.
+                            </small>
+                          )}
+                        </>
+                      )}
+                    </div>
+                  </section>
+                );
+              })}
           </div>
         </>
       )}

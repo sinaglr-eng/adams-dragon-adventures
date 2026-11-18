@@ -21,8 +21,8 @@ describe("data-driven stories", () => {
   it("routes each active quest to exactly one home, including added country topics", () => {
     const iowa = questsAtHome("iowa"),
       czech = questsAtHome("pribram");
-    expect(iowa.some((q) => q.id === "iowa-snack-shop")).toBe(true);
-    expect(czech.some((q) => q.id === "pribram-crown-shop")).toBe(true);
+    expect(iowa.map((q) => q.id)).toEqual(["meet-iowa"]);
+    expect(czech.map((q) => q.id)).toEqual(["meet-pribram"]);
     expect(
       iowa.every((q) => !q.cast.some((c) => ["babi", "deda"].includes(c))),
     ).toBe(true);
@@ -84,7 +84,7 @@ describe("data-driven stories", () => {
 describe("family postcards", () => {
   it("roundtrips only a small progress snapshot, without rewards, recordings or session IDs", () => {
     const s = freshSave();
-    startRun(s, "story-iowa", "cs");
+    startRun(s, "meet-iowa", "cs");
     addEvidence(s, eventFor(s, "recognized", "hello", true));
     const p = makePostcard(s),
       encoded = encodePostcard(p),
@@ -100,7 +100,7 @@ describe("family postcards", () => {
   });
   it("does not count English practice or simple exposure as independent Czech recognition", () => {
     const s = freshSave();
-    startRun(s, "story-iowa", "cs");
+    startRun(s, "meet-iowa", "cs");
     addEvidence(s, eventFor(s, "introduced", "hello", true));
     addEvidence(s, eventFor(s, "recognized", "hello", false, "en"));
     expect(makePostcard(s).quests[0].words[0].state).toBe("seen");

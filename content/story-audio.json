@@ -607,6 +607,190 @@
     {
       "id": "questui.repeat.en",
       "text": "Repeat after me. First normally, then a little slower."
+    },
+    {
+      "id": "story.meet-iowa.adam.cs",
+      "text": "Čau, Áďo! Tady strejda Romča. Vidíš ten světle zelenej domeček? Tady v Iowě bydlíš a tady v Americe ses narodil. Jsi Američan, malej dráčku! Zamávej a pojď mi ukázat, kdo je doma."
+    },
+    {
+      "id": "story.meet-iowa.adam.en",
+      "text": "Hey, Adam! Uncle Romča here. See that little green house? This is your home in Iowa. You were born right here in America. You’re American, little dragon! Give me a wave. Who's home?"
+    },
+    {
+      "id": "story.meet-iowa.mama.cs",
+      "text": "Z kuchyně voní jablíčka. Máma ti jedno schovala! Víš, kde vyrostla? V Čechách, až za oceánem. Je Češka. Tady v Iowě na tebe mluví i česky, tak jak na ni mluvili její rodiče. Najdeme její jablko?"
+    },
+    {
+      "id": "story.meet-iowa.mama.en",
+      "text": "Sniff! Apples! Mom saved one for you. She grew up across the ocean, in Czechia. She’s Czech. Here in Iowa she speaks Czech to you too, just like her parents spoke to her. Can you find her apple?"
+    },
+    {
+      "id": "story.meet-iowa.tata.cs",
+      "text": "Hele, táta na verandě! Taky pochází z Čech, je Čech jako máma. Teď spolu žijete v Iowě. Když táta ukáže na kolo, ty znáš anglický slovo a on tě naučí to český. Pořád je to tvoje kolo!"
+    },
+    {
+      "id": "story.meet-iowa.tata.en",
+      "text": "There’s Dad on the porch! He comes from Czechia too. Both your parents are Czech, and now you all live together in Iowa. Look where Dad’s pointing. You know the English word for your bicycle. Dad can teach you the Czech one!"
+    },
+    {
+      "id": "story.meet-iowa.matyas.cs",
+      "text": "A kdopak šustí pod schůdkama? Tvůj malej bráška Matyáš! Našel list a myslí si, že je to dračí deštník. Zkusíme mu ten list ukázat a říct, jak se jmenuje."
+    },
+    {
+      "id": "story.meet-iowa.matyas.en",
+      "text": "Who's rustling around by the steps? Your little brother Matyáš! He found a leaf and thinks it’s a tiny dragon umbrella. Let's point to his leaf and try its Czech name."
+    },
+    {
+      "id": "story.meet-iowa.garden.cs",
+      "text": "Pojď k zahradní brance, Áďo. Na listu sedí červená beruška. Spočítáme jí tečky? Ty jo, než jsme došli od dveří k plotu, máme celý dobrodružství!"
+    },
+    {
+      "id": "story.meet-iowa.garden.en",
+      "text": "Come to the garden gate, Adam. A red ladybug landed on that leaf. Want to count its spots? Wow! We only went from the front door to the fence, and we've had a whole adventure!"
+    },
+    {
+      "id": "story.meet-iowa.flight.cs",
+      "text": "Až pojedete k babi a dědovi, přes plot to nepůjde. Bydlí v Příbrami v Česku! Proto za nimi letíte přes oceán a pak se vracíte domů do Iowy. Přejeď tlapkou po mapě a klepni na letadlo."
+    },
+    {
+      "id": "story.meet-iowa.flight.en",
+      "text": "Grandma and Grandpa live a little farther away than that fence! They live in Příbram, in Czechia. That's why you fly across the ocean to visit them, then come home to Iowa. Trace the trip with your paw and tap the plane."
+    },
+    {
+      "id": "story.meet-iowa.promise.cs",
+      "text": "A já? Já jsem tvůj strejda Romča, rybář a parťák na vylomeniny. Rád tě budu provázet! Mám pro tebe výpravy. Některý nám dají zabrat, ale můžem to zkusit znova. Až splníš výzvu, ukaž ji mámě a tátovi a vyzvedni si domluvenou odměnu. Některá překvapení na tebe počkají až v Příbrami!"
+    },
+    {
+      "id": "story.meet-iowa.promise.en",
+      "text": "And me? I'm your Uncle Romča, fishing buddy and partner in mischief! I'd love to be your guide. I've got quests for you. Some will be tricky, but we can try again together. Finish a challenge, show Mom and Dad, and collect the reward you agreed on. Some surprises will be waiting in Příbram!"
+    },
+    {
+      "id": "title.meet-iowa.cs",
+      "text": "Náš zelený domek"
+    },
+    {
+      "id": "title.meet-iowa.en",
+      "text": "Our little green house"
+    },
+    {
+      "id": "call.meet-iowa.0.cs",
+      "text": "Koho jsi našel na verandě a co měl Matyáš?"
+    },
+    {
+      "id": "call.meet-iowa.0.en",
+      "text": "Who did you find on the porch, and what did Matyáš have?"
+    },
+    {
+      "id": "story.meet-pribram.arrival.cs",
+      "text": "Hele, Áďo, támhle je náš příbramskej domek! Najdi nahoře na střeše solární panely a vlevo dva balkony, jeden v každým patře. Uhodneš, kdo už u branky vrtí ocasem?"
+    },
+    {
+      "id": "story.meet-pribram.arrival.en",
+      "text": "Look, Adam, there's the house in Příbram! Spot the solar panels on the roof and the two balconies on the left, one on each floor. Can you guess who’s wagging a tail at the gate?"
+    },
+    {
+      "id": "story.meet-pribram.chase.cs",
+      "text": "Haf! To je Chase, náš německej ohař. Čumák má až u země. Našel tam klíč od branky! Koukej, jak pěkně počká, než mu děda otevře. Najdeš klíč taky?"
+    },
+    {
+      "id": "story.meet-pribram.chase.en",
+      "text": "Woof! Meet Chase, our German shorthaired pointer. His nose is right down by the ground. He’s found the garden gate key! Watch him wait for Grandpa to open up. Can you spot the key too?"
+    },
+    {
+      "id": "story.meet-pribram.babi.cs",
+      "text": "Babi! Ta má radost, že jsi tu, prcku. Tady s dědou bydlí. Zamávej jí a pojď zalít kytky, než nám Chase vypije vodu z konvičky."
+    },
+    {
+      "id": "story.meet-pribram.babi.en",
+      "text": "There’s Grandma! She's so happy you’re here, buddy. She lives in this house with Grandpa. Wave hello, then let's water the flowers before Chase drinks from the watering can!"
+    },
+    {
+      "id": "story.meet-pribram.deda.cs",
+      "text": "Děda už čeká na balkoně s hrnkem. Ukazuje ti Svatou Horu. Koukej na ty věžičky! A na druhý straně města, na Březovejch Horách, uvidíš těžní věže, připomínku starých dolů. Mrknem se na mapu."
+    },
+    {
+      "id": "story.meet-pribram.deda.en",
+      "text": "Grandpa is waiting on the balcony with his mug. He points to Svatá Hora. Look at those little domes! Across town in Březové Hory, tall mining towers mark the old mines. Let’s look on the map."
+    },
+    {
+      "id": "story.meet-pribram.landmarks.cs",
+      "text": "Na pravý stránce najdi na kopci Svatou Horu. Teď koukni k cihlový a kovový věži. Vidíš, jak jsou každá jiná? Děda přesně ví, kam se dívat. Klepni, čeká další návštěva!"
+    },
+    {
+      "id": "story.meet-pribram.landmarks.en",
+      "text": "On the right-hand page, find Svatá Hora on the hill. Now look for the brick tower and the metal tower. See their different shapes? Grandpa knows just where to look. Tap, someone else is here!"
+    },
+    {
+      "id": "story.meet-pribram.romca.cs",
+      "text": "No konečně, můj rybářskej parťák! Tady strejda Romča. Na příště už mám připravenej prut. Než vyrazíme na ryby, pojď poznat celou partu."
+    },
+    {
+      "id": "story.meet-pribram.romca.en",
+      "text": "At last, my fishing buddy! It's me, Uncle Romča. I've got my fishing rod ready for next time. Before we head out, let's meet the whole gang."
+    },
+    {
+      "id": "story.meet-pribram.klarka.cs",
+      "text": "Ahoj, Áďo! To ti mává teta Klárka. Když v trávě něco zašustí, hned má v tlapce lupu. Dneska s ní našla stopu od Chaseovy tlapky. Mrkneme se zblízka?"
+    },
+    {
+      "id": "story.meet-pribram.klarka.en",
+      "text": "Aunt Klárka is waving to you, Adam! Whenever she hears a rustle in the grass, out comes her magnifying glass. Today she found one of Chase’s paw prints. Want a closer look?"
+    },
+    {
+      "id": "story.meet-pribram.slow-babi.cs",
+      "text": "Hele, další mávání od branky! Tahle návštěva je Slow babi, maminka tvojí mámy. Přijela za váma na návštěvu. Poznáš ji podle drdůlku a cestovní kabelky. Zamávej jí!"
+    },
+    {
+      "id": "story.meet-pribram.slow-babi.en",
+      "text": "Look, another wave at the gate! This visitor is Slow Babi, your mom's mom. She’s come to spend time with you all. Spot her silver bun and her little travel bag. Give her a wave!"
+    },
+    {
+      "id": "story.meet-pribram.slow-deda.cs",
+      "text": "A vedle ní stojí Slow děda, táta tvojí mámy. Taky přijel na návštěvu. Má brejličky a brašnu přes rameno. Chase už mu očichává boty! Teď už víš, kdo tu bydlí a kdo zrovna přijel. Vítej v Příbrami, parťáku!"
+    },
+    {
+      "id": "story.meet-pribram.slow-deda.en",
+      "text": "Beside her is Slow Děda, your mom’s dad. He’s visiting too. He wears round glasses and a shoulder bag. Chase is already sniffing his shoes! Now you know who lives here and who came to visit. Welcome to Příbram, buddy!"
+    },
+    {
+      "id": "title.meet-pribram.cs",
+      "text": "Kdo čeká u branky?"
+    },
+    {
+      "id": "title.meet-pribram.en",
+      "text": "Who’s at the garden gate?"
+    },
+    {
+      "id": "call.meet-pribram.0.cs",
+      "text": "Kdo nás čekal u branky a kdo přijel na návštěvu?"
+    },
+    {
+      "id": "call.meet-pribram.0.en",
+      "text": "Who waited at the gate and who came to visit?"
+    },
+    {
+      "id": "homeguide.welcome.cs",
+      "text": "Hele, Áďo, na levý stránce je tvůj domov v Iowě, napravo Příbram. Klepni na domeček a pojď se seznámit s rodinou!"
+    },
+    {
+      "id": "homeguide.welcome.en",
+      "text": "Hey, Adam! Your Iowa home is on the left, and Příbram is on the right. Tap a house and let's meet your family!"
+    },
+    {
+      "id": "homeguide.iowa.cs",
+      "text": "Pojď dál, prcku! Klepni na obrázek a prozkoumáme váš zelenej domek od verandy až k brance."
+    },
+    {
+      "id": "homeguide.iowa.en",
+      "text": "Come on in, buddy! Tap the picture and let's explore your green house, from the porch to the garden gate!"
+    },
+    {
+      "id": "homeguide.pribram.cs",
+      "text": "Kdo to štěká u branky? Klepni na obrázek a zjistíme, kdo nás v Příbrami vítá!"
+    },
+    {
+      "id": "homeguide.pribram.en",
+      "text": "Who’s barking at the gate? Tap the picture and let’s find out who’s welcoming us to Příbram!"
     }
   ]
 }

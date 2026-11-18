@@ -2,21 +2,13 @@
 
 [Hrát](https://sinaglr-eng.github.io/adams-dragon-adventures/) · [Pro babi a dědu](https://sinaglr-eng.github.io/adams-dragon-adventures/#grandparents)
 
-Velký rozevřený atlas propojuje Iowu a Příbram. Klepnutí na domov s rodiči nebo dům babi a dědy otevře příběhy příslušné země. Sedm samostatných výprav zahrnuje domov, školku, kola, rybaření i nákup svačiny za dolary a české koruny. Romča vypráví jako parťák, s humorem a hovorově. Schválená dračí rodina je součástí hry.
+V atlasu jsou dvě seznamovací výpravy. V Iowě Adam prozkoumává zelený dům a zahradu s rodiči a Matyášem. V Příbrami ho čekají babi, děda, Romča, Klárka, pes Chase a na návštěvě také Slow babi a Slow děda, rodiče maminky. Za dokončení každé výpravy lze u rodičů aktivovat vlastní rodinnou odměnu.
 
-Český slovníkový vzor zazní vždy normálně a potom pomaleji, s pauzami na zopakování. Babi a děda mají u všech 38 anglických slov orientační český přepis výslovnosti, vlastní procvičování a témata k hovoru. Adamův postup dostanou **rodičem poslanou pohlednicí**, nikoli automatickou synchronizací. Uložený postup původních výprav zůstává zachovaný.
-
-Zvuková knihovna má 450 ověřených MP3; atlasová aktualizace přidává nebo mění 110 klipů.
-
-[Co obsahuje atlas a jak funguje výslovnost](docs/ATLAS_UPDATE.md)
-
-[Jak přidat quest a jak funguje rodinná kniha](docs/QUEST_AUTHORING.md)
-
-![Atlas dvou domovů](art/source/atlas-two-homes.png)
+![Atlas rodinných domovů](art/source/home-atlas.png)
 
 ## Hraní
 
-Otevřete web a klepněte na velké tlačítko. Výchozí průvodce mluví anglicky a učí česká slova; rodič může přepnout průvodce do češtiny. Atlas nabízí i opačný směr. Sedm questů si lze vybrat podle tématu; každý si pamatuje vlastní rozehranou pozici. Původní kapitoly v deníku zachovávají své odemykání. Žádné časové tresty, ztracené série ani placené balíčky.
+Otevřete web a klepněte na velké tlačítko. Výchozí průvodce mluví anglicky a učí česká slova; rodič může přepnout průvodce do češtiny. Atlas nabízí i opačný směr. Dva questy si lze vybrat podle domova; každý si pamatuje vlastní rozehranou pozici.  Žádné časové tresty, ztracené série ani placené balíčky.
 
 Na iPadu lze použít Safari → Sdílet → Přidat na plochu. Rozložení podporuje šířku i výšku, klepnutí namísto přetahování a klávesnici. Navštívené obrázky a repliky se ukládají do offline cache. Nové výpravy a dosud nepřehrané audio vyžadují připojení; nejde o plně předstaženou offline aplikaci.
 
@@ -27,7 +19,7 @@ Na iPadu lze použít Safari → Sdílet → Přidat na plochu. Rozložení podp
 - Automatické hodnocení české dětské výslovnosti není aktivní. Hlasitost, přepis ani kliknutí ho nenahrazují. Hra funguje bez mikrofonu.
 - Hot Wheels, Pokémon kartičky, svačinu, výlet či vlastní odměnu nejprve aktivuje rodič. Po splnění podmínek ověří důkazy a potvrdí skutečné předání. Každou odměnu lze předat jednou. Hra nic nenakupuje.
 
-Syntetické hlasy pocházejí z ElevenLabs: český Petr a americký anglický Udem. Nejde o hlasové klony rodiny. Všechny soubory jsou součástí webu; hraní nevyžaduje API klíč. **Kompletní poslechová kontrola rodilým dospělým ještě neproběhla; před samostatným hraním nahrávky zkontrolujte.** Při nedostupném souboru může pomoci označený náhradní hlas zařízení, pouze pokud je dostupný správný jazyk.
+Nové příběhy vyprávějí syntetické hlasy Antonín a Guy. Stávající slovníkové klipy používají hlasy Petr a Udem. Nejde o hlasové klony rodiny. Všechny soubory jsou součástí webu; hraní nevyžaduje API klíč. **Kompletní poslechová kontrola rodilým dospělým ještě neproběhla; před samostatným hraním nahrávky zkontrolujte.** Při nedostupném souboru může pomoci označený náhradní hlas zařízení, pouze pokud je dostupný správný jazyk.
 
 ## Spuštění a build
 

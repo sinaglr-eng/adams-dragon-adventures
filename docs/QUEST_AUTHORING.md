@@ -1,8 +1,6 @@
-> Verze 1.2: [Atlas dvou domovů](ATLAS_UPDATE.md) nyní nabízí sedm výprav. Nové questy se automaticky zobrazí pod domem podle `region`: `iowa` nebo `pribram`. Nová slovní zásoba musí obsahovat také `enPronunciationCs`.
-
 # Příběhové questy a rodinná kniha
 
-Aktuální zadání nahrazuje pevnou posloupnost osmi kapitol samostatnými tematickými questy. Původní kapitoly jsou v deníku zachovány kvůli postupu, odměnám a rozehraným uloženým hrám.
+Atlas nabízí dvě rodinné výpravy, **Náš zelený domek** v Iowě a **Kdo čeká u branky?** v Příbrami. Nové questy se automaticky zobrazí pod domem podle pole `region`. Starší výpravy v `content/retired-quests/` slouží k načtení dřívějšího postupu a rodinných pohlednic. Nová slovní zásoba potřebuje český přepis anglické výslovnosti v poli `enPronunciationCs`.
 
 ## Přidání tématu bez úpravy herního enginu
 

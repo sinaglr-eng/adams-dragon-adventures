@@ -1,0 +1,231 @@
+{
+  "id": "meet-iowa",
+  "title": "Náš zelený domek",
+  "titleEn": "Our little green house",
+  "region": "iowa",
+  "cast": [
+    "adam"
+  ],
+  "background": "iowa-house",
+  "narrator": "romca",
+  "mechanics": [
+    "narrative",
+    "learn",
+    "find"
+  ],
+  "concepts": [
+    "hello",
+    "apple",
+    "bicycle",
+    "leaf",
+    "ladybird"
+  ],
+  "prerequisites": [],
+  "scriptCs": "Čau, Áďo! Tady strejda Romča. Vidíš ten světle zelenej domeček? Tady v Iowě bydlíš a tady v Americe ses narodil. Jsi Američan, malej dráčku! Zamávej a pojď mi ukázat, kdo je doma.",
+  "scriptEn": "Hey, Adam! Uncle Romča here. See that little green house? This is your home in Iowa. You were born right here in America. You’re American, little dragon! Give me a wave. Who's home?",
+  "suggestedMinutes": [
+    6,
+    12
+  ],
+  "speechOptionalForCompletion": true,
+  "archived": false,
+  "version": 1,
+  "tasks": [
+    {
+      "kind": "narrative",
+      "id": "adam",
+      "art": "family/adam",
+      "text": {
+        "cs": "Čau, Áďo! Tady strejda Romča. Vidíš ten světle zelenej domeček? Tady v Iowě bydlíš a tady v Americe ses narodil. Jsi Američan, malej dráčku! Zamávej a pojď mi ukázat, kdo je doma.",
+        "en": "Hey, Adam! Uncle Romča here. See that little green house? This is your home in Iowa. You were born right here in America. You’re American, little dragon! Give me a wave. Who's home?"
+      },
+      "concept": "hello",
+      "action": "next",
+      "cast": [
+        "adam"
+      ]
+    },
+    {
+      "kind": "learn",
+      "concept": "hello"
+    },
+    {
+      "kind": "find",
+      "concept": "hello",
+      "options": [
+        "hello",
+        "apple",
+        "cup"
+      ]
+    },
+    {
+      "kind": "narrative",
+      "id": "mama",
+      "art": "family/mama",
+      "text": {
+        "cs": "Z kuchyně voní jablíčka. Máma ti jedno schovala! Víš, kde vyrostla? V Čechách, až za oceánem. Je Češka. Tady v Iowě na tebe mluví i česky, tak jak na ni mluvili její rodiče. Najdeme její jablko?",
+        "en": "Sniff! Apples! Mom saved one for you. She grew up across the ocean, in Czechia. She’s Czech. Here in Iowa she speaks Czech to you too, just like her parents spoke to her. Can you find her apple?"
+      },
+      "concept": "hello",
+      "action": "next",
+      "cast": [
+        "adam"
+      ]
+    },
+    {
+      "kind": "learn",
+      "concept": "apple",
+      "cast": [
+        "adam",
+        "mama"
+      ]
+    },
+    {
+      "kind": "find",
+      "concept": "apple",
+      "options": [
+        "apple",
+        "cup",
+        "key"
+      ],
+      "cast": [
+        "adam",
+        "mama"
+      ]
+    },
+    {
+      "kind": "narrative",
+      "id": "tata",
+      "art": "family/tata",
+      "text": {
+        "cs": "Hele, táta na verandě! Taky pochází z Čech, je Čech jako máma. Teď spolu žijete v Iowě. Když táta ukáže na kolo, ty znáš anglický slovo a on tě naučí to český. Pořád je to tvoje kolo!",
+        "en": "There’s Dad on the porch! He comes from Czechia too. Both your parents are Czech, and now you all live together in Iowa. Look where Dad’s pointing. You know the English word for your bicycle. Dad can teach you the Czech one!"
+      },
+      "concept": "hello",
+      "action": "next",
+      "cast": [
+        "adam"
+      ]
+    },
+    {
+      "kind": "learn",
+      "concept": "bicycle",
+      "cast": [
+        "adam",
+        "tata"
+      ]
+    },
+    {
+      "kind": "find",
+      "concept": "bicycle",
+      "options": [
+        "bicycle",
+        "apple",
+        "cup"
+      ],
+      "cast": [
+        "adam",
+        "tata"
+      ]
+    },
+    {
+      "kind": "narrative",
+      "id": "matyas",
+      "art": "family/matyas",
+      "text": {
+        "cs": "A kdopak šustí pod schůdkama? Tvůj malej bráška Matyáš! Našel list a myslí si, že je to dračí deštník. Zkusíme mu ten list ukázat a říct, jak se jmenuje.",
+        "en": "Who's rustling around by the steps? Your little brother Matyáš! He found a leaf and thinks it’s a tiny dragon umbrella. Let's point to his leaf and try its Czech name."
+      },
+      "concept": "hello",
+      "action": "next",
+      "cast": [
+        "adam"
+      ]
+    },
+    {
+      "kind": "learn",
+      "concept": "leaf",
+      "cast": [
+        "adam",
+        "matyas"
+      ]
+    },
+    {
+      "kind": "find",
+      "concept": "leaf",
+      "options": [
+        "leaf",
+        "apple",
+        "cup"
+      ],
+      "cast": [
+        "adam",
+        "matyas"
+      ]
+    },
+    {
+      "kind": "narrative",
+      "id": "garden",
+      "art": "creatures/ladybird",
+      "text": {
+        "cs": "Pojď k zahradní brance, Áďo. Na listu sedí červená beruška. Spočítáme jí tečky? Ty jo, než jsme došli od dveří k plotu, máme celý dobrodružství!",
+        "en": "Come to the garden gate, Adam. A red ladybug landed on that leaf. Want to count its spots? Wow! We only went from the front door to the fence, and we've had a whole adventure!"
+      },
+      "concept": "hello",
+      "action": "next",
+      "cast": [
+        "adam"
+      ],
+      "background": "iowa-garden"
+    },
+    {
+      "kind": "learn",
+      "concept": "ladybird",
+      "background": "iowa-garden"
+    },
+    {
+      "kind": "find",
+      "concept": "ladybird",
+      "options": [
+        "ladybird",
+        "apple",
+        "cup"
+      ],
+      "background": "iowa-garden"
+    },
+    {
+      "kind": "narrative",
+      "id": "flight",
+      "art": "atlas-two-homes",
+      "text": {
+        "cs": "Až pojedete k babi a dědovi, přes plot to nepůjde. Bydlí v Příbrami v Česku! Proto za nimi letíte přes oceán a pak se vracíte domů do Iowy. Přejeď tlapkou po mapě a klepni na letadlo.",
+        "en": "Grandma and Grandpa live a little farther away than that fence! They live in Příbram, in Czechia. That's why you fly across the ocean to visit them, then come home to Iowa. Trace the trip with your paw and tap the plane."
+      },
+      "concept": "hello",
+      "action": "plane",
+      "cast": [
+        "adam"
+      ]
+    },
+    {
+      "kind": "narrative",
+      "id": "promise",
+      "art": "family/romca",
+      "text": {
+        "cs": "A já? Já jsem tvůj strejda Romča, rybář a parťák na vylomeniny. Rád tě budu provázet! Mám pro tebe výpravy. Některý nám dají zabrat, ale můžem to zkusit znova. Až splníš výzvu, ukaž ji mámě a tátovi a vyzvedni si domluvenou odměnu. Některá překvapení na tebe počkají až v Příbrami!",
+        "en": "And me? I'm your Uncle Romča, fishing buddy and partner in mischief! I'd love to be your guide. I've got quests for you. Some will be tricky, but we can try again together. Finish a challenge, show Mom and Dad, and collect the reward you agreed on. Some surprises will be waiting in Příbram!"
+      },
+      "concept": "hello",
+      "action": "star",
+      "cast": [
+        "adam"
+      ]
+    }
+  ],
+  "callPrompts": [
+    {
+      "cs": "Koho jsi našel na verandě a co měl Matyáš?",
+      "en": "Who did you find on the porch, and what did Matyáš have?"
+    }
+  ]
+}

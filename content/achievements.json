@@ -2,6 +2,50 @@
   "schemaVersion": 1,
   "achievements": [
     {
+      "id": "gate-welcome",
+      "title": "Chaseův kamarád",
+      "badge": "badges/little-creatures",
+      "conditions": {
+        "questId": "meet-pribram",
+        "distinctRecognizedConcepts": 0,
+        "distinctVerifiedSpokenConcepts": 0,
+        "language": "cs-CZ",
+        "withoutModelCount": 0,
+        "laterSessionRecallCount": 0,
+        "newContextCount": 0
+      },
+      "suggestedReward": {
+        "type": "custom",
+        "label": "Překvapení k vyzvednutí v Příbrami"
+      },
+      "realRewardEnabledByDefault": false,
+      "repeatable": false,
+      "expiry": null,
+      "notes": null
+    },
+    {
+      "id": "home-explorer",
+      "title": "Průzkumník zeleného domku",
+      "badge": "badges/five-words",
+      "conditions": {
+        "questId": "meet-iowa",
+        "distinctRecognizedConcepts": 0,
+        "distinctVerifiedSpokenConcepts": 0,
+        "language": "cs-CZ",
+        "withoutModelCount": 0,
+        "laterSessionRecallCount": 0,
+        "newContextCount": 0
+      },
+      "suggestedReward": {
+        "type": "custom",
+        "label": "Domluvená odměna u mámy a táty"
+      },
+      "realRewardEnabledByDefault": false,
+      "repeatable": false,
+      "expiry": null,
+      "notes": null
+    },
+    {
       "id": "first-catch",
       "title": "Můj první rybářský příběh",
       "badge": "badges/first-catch",

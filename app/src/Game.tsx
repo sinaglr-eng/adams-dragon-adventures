@@ -384,7 +384,10 @@ export function Game({
                   ))}
                 </span>
               ) : (
-                <Sprite id={task.art!} className="story-object" />
+                <Sprite
+                  id={task.art!}
+                  className={`story-object ${task.art!.startsWith("family/") ? "story-character" : ""}`}
+                />
               )}
               <span className="touch-cue">
                 <Icon

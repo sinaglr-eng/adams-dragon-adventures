@@ -1,4 +1,4 @@
-import { activeQuests, words } from "./data";
+import { activeQuests, questById, words } from "./data";
 import { completed, mastery, type Save } from "./domain";
 
 export type Postcard = {
@@ -64,7 +64,9 @@ export function validatePostcard(value: unknown): Postcard {
     throw Error("Neplatná verze nebo datum pohlednice.");
   const ids = new Set();
   const quests = p.quests.map((entry) => {
-    const q = activeQuests.find((q) => q.id === entry.id);
+    const q = Object.hasOwn(questById, entry.id)
+      ? questById[entry.id]
+      : undefined;
     if (
       !q ||
       ids.has(entry.id) ||

@@ -16,71 +16,71 @@
           "rect": {
             "x": 0,
             "y": 0,
-            "w": 384,
-            "h": 512
+            "w": 396,
+            "h": 471
           }
         },
         {
           "id": "family/matyas",
           "rect": {
-            "x": 384,
+            "x": 396,
             "y": 0,
-            "w": 384,
-            "h": 512
+            "w": 339,
+            "h": 471
           }
         },
         {
           "id": "family/romca",
           "rect": {
-            "x": 768,
+            "x": 735,
             "y": 0,
-            "w": 384,
-            "h": 512
+            "w": 385,
+            "h": 471
           }
         },
         {
           "id": "family/klarka",
           "rect": {
-            "x": 1152,
+            "x": 1120,
             "y": 0,
-            "w": 384,
-            "h": 512
+            "w": 416,
+            "h": 471
           }
         },
         {
           "id": "family/babi",
           "rect": {
             "x": 0,
-            "y": 512,
-            "w": 384,
-            "h": 512
+            "y": 472,
+            "w": 390,
+            "h": 552
           }
         },
         {
           "id": "family/deda",
           "rect": {
-            "x": 384,
-            "y": 512,
-            "w": 384,
-            "h": 512
+            "x": 390,
+            "y": 472,
+            "w": 370,
+            "h": 552
           }
         },
         {
           "id": "family/mama",
           "rect": {
-            "x": 768,
-            "y": 512,
-            "w": 384,
-            "h": 512
+            "x": 760,
+            "y": 472,
+            "w": 360,
+            "h": 552
           }
         },
         {
           "id": "family/tata",
           "rect": {
-            "x": 1152,
-            "y": 512,
-            "w": 384,
-            "h": 512
+            "x": 1120,
+            "y": 472,
+            "w": 416,
+            "h": 552
           }
         }
       ]
@@ -99,43 +99,43 @@
           "rect": {
             "x": 0,
             "y": 0,
-            "w": 307,
+            "w": 305,
             "h": 512
           }
         },
         {
           "id": "adam-poses/wave",
           "rect": {
-            "x": 307,
+            "x": 305,
             "y": 0,
-            "w": 307,
+            "w": 313,
             "h": 512
           }
         },
         {
           "id": "adam-poses/listen",
           "rect": {
-            "x": 614,
+            "x": 618,
             "y": 0,
-            "w": 308,
+            "w": 302,
             "h": 512
           }
         },
         {
           "id": "adam-poses/speak",
           "rect": {
-            "x": 922,
+            "x": 920,
             "y": 0,
-            "w": 307,
+            "w": 300,
             "h": 512
           }
         },
         {
           "id": "adam-poses/celebrate",
           "rect": {
-            "x": 1229,
+            "x": 1220,
             "y": 0,
-            "w": 307,
+            "w": 316,
             "h": 512
           }
         },
@@ -144,43 +144,43 @@
           "rect": {
             "x": 0,
             "y": 512,
-            "w": 307,
+            "w": 308,
             "h": 512
           }
         },
         {
           "id": "adam-actions/cycling",
           "rect": {
-            "x": 307,
+            "x": 308,
             "y": 512,
-            "w": 307,
+            "w": 291,
             "h": 512
           }
         },
         {
           "id": "adam-actions/magnifier",
           "rect": {
-            "x": 614,
+            "x": 599,
             "y": 512,
-            "w": 308,
+            "w": 317,
             "h": 512
           }
         },
         {
           "id": "adam-actions/landing-net",
           "rect": {
-            "x": 922,
+            "x": 916,
             "y": 512,
-            "w": 307,
+            "w": 304,
             "h": 512
           }
         },
         {
           "id": "adam-actions/atlas",
           "rect": {
-            "x": 1229,
+            "x": 1220,
             "y": 512,
-            "w": 307,
+            "w": 316,
             "h": 512
           }
         }
@@ -188,12 +188,85 @@
     },
     {
       "id": "atlas-two-homes",
-      "path": "art/source/atlas-two-homes.png",
+      "path": "art/source/home-atlas.png",
       "width": 1536,
       "height": 1024,
-      "sha256": "bd1dc3d79ec2283f07f35fd58abc6689d45ef58d74ee1c3e4eaebf80d53fe418",
-      "bytes": 3805614,
-      "alphaRequested": false
+      "bytes": 4024909,
+      "sha256": "6ab18ab8de6a98a34e6c2a97b87cb67a179520d1ef74334643ad929dec7768a3"
+    },
+    {
+      "id": "home-vignettes",
+      "path": "art/source/home-atlas.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 4024909,
+      "sha256": "6ab18ab8de6a98a34e6c2a97b87cb67a179520d1ef74334643ad929dec7768a3",
+      "frames": [
+        {
+          "id": "iowa-house",
+          "rect": {
+            "x": 20,
+            "y": 365,
+            "w": 730,
+            "h": 463
+          }
+        },
+        {
+          "id": "pribram-house",
+          "rect": {
+            "x": 885,
+            "y": 444,
+            "w": 625,
+            "h": 391
+          }
+        },
+        {
+          "id": "iowa-garden",
+          "rect": {
+            "x": 23,
+            "y": 610,
+            "w": 710,
+            "h": 355
+          }
+        }
+      ]
+    },
+    {
+      "id": "family-visitors",
+      "path": "art/source/visitors.png",
+      "width": 2172,
+      "height": 724,
+      "bytes": 2539119,
+      "sha256": "98b63a01cf2f451d41aba506572fdb73606d6e21d10cf3bf42c66a267813a807",
+      "frames": [
+        {
+          "id": "family/slow-babi",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 697,
+            "h": 724
+          }
+        },
+        {
+          "id": "family/slow-deda",
+          "rect": {
+            "x": 697,
+            "y": 0,
+            "w": 768,
+            "h": 724
+          }
+        },
+        {
+          "id": "family/chase",
+          "rect": {
+            "x": 1465,
+            "y": 0,
+            "w": 707,
+            "h": 724
+          }
+        }
+      ]
     }
   ]
 }

@@ -80,6 +80,33 @@
       "allowedPhysicalRegions": [
         "iowa"
       ]
+    },
+    {
+      "id": "slow-babi",
+      "art": "family/slow-babi",
+      "playable": false,
+      "narrator": false,
+      "allowedPhysicalRegions": [
+        "pribram"
+      ]
+    },
+    {
+      "id": "slow-deda",
+      "art": "family/slow-deda",
+      "playable": false,
+      "narrator": false,
+      "allowedPhysicalRegions": [
+        "pribram"
+      ]
+    },
+    {
+      "id": "chase",
+      "art": "family/chase",
+      "playable": false,
+      "narrator": false,
+      "allowedPhysicalRegions": [
+        "pribram"
+      ]
     }
   ]
 }

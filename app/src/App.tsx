@@ -1,6 +1,5 @@
 import { useEffect, useState, useSyncExternalStore } from "react";
 import {
-  quests,
   activeQuests,
   words,
   vocabulary,
@@ -122,8 +121,12 @@ export default function App() {
     go("game");
     setJournal(false);
   };
+  const canResume =
+    !!save.run &&
+    save.run.phase !== "summary" &&
+    activeQuests.some((q) => q.id === save.run?.questId);
   const playStart = () => {
-    if (save.run && save.run.phase !== "summary") {
+    if (canResume) {
       go("game");
     } else if (save.events.length) {
       go("map");
@@ -283,17 +286,17 @@ export default function App() {
               <br />A whole world of words.
             </p>
             <Button icon="play" className="hero-button" onClick={playStart}>
-              {save.run
+              {canResume
                 ? resumeText
                 : lang === "cs"
                   ? "Jdeme na výpravu!"
                   : "Let's go, Adam!"}
             </Button>
-            {save.events.length > 0 && (
+            {
               <button className="title-map" onClick={() => go("map")}>
                 {lang === "cs" ? "Otevřít mapu" : "Open my map"} →
               </button>
-            )}
+            }
             <div className="language-pills">
               <button
                 aria-pressed={lang === "en"}
@@ -354,7 +357,7 @@ export default function App() {
             onStart={(id) => void start(id)}
             paused={pause || gate || journal}
           />
-          {save.run && save.run.phase !== "summary" && (
+          {canResume && (
             <div className="resume-strip">
               <span>
                 {lang === "cs"
@@ -504,36 +507,44 @@ export default function App() {
             <Sprite id="family/klarka" className="book-klarka" />
           </div>
           <div className="badge-grid">
-            {achievements.map((a) => {
-              const earned = progress(save, a.conditions).earned,
-                r = save.rewards.find((r) => r.id === a.id);
-              return (
-                <button
-                  key={a.id}
-                  className={`badge-card ${earned ? "earned" : ""}`}
-                  onClick={() => setBadge(a.id)}
-                >
-                  <Sprite id={a.badge} />
-                  <h2>{a.title}</h2>
-                  <span>
-                    {earned
-                      ? lang === "cs"
-                        ? "Odznak získán"
-                        : "Badge earned"
-                      : lang === "cs"
-                        ? "Společně to zvládneme"
-                        : "One little step at a time"}
-                  </span>
-                  {r && (
-                    <p>
-                      <Icon name="gift" />
-                      {r.label}
-                      {r.state === "redeemed" ? " ✓" : ""}
-                    </p>
-                  )}
-                </button>
-              );
-            })}
+            {achievements
+              .filter(
+                (a) =>
+                  !a.conditions.questId ||
+                  activeQuests.some((q) => q.id === a.conditions.questId) ||
+                  save.rewards.some((r) => r.id === a.id) ||
+                  progress(save, a.conditions).earned,
+              )
+              .map((a) => {
+                const earned = progress(save, a.conditions).earned,
+                  r = save.rewards.find((r) => r.id === a.id);
+                return (
+                  <button
+                    key={a.id}
+                    className={`badge-card ${earned ? "earned" : ""}`}
+                    onClick={() => setBadge(a.id)}
+                  >
+                    <Sprite id={a.badge} />
+                    <h2>{a.title}</h2>
+                    <span>
+                      {earned
+                        ? lang === "cs"
+                          ? "Odznak získán"
+                          : "Badge earned"
+                        : lang === "cs"
+                          ? "Společně to zvládneme"
+                          : "One little step at a time"}
+                    </span>
+                    {r && (
+                      <p>
+                        <Icon name="gift" />
+                        {r.label}
+                        {r.state === "redeemed" ? " ✓" : ""}
+                      </p>
+                    )}
+                  </button>
+                );
+              })}
           </div>
           <Button icon="parent" onClick={() => setGate(true)}>
             {lang === "cs" ? "Ukázat rodiči" : "Show a grown-up"}
@@ -614,16 +625,12 @@ export default function App() {
       )}
       {journal && (
         <Modal
-          title={
-            lang === "cs"
-              ? "Deník výprav a původní kapitoly"
-              : "Quest journal & original chapters"
-          }
+          title={lang === "cs" ? "Deník výprav" : "Quest journal"}
           onClose={() => setJournal(false)}
           className="journal"
         >
           <div className="journal-list">
-            {quests.map((q, i) => (
+            {activeQuests.map((q, i) => (
               <button
                 key={q.id}
                 disabled={!unlocked(save, q.id)}
@@ -678,7 +685,10 @@ export default function App() {
           title={achievements.find((a) => a.id === badge)!.title}
           onClose={() => setBadge(null)}
         >
-          <Sprite id={`badges/${badge}`} className="badge-detail" />
+          <Sprite
+            id={achievements.find((a) => a.id === badge)!.badge}
+            className="badge-detail"
+          />
           <Requirement
             save={save}
             conditions={achievements.find((a) => a.id === badge)!.conditions}

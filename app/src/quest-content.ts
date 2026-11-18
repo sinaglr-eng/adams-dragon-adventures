@@ -56,6 +56,17 @@ const artIds = new Set(
     a.frames?.length ? a.frames.map((f) => f.id) : [a.id],
   ),
 );
+for (const id of [
+  "iowa-house",
+  "pribram-house",
+  "iowa-garden",
+  "atlas-two-homes",
+]) {
+  backgrounds.add(id);
+  artIds.add(id);
+}
+for (const id of ["slow-babi", "slow-deda", "chase"])
+  artIds.add("family/" + id);
 const kinds = new Set([
   "learn",
   "find",
@@ -76,6 +87,9 @@ const actors = new Set([
   "babi",
   "deda",
   "romca",
+  "slow-babi",
+  "slow-deda",
+  "chase",
   "klarka",
 ]);
 const actions = new Set([
@@ -115,7 +129,9 @@ export function validateQuest(input: unknown): Quest {
     if (cast.some((a) => !actors.has(a))) fail("unknown actor");
     if (
       (q.region === "iowa" || background.startsWith("iowa")) &&
-      cast.some((a) => a === "babi" || a === "deda")
+      cast.some((a) =>
+        ["babi", "deda", "slow-babi", "slow-deda", "chase"].includes(a),
+      )
     )
       fail("grandparents only in Příbram");
     if (
@@ -185,17 +201,15 @@ export function validateQuest(input: unknown): Quest {
     fail("family conversation prompts required");
   return q;
 }
+const retired = import.meta.glob("../../content/retired-quests/*.json", {
+  eager: true,
+  import: "default",
+});
 const packs = import.meta.glob("../../content/quest-packs/*.json", {
   eager: true,
   import: "default",
 });
-const order = [
-  "story-iowa",
-  "home-kindergarten",
-  "grandparents-home",
-  "family-cycling",
-  "romca-fishing",
-];
+const order = ["meet-iowa", "meet-pribram"];
 export const activeQuests = Object.values(packs)
   .map(validateQuest)
   .sort((a, b) => {
@@ -207,6 +221,7 @@ export const activeQuests = Object.values(packs)
   });
 export const allQuests: Quest[] = [
   ...activeQuests,
+  ...Object.values(retired).map(validateQuest),
   ...legacy.quests.map(validateQuest),
 ];
 if (new Set(allQuests.map((q) => q.id)).size !== allQuests.length)

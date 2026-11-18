@@ -1003,3 +1003,63 @@
   height: 66px;
   object-fit: contain;
 }
+
+/* Keep the complete silhouette inside the scene throughout its greeting. */
+.story-touch .story-character {
+  object-fit: contain;
+  width: 80%;
+  height: 79%;
+  transform-origin: 50% 93%;
+}
+.story-acting .story-character {
+  animation: family-greeting 0.85s ease-in-out;
+}
+@keyframes family-greeting {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+  36% {
+    transform: translateY(-3%) rotate(-2deg);
+  }
+  68% {
+    transform: translateY(-1%) rotate(2deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  html:not(.calm) .story-character {
+    animation: family-greeting 4.8s ease-in-out infinite;
+  }
+  html:not(.calm) .story-acting .story-character {
+    animation: family-greeting 0.85s ease-in-out;
+  }
+  html:not(.calm) .scene:not(.cycling) .companion {
+    animation: family-greeting 5.5s ease-in-out infinite;
+  }
+  html:not(.calm) .scene:not(.cycling) .companion-1 {
+    animation-delay: -2s;
+  }
+  html:not(.calm) .paused .scene .actor,
+  html:not(.calm) .paused .scene .story-character {
+    animation-play-state: paused;
+  }
+}
+.calm .story-character,
+.paused .story-character {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .story-acting .story-character {
+    animation: none;
+  }
+}
+.world-atlas .atlas-home {
+  top: 59%;
+  height: 25%;
+}
+.world-atlas .home-family {
+  height: 56%;
+}
+.home-quests .quest-covers {
+  grid-template-columns: minmax(0, min(100%, 480px));
+}

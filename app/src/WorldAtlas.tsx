@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { activeQuests, asset, title, type Lang } from "./data";
 import { completed, unlocked, type Save } from "./domain";
-import { Button, Icon, Narrator, Sprite, WordArt } from "./components";
+import { Button, Icon, Narrator, Sprite } from "./components";
 import { play, stopAudio } from "./audio";
 import storyAudio from "../../content/story-audio.json";
 
@@ -22,7 +22,7 @@ export function WorldAtlas({
   const lang: Lang = save.prefs.language;
   const panel = useRef<HTMLElement>(null);
   const finished = completed(save);
-  const cue = `atlas.${region ?? "welcome"}.${lang}`;
+  const cue = `homeguide.${region ?? "welcome"}.${lang}`;
   const text = storyAudio.lines.find((l) => l.id === cue)!.text;
   useEffect(() => {
     if (!paused) void play(cue);
@@ -160,36 +160,9 @@ export function WorldAtlas({
                   onClick={() => onStart(q.id)}
                 >
                   <Sprite
-                    id={
-                      q.id === "romca-fishing"
-                        ? "family/romca"
-                        : q.id === "family-cycling"
-                          ? "adam-actions/cycling"
-                          : q.region === "pribram"
-                            ? "family/babi"
-                            : "family/adam"
-                    }
+                    id={q.region === "pribram" ? "family/chase" : "family/adam"}
                     className="quest-cover-actor"
                   />
-                  {q.id.includes("shop") && (
-                    <span className={`quest-money ${q.region}`}>
-                      {q.region === "iowa" ? "$" : "Kč"}
-                    </span>
-                  )}
-                  <span className="quest-motif">
-                    {q.id === "home-kindergarten" ? (
-                      <>
-                        <WordArt id="red" />
-                        <WordArt id="blue" />
-                      </>
-                    ) : q.id === "romca-fishing" ? (
-                      <WordArt id="rod" />
-                    ) : q.id === "grandparents-home" ? (
-                      <WordArt id="watering-can" />
-                    ) : q.id === "story-iowa" ? (
-                      <WordArt id="apple" />
-                    ) : null}
-                  </span>
                   <span className="quest-picture-play">
                     <Icon name="play" />
                   </span>

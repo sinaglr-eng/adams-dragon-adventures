@@ -9,7 +9,11 @@ for (const asset of manifest.assets) {
   if (asset.frames) for (const frame of asset.frames) {
     const {x,y,w,h}=frame.rect;
     const crop=await sharp(source).extract({left:x,top:y,width:w,height:h}).png().toBuffer();
-    await sharp(crop).trim({threshold:8}).resize({width:640,height:640,fit:'inside',withoutEnlargement:true}).webp({quality:88,alphaQuality:100}).toFile(`app/public/game-assets/art/${frame.id.replace('/','-')}.webp`);
+    const image = sharp(crop).trim({threshold:8}).resize({width:640,height:640,fit:'inside',withoutEnlargement:true});
+    if (frame.id.includes('/')) {
+      image.extend({top:8,right:8,bottom:8,left:8,background:{r:0,g:0,b:0,alpha:0}});
+    }
+    await image.webp({quality:88,alphaQuality:100}).toFile(`app/public/game-assets/art/${frame.id.replace('/','-')}.webp`);
   } else await sharp(source).resize({width:1600,withoutEnlargement:true}).webp({quality:88}).toFile(`app/public/game-assets/art/${asset.id}.webp`);
 }
 await writeFile('app/public/game-assets/art/atlas-art-version.json',JSON.stringify({version:2,assets:manifest.assets.map(a=>({id:a.id,sha256:a.sha256}))}));
