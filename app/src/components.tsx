@@ -58,6 +58,78 @@ export function WordArt({
   id: string;
   className?: string;
 }) {
+  if (id === "dollar" || id === "koruna")
+    return (
+      <div className={`money-art ${id} ${className}`} aria-hidden="true">
+        <svg viewBox="0 0 220 160" role="presentation">
+          {id === "dollar" ? (
+            <>
+              <rect
+                x="8"
+                y="25"
+                width="204"
+                height="110"
+                rx="15"
+                fill="#b4d88d"
+                stroke="#346951"
+                strokeWidth="6"
+              />
+              <rect
+                x="20"
+                y="37"
+                width="180"
+                height="86"
+                rx="9"
+                fill="none"
+                stroke="#6d9b66"
+                strokeWidth="3"
+              />
+              <ellipse cx="110" cy="80" rx="37" ry="43" fill="#e2edbd" />
+              <text
+                x="110"
+                y="108"
+                textAnchor="middle"
+                fontSize="80"
+                fontWeight="900"
+                fill="#346951"
+              >
+                $
+              </text>
+            </>
+          ) : (
+            <>
+              <circle
+                cx="110"
+                cy="80"
+                r="70"
+                fill="#d7e0e1"
+                stroke="#647c85"
+                strokeWidth="7"
+              />
+              <circle
+                cx="110"
+                cy="80"
+                r="58"
+                fill="none"
+                stroke="#99adb3"
+                strokeWidth="3"
+                strokeDasharray="4 4"
+              />
+              <text
+                x="110"
+                y="101"
+                textAnchor="middle"
+                fontSize="57"
+                fontWeight="900"
+                fill="#435e69"
+              >
+                Kč
+              </text>
+            </>
+          )}
+        </svg>
+      </div>
+    );
   if (id === "hello")
     return <Sprite id="adam-poses/wave" className={className} />;
   if (id === "thanks")

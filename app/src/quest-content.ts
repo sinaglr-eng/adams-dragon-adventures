@@ -21,6 +21,7 @@ export type Task = {
   id?: string;
   text?: Pair;
   art?: string;
+  pictures?: string[];
   action?: string;
   background?: string;
   cast?: string[];
@@ -134,6 +135,13 @@ export function validateQuest(input: unknown): Quest {
     fail("1–100 steps required");
   const sceneIds = new Set();
   for (const t of q.tasks) {
+    if (
+      t.pictures &&
+      (!t.pictures.length ||
+        t.pictures.length > 3 ||
+        t.pictures.some((id) => !knownWords.has(id)))
+    )
+      fail("unknown story picture");
     if (!kinds.has(t.kind) || !knownWords.has(t.concept))
       fail("unknown task or concept");
     if (

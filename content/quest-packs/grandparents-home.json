@@ -27,8 +27,8 @@
     "thanks"
   ],
   "prerequisites": [],
-  "scriptCs": "Po dlouhé cestě přes oceán dorazil Adam do Příbrami. U branky čekají babi a děda, dva starší draci s velikým úsměvem. Klepni na babi a zamávej jí.",
-  "scriptEn": "After a long trip across the ocean, Adam arrives in Příbram. Grandma and Grandpa, two older dragons with big smiles, are waiting at the garden gate. Tap Grandma to wave hello.",
+  "scriptCs": "Áďo, jsme tady! Příbram! Za brankou už mávají babi a děda. Po takový cestě přes oceán se hodí pořádný dračí objetí. A slyšíš? Tady to kolem nás zní česky. Klepni na babi a zamávej jí.",
+  "scriptEn": "Adam, we made it! Příbram! Grandma and Grandpa are waving at the gate. After that ocean trip, a big dragon hug sounds pretty good. Listen, people around us are speaking Czech! Tap Grandma and give her a wave.",
   "suggestedMinutes": [
     6,
     12
@@ -42,8 +42,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Po dlouhé cestě přes oceán dorazil Adam do Příbrami. U branky čekají babi a děda, dva starší draci s velikým úsměvem. Klepni na babi a zamávej jí.",
-        "en": "After a long trip across the ocean, Adam arrives in Příbram. Grandma and Grandpa, two older dragons with big smiles, are waiting at the garden gate. Tap Grandma to wave hello."
+        "cs": "Áďo, jsme tady! Příbram! Za brankou už mávají babi a děda. Po takový cestě přes oceán se hodí pořádný dračí objetí. A slyšíš? Tady to kolem nás zní česky. Klepni na babi a zamávej jí.",
+        "en": "Adam, we made it! Příbram! Grandma and Grandpa are waving at the gate. After that ocean trip, a big dragon hug sounds pretty good. Listen, people around us are speaking Czech! Tap Grandma and give her a wave."
       },
       "art": "family/babi",
       "action": "wave"
@@ -61,8 +61,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Babi ukazuje Adamovi zahradu. Květiny mají žízeň a konvička čeká u dveří. Adam jí chce pomoct. Najdeme, čím se zalévá? Klepni na konvičku.",
-        "en": "Grandma shows Adam the garden. The flowers are thirsty, and a watering can is waiting by the door. Adam wants to help. What can we use to water the flowers? Tap the watering can."
+        "cs": "Hele, babi nás vede do zahrady. Kytky mají žízeň, ale z hrnku by to trvalo věčnost! U dveří stojí konvička, s tou to půjde líp. Pomůžeme babi? Klepni na konvičku.",
+        "en": "Hey, Grandma is taking us into the garden. Those flowers are thirsty. Watering them with a cup would take forever! There’s a watering can by the door. That will help! Tap it and let’s give Grandma a hand."
       },
       "art": "props/watering-can",
       "action": "next"
@@ -89,8 +89,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Děda mezitím připravil stůl. Adam dostane jablko a hrnek. Když něco potřebuje, zkusí české prosím. Děda má radost z každého pokusu. Klepni na jablko.",
-        "en": "Meanwhile, Grandpa has set the table. Adam will have an apple and a cup. When he needs something, he can try the Czech word for please. Grandpa is happy to hear him try. Tap the apple."
+        "cs": "Děda už chystá svačinu. No paráda, jablko a hrnek! Když něco chceš, zkus mu to říct česky. Nemusí to bejt dokonalý, děda má radost, že to zkoušíš. Klepni na jablko a ukážeme si, jak na to.",
+        "en": "Grandpa’s getting our snack ready. Nice, an apple and a cup! When you want something, try asking him in Czech. It doesn’t have to be perfect. Grandpa loves hearing you try. Tap the apple. Let’s give it a go!"
       },
       "art": "props/apple",
       "action": "next"
@@ -133,8 +133,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Babi by ráda slyšela, co Adam dělal doma v Iowě. Adam jí ukáže obrázky a děda mu pomůže najít slovíčko. Dnes vyprávíme spolu. Klepni na knihu.",
-        "en": "Grandma wants to hear about Adam’s home in Iowa. Adam shows her pictures, and Grandpa helps him find a word. Today we are telling a story together. Tap the book."
+        "cs": "Babi je zvědavá, co děláš doma v Iowě. Vezmeme obrázky a ukážeme jí to! Ty zkusíš český slovíčko a ona si může zkusit anglický. Dva draci, dvě řeči, jeden příběh. Klepni na knížku.",
+        "en": "Grandma wants to know what you do back home in Iowa. Let’s show her with pictures! You can try a Czech word, and she can try an English one. Two dragons, two languages, one story. Tap the book!"
       },
       "art": "adam-actions/atlas",
       "action": "atlas"
@@ -161,8 +161,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Květiny mají vodu a všichni si užili svačinu. Adam nemusí umět všechna slova, aby mohl vyprávět. Obrázek, gesto a jedno slovíčko jsou krásný začátek. Klepni na hvězdičku.",
-        "en": "The flowers have water, and everyone enjoyed the snack. Adam does not need every word to tell a story. A picture, a gesture, and one word are a lovely beginning. Tap the star."
+        "cs": "Kytky jsou zalitý, bříško spokojený. To se nám povedlo! A vidíš, Áďo? I jedno slovíčko a obrázek stačí, aby sis s babi a dědou něco pověděl. Klepni na hvězdičku. Teď si zasloužíme chvilku klidu.",
+        "en": "Flowers watered, tummy happy. We did it! See, Adam? One little word and a picture can help you share a story with Grandma and Grandpa. Tap the star. Time for a little rest!"
       },
       "art": "family/deda",
       "action": "star"

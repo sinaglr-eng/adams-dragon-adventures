@@ -26,8 +26,8 @@
     "carp"
   ],
   "prerequisites": [],
-  "scriptCs": "Dnes čeká u rybníka nedaleko Příbrami strejda Romča. Slíbil Adamovi rybaření a jednu malou vylomeninu. Teta Klárka přinesla atlas. Klepni na Romču a vyrazíme!",
-  "scriptEn": "Uncle Romča is waiting by a pond near Příbram. He promised Adam a fishing trip and a little bit of silliness. Aunt Klárka brought the atlas. Tap Romča and let us go!",
+  "scriptCs": "Dělej, Áďo, jdeme na ryby! Doufám, že ještě máš ty návnady, co jsem ti minule dal. Budeme je potřebovat, prcku! Klárka už má atlas a já mám takovej pocit, že dneska něco vytáhneme. Klepni na mě a jdeme chystat pruty!",
+  "scriptEn": "Come on, Adam, let’s go fishing! Still got the bait I gave you last time? We’re going to need it, buddy! Klárka has the atlas, and I’ve got a feeling we’ll catch something today. Tap me. Let’s get our rods ready!",
   "suggestedMinutes": [
     6,
     12
@@ -41,8 +41,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Dnes čeká u rybníka nedaleko Příbrami strejda Romča. Slíbil Adamovi rybaření a jednu malou vylomeninu. Teta Klárka přinesla atlas. Klepni na Romču a vyrazíme!",
-        "en": "Uncle Romča is waiting by a pond near Příbram. He promised Adam a fishing trip and a little bit of silliness. Aunt Klárka brought the atlas. Tap Romča and let us go!"
+        "cs": "Dělej, Áďo, jdeme na ryby! Doufám, že ještě máš ty návnady, co jsem ti minule dal. Budeme je potřebovat, prcku! Klárka už má atlas a já mám takovej pocit, že dneska něco vytáhneme. Klepni na mě a jdeme chystat pruty!",
+        "en": "Come on, Adam, let’s go fishing! Still got the bait I gave you last time? We’re going to need it, buddy! Klárka has the atlas, and I’ve got a feeling we’ll catch something today. Tap me. Let’s get our rods ready!"
       },
       "art": "family/romca",
       "action": "wave"
@@ -94,8 +94,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "U břehu je ticho. Romča ukazuje, kam nahodit. Adam nemusí spěchat. Až se splávek pohne, počká na něj. Klepni na prut a zkusíme první úlovek.",
-        "en": "It is quiet by the water. Romča shows Adam where to cast. There is no rush. When the float moves, it will wait for him. Tap the rod and let us try our first catch."
+        "cs": "Psst, teď už potichu, Áďo. Tady u břehu to vypadá slibně. Mrkni, kam ukazuju, tam nahodíme. V klidu, splávek na tebe počká. Klepni na prut a ukaž mi ten svůj rybářskej grif!",
+        "en": "Psst, quiet now, Adam. This spot by the bank looks promising. See where I’m pointing? That’s where we’ll cast. Take your time. The float will wait for you. Tap the rod and show me your fishing moves!"
       },
       "art": "props/rod",
       "action": "fishing"
@@ -117,8 +117,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Romča se tváří tajemně. Další úlovek bude prý obrovský! Jenže pod hladinou se houpe něco, co nemá ploutve. Co by to mohlo být? Klepni na prut.",
-        "en": "Romča looks mysterious. He says the next catch will be enormous! But something under the water has no fins at all. What could it be? Tap the rod."
+        "cs": "Tak teď, prcku, teď to bude obr! Už ho skoro cejtím. Počkej ale, proč to nemá ploutve? Klárka se mi nějak podezřele směje. No nic, musíme tomu přijít na kloub. Klepni na prut!",
+        "en": "This time, buddy, it’s going to be a giant! I can almost feel it. Hang on. Why doesn’t it have fins? Klárka’s giving me a funny smile. Well, there’s only one way to find out. Tap the rod!"
       },
       "art": "props/rod",
       "action": "fishing"
@@ -140,8 +140,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Bota! Romča se směje a Klárka kroutí hlavou. Botu uklidíme z vody. Podívej, támhle se zaleskla opravdová ryba. Klárka hledá její obrázek v atlasu. Klepni na knihu.",
-        "en": "A boot! Romča laughs, and Klárka shakes her head. We will take the boot out of the water. Look, a real fish is shining over there. Klárka finds its picture in the atlas. Tap the book."
+        "cs": "Bota! Tak tuhle rybu bych teda v atlasu hledal dlouho. Klárko, nesměj se mi! Botu uklidíme z vody a koukni, támhle se leskne opravdovej kapr. Klepni na knížku, najdeme si ho.",
+        "en": "A boot! I’d spend all day trying to find that fish in the atlas! Stop giggling, Klárka! Let’s get the boot out of the water. Look, there’s a real carp flashing over there. Tap the book and let’s find its picture!"
       },
       "art": "props/boot",
       "action": "atlas"
@@ -163,8 +163,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Kapr už zase plave a bota skončila mimo rybník. Adam má obrázkové karty a veselý příběh pro babi a dědu. Ulovil rybu, nebo botu? Obojí! Klepni na hvězdičku.",
-        "en": "The carp is swimming again, and the boot is out of the pond. Adam has picture cards and a funny story for Grandma and Grandpa. Did he catch a fish or a boot? Both! Tap the star."
+        "cs": "Tak jo, kapr plave dál a botu už rybám necháme sebrat z cesty. Až se děda zeptá, cos chytil, řekni mu, že rybu i obuv! To bude koukat. Klepni na hvězdičku, parťáku. Dneska jsme si to užili.",
+        "en": "All right! The carp is swimming again, and the boot is out of its way. When Grandpa asks what you caught, tell him you caught a fish and some footwear! That’ll make him laugh. Tap the star, buddy. What a day!"
       },
       "art": "adam-poses/celebrate",
       "action": "star"

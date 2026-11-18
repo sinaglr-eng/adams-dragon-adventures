@@ -1,5 +1,5 @@
 // Only same-origin, successfully visited game assets are cached. No microphone data.
-const CACHE='dragon-adventures-54caf7294151';
+const CACHE='dragon-adventures-125f07ac9af0';
 self.addEventListener('install',()=>self.skipWaiting());
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('dragon-adventures-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{

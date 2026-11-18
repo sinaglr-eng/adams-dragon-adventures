@@ -96,14 +96,19 @@ export function Game({
     if (task.kind === "learn")
       return ui === "en"
         ? task.concept === "hello"
-          ? ["questui.greeting.en", "word.hello.cs"]
+          ? ["questui.greeting.en", "questui.repeat.en", "word.hello.cs"]
           : [
               `word.${task.concept}.en`,
               `meaning.${task.concept}.en`,
               "questui.bridge.en",
+              "questui.repeat.en",
               `word.${task.concept}.cs`,
             ]
-        : [`word.${task.concept}.cs`, `meaning.${task.concept}.cs`];
+        : [
+            `meaning.${task.concept}.cs`,
+            "questui.repeat.cs",
+            `word.${task.concept}.cs`,
+          ];
     if (cycleQuestion)
       return [`game.find.${ui}`, `word.${cycleWord}.${r.language}`];
     return [
@@ -372,7 +377,15 @@ export function Game({
                 setStoryActing(true);
               }}
             >
-              <Sprite id={task.art!} className="story-object" />
+              {task.pictures ? (
+                <span className="story-pictures">
+                  {task.pictures.map((id) => (
+                    <WordArt key={id} id={id} />
+                  ))}
+                </span>
+              ) : (
+                <Sprite id={task.art!} className="story-object" />
+              )}
               <span className="touch-cue">
                 <Icon
                   name={

@@ -1,0 +1,560 @@
+{
+  "flowId": "HaMLebjs8MyePcklIwHZ",
+  "model": "eleven_multilingual_v2",
+  "voices": {
+    "cs": "DQsDlZHaCHLpA0wR6jyU",
+    "en": "g4XAeWx0tMolN1G3c3P5"
+  },
+  "nodes": [
+    {
+      "id": "story.story-iowa.morning.cs",
+      "text": "Hele, Áďo, vstávat! V Iowě už svítí sluníčko a Matyáš ti chce ukázat svoji hračku. Bydlíte tu s mámou a tátou, celá dračí parta. Já jsem strejda Romča a dneska ti ukážu jeden rodinnej fígl. Klepni na dráčka a zamávej!",
+      "nodeId": "W2ziUXWjplXp2LTWkyeZ"
+    },
+    {
+      "id": "story.story-iowa.morning.en",
+      "text": "Hey, Adam, rise and shine! The sun is up in Iowa, and little Matyáš has a toy to show you. You live here with Mom and Dad, your dragon family. It’s Uncle Romča here. Ready for a little family adventure? Tap the dragon and wave!",
+      "nodeId": "wRLHUWb4u9krA59riIuk"
+    },
+    {
+      "id": "story.story-iowa.ocean.cs",
+      "text": "A víš, co je hustý, Áďo? Máma a táta vyrostli v Česku, až za tím obřím oceánem. Tam v Příbrami čekají babi a děda. Jsme jedna rodina, i když máme domovy tak daleko od sebe. Klepni na letadlo. Fííí, letíme po mapě!",
+      "nodeId": "5On48KKJsrxrMRyNPV6t"
+    },
+    {
+      "id": "story.story-iowa.ocean.en",
+      "text": "Guess what, buddy? Mom and Dad grew up in Czechia, across that enormous ocean. Grandma and Grandpa live there, in Příbram. One family, with homes a long way apart! Tap the airplane. Whoosh, across our map we go!",
+      "nodeId": "jaQfsJVb4QDgP9s6mYD3"
+    },
+    {
+      "id": "story.story-iowa.languages.cs",
+      "text": "Tady v Iowě často slyšíš angličtinu. U babi a dědy zase češtinu. A teď ten fígl: stejná věc, jiný slovíčko! Jablko se přece po přeletu oceánu nezmění v botu. Jen mu říkáme jinak. Klepni na šipku a zkusíme pozdrav.",
+      "nodeId": "TJ0jKqFN5Z8DvyMUhsxz"
+    },
+    {
+      "id": "story.story-iowa.languages.en",
+      "text": "Here in Iowa, you often hear English. At Grandma and Grandpa’s, you hear Czech. Here’s the trick: same thing, different word! An apple doesn’t turn into a boot when it crosses the ocean. We just call it something else. Tap the arrow to try a greeting.",
+      "nodeId": "Bm7grYJAzDO5hRXxoPms"
+    },
+    {
+      "id": "story.story-iowa.snack.cs",
+      "text": "Slyšíš to kručení? To není drak za oknem, to máš hlad, prcku! Máma chystá svačinu a Matyáš už natahuje tlapky. Najdeme jablko a hrnek, ať máme co chroupat a z čeho pít. Klepni na košík.",
+      "nodeId": "ufpN8l9oOBBRSwSQaKa6"
+    },
+    {
+      "id": "story.story-iowa.snack.en",
+      "text": "Hear that rumble? That’s no dragon outside. That’s your hungry tummy, buddy! Mom is making a snack, and Matyáš is reaching out his little paws. Let’s find an apple and a cup. Tap the basket!",
+      "nodeId": "TG7RHiT32iMmcxuWFsGF"
+    },
+    {
+      "id": "story.home-kindergarten.pretend.cs",
+      "text": "Tak hele, dneska máme školku přímo doma v Iowě! Máma nachystala obrázky a Matyáš dělá pomocníka. Teda, pokud nám všechno neschová. Najdeme barvy, porovnáme ryby a mrkneme do zahrady. Klepni na Adama, jdeme na to!",
+      "nodeId": "zkISJpPAXpB75dDeU0g3"
+    },
+    {
+      "id": "story.home-kindergarten.pretend.en",
+      "text": "Guess what? Preschool is at home in Iowa today! Mom has the pictures ready, and Matyáš is our little helper. Unless he hides everything first! We’ll hunt for colors, compare fish, and peek into the garden. Tap Adam. Let’s go!",
+      "nodeId": "5H6grsWLmyVzfJ86w4r2"
+    },
+    {
+      "id": "story.home-kindergarten.colors.cs",
+      "text": "Koukej, máma má červený jablko a vedle stojí modrej kbelík. Matyáš je chce dát k sobě. Jenže barvy jsou jiný! Pomůžeme mu to rozmotat. Klepni na šipku a poslechni si první barvu.",
+      "nodeId": "hMJUzLoAQXhi20acfb4a"
+    },
+    {
+      "id": "story.home-kindergarten.colors.en",
+      "text": "Look, Mom has a red apple and a blue bucket. Matyáš wants to put them together. But those colors are different! Let’s help our little buddy sort them out. Tap the arrow and listen for the first color.",
+      "nodeId": "MyUWHHBpNkMDnliJRJ1k"
+    },
+    {
+      "id": "story.home-kindergarten.sizes.cs",
+      "text": "Páni, Áďo, tahle ryba by mi málem zabrala celej podběrák! A vedle je úplnej mrňous. Obě jsou ryby, jen jedna veliká a druhá malá. Roztáhni tlapky a ukaž mi, jak velikou bys chtěl chytit. Pak klepni na knížku.",
+      "nodeId": "PzG6xnXYgUQUmDMCRWGW"
+    },
+    {
+      "id": "story.home-kindergarten.sizes.en",
+      "text": "Whoa, Adam! That fish could fill my whole net! And the one beside it is teeny tiny. Both fish, one big and one small. Stretch your paws and show me the size you’d like to catch. Then tap the book.",
+      "nodeId": "h3BWxLSRWECFW7nhmxb0"
+    },
+    {
+      "id": "story.home-kindergarten.garden.cs",
+      "text": "Psst, na zahradě máme návštěvu! Pod listem se schovala beruška. Opatrně nakoukneme, ať jí nezboříme domeček. Lupu do tlapky, prcku, a jdeme pátrat. Klepni na lupu.",
+      "nodeId": "BuMdqjaXnk0RYZfESgxa"
+    },
+    {
+      "id": "story.home-kindergarten.garden.en",
+      "text": "Psst, we’ve got a garden visitor! A ladybug is hiding under a leaf. Let’s peek gently so we don’t wreck her little home. Grab your magnifying glass, buddy. Tap it and let’s investigate!",
+      "nodeId": "wuOlgpR0Dzd2iM1Pb1n1"
+    },
+    {
+      "id": "story.home-kindergarten.ending.cs",
+      "text": "Tak jo, barvy máme a berušku jsme nechali v klidu. Matyáš jí ještě mává. Až zavoláš dědovi, můžeš mu najít něco červenýho přímo u vás doma. Schválně, co vybere! Klepni na hvězdičku, dneska dobrá práce.",
+      "nodeId": "6DvoNTOXPeUDsx7hn397"
+    },
+    {
+      "id": "story.home-kindergarten.ending.en",
+      "text": "All right! We found our colors and left the ladybug in peace. Matyáš is still waving at her! When Grandpa calls, show him something red at home. I wonder what he’ll find at his house! Tap the star. Nice exploring, buddy!",
+      "nodeId": "BPEmGnDKK5azRGmAaxKp"
+    },
+    {
+      "id": "story.grandparents-home.arrival.cs",
+      "text": "Áďo, jsme tady! Příbram! Za brankou už mávají babi a děda. Po takový cestě přes oceán se hodí pořádný dračí objetí. A slyšíš? Tady to kolem nás zní česky. Klepni na babi a zamávej jí.",
+      "nodeId": "sdM1aUqSpbe6Q0XXF8QU"
+    },
+    {
+      "id": "story.grandparents-home.arrival.en",
+      "text": "Adam, we made it! Příbram! Grandma and Grandpa are waving at the gate. After that ocean trip, a big dragon hug sounds pretty good. Listen, people around us are speaking Czech! Tap Grandma and give her a wave.",
+      "nodeId": "eOGYkbIPHvJTyZ5sUhTW"
+    },
+    {
+      "id": "story.grandparents-home.garden.cs",
+      "text": "Hele, babi nás vede do zahrady. Kytky mají žízeň, ale z hrnku by to trvalo věčnost! U dveří stojí konvička, s tou to půjde líp. Pomůžeme babi? Klepni na konvičku.",
+      "nodeId": "Q3kwfgtN7HMCcl2UnDiq"
+    },
+    {
+      "id": "story.grandparents-home.garden.en",
+      "text": "Hey, Grandma is taking us into the garden. Those flowers are thirsty. Watering them with a cup would take forever! There’s a watering can by the door. That will help! Tap it and let’s give Grandma a hand.",
+      "nodeId": "IMg9OzqhuDmlrMpJzjji"
+    },
+    {
+      "id": "story.grandparents-home.table.cs",
+      "text": "Děda už chystá svačinu. No paráda, jablko a hrnek! Když něco chceš, zkus mu to říct česky. Nemusí to bejt dokonalý, děda má radost, že to zkoušíš. Klepni na jablko a ukážeme si, jak na to.",
+      "nodeId": "ElAOuiiabpifRXKQocdp"
+    },
+    {
+      "id": "story.grandparents-home.table.en",
+      "text": "Grandpa’s getting our snack ready. Nice, an apple and a cup! When you want something, try asking him in Czech. It doesn’t have to be perfect. Grandpa loves hearing you try. Tap the apple. Let’s give it a go!",
+      "nodeId": "njYiIyjD7fTjpfwd6YcH"
+    },
+    {
+      "id": "story.grandparents-home.photo.cs",
+      "text": "Babi je zvědavá, co děláš doma v Iowě. Vezmeme obrázky a ukážeme jí to! Ty zkusíš český slovíčko a ona si může zkusit anglický. Dva draci, dvě řeči, jeden příběh. Klepni na knížku.",
+      "nodeId": "IlqRyeCHSRjWyGM5TUUe"
+    },
+    {
+      "id": "story.grandparents-home.photo.en",
+      "text": "Grandma wants to know what you do back home in Iowa. Let’s show her with pictures! You can try a Czech word, and she can try an English one. Two dragons, two languages, one story. Tap the book!",
+      "nodeId": "gWYZqCup9PcCXfKdyyrC"
+    },
+    {
+      "id": "story.grandparents-home.ending.cs",
+      "text": "Kytky jsou zalitý, bříško spokojený. To se nám povedlo! A vidíš, Áďo? I jedno slovíčko a obrázek stačí, aby sis s babi a dědou něco pověděl. Klepni na hvězdičku. Teď si zasloužíme chvilku klidu.",
+      "nodeId": "Rou1fOLKLRoer6u5lzCD"
+    },
+    {
+      "id": "story.grandparents-home.ending.en",
+      "text": "Flowers watered, tummy happy. We did it! See, Adam? One little word and a picture can help you share a story with Grandma and Grandpa. Tap the star. Time for a little rest!",
+      "nodeId": "4JQ2wlclEf86kTr1x0vt"
+    },
+    {
+      "id": "story.family-cycling.plan.cs",
+      "text": "Hele, venku je parádně! Máma s tátou chystají kola na projížďku po Iowě. Žádnej závod, prcku, cestou toho chceme spoustu objevit. Helmu připravit, tlapky protáhnout. Klepni na kolo a jdeme se sbalit!",
+      "nodeId": "8S9GfdeblF2HoIrvZvnf"
+    },
+    {
+      "id": "story.family-cycling.plan.en",
+      "text": "Hey, what a lovely day! Mom and Dad are getting the bikes ready for a ride in Iowa. No race today, buddy. We’ve got exploring to do! Get your helmet ready and stretch those paws. Tap the bicycle and let’s pack!",
+      "nodeId": "PnvEHTR2mnXRyFCSd1rA"
+    },
+    {
+      "id": "story.family-cycling.snack.cs",
+      "text": "Táta mrknul na kola a máma má helmu. Co nám chybí? No jasně, svačina! Bez jablka by nám kručelo v bříšku už za rohem. Přibalíme ho a mrkneme na barvu kola. Klepni na košík.",
+      "nodeId": "JJRccnpDQFKLH4gQ4TjM"
+    },
+    {
+      "id": "story.family-cycling.snack.en",
+      "text": "Dad checked the bikes, and Mom has her helmet. What’s missing? A snack, of course! Without an apple, our tummies would rumble before we got around the corner. Let’s pack it and check the bike’s color. Tap the basket!",
+      "nodeId": "a1iNd07scU7RFwGVwIqz"
+    },
+    {
+      "id": "story.family-cycling.trail.cs",
+      "text": "A jedem! Máma i táta jsou s tebou. U zastávek si poslechneme český slovíčko a najdeme obrázek. Když budeš potřebovat, klidně zastavíme. Tahle výprava nám nikam neuteče. Klepni na kolo.",
+      "nodeId": "u90xbRr0deqI6Modiop5"
+    },
+    {
+      "id": "story.family-cycling.trail.en",
+      "text": "And we’re off! Mom and Dad are right here with you. At each stop, listen for a Czech word and find its picture. Need a break? We can stop anytime. Our adventure isn’t going anywhere. Tap the bicycle!",
+      "nodeId": "jKORlBm87TNZhzQKVnWd"
+    },
+    {
+      "id": "story.family-cycling.leaf.cs",
+      "text": "Počkej, Áďo, támhle něco poletuje! To není motýl, to je list. Zastavíme s rodiči a prohlídneme si ho. I u cesty se dají najít poklady, co? Klepni na list.",
+      "nodeId": "ICuU4NBuAxHAwUCxXImZ"
+    },
+    {
+      "id": "story.family-cycling.leaf.en",
+      "text": "Hang on, Adam! Something’s fluttering over there. Not a butterfly, a leaf! Let’s stop with Mom and Dad and take a look. Even a little trail has treasures, huh? Tap the leaf!",
+      "nodeId": "e4NEI5VE6lWFxnIVFEto"
+    },
+    {
+      "id": "story.family-cycling.ending.cs",
+      "text": "Jsme doma, cyklisto! Helma splnila svůj úkol, svačina zmizela a máme co vyprávět. Až zavoláš do Příbrami, ukaž dědovi, jak jsi šlapal. Klepni na hvězdičku a protáhni tlapky.",
+      "nodeId": "f2R7C7BDemQS5RyRik9E"
+    },
+    {
+      "id": "story.family-cycling.ending.en",
+      "text": "Home again, little cyclist! Helmet on, snack eaten, and a story to share. When you call Příbram, show Grandpa how you pedaled! Tap the star and give those paws a stretch.",
+      "nodeId": "QCcardGCbIRkY7tc1OzM"
+    },
+    {
+      "id": "story.romca-fishing.promise.cs",
+      "text": "Dělej, Áďo, jdeme na ryby! Doufám, že ještě máš ty návnady, co jsem ti minule dal. Budeme je potřebovat, prcku! Klárka už má atlas a já mám takovej pocit, že dneska něco vytáhneme. Klepni na mě a jdeme chystat pruty!",
+      "nodeId": "kNhZsShvBTCbphazmfQ2"
+    },
+    {
+      "id": "story.romca-fishing.promise.en",
+      "text": "Come on, Adam, let’s go fishing! Still got the bait I gave you last time? We’re going to need it, buddy! Klárka has the atlas, and I’ve got a feeling we’ll catch something today. Tap me. Let’s get our rods ready!",
+      "nodeId": "MIdWypo1olSrXxEhCATi"
+    },
+    {
+      "id": "story.romca-fishing.water.cs",
+      "text": "Psst, teď už potichu, Áďo. Tady u břehu to vypadá slibně. Mrkni, kam ukazuju, tam nahodíme. V klidu, splávek na tebe počká. Klepni na prut a ukaž mi ten svůj rybářskej grif!",
+      "nodeId": "oGwKOJKn4sE2UvVyYhdg"
+    },
+    {
+      "id": "story.romca-fishing.water.en",
+      "text": "Psst, quiet now, Adam. This spot by the bank looks promising. See where I’m pointing? That’s where we’ll cast. Take your time. The float will wait for you. Tap the rod and show me your fishing moves!",
+      "nodeId": "cMDWq9oJC8FrcpWctOR1"
+    },
+    {
+      "id": "story.romca-fishing.boot.cs",
+      "text": "Tak teď, prcku, teď to bude obr! Už ho skoro cejtím. Počkej ale, proč to nemá ploutve? Klárka se mi nějak podezřele směje. No nic, musíme tomu přijít na kloub. Klepni na prut!",
+      "nodeId": "Ga5TBARcy3Xekv9teHHs"
+    },
+    {
+      "id": "story.romca-fishing.boot.en",
+      "text": "This time, buddy, it’s going to be a giant! I can almost feel it. Hang on. Why doesn’t it have fins? Klárka’s giving me a funny smile. Well, there’s only one way to find out. Tap the rod!",
+      "nodeId": "07g1Os1XlVIPMOkr62OQ"
+    },
+    {
+      "id": "story.romca-fishing.carp.cs",
+      "text": "Bota! Tak tuhle rybu bych teda v atlasu hledal dlouho. Klárko, nesměj se mi! Botu uklidíme z vody a koukni, támhle se leskne opravdovej kapr. Klepni na knížku, najdeme si ho.",
+      "nodeId": "U66xRB4aZGmA1XA9vISv"
+    },
+    {
+      "id": "story.romca-fishing.carp.en",
+      "text": "A boot! I’d spend all day trying to find that fish in the atlas! Stop giggling, Klárka! Let’s get the boot out of the water. Look, there’s a real carp flashing over there. Tap the book and let’s find its picture!",
+      "nodeId": "Wl92ujbdmATuTuTIQMmQ"
+    },
+    {
+      "id": "story.romca-fishing.ending.cs",
+      "text": "Tak jo, kapr plave dál a botu už rybám necháme sebrat z cesty. Až se děda zeptá, cos chytil, řekni mu, že rybu i obuv! To bude koukat. Klepni na hvězdičku, parťáku. Dneska jsme si to užili.",
+      "nodeId": "3HQck95dHyVqAHQrC5L6"
+    },
+    {
+      "id": "story.romca-fishing.ending.en",
+      "text": "All right! The carp is swimming again, and the boot is out of its way. When Grandpa asks what you caught, tell him you caught a fish and some footwear! That’ll make him laugh. Tap the star, buddy. What a day!",
+      "nodeId": "wEevwIgorPr3ZvlcjylP"
+    },
+    {
+      "id": "word.dollar.cs",
+      "text": "dolar",
+      "nodeId": "84riNVyIOD3iPgAiNkVS"
+    },
+    {
+      "id": "word.dollar.en",
+      "text": "dollar",
+      "nodeId": "ALJ0xQl73fRE866wFZUa"
+    },
+    {
+      "id": "meaning.dollar.cs",
+      "text": "Dolar je měna, kterou platíme v Americe.",
+      "nodeId": "7hKCqOaowbCsTdWK1avB"
+    },
+    {
+      "id": "meaning.dollar.en",
+      "text": "The dollar is the money used in the United States.",
+      "nodeId": "C8xV15KZJu7aNGC0q0sG"
+    },
+    {
+      "id": "phrase.dollar.cs",
+      "text": "Mám dolar.",
+      "nodeId": "8c7T4gHWN5Wwror4E5MU"
+    },
+    {
+      "id": "phrase.dollar.en",
+      "text": "I have a dollar.",
+      "nodeId": "Qc3qzlLf2LmVOmOH7Cz3"
+    },
+    {
+      "id": "word.koruna.cs",
+      "text": "koruna",
+      "nodeId": "GSixUd0xb86f1IHrtjC7"
+    },
+    {
+      "id": "word.koruna.en",
+      "text": "Czech crown",
+      "nodeId": "G1mLFILnARQLnpIZMDmU"
+    },
+    {
+      "id": "meaning.koruna.cs",
+      "text": "Koruna je měna, kterou platíme v Česku. Tady to není koruna na hlavu.",
+      "nodeId": "OkHGXj1BBpVALp0Oppfy"
+    },
+    {
+      "id": "meaning.koruna.en",
+      "text": "The Czech crown is the money used in Czechia. Here, crown means money, not something you wear on your head.",
+      "nodeId": "cJ3ObkNg3Yf2Jjy3ZYPZ"
+    },
+    {
+      "id": "phrase.koruna.cs",
+      "text": "Mám korunu.",
+      "nodeId": "UkVd0XyJVHLNg3aKF58S"
+    },
+    {
+      "id": "phrase.koruna.en",
+      "text": "I have a Czech crown.",
+      "nodeId": "t5xpKVUrsmx9RJfJOyQl"
+    },
+    {
+      "id": "title.iowa-snack-shop.cs",
+      "text": "Svačina za dolary",
+      "nodeId": "r7aPCmMEYq5xV1KiTv79"
+    },
+    {
+      "id": "title.iowa-snack-shop.en",
+      "text": "The dollar snack adventure",
+      "nodeId": "VhDTOBlq9pgerjd76nfe"
+    },
+    {
+      "id": "story.iowa-snack-shop.snack-plan.cs",
+      "text": "Hele, Áďo, dneska si s mámou a tátou zahrajete na obchůdek. V Iowě nám došla svačina a Matyáš hlídá prázdnej košík. Potřebujeme jablko! Klepni na košík a jdeme nakoupit.",
+      "nodeId": "sZHzGN0ivRq9Mz7dZiGe"
+    },
+    {
+      "id": "story.iowa-snack-shop.snack-plan.en",
+      "text": "Hey, Adam! Today you’re playing shop with Mom and Dad. Here in Iowa, our snack basket is empty, and Matyáš is guarding it! We need an apple. Tap the basket. Let’s go shopping!",
+      "nodeId": "JIzQcMEbDD3Hz7DI06oq"
+    },
+    {
+      "id": "story.iowa-snack-shop.dollar-pocket.cs",
+      "text": "Táta vytáhl peněženku. A víš, co je hustý? V Americe platíme dolary. Dolar můžeš potkat na bankovce i na minci. Na našem obrázku má zelenou bankovku a zatočenej znak. Mrkneme na něj!",
+      "nodeId": "fX1KWMfVIvSE6ibPuVIK"
+    },
+    {
+      "id": "story.iowa-snack-shop.dollar-pocket.en",
+      "text": "Dad opens his wallet. Guess what? In the United States, we use dollars. Dollars can be bills or coins. Our picture shows a green bill with a curly dollar sign. Let’s take a look!",
+      "nodeId": "9xZyaBxQgU8MmZdjHKc6"
+    },
+    {
+      "id": "story.iowa-snack-shop.other-pocket.cs",
+      "text": "A teď fígl: u babi a dědy v Česku se platí korunami. Ta naše má stříbrnou minci. Koruna a dolar nejsou stejná měna a jeden dolar není totéž co jedna koruna. Dneska nepočítáme cenu, jen je poznáváme. Klepni na šipku.",
+      "nodeId": "GMtdJHPxe6gPBuFF7iLc"
+    },
+    {
+      "id": "story.iowa-snack-shop.other-pocket.en",
+      "text": "Here’s the twist: at Grandma and Grandpa’s in Czechia, people use Czech crowns. Our picture shows a silver coin. Dollars and Czech crowns are different currencies. One dollar is not the same value as one crown. Today we’re spotting them, not working out prices. Tap the arrow.",
+      "nodeId": "GjpkPLR3CyHEQ8yG9n3s"
+    },
+    {
+      "id": "story.iowa-snack-shop.pay-here.cs",
+      "text": "Tak, jsme pořád v našem iowským obchůdku. Který peníze sem patří? Poslechni si český slovíčko a klepni na správnej obrázek. Jablko už na nás čeká, prcku!",
+      "nodeId": "R1wj76SGDVAxg0HPW8cH"
+    },
+    {
+      "id": "story.iowa-snack-shop.pay-here.en",
+      "text": "We’re still in our pretend Iowa shop. Which money belongs here? Listen for the Czech word, then tap its picture. That apple is waiting for us, buddy!",
+      "nodeId": "FYSBrkDzJMIrkm5a3f2n"
+    },
+    {
+      "id": "story.iowa-snack-shop.please.cs",
+      "text": "Než dostaneme svačinu, hezky poprosíme. V angličtině a češtině to zní jinak, ale znamená to stejnou milou věc. Ty zkusíš česky a máma ti může odpovědět anglicky. Klepni na šipku.",
+      "nodeId": "WaxkCJsdJnvQ0Asjv9XD"
+    },
+    {
+      "id": "story.iowa-snack-shop.please.en",
+      "text": "Before we get our snack, let’s ask nicely. It sounds different in English and Czech, but means the same kind thing. You can try Czech, and Mom can answer in English. Tap the arrow.",
+      "nodeId": "1rGLsHnWAAj16venSJS4"
+    },
+    {
+      "id": "story.iowa-snack-shop.ending.cs",
+      "text": "Jablko máme! V Iowě dolary, v Česku koruny. A slušně poprosit umíme v obou řečech. Až zavoláš babi, zeptej se, čím platí ona. Klepni na hvězdičku, obchodníku!",
+      "nodeId": "7EJ0pgWEnNxMJeZ6jQaW"
+    },
+    {
+      "id": "story.iowa-snack-shop.ending.en",
+      "text": "Apple acquired! Dollars in Iowa, Czech crowns in Czechia. And we can ask nicely in both languages! When Grandma calls, ask which money she uses. Tap the star, little shopkeeper!",
+      "nodeId": "xsziAtoVQg9HZYKLqZUU"
+    },
+    {
+      "id": "call.iowa-snack-shop.0.cs",
+      "text": "Čím platíme v Iowě a čím v Česku? Ukaž mi obrázek.",
+      "nodeId": "feMAKkepFk1m0VdS8CEC"
+    },
+    {
+      "id": "call.iowa-snack-shop.0.en",
+      "text": "What money do we use in Iowa, and what money in Czechia? Show me the picture.",
+      "nodeId": "n56iStNHlAZKyBQkKaVT"
+    },
+    {
+      "id": "call.iowa-snack-shop.1.cs",
+      "text": "Zahrajeme si na obchůdek? Ty popros česky a já anglicky.",
+      "nodeId": "ReVDLvQJBvCXH3isoRkQ"
+    },
+    {
+      "id": "call.iowa-snack-shop.1.en",
+      "text": "Shall we play shop? You ask nicely in Czech, and I will try in English.",
+      "nodeId": "qDTzNiCvIr1bX0W2DfAR"
+    },
+    {
+      "id": "title.pribram-crown-shop.cs",
+      "text": "S babi pro svačinu",
+      "nodeId": "FH5yaqLEGKlaB0Ft7L4X"
+    },
+    {
+      "id": "title.pribram-crown-shop.en",
+      "text": "Grandma’s Czech crown adventure",
+      "nodeId": "9NpAUAXcXQPz8MB94AvE"
+    },
+    {
+      "id": "story.pribram-crown-shop.gate.cs",
+      "text": "Áďo, babi už stojí u branky! Dneska si v Příbrami zahrajeme na malej obchůdek. Děda vzal košík a já slibuju, že tentokrát nekoupím rybářskou botu. Klepni na babi a jdeme!",
+      "nodeId": "VmQz3kjWxsmbXycqIpOu"
+    },
+    {
+      "id": "story.pribram-crown-shop.gate.en",
+      "text": "Adam, Grandma is waiting at the gate! Today we’re playing little shop in Příbram. Grandpa has the basket. And I promise I won’t buy a fishing boot this time! Tap Grandma. Let’s go!",
+      "nodeId": "BqOzRoSyR6BoPpHsQYK6"
+    },
+    {
+      "id": "story.pribram-crown-shop.greet.cs",
+      "text": "Doma v Iowě zdravíš často anglicky. Babi s dědou vítají známý česky. Dvě řeči, ale stejný mávnutí a stejná radost, že se vidíme. Zkusíme kamarádskej pozdrav. Klepni na dráčka.",
+      "nodeId": "lBIeKqV7VdNpVVABQx5Z"
+    },
+    {
+      "id": "story.pribram-crown-shop.greet.en",
+      "text": "Back home in Iowa, you often greet people in English. Grandma and Grandpa greet their friends in Czech. Two languages, but the same wave and the same happy feeling! Let’s try a friendly greeting. Tap the dragon.",
+      "nodeId": "B5IghWXPMdmP2qYhNY8M"
+    },
+    {
+      "id": "story.pribram-crown-shop.purse.cs",
+      "text": "Babi otevřela peněženku. Hele, český koruny! Žádná koruna na hlavu, prcku, tady je to jméno peněz. Koruny jsou mince i bankovky. Na obrázku si ukážeme stříbrnou minci. Klepni na šipku.",
+      "nodeId": "3qKsyvk0ocC7oFMevsaW"
+    },
+    {
+      "id": "story.pribram-crown-shop.purse.en",
+      "text": "Grandma opens her purse. Look, Czech crowns! Not a crown for your head, buddy. Here, crown is the name of the money. Czech crowns come as coins and bills. Our picture shows a silver coin. Tap the arrow.",
+      "nodeId": "Iv4ydDvDamrqtcsCXDw5"
+    },
+    {
+      "id": "story.pribram-crown-shop.compare.cs",
+      "text": "Pamatuješ si peníze z Iowy? Tam používáme dolary. Tady v Česku koruny. Jablko zůstává jablkem, ale peníze a slovíčka jsou jiný. Tak schválně, poznáš i dolar? Klepni na šipku.",
+      "nodeId": "AgmWLTsa1tsCxPe77fjm"
+    },
+    {
+      "id": "story.pribram-crown-shop.compare.en",
+      "text": "Remember the money from Iowa? We use dollars there, and Czech crowns here in Czechia. An apple is still an apple, but the money and words are different. Can you spot a dollar too? Tap the arrow.",
+      "nodeId": "OW8v4JPVkrsk1KEdHpop"
+    },
+    {
+      "id": "story.pribram-crown-shop.pay-here.cs",
+      "text": "Děda už drží košík. Teď jsme v Příbrami, takže vybereme český peníze. Žádný počítání cen, jen najdi správnej obrázek podle slovíčka. Klepni na šipku a poslouchej.",
+      "nodeId": "q4nRP3gMYf1CKT8VAY9w"
+    },
+    {
+      "id": "story.pribram-crown-shop.pay-here.en",
+      "text": "Grandpa is holding the basket. We’re in Příbram, so let’s pick the Czech money. No prices to work out. Just find the picture that matches the word. Tap the arrow and listen.",
+      "nodeId": "jt5PcB1fnbAtTze87w6R"
+    },
+    {
+      "id": "story.pribram-crown-shop.thank-you.cs",
+      "text": "Babi podává svačinu a ty jí chceš poděkovat. Doma to říkáš anglicky, dneska jí uděláme radost česky. A ona se od tebe může naučit anglický poděkování. Klepni na srdíčko.",
+      "nodeId": "1Jn1omvLOeaPiOcnbdYa"
+    },
+    {
+      "id": "story.pribram-crown-shop.thank-you.en",
+      "text": "Grandma hands you a snack, and you want to thank her. At home you say it in English. Today, let’s try Czech for her! And she can learn the English thank-you from you. Tap the heart.",
+      "nodeId": "V2uHzqTDNllYI6Ez78ZL"
+    },
+    {
+      "id": "story.pribram-crown-shop.ending.cs",
+      "text": "Tak to vidíš, Áďo. Jinej domov, jiná řeč, jiný peníze. Ale babi s dědou tě mají rádi úplně stejně jako máma s tátou za oceánem. Klepni na hvězdičku a pojď jim o výpravě povědět!",
+      "nodeId": "NE3SPvxFccCUbFmJDVyD"
+    },
+    {
+      "id": "story.pribram-crown-shop.ending.en",
+      "text": "See, Adam? Another home, another language, different money. But Grandma and Grandpa love you just as much as Mom and Dad across the ocean. Tap the star. Let’s tell them about our adventure!",
+      "nodeId": "iMf3ljtozNaJXKoDf2a8"
+    },
+    {
+      "id": "call.pribram-crown-shop.0.cs",
+      "text": "Jaké peníze měla babi v peněžence? A jaké má táta v Iowě?",
+      "nodeId": "hO6UutydGa2oMX9jgTpD"
+    },
+    {
+      "id": "call.pribram-crown-shop.0.en",
+      "text": "What money was in Grandma’s purse? What money does Dad use in Iowa?",
+      "nodeId": "OGXQjiYCPZZXsXSWLPdX"
+    },
+    {
+      "id": "call.pribram-crown-shop.1.cs",
+      "text": "Zamáváme si. Jak pozdravíš ty a jak já?",
+      "nodeId": "oVUOEA4MuFNgVvHnFLfJ"
+    },
+    {
+      "id": "call.pribram-crown-shop.1.en",
+      "text": "Let’s wave. How do you say hi, and how do I say it?",
+      "nodeId": "oYtpqsX159iJurvssgXZ"
+    },
+    {
+      "id": "atlas.welcome.cs",
+      "text": "Hele, Áďo, celej svět v jedný knížce! Vlevo Iowa, kde bydlíš s mámou, tátou a Matyášem. Vpravo Příbram, tam čekají babi a děda. Klepni na jeden domeček a vybereme si výpravu!",
+      "nodeId": "NWxV4DLFQeFteITAAxmQ"
+    },
+    {
+      "id": "atlas.welcome.en",
+      "text": "Hey, Adam, two homes in one big book! Iowa is on the left, where you live with Mom, Dad, and Matyáš. Příbram is on the right, where Grandma and Grandpa live. Tap a house and let’s pick an adventure!",
+      "nodeId": "ReXXd8cNPbvTtcG3bL95"
+    },
+    {
+      "id": "atlas.iowa.cs",
+      "text": "Tak jo, Iowa! Tady je náš domov s mámou a tátou. Čeká nás školka doma, kola nebo svačina za dolary. Klepni na obrázek výpravy. Malý repráček ti přečte její jméno.",
+      "nodeId": "RiElGcgbAoXuRgdXrkNM"
+    },
+    {
+      "id": "atlas.iowa.en",
+      "text": "All right, Iowa! Home with Mom and Dad. We can play preschool, go cycling, or explore dollars at our snack shop. Tap an adventure picture. The little speaker tells you its name.",
+      "nodeId": "qMETiw5ATqxQTx6giYz5"
+    },
+    {
+      "id": "atlas.pribram.cs",
+      "text": "Příbram, jsme tady! Babi s dědou už mávají. Můžeme k nim domů, pro svačinu za koruny, nebo se mnou a Klárkou na ryby. Klepni na obrázek výpravy. Repráček ti poví, jak se jmenuje.",
+      "nodeId": "YyKhacaAPiLACjP3PgDI"
+    },
+    {
+      "id": "atlas.pribram.en",
+      "text": "Příbram, here we are! Grandma and Grandpa are waving. Visit their home, explore Czech crowns at the snack shop, or come fishing with me and Klárka. Tap an adventure picture. The little speaker tells you its name.",
+      "nodeId": "VmOtQFcml1LuzD6Pf9pX"
+    },
+    {
+      "id": "questui.repeat.cs",
+      "text": "Zkus to se mnou. Nejdřív normálně, pak pomaleji.",
+      "nodeId": "3uo1oApI9ZP0VeTZrE9U"
+    },
+    {
+      "id": "questui.repeat.en",
+      "text": "Repeat after me. First normally, then a little slower.",
+      "nodeId": "mKjkmlCYDLRgRRWIjKMm"
+    },
+    {
+      "id": "story.story-iowa.kindness.cs",
+      "text": "Táta nese svačinu! Paráda, Áďo, ale než ji slupneme, hezky poprosíme a poděkujeme. I tahle milá slovíčka znějí v každé řeči jinak. Klepni na srdíčko a zkusíme je spolu.",
+      "nodeId": "RbO7VsJOG4qlFC2HOo3m"
+    },
+    {
+      "id": "story.story-iowa.kindness.en",
+      "text": "Dad’s bringing our snack! Nice, Adam! Before we gobble it up, let’s ask nicely and say thank you. Even those kind little words sound different in each language. Tap the heart. Let’s try them together!",
+      "nodeId": "yMDWHkvxbEF25BS8U7UI"
+    },
+    {
+      "id": "story.story-iowa.ending.cs",
+      "text": "Tak jo, Áďo, svačina zachráněna a pár českejch slovíček máme v kapse! Až zavoláš babi do Příbrami, můžeš jí zamávat a zkusit českej pozdrav. To bude mít radost! Klepni na hvězdičku, parťáku.",
+      "nodeId": "hYZH44YmcxInxsmP5j4p"
+    },
+    {
+      "id": "story.story-iowa.ending.en",
+      "text": "All right, Adam, snack mission complete! And we’ve got some Czech words in our pockets. When you call Grandma in Příbram, wave and try your Czech greeting. She’ll love that! Tap the star, buddy.",
+      "nodeId": "DVAPPFq42eXuJRCFx3W5"
+    }
+  ]
+}

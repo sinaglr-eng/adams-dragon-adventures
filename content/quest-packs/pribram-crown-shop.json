@@ -1,0 +1,194 @@
+{
+  "id": "pribram-crown-shop",
+  "title": "S babi pro svačinu",
+  "titleEn": "Grandma’s Czech crown adventure",
+  "region": "pribram",
+  "background": "pribram-home",
+  "cast": [
+    "adam",
+    "babi",
+    "deda"
+  ],
+  "narrator": "romca",
+  "mechanics": [
+    "narrative",
+    "learn",
+    "find"
+  ],
+  "concepts": [
+    "hello",
+    "koruna",
+    "dollar",
+    "thanks"
+  ],
+  "prerequisites": [],
+  "scriptCs": "Áďo, babi už stojí u branky! Dneska si v Příbrami zahrajeme na malej obchůdek. Děda vzal košík a já slibuju, že tentokrát nekoupím rybářskou botu. Klepni na babi a jdeme!",
+  "scriptEn": "Adam, Grandma is waiting at the gate! Today we’re playing little shop in Příbram. Grandpa has the basket. And I promise I won’t buy a fishing boot this time! Tap Grandma. Let’s go!",
+  "suggestedMinutes": [
+    5,
+    9
+  ],
+  "speechOptionalForCompletion": true,
+  "archived": false,
+  "version": 1,
+  "tasks": [
+    {
+      "id": "gate",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Áďo, babi už stojí u branky! Dneska si v Příbrami zahrajeme na malej obchůdek. Děda vzal košík a já slibuju, že tentokrát nekoupím rybářskou botu. Klepni na babi a jdeme!",
+        "en": "Adam, Grandma is waiting at the gate! Today we’re playing little shop in Příbram. Grandpa has the basket. And I promise I won’t buy a fishing boot this time! Tap Grandma. Let’s go!"
+      },
+      "art": "family/babi",
+      "action": "wave"
+    },
+    {
+      "id": "greet",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Doma v Iowě zdravíš často anglicky. Babi s dědou vítají známý česky. Dvě řeči, ale stejný mávnutí a stejná radost, že se vidíme. Zkusíme kamarádskej pozdrav. Klepni na dráčka.",
+        "en": "Back home in Iowa, you often greet people in English. Grandma and Grandpa greet their friends in Czech. Two languages, but the same wave and the same happy feeling! Let’s try a friendly greeting. Tap the dragon."
+      },
+      "art": "adam-poses/wave",
+      "action": "wave"
+    },
+    {
+      "kind": "learn",
+      "concept": "hello"
+    },
+    {
+      "kind": "find",
+      "concept": "hello",
+      "options": [
+        "hello",
+        "please",
+        "thanks"
+      ]
+    },
+    {
+      "id": "purse",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Babi otevřela peněženku. Hele, český koruny! Žádná koruna na hlavu, prcku, tady je to jméno peněz. Koruny jsou mince i bankovky. Na obrázku si ukážeme stříbrnou minci. Klepni na šipku.",
+        "en": "Grandma opens her purse. Look, Czech crowns! Not a crown for your head, buddy. Here, crown is the name of the money. Czech crowns come as coins and bills. Our picture shows a silver coin. Tap the arrow."
+      },
+      "art": "props/treasure",
+      "action": "next",
+      "pictures": [
+        "koruna"
+      ]
+    },
+    {
+      "kind": "learn",
+      "concept": "koruna"
+    },
+    {
+      "kind": "find",
+      "concept": "koruna",
+      "options": [
+        "dollar",
+        "koruna",
+        "apple"
+      ]
+    },
+    {
+      "id": "compare",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Pamatuješ si peníze z Iowy? Tam používáme dolary. Tady v Česku koruny. Jablko zůstává jablkem, ale peníze a slovíčka jsou jiný. Tak schválně, poznáš i dolar? Klepni na šipku.",
+        "en": "Remember the money from Iowa? We use dollars there, and Czech crowns here in Czechia. An apple is still an apple, but the money and words are different. Can you spot a dollar too? Tap the arrow."
+      },
+      "art": "props/apple",
+      "action": "next",
+      "pictures": [
+        "dollar",
+        "koruna"
+      ]
+    },
+    {
+      "kind": "learn",
+      "concept": "dollar"
+    },
+    {
+      "kind": "find",
+      "concept": "dollar",
+      "options": [
+        "koruna",
+        "dollar",
+        "apple"
+      ]
+    },
+    {
+      "id": "pay-here",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Děda už drží košík. Teď jsme v Příbrami, takže vybereme český peníze. Žádný počítání cen, jen najdi správnej obrázek podle slovíčka. Klepni na šipku a poslouchej.",
+        "en": "Grandpa is holding the basket. We’re in Příbram, so let’s pick the Czech money. No prices to work out. Just find the picture that matches the word. Tap the arrow and listen."
+      },
+      "art": "family/deda",
+      "action": "next",
+      "pictures": [
+        "koruna",
+        "dollar"
+      ]
+    },
+    {
+      "kind": "find",
+      "concept": "koruna",
+      "options": [
+        "koruna",
+        "dollar"
+      ]
+    },
+    {
+      "id": "thank-you",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Babi podává svačinu a ty jí chceš poděkovat. Doma to říkáš anglicky, dneska jí uděláme radost česky. A ona se od tebe může naučit anglický poděkování. Klepni na srdíčko.",
+        "en": "Grandma hands you a snack, and you want to thank her. At home you say it in English. Today, let’s try Czech for her! And she can learn the English thank-you from you. Tap the heart."
+      },
+      "art": "family/babi",
+      "action": "heart"
+    },
+    {
+      "kind": "learn",
+      "concept": "thanks"
+    },
+    {
+      "kind": "find",
+      "concept": "thanks",
+      "options": [
+        "hello",
+        "thanks",
+        "please"
+      ]
+    },
+    {
+      "id": "ending",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Tak to vidíš, Áďo. Jinej domov, jiná řeč, jiný peníze. Ale babi s dědou tě mají rádi úplně stejně jako máma s tátou za oceánem. Klepni na hvězdičku a pojď jim o výpravě povědět!",
+        "en": "See, Adam? Another home, another language, different money. But Grandma and Grandpa love you just as much as Mom and Dad across the ocean. Tap the star. Let’s tell them about our adventure!"
+      },
+      "art": "family/adam",
+      "action": "star"
+    }
+  ],
+  "callPrompts": [
+    {
+      "cs": "Jaké peníze měla babi v peněžence? A jaké má táta v Iowě?",
+      "en": "What money was in Grandma’s purse? What money does Dad use in Iowa?"
+    },
+    {
+      "cs": "Zamáváme si. Jak pozdravíš ty a jak já?",
+      "en": "Let’s wave. How do you say hi, and how do I say it?"
+    }
+  ]
+}

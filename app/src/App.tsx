@@ -38,9 +38,9 @@ import {
   Modal,
   ParentGate,
   Pause,
-  Narrator,
 } from "./components";
 import { Game } from "./Game";
+import { WorldAtlas } from "./WorldAtlas";
 import { Family } from "./Family";
 import { Speech, WordCard } from "./Speech";
 import { Parents, Requirement, download } from "./Parents";
@@ -127,16 +127,12 @@ export default function App() {
       go("game");
     } else if (save.events.length) {
       go("map");
-      void play(`game.map.${lang}`);
     } else void start(activeQuests[0].id);
   };
   const opened = discovered(save),
     finished = completed(save),
     points = xp(save),
     level = Math.min(8, 1 + Math.floor(points / 160));
-  const recommendations = activeQuests
-    .filter((q) => unlocked(save, q.id) && !finished.has(q.id))
-    .slice(0, 2);
   const categoryIds: Record<string, string[]> = {
     fish: ["fish", "carp", "perch", "catfish", "pike"],
     bugs: [
@@ -353,136 +349,11 @@ export default function App() {
               {lang === "cs" ? "Deník výprav" : "Adventure journal"}
             </Button>
           </div>
-          <div
-            className="world-map"
-            style={{ backgroundImage: `url(${asset("world-map")})` }}
-          >
-            <span className="map-label iowa-label">
-              IOWA <small>{lang === "cs" ? "Máma a táta" : "Mom & Dad"}</small>
-            </span>
-            <span className="map-label czech-label">
-              PŘÍBRAM{" "}
-              <small>
-                {lang === "cs" ? "Babi a děda" : "Grandma & Grandpa"}
-              </small>
-            </span>
-            <div className="plane-route">
-              <Icon name="plane" />
-            </div>
-            {recommendations.map((q, i) => (
-              <button
-                key={q.id}
-                className={`map-pin pin-${q.region} pin-${i}`}
-                aria-label={title(q, lang)}
-                onClick={() => void start(q.id)}
-              >
-                <Icon
-                  name={
-                    q.mechanics.includes("fishing")
-                      ? "fishing"
-                      : q.id === "klarka-atlas"
-                        ? "bug"
-                        : q.id === "workshop"
-                          ? "bicycle"
-                          : q.id === "travel"
-                            ? "plane"
-                            : "play"
-                  }
-                />
-                <span>{title(q, lang)}</span>
-              </button>
-            ))}
-            {recommendations.length === 0 && (
-              <button
-                className="map-pin pin-pribram"
-                onClick={() => setJournal(true)}
-              >
-                <Icon name="star" />
-                <span>
-                  {lang === "cs"
-                    ? "Další příběh si vybereš dole!"
-                    : "Choose another story below!"}
-                </span>
-              </button>
-            )}
-            <Sprite id="adam-actions/atlas" className="map-adam" />
-            <div className="map-caption paper">
-              <span>
-                {lang === "cs"
-                  ? "DVA DOMOVY. JEDNA RODINA."
-                  : "TWO HOMES. ONE FAMILY."}
-              </span>
-              <strong>
-                {activeQuests.filter((q) => finished.has(q.id)).length} /{" "}
-                {activeQuests.length}{" "}
-                {lang === "cs" ? "výprav dokončeno" : "adventures complete"}
-              </strong>
-            </div>
-          </div>
-          <section
-            className="quest-shelf"
-            aria-label={lang === "cs" ? "Vyber příběh" : "Choose your story"}
-          >
-            <div className="quest-shelf-heading">
-              <h2>
-                {lang === "cs"
-                  ? "Tvoje příběhové výpravy"
-                  : "Your story quests"}
-              </h2>
-              <Button
-                icon="speaker"
-                className="round"
-                aria-label="Poslechnout výběr výprav / Hear instructions"
-                onClick={() => void play(`questui.choose-quest.${lang}`)}
-              />
-            </div>
-            <div className="quest-covers">
-              {activeQuests.map((q) => (
-                <article
-                  className="quest-cover"
-                  key={q.id}
-                  style={{ backgroundImage: `url(${asset(q.background)})` }}
-                >
-                  <Sprite
-                    id={
-                      q.id === "romca-fishing"
-                        ? "family/romca"
-                        : q.id === "grandparents-home"
-                          ? "family/babi"
-                          : q.id === "family-cycling"
-                            ? "adam-actions/cycling"
-                            : "family/adam"
-                    }
-                    className="quest-cover-actor"
-                  />
-                  {finished.has(q.id) && (
-                    <span className="quest-stamp">
-                      <Icon name="check" />
-                    </span>
-                  )}
-                  <div className="quest-cover-copy">
-                    <h3>{title(q, lang)}</h3>
-                    <div className="button-row">
-                      <Button
-                        icon="speaker"
-                        className="round secondary"
-                        aria-label={`Poslechnout: ${title(q, lang)}`}
-                        onClick={() => void play(`title.${q.id}.${lang}`)}
-                      />
-                      <Button
-                        icon="play"
-                        disabled={!unlocked(save, q.id)}
-                        aria-label={`Hrát: ${title(q, lang)}`}
-                        onClick={() => void start(q.id)}
-                      >
-                        {lang === "cs" ? "Hrát" : "Play"}
-                      </Button>
-                    </div>
-                  </div>
-                </article>
-              ))}
-            </div>
-          </section>
+          <WorldAtlas
+            save={save}
+            onStart={(id) => void start(id)}
+            paused={pause || gate || journal}
+          />
           {save.run && save.run.phase !== "summary" && (
             <div className="resume-strip">
               <span>
@@ -495,11 +366,6 @@ export default function App() {
               </Button>
             </div>
           )}
-          <Narrator
-            instruction={line("map", lang)}
-            lang={lang}
-            onReplay={() => void play(`game.map.${lang}`)}
-          />
         </main>
       )}
       {view === "game" && save.run && (

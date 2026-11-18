@@ -1,0 +1,199 @@
+{
+  "version": 2,
+  "generatedWith": "built-in image_gen",
+  "assets": [
+    {
+      "id": "family-v2",
+      "path": "art/source/family-v2-cutout.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "55af9ea4ac7ddf3095cc730b68f5dcb7e620812899991cccf1196c4cbeb54983",
+      "bytes": 2731618,
+      "alphaRequested": true,
+      "frames": [
+        {
+          "id": "family/adam",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 512
+          }
+        },
+        {
+          "id": "family/matyas",
+          "rect": {
+            "x": 384,
+            "y": 0,
+            "w": 384,
+            "h": 512
+          }
+        },
+        {
+          "id": "family/romca",
+          "rect": {
+            "x": 768,
+            "y": 0,
+            "w": 384,
+            "h": 512
+          }
+        },
+        {
+          "id": "family/klarka",
+          "rect": {
+            "x": 1152,
+            "y": 0,
+            "w": 384,
+            "h": 512
+          }
+        },
+        {
+          "id": "family/babi",
+          "rect": {
+            "x": 0,
+            "y": 512,
+            "w": 384,
+            "h": 512
+          }
+        },
+        {
+          "id": "family/deda",
+          "rect": {
+            "x": 384,
+            "y": 512,
+            "w": 384,
+            "h": 512
+          }
+        },
+        {
+          "id": "family/mama",
+          "rect": {
+            "x": 768,
+            "y": 512,
+            "w": 384,
+            "h": 512
+          }
+        },
+        {
+          "id": "family/tata",
+          "rect": {
+            "x": 1152,
+            "y": 512,
+            "w": 384,
+            "h": 512
+          }
+        }
+      ]
+    },
+    {
+      "id": "adam-v2",
+      "path": "art/source/adam-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "edd3c75099d0a3319946ad912d987fa90cf73c2c4a67dcb45e46143894a7bd9b",
+      "bytes": 2876719,
+      "alphaRequested": true,
+      "frames": [
+        {
+          "id": "adam-poses/idle",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 512
+          }
+        },
+        {
+          "id": "adam-poses/wave",
+          "rect": {
+            "x": 307,
+            "y": 0,
+            "w": 307,
+            "h": 512
+          }
+        },
+        {
+          "id": "adam-poses/listen",
+          "rect": {
+            "x": 614,
+            "y": 0,
+            "w": 308,
+            "h": 512
+          }
+        },
+        {
+          "id": "adam-poses/speak",
+          "rect": {
+            "x": 922,
+            "y": 0,
+            "w": 307,
+            "h": 512
+          }
+        },
+        {
+          "id": "adam-poses/celebrate",
+          "rect": {
+            "x": 1229,
+            "y": 0,
+            "w": 307,
+            "h": 512
+          }
+        },
+        {
+          "id": "adam-poses/fish",
+          "rect": {
+            "x": 0,
+            "y": 512,
+            "w": 307,
+            "h": 512
+          }
+        },
+        {
+          "id": "adam-actions/cycling",
+          "rect": {
+            "x": 307,
+            "y": 512,
+            "w": 307,
+            "h": 512
+          }
+        },
+        {
+          "id": "adam-actions/magnifier",
+          "rect": {
+            "x": 614,
+            "y": 512,
+            "w": 308,
+            "h": 512
+          }
+        },
+        {
+          "id": "adam-actions/landing-net",
+          "rect": {
+            "x": 922,
+            "y": 512,
+            "w": 307,
+            "h": 512
+          }
+        },
+        {
+          "id": "adam-actions/atlas",
+          "rect": {
+            "x": 1229,
+            "y": 512,
+            "w": 307,
+            "h": 512
+          }
+        }
+      ]
+    },
+    {
+      "id": "atlas-two-homes",
+      "path": "art/source/atlas-two-homes.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "bd1dc3d79ec2283f07f35fd58abc6689d45ef58d74ee1c3e4eaebf80d53fe418",
+      "bytes": 3805614,
+      "alphaRequested": false
+    }
+  ]
+}

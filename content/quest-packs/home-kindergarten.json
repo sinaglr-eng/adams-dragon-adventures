@@ -26,8 +26,8 @@
     "ladybird"
   ],
   "prerequisites": [],
-  "scriptCs": "Dnes si Adam s mámou hrají na školku doma. Matyáš bude malý pomocník. Máma připravila obrázky a schovala mezi ně barevné poklady. Klepni na Adama a přidej se!",
-  "scriptEn": "Today Adam and Mom are playing preschool at home. Matyáš is their little helper. Mom has pictures and colorful treasures ready. Tap Adam to join in!",
+  "scriptCs": "Tak hele, dneska máme školku přímo doma v Iowě! Máma nachystala obrázky a Matyáš dělá pomocníka. Teda, pokud nám všechno neschová. Najdeme barvy, porovnáme ryby a mrkneme do zahrady. Klepni na Adama, jdeme na to!",
+  "scriptEn": "Guess what? Preschool is at home in Iowa today! Mom has the pictures ready, and Matyáš is our little helper. Unless he hides everything first! We’ll hunt for colors, compare fish, and peek into the garden. Tap Adam. Let’s go!",
   "suggestedMinutes": [
     6,
     12
@@ -41,8 +41,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Dnes si Adam s mámou hrají na školku doma. Matyáš bude malý pomocník. Máma připravila obrázky a schovala mezi ně barevné poklady. Klepni na Adama a přidej se!",
-        "en": "Today Adam and Mom are playing preschool at home. Matyáš is their little helper. Mom has pictures and colorful treasures ready. Tap Adam to join in!"
+        "cs": "Tak hele, dneska máme školku přímo doma v Iowě! Máma nachystala obrázky a Matyáš dělá pomocníka. Teda, pokud nám všechno neschová. Najdeme barvy, porovnáme ryby a mrkneme do zahrady. Klepni na Adama, jdeme na to!",
+        "en": "Guess what? Preschool is at home in Iowa today! Mom has the pictures ready, and Matyáš is our little helper. Unless he hides everything first! We’ll hunt for colors, compare fish, and peek into the garden. Tap Adam. Let’s go!"
       },
       "art": "family/adam",
       "action": "wave"
@@ -52,8 +52,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Máma ukázala na jablko. Je červené! Vedle stojí modrý kbelík. Matyáš by je rád roztřídil. Nejdřív se naučíme jména barev. Klepni na šipku.",
-        "en": "Mom points to an apple. It is red! A blue bucket sits beside it. Matyáš wants to sort the colors. First, let us learn what to call them. Tap the arrow."
+        "cs": "Koukej, máma má červený jablko a vedle stojí modrej kbelík. Matyáš je chce dát k sobě. Jenže barvy jsou jiný! Pomůžeme mu to rozmotat. Klepni na šipku a poslechni si první barvu.",
+        "en": "Look, Mom has a red apple and a blue bucket. Matyáš wants to put them together. But those colors are different! Let’s help our little buddy sort them out. Tap the arrow and listen for the first color."
       },
       "art": "props/apple",
       "action": "next"
@@ -95,8 +95,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Adam otevřel obrázkovou knihu. Jedna ryba je veliká, druhá maličká. Obě potřebují ve vodě místo. Najdeme větší a menší obrázek. Klepni na knihu.",
-        "en": "Adam opens a picture book. One fish is big, and one is small. Both need room in the water. Let us find the bigger and smaller picture. Tap the book."
+        "cs": "Páni, Áďo, tahle ryba by mi málem zabrala celej podběrák! A vedle je úplnej mrňous. Obě jsou ryby, jen jedna veliká a druhá malá. Roztáhni tlapky a ukaž mi, jak velikou bys chtěl chytit. Pak klepni na knížku.",
+        "en": "Whoa, Adam! That fish could fill my whole net! And the one beside it is teeny tiny. Both fish, one big and one small. Stretch your paws and show me the size you’d like to catch. Then tap the book."
       },
       "art": "adam-actions/atlas",
       "action": "atlas"
@@ -130,8 +130,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Teď si uděláme malou přestávku na zahradě. Pod listem se schovala beruška. Jemně list odklopíme, podíváme se a zase jí dáme klid. Klepni na lupu.",
-        "en": "Time for a little garden break. A ladybug is hiding under a leaf. We can gently peek, look closely, and let her be. Tap the magnifying glass."
+        "cs": "Psst, na zahradě máme návštěvu! Pod listem se schovala beruška. Opatrně nakoukneme, ať jí nezboříme domeček. Lupu do tlapky, prcku, a jdeme pátrat. Klepni na lupu.",
+        "en": "Psst, we’ve got a garden visitor! A ladybug is hiding under a leaf. Let’s peek gently so we don’t wreck her little home. Grab your magnifying glass, buddy. Tap it and let’s investigate!"
       },
       "art": "props/magnifier",
       "action": "bug"
@@ -161,8 +161,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Matyáš zamával berušce. Adam poznal dvě barvy, dvě velikosti a malého souseda ze zahrady. Až zavolá dědovi, může mu ukázat něco červeného. Klepni na hvězdičku.",
-        "en": "Matyáš waves to the ladybug. Adam found two colors, two sizes, and a tiny garden neighbor. When Grandpa calls, Adam can show him something red. Tap the star."
+        "cs": "Tak jo, barvy máme a berušku jsme nechali v klidu. Matyáš jí ještě mává. Až zavoláš dědovi, můžeš mu najít něco červenýho přímo u vás doma. Schválně, co vybere! Klepni na hvězdičku, dneska dobrá práce.",
+        "en": "All right! We found our colors and left the ladybug in peace. Matyáš is still waving at her! When Grandpa calls, show him something red at home. I wonder what he’ll find at his house! Tap the star. Nice exploring, buddy!"
       },
       "art": "creatures/ladybird",
       "action": "star"

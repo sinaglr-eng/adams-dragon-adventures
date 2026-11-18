@@ -25,8 +25,8 @@
     "thanks"
   ],
   "prerequisites": [],
-  "scriptCs": "V Iowě se probudil malý zelený dráček Adam. Bydlí tu s mámou, tátou a malým bráškou Matyášem. Já jsem strejda Romča a budu ti vyprávět. Klepni na Adama a zamáváme mu!",
-  "scriptEn": "In Iowa, a little green dragon named Adam wakes up. He lives with Mom, Dad, and his little brother Matyáš. I am Uncle Romča, your storyteller. Tap Adam to give him a wave!",
+  "scriptCs": "Hele, Áďo, vstávat! V Iowě už svítí sluníčko a Matyáš ti chce ukázat svoji hračku. Bydlíte tu s mámou a tátou, celá dračí parta. Já jsem strejda Romča a dneska ti ukážu jeden rodinnej fígl. Klepni na dráčka a zamávej!",
+  "scriptEn": "Hey, Adam, rise and shine! The sun is up in Iowa, and little Matyáš has a toy to show you. You live here with Mom and Dad, your dragon family. It’s Uncle Romča here. Ready for a little family adventure? Tap the dragon and wave!",
   "suggestedMinutes": [
     6,
     12
@@ -40,8 +40,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "V Iowě se probudil malý zelený dráček Adam. Bydlí tu s mámou, tátou a malým bráškou Matyášem. Já jsem strejda Romča a budu ti vyprávět. Klepni na Adama a zamáváme mu!",
-        "en": "In Iowa, a little green dragon named Adam wakes up. He lives with Mom, Dad, and his little brother Matyáš. I am Uncle Romča, your storyteller. Tap Adam to give him a wave!"
+        "cs": "Hele, Áďo, vstávat! V Iowě už svítí sluníčko a Matyáš ti chce ukázat svoji hračku. Bydlíte tu s mámou a tátou, celá dračí parta. Já jsem strejda Romča a dneska ti ukážu jeden rodinnej fígl. Klepni na dráčka a zamávej!",
+        "en": "Hey, Adam, rise and shine! The sun is up in Iowa, and little Matyáš has a toy to show you. You live here with Mom and Dad, your dragon family. It’s Uncle Romča here. Ready for a little family adventure? Tap the dragon and wave!"
       },
       "art": "family/adam",
       "action": "wave"
@@ -51,8 +51,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Máma a táta pocházejí z Česka, země za velikým oceánem. V Příbrami tam žijí babi a děda. Klepni na letadlo a přeletíme oceán na mapě.",
-        "en": "Mom and Dad come from Czechia, a country across a great big ocean. Grandma and Grandpa live there, in Příbram. Tap the airplane to fly across the ocean on our map."
+        "cs": "A víš, co je hustý, Áďo? Máma a táta vyrostli v Česku, až za tím obřím oceánem. Tam v Příbrami čekají babi a děda. Jsme jedna rodina, i když máme domovy tak daleko od sebe. Klepni na letadlo. Fííí, letíme po mapě!",
+        "en": "Guess what, buddy? Mom and Dad grew up in Czechia, across that enormous ocean. Grandma and Grandpa live there, in Příbram. One family, with homes a long way apart! Tap the airplane. Whoosh, across our map we go!"
       },
       "art": "world-map",
       "action": "plane"
@@ -62,8 +62,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Doma v Iowě Adam často slyší angličtinu. Babi a děda mluví česky. Stejnou věc můžeme pojmenovat dvěma způsoby! Pomůžeme Adamovi najít česká slovíčka. Klepni na šipku.",
-        "en": "At home in Iowa, Adam often hears English. Grandma and Grandpa speak Czech. We can name the very same thing in two different ways! Let us help Adam discover the Czech words. Tap the arrow."
+        "cs": "Tady v Iowě často slyšíš angličtinu. U babi a dědy zase češtinu. A teď ten fígl: stejná věc, jiný slovíčko! Jablko se přece po přeletu oceánu nezmění v botu. Jen mu říkáme jinak. Klepni na šipku a zkusíme pozdrav.",
+        "en": "Here in Iowa, you often hear English. At Grandma and Grandpa’s, you hear Czech. Here’s the trick: same thing, different word! An apple doesn’t turn into a boot when it crosses the ocean. We just call it something else. Tap the arrow to try a greeting."
       },
       "art": "family/adam",
       "action": "next"
@@ -81,8 +81,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Matyáš si hraje a máma chystá svačinu. Adamovi zakručelo v bříšku! Pomůže mámě najít jablko a hrnek. Klepni na košík.",
-        "en": "Matyáš is playing while Mom gets a snack ready. Adam’s tummy gives a little rumble! He can help Mom find an apple and a cup. Tap the basket."
+        "cs": "Slyšíš to kručení? To není drak za oknem, to máš hlad, prcku! Máma chystá svačinu a Matyáš už natahuje tlapky. Najdeme jablko a hrnek, ať máme co chroupat a z čeho pít. Klepni na košík.",
+        "en": "Hear that rumble? That’s no dragon outside. That’s your hungry tummy, buddy! Mom is making a snack, and Matyáš is reaching out his little paws. Let’s find an apple and a cup. Tap the basket!"
       },
       "art": "props/apple",
       "action": "suitcase"
@@ -126,8 +126,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Táta přinesl svačinu. Adam ji nemusí brát beze slova. Může o ni poprosit a pak poděkovat. I laskavá slova mají dvě podoby. Klepni na srdíčko.",
-        "en": "Dad brings the snack. Adam can ask kindly, then say thank you. Kind words have two versions, too. Tap the heart and let us try them."
+        "cs": "Táta nese svačinu! Paráda, Áďo, ale než ji slupneme, hezky poprosíme a poděkujeme. I tahle milá slovíčka znějí v každé řeči jinak. Klepni na srdíčko a zkusíme je spolu.",
+        "en": "Dad’s bringing our snack! Nice, Adam! Before we gobble it up, let’s ask nicely and say thank you. Even those kind little words sound different in each language. Tap the heart. Let’s try them together!"
       },
       "art": "family/tata",
       "action": "heart"
@@ -153,8 +153,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Adam dnes pozdravil a pomohl se svačinou. Pět českých slov může putovat až za oceán! Až bude volat babi, může jí zamávat a říct ahoj. Klepni na hvězdičku.",
-        "en": "Adam said hello and helped with the snack. Five Czech words can travel all the way across the ocean! When he calls Grandma, he can wave and say ahoj. Tap the star to finish our story."
+        "cs": "Tak jo, Áďo, svačina zachráněna a pár českejch slovíček máme v kapse! Až zavoláš babi do Příbrami, můžeš jí zamávat a zkusit českej pozdrav. To bude mít radost! Klepni na hvězdičku, parťáku.",
+        "en": "All right, Adam, snack mission complete! And we’ve got some Czech words in our pockets. When you call Grandma in Příbram, wave and try your Czech greeting. She’ll love that! Tap the star, buddy."
       },
       "art": "adam-poses/celebrate",
       "action": "star"

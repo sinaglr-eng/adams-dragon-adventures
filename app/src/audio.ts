@@ -13,6 +13,7 @@ let generation = 0;
 let muted = false;
 let volume = 0.8;
 let currentResolve: (() => void) | null = null;
+let pauseTimer: ReturnType<typeof setTimeout> | null = null;
 let primed = false;
 export function primeAudio() {
   if (primed) return;
@@ -41,6 +42,8 @@ export function configureAudio(m: boolean, v: number) {
 }
 export function stopAudio() {
   generation++;
+  if (pauseTimer !== null) clearTimeout(pauseTimer);
+  pauseTimer = null;
   if (player) {
     player.pause();
     player.onended = null;
@@ -54,14 +57,26 @@ export async function play(ids: string | string[]) {
   stopAudio();
   if (muted) return;
   const token = generation;
-  for (const id of Array.isArray(ids) ? ids : [ids]) {
+  const sequence = (Array.isArray(ids) ? ids : [ids]).flatMap((id) =>
+    /^word\.[a-z-]+\.cs$/.test(id)
+      ? [
+          { id, rate: 1, pause: 1600 },
+          { id, rate: 0.76, pause: 2200 },
+        ]
+      : [{ id, rate: 1, pause: 0 }],
+  );
+  const unavailable = new Set<string>();
+  for (const { id, rate, pause } of sequence) {
     if (token !== generation) return;
+    if (unavailable.has(id)) continue;
     await new Promise<void>((resolve) => {
       currentResolve = resolve;
       const a = player ?? new Audio();
       player = a;
       a.src = `${import.meta.env.BASE_URL}game-assets/audio/${id}.mp3`;
       a.volume = volume;
+      a.playbackRate = rate;
+      a.preservesPitch = true;
       a.onended = () => {
         currentResolve = null;
         resolve();
@@ -82,6 +97,7 @@ export async function play(ids: string | string[]) {
             v.lang.toLowerCase().startsWith(lang === "cs" ? "cs" : "en-us"),
           );
         if (!voice || !texts[id]) {
+          unavailable.add(id);
           notice(
             lang === "cs"
               ? "České audio není dostupné. Zkontrolujte připojení nebo poproste dospělého."
@@ -94,7 +110,7 @@ export async function play(ids: string | string[]) {
         const u = new SpeechSynthesisUtterance(texts[id]);
         u.voice = voice;
         u.lang = voice.lang;
-        u.rate = 0.85;
+        u.rate = 0.85 * rate;
         u.volume = volume;
         u.onend = () => resolve();
         u.onerror = () => resolve();
@@ -107,11 +123,22 @@ export async function play(ids: string | string[]) {
           return;
         }
         if (error.name === "NotAllowedError") {
+          unavailable.add(id);
           notice("Klepni na reproduktor pro zvuk / Tap the speaker to play.");
           resolve();
         } else fallback();
       });
     });
+    if (token !== generation) return;
+    if (pause && !unavailable.has(id))
+      await new Promise<void>((resolve) => {
+        currentResolve = resolve;
+        pauseTimer = setTimeout(() => {
+          pauseTimer = null;
+          currentResolve = null;
+          resolve();
+        }, pause);
+      });
   }
 }
 let context: AudioContext | null = null;

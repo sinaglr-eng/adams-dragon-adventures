@@ -1,3 +1,5 @@
+> Aktuální verze 1.2: [Atlas dvou domovů](docs/ATLAS_UPDATE.md), sedm regionálních výprav, schválená podoba rodiny a dvojí český slovníkový vzor. Toto zadání má přednost před starším návrhem níže.
+
 > Aktualizace: aktuální strukturu pěti samostatných příběhových questů a rozhraní pro prarodiče popisuje [docs/QUEST_AUTHORING.md](docs/QUEST_AUTHORING.md). Původních osm kapitol níže zůstává jako kompatibilní archiv. Nové zadání má přednost před původní pevnou posloupností.
 
 # Kompletní implementační prompt — Adamovy dračí výpravy

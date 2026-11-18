@@ -1,0 +1,184 @@
+{
+  "id": "iowa-snack-shop",
+  "title": "Svačina za dolary",
+  "titleEn": "The dollar snack adventure",
+  "region": "iowa",
+  "background": "iowa-home",
+  "cast": [
+    "adam",
+    "mama",
+    "tata",
+    "matyas"
+  ],
+  "narrator": "romca",
+  "mechanics": [
+    "narrative",
+    "learn",
+    "find"
+  ],
+  "concepts": [
+    "apple",
+    "dollar",
+    "koruna",
+    "please"
+  ],
+  "prerequisites": [],
+  "scriptCs": "Hele, Áďo, dneska si s mámou a tátou zahrajete na obchůdek. V Iowě nám došla svačina a Matyáš hlídá prázdnej košík. Potřebujeme jablko! Klepni na košík a jdeme nakoupit.",
+  "scriptEn": "Hey, Adam! Today you’re playing shop with Mom and Dad. Here in Iowa, our snack basket is empty, and Matyáš is guarding it! We need an apple. Tap the basket. Let’s go shopping!",
+  "suggestedMinutes": [
+    5,
+    9
+  ],
+  "speechOptionalForCompletion": true,
+  "archived": false,
+  "version": 1,
+  "tasks": [
+    {
+      "id": "snack-plan",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Hele, Áďo, dneska si s mámou a tátou zahrajete na obchůdek. V Iowě nám došla svačina a Matyáš hlídá prázdnej košík. Potřebujeme jablko! Klepni na košík a jdeme nakoupit.",
+        "en": "Hey, Adam! Today you’re playing shop with Mom and Dad. Here in Iowa, our snack basket is empty, and Matyáš is guarding it! We need an apple. Tap the basket. Let’s go shopping!"
+      },
+      "art": "props/apple",
+      "action": "suitcase"
+    },
+    {
+      "kind": "learn",
+      "concept": "apple"
+    },
+    {
+      "kind": "find",
+      "concept": "apple",
+      "options": [
+        "apple",
+        "boot",
+        "cup"
+      ]
+    },
+    {
+      "id": "dollar-pocket",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Táta vytáhl peněženku. A víš, co je hustý? V Americe platíme dolary. Dolar můžeš potkat na bankovce i na minci. Na našem obrázku má zelenou bankovku a zatočenej znak. Mrkneme na něj!",
+        "en": "Dad opens his wallet. Guess what? In the United States, we use dollars. Dollars can be bills or coins. Our picture shows a green bill with a curly dollar sign. Let’s take a look!"
+      },
+      "art": "props/treasure",
+      "action": "next",
+      "pictures": [
+        "dollar"
+      ]
+    },
+    {
+      "kind": "learn",
+      "concept": "dollar"
+    },
+    {
+      "kind": "find",
+      "concept": "dollar",
+      "options": [
+        "dollar",
+        "koruna",
+        "apple"
+      ]
+    },
+    {
+      "id": "other-pocket",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "A teď fígl: u babi a dědy v Česku se platí korunami. Ta naše má stříbrnou minci. Koruna a dolar nejsou stejná měna a jeden dolar není totéž co jedna koruna. Dneska nepočítáme cenu, jen je poznáváme. Klepni na šipku.",
+        "en": "Here’s the twist: at Grandma and Grandpa’s in Czechia, people use Czech crowns. Our picture shows a silver coin. Dollars and Czech crowns are different currencies. One dollar is not the same value as one crown. Today we’re spotting them, not working out prices. Tap the arrow."
+      },
+      "art": "props/treasure",
+      "action": "next",
+      "pictures": [
+        "dollar",
+        "koruna"
+      ]
+    },
+    {
+      "kind": "learn",
+      "concept": "koruna"
+    },
+    {
+      "kind": "find",
+      "concept": "koruna",
+      "options": [
+        "koruna",
+        "dollar",
+        "cup"
+      ]
+    },
+    {
+      "id": "pay-here",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Tak, jsme pořád v našem iowským obchůdku. Který peníze sem patří? Poslechni si český slovíčko a klepni na správnej obrázek. Jablko už na nás čeká, prcku!",
+        "en": "We’re still in our pretend Iowa shop. Which money belongs here? Listen for the Czech word, then tap its picture. That apple is waiting for us, buddy!"
+      },
+      "art": "props/apple",
+      "action": "next",
+      "pictures": [
+        "dollar",
+        "koruna"
+      ]
+    },
+    {
+      "kind": "find",
+      "concept": "dollar",
+      "options": [
+        "koruna",
+        "dollar"
+      ]
+    },
+    {
+      "id": "please",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Než dostaneme svačinu, hezky poprosíme. V angličtině a češtině to zní jinak, ale znamená to stejnou milou věc. Ty zkusíš česky a máma ti může odpovědět anglicky. Klepni na šipku.",
+        "en": "Before we get our snack, let’s ask nicely. It sounds different in English and Czech, but means the same kind thing. You can try Czech, and Mom can answer in English. Tap the arrow."
+      },
+      "art": "family/mama",
+      "action": "next"
+    },
+    {
+      "kind": "learn",
+      "concept": "please"
+    },
+    {
+      "kind": "find",
+      "concept": "please",
+      "options": [
+        "please",
+        "hello",
+        "thanks"
+      ]
+    },
+    {
+      "id": "ending",
+      "kind": "narrative",
+      "concept": "hello",
+      "text": {
+        "cs": "Jablko máme! V Iowě dolary, v Česku koruny. A slušně poprosit umíme v obou řečech. Až zavoláš babi, zeptej se, čím platí ona. Klepni na hvězdičku, obchodníku!",
+        "en": "Apple acquired! Dollars in Iowa, Czech crowns in Czechia. And we can ask nicely in both languages! When Grandma calls, ask which money she uses. Tap the star, little shopkeeper!"
+      },
+      "art": "props/apple",
+      "action": "star"
+    }
+  ],
+  "callPrompts": [
+    {
+      "cs": "Čím platíme v Iowě a čím v Česku? Ukaž mi obrázek.",
+      "en": "What money do we use in Iowa, and what money in Czechia? Show me the picture."
+    },
+    {
+      "cs": "Zahrajeme si na obchůdek? Ty popros česky a já anglicky.",
+      "en": "Shall we play shop? You ask nicely in Czech, and I will try in English."
+    }
+  ]
+}

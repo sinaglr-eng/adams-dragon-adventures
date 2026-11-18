@@ -1,0 +1,272 @@
+[
+  {
+    "id": "story.pribram-crown-shop.gate.en",
+    "file": "game-assets/audio/story.pribram-crown-shop.gate.en.mp3",
+    "bytes": 210684,
+    "sha256": "7c904364d7129dc2d370b90f9266dcc2a5f2eedd09655e66e5d2b9d2f8727a84",
+    "duration": 12.027936507936507,
+    "generationId": "3y86HmWxElDGT7OBqE7e",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.pribram-crown-shop.gate.cs",
+    "file": "game-assets/audio/story.pribram-crown-shop.gate.cs.mp3",
+    "bytes": 205250,
+    "sha256": "ff61d1c0ec71847a92bac8cd71dd9c328083219b2b43d9fa403473706b7c0b02",
+    "duration": 11.702857142857143,
+    "generationId": "Dh4j9XZWD25I5uLdXgw4",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.pribram-crown-shop.greet.cs",
+    "file": "game-assets/audio/story.pribram-crown-shop.greet.cs.mp3",
+    "bytes": 238269,
+    "sha256": "c5dc7db0008cf38490448045fa2f846c19ed54db7657ae8b80f94169f2dedbff",
+    "duration": 13.746213151927437,
+    "generationId": "IUQ2D2voKCJKwV9yvVNi",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.pribram-crown-shop.purse.cs",
+    "file": "game-assets/audio/story.pribram-crown-shop.purse.cs.mp3",
+    "bytes": 233671,
+    "sha256": "a9cef1239f04aba286992f2997ca013341c6a4f81dc8fc0595bf38fa4a920cf7",
+    "duration": 13.467573696145125,
+    "generationId": "C4Px5urIsbaiMRhEBzEJ",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.pribram-crown-shop.purse.en",
+    "file": "game-assets/audio/story.pribram-crown-shop.purse.en.mp3",
+    "bytes": 242449,
+    "sha256": "baa56977e19dc6ce580709f297cf9cd7417007659a5da4d265be8b1b61a43dd9",
+    "duration": 14.02485260770975,
+    "generationId": "EA4gokdbSipRajdF0oNw",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.pribram-crown-shop.greet.en",
+    "file": "game-assets/audio/story.pribram-crown-shop.greet.en.mp3",
+    "bytes": 263347,
+    "sha256": "c86f687c68ea43ccd78a9fba9641fa5038e81f1b1c3c7e0d5f3b02709d463430",
+    "duration": 15.32517006802721,
+    "generationId": "9kcJOS76LuqfKn56cu7O",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.pribram-crown-shop.compare.cs",
+    "file": "game-assets/audio/story.pribram-crown-shop.compare.cs.mp3",
+    "bytes": 213609,
+    "sha256": "013b4e2b2f36d93a571d28a14e8f568bdea2995bdbe45d0ae9c479ae1e1f3ee3",
+    "duration": 12.213696145124716,
+    "generationId": "JglBGLjAPn8snky2OkOR",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.pribram-crown-shop.compare.en",
+    "file": "game-assets/audio/story.pribram-crown-shop.compare.en.mp3",
+    "bytes": 236597,
+    "sha256": "9fd5a6d6cd0fd94783afae8be9cfd69c6d58828087ef9e2f66b5b4dfd8c0e530",
+    "duration": 13.653333333333334,
+    "generationId": "EjY5D3sBbpfXl5FtLOyZ",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.pribram-crown-shop.pay-here.en",
+    "file": "game-assets/audio/story.pribram-crown-shop.pay-here.en.mp3",
+    "bytes": 224894,
+    "sha256": "8b8945f59bffad82047de8c7ab89583266924dc5caf8209b9cfe031af2f726a4",
+    "duration": 12.910294784580499,
+    "generationId": "iyU3KgW6sVZYjcKVSZED",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.pribram-crown-shop.thank-you.en",
+    "file": "game-assets/audio/story.pribram-crown-shop.thank-you.en.mp3",
+    "bytes": 202324,
+    "sha256": "2fb2d8e3dfa413e0f2aac339f96c629fd334e67eac36befd8f0b2ac4471d80a2",
+    "duration": 11.517097505668934,
+    "generationId": "4ngh8Y1smllZAc75V3Ux",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.pribram-crown-shop.pay-here.cs",
+    "file": "game-assets/audio/story.pribram-crown-shop.pay-here.cs.mp3",
+    "bytes": 195637,
+    "sha256": "248653e1cb85e94e763ebdf92deda2667717f244928a4a92270bfc06f37a7cfd",
+    "duration": 11.099138321995465,
+    "generationId": "BPbIaNVnXt7qUVg2Cl27",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.pribram-crown-shop.ending.cs",
+    "file": "game-assets/audio/story.pribram-crown-shop.ending.cs.mp3",
+    "bytes": 218625,
+    "sha256": "bfbd362e1cb15b1539011e8e14144a4b91ce12276de2ca139513b98891a27c57",
+    "duration": 12.538775510204081,
+    "generationId": "7Gfr9TGNX0peOS8ydIOn",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.pribram-crown-shop.thank-you.cs",
+    "file": "game-assets/audio/story.pribram-crown-shop.thank-you.cs.mp3",
+    "bytes": 204832,
+    "sha256": "3f56dfb795d56a624a60125d965512166c6f85692804c376e3ca729f675c7147",
+    "duration": 11.656417233560092,
+    "generationId": "pzP2PjMqmxKHOkczuWJM",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "call.pribram-crown-shop.0.cs",
+    "file": "game-assets/audio/call.pribram-crown-shop.0.cs.mp3",
+    "bytes": 85714,
+    "sha256": "7c8746f5cca8867446428d1dfe8477c9ad7a5c89755f5c298a6ff5e08cd8d2f1",
+    "duration": 4.2260317460317465,
+    "generationId": "0Etc9NM1N8LEP2o2HONP",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.pribram-crown-shop.ending.en",
+    "file": "game-assets/audio/story.pribram-crown-shop.ending.en.mp3",
+    "bytes": 210684,
+    "sha256": "05efebb3522d8b655520dbc9af587b2d3fa115a55d8e25b02582525b67969d9d",
+    "duration": 12.027936507936507,
+    "generationId": "jd4e8GoZi4HdrRNGQOlX",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "call.pribram-crown-shop.1.en",
+    "file": "game-assets/audio/call.pribram-crown-shop.1.en.mp3",
+    "bytes": 78191,
+    "sha256": "2570413e1ab2553cb31de9573cd08ee8108a9ed9fdad32b26dc084c7699b2ee5",
+    "duration": 3.7616326530612243,
+    "generationId": "U9c0dlHXRhd1Ah7Ut815",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "call.pribram-crown-shop.1.cs",
+    "file": "game-assets/audio/call.pribram-crown-shop.1.cs.mp3",
+    "bytes": 69413,
+    "sha256": "04c8b25c9fa63288139611cc23b8a72d734ddd6b93caace5b3ae52693f0f64b5",
+    "duration": 3.2043537414965986,
+    "generationId": "ne4vwAr0KTP9cxNP3EVh",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "call.pribram-crown-shop.0.en",
+    "file": "game-assets/audio/call.pribram-crown-shop.0.en.mp3",
+    "bytes": 88640,
+    "sha256": "254139b8c065af03def0284c4429567511098ef37e065b9e2d45dbecf1c56ecd",
+    "duration": 4.4117913832199545,
+    "generationId": "xempbauwYWGxcVnquC4o",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "atlas.welcome.en",
+    "file": "game-assets/audio/atlas.welcome.en.mp3",
+    "bytes": 246210,
+    "sha256": "0eeacfd46cd719e955f8275de17cac51106c3988f8d5efd213f5794639caee45",
+    "duration": 14.257052154195012,
+    "generationId": "IJ82IuXzPUw3NoK81yHy",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "atlas.welcome.cs",
+    "file": "game-assets/audio/atlas.welcome.cs.mp3",
+    "bytes": 244120,
+    "sha256": "8c183625c82470654a7d4d903f1eb456675eaf27dbf2acc986b685101eb0e39c",
+    "duration": 14.117732426303855,
+    "generationId": "672T7EUAZmxO0dbjLpdw",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "atlas.iowa.cs",
+    "file": "game-assets/audio/atlas.iowa.cs.mp3",
+    "bytes": 201907,
+    "sha256": "8dfe5588ef5fef8550d20bf5056b386d966c2a61363bd32e510fdbc7fd2b293b",
+    "duration": 11.470657596371883,
+    "generationId": "YNKr5W4NgcSfv4OaN7aB",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "atlas.pribram.cs",
+    "file": "game-assets/audio/atlas.pribram.cs.mp3",
+    "bytes": 212773,
+    "sha256": "122630e3f1007c1cb94b4e4ed3bed14b58683b0d73c5f747fef590903101cc8c",
+    "duration": 12.167256235827665,
+    "generationId": "LcQ9IHHVPK0qnRQx6ken",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "atlas.iowa.en",
+    "file": "game-assets/audio/atlas.iowa.en.mp3",
+    "bytes": 218625,
+    "sha256": "2cc4fbb2796fdd5da48e0dee2027b9c52b11a861c434b4196712b71ec63f0220",
+    "duration": 12.538775510204081,
+    "generationId": "uj5pwWnCnHDLhVBfJrbe",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "atlas.pribram.en",
+    "file": "game-assets/audio/atlas.pribram.en.mp3",
+    "bytes": 257495,
+    "sha256": "956ad12fdaf87e25d4ff35c8620b8fc48964b1fb3ffeef63ec80a617eeba382f",
+    "duration": 14.953650793650795,
+    "generationId": "RZ66orYUNNXqjTBKEH6T",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "questui.repeat.cs",
+    "file": "game-assets/audio/questui.repeat.cs.mp3",
+    "bytes": 77773,
+    "sha256": "e3bc1dd182c2928b5ee9abb7c8135ee0b22281d363164c8128f143d6d6b424a3",
+    "duration": 3.7151927437641725,
+    "generationId": "WCdBNxGC3PeF8lk00MKt",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "questui.repeat.en",
+    "file": "game-assets/audio/questui.repeat.en.mp3",
+    "bytes": 79027,
+    "sha256": "3ec9a220262f35670fca52b8a954356db058b50ec0096010f428dc93b755b4ea",
+    "duration": 3.8080725623582765,
+    "generationId": "HvZsacLeRjjDeV6fB7tU",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.story-iowa.kindness.en",
+    "file": "game-assets/audio/story.story-iowa.kindness.en.mp3",
+    "bytes": 266272,
+    "sha256": "14bb7dd074300bfcf863976e68417c32b93c469d81c44f05f7156cedd503fed6",
+    "duration": 15.51092970521542,
+    "generationId": "g7UHneunROW2pf2mtLkh",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.story-iowa.kindness.cs",
+    "file": "game-assets/audio/story.story-iowa.kindness.cs.mp3",
+    "bytes": 238269,
+    "sha256": "086d2cecf8db17db65b004b3d19f97108df2d0a8076b57058625254134abe8a7",
+    "duration": 13.746213151927437,
+    "generationId": "DYiPQ38OmKXVBvdsgBVF",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.story-iowa.ending.cs",
+    "file": "game-assets/audio/story.story-iowa.ending.cs.mp3",
+    "bytes": 245374,
+    "sha256": "9be6809e2b8b8ea33079dc87e65a7e815cda1f0836f0b5262265ee7d022442dc",
+    "duration": 14.210612244897959,
+    "generationId": "wmOQ7BMFnDTCdY7h7Z4i",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.story-iowa.ending.en",
+    "file": "game-assets/audio/story.story-iowa.ending.en.mp3",
+    "bytes": 217371,
+    "sha256": "f2940a788629648d4ae7248df11ceb89df081df043d689fc589107c5b4641a79",
+    "duration": 12.445895691609977,
+    "generationId": "uLtQIhGHyvlLwewhtoGy",
+    "status": "generated-awaiting-adult-review"
+  }
+]

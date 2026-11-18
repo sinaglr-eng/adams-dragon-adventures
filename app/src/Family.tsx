@@ -328,6 +328,7 @@ export function Family({ onClose }: { onClose: () => void }) {
                     {words[w.id].cs} · {words[w.id].en}
                   </strong>
                   <small>{stateLabel[w.state]}</small>
+                  <small>Výslovnost: {words[w.id].enPronunciationCs}</small>
                 </div>
               ))}
             </div>
@@ -408,6 +409,15 @@ export function Family({ onClose }: { onClose: () => void }) {
               <h2>
                 {word.cs} → {word.en}
               </h2>
+              <p className="pronunciation-guide">
+                <span>Orientační výslovnost</span>
+                <strong>{word.enPronunciationCs}</strong>
+              </p>
+              <p className="pronunciation-note">
+                Český přepis je pomůcka. Přesný vzor si poslechněte: „th“
+                vyslovte s jazykem lehce mezi zuby, anglické „r“ nekmitá jako
+                české.
+              </p>
               <p>{word.meaning.cs}</p>
               <div className="button-row">
                 <Button icon="speaker" onClick={lesson}>
@@ -468,6 +478,10 @@ export function Family({ onClose }: { onClose: () => void }) {
               <h2>
                 {word.en} — {word.cs}
               </h2>
+              <p className="pronunciation-guide">
+                <span>Orientační výslovnost</span>
+                <strong>{word.enPronunciationCs}</strong>
+              </p>
               <p>
                 {assisted
                   ? "Poznáno s pomocí. Příště to zkuste znovu."
@@ -539,6 +553,7 @@ export function Family({ onClose }: { onClose: () => void }) {
                   <strong>
                     {words[id].cs} / {words[id].en}
                   </strong>
+                  <small>Výslovnost: {words[id].enPronunciationCs}</small>
                   <Icon name="speaker" />
                 </button>
               ))}

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "story.story-iowa.snack.en",
+    "file": "game-assets/audio/story.story-iowa.snack.en.mp3",
+    "bytes": 244956,
+    "sha256": "c0638442df1787a2c5a2c6789d7985d610aee5ec232227164d9c0ac0bdce3127",
+    "duration": 14.164172335600908,
+    "generationId": "qioQ02Ux2tGwSjaViwLt",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.home-kindergarten.colors.cs",
+    "file": "game-assets/audio/story.home-kindergarten.colors.cs.mp3",
+    "bytes": 226984,
+    "sha256": "0c4af990aa24ebecc6f92de8f23ad6b3963466343a6524b446494db944db09b7",
+    "duration": 13.049614512471654,
+    "generationId": "Xhg4WfuG1i9YXbtnHdRj",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.story-iowa.snack.cs",
+    "file": "game-assets/audio/story.story-iowa.snack.cs.mp3",
+    "bytes": 220297,
+    "sha256": "65a9fef1863df890991dd9844886335c97ca838c903969aecb51cf0e48c491c7",
+    "duration": 12.631655328798185,
+    "generationId": "8klqsoNekFa6bGSD1jSL",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.home-kindergarten.sizes.en",
+    "file": "game-assets/audio/story.home-kindergarten.sizes.en.mp3",
+    "bytes": 265018,
+    "sha256": "79d95a8b4f5c094000e819af7274267329b0b43ecf19f005dad52a7540c53db7",
+    "duration": 15.418049886621315,
+    "generationId": "UqDRp7uw7lBc44TnFNZc",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.home-kindergarten.colors.en",
+    "file": "game-assets/audio/story.home-kindergarten.colors.en.mp3",
+    "bytes": 224894,
+    "sha256": "e55069877def4e48f2331b21bc57620c1a35e77ae458dc0d18d4251ba3b78439",
+    "duration": 12.910294784580499,
+    "generationId": "9hUoDBBYiOB9Pb14RpBC",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.home-kindergarten.garden.cs",
+    "file": "game-assets/audio/story.home-kindergarten.garden.cs.mp3",
+    "bytes": 209012,
+    "sha256": "d923baa9eb39268b545d610422367b27c7d58d9f15a950c4526e060f676b7789",
+    "duration": 11.935056689342403,
+    "generationId": "tE2DljZ0BkYxQZm1qnAT",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.grandparents-home.arrival.cs",
+    "file": "game-assets/audio/story.grandparents-home.arrival.cs.mp3",
+    "bytes": 244120,
+    "sha256": "854dfb79b9b1b4fc1fbedbc1a427aaae8c79b284e32a8dd928111cefe1820fcb",
+    "duration": 14.117732426303855,
+    "generationId": "i2lJU0Xn8Lqk04sKr84V",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.home-kindergarten.garden.en",
+    "file": "game-assets/audio/story.home-kindergarten.garden.en.mp3",
+    "bytes": 212773,
+    "sha256": "fe21233f509a7ed49839e5d551c644f3bf1871024620785368fd7e4f763e62c1",
+    "duration": 12.167256235827665,
+    "generationId": "G6Ga3hMzrNbsakdcORcV",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.grandparents-home.garden.cs",
+    "file": "game-assets/audio/story.grandparents-home.garden.cs.mp3",
+    "bytes": 208594,
+    "sha256": "2c79afebc511cbd492c57a2788e5852769d5feb03679ac42ebaa361cf3b2e6d7",
+    "duration": 11.888616780045352,
+    "generationId": "m607MStbZBWEyaBj5PnK",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.grandparents-home.table.cs",
+    "file": "game-assets/audio/story.grandparents-home.table.cs.mp3",
+    "bytes": 243284,
+    "sha256": "0719474b1b17c5b948d686199aa465dc7b091a481686d55f04e3905826625cfd",
+    "duration": 14.071292517006803,
+    "generationId": "GFHQOWNqZqP23Wf7RW3E",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.grandparents-home.photo.cs",
+    "file": "game-assets/audio/story.grandparents-home.photo.cs.mp3",
+    "bytes": 226984,
+    "sha256": "4a51cf27207245308c9af00f53dd329a46985cab93db31ec533e6ba968037a2e",
+    "duration": 13.049614512471654,
+    "generationId": "UoezNEcqz8G1NgxYx7sk",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.grandparents-home.ending.en",
+    "file": "game-assets/audio/story.grandparents-home.ending.en.mp3",
+    "bytes": 232000,
+    "sha256": "9086247075c396ee04749dac44b2453afdb7a91bc291c9bf3f3c724cc2ef11d7",
+    "duration": 13.374693877551021,
+    "generationId": "SHH5RaKBQ2KqcFTPfVpn",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.grandparents-home.ending.cs",
+    "file": "game-assets/audio/story.grandparents-home.ending.cs.mp3",
+    "bytes": 233671,
+    "sha256": "22ebdf95bea7a3bc4d69531acdb7f3f775c818eaad218d801dbec4ad09826e8e",
+    "duration": 13.467573696145125,
+    "generationId": "UmRT4HpuY9KBzyS6V1Qv",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.family-cycling.plan.cs",
+    "file": "game-assets/audio/story.family-cycling.plan.cs.mp3",
+    "bytes": 244120,
+    "sha256": "c21c157821424becc0d8460e0f8daf4b07c04981865287d409cb53d914c12f5c",
+    "duration": 14.117732426303855,
+    "generationId": "hnAsUcno0ZkiytPrnIqv",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.family-cycling.snack.cs",
+    "file": "game-assets/audio/story.family-cycling.snack.cs.mp3",
+    "bytes": 210684,
+    "sha256": "696a350952ca9ddeb4dfb4095446c8e5b41fe56ebf2b5b7acfeddf46c7614a4c",
+    "duration": 12.027936507936507,
+    "generationId": "3TatlUmMC4uEYGqB8yPP",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.grandparents-home.photo.en",
+    "file": "game-assets/audio/story.grandparents-home.photo.en.mp3",
+    "bytes": 236597,
+    "sha256": "ea377fad24f5d5f7f3854c078f8e8b97347eb69859bd235702ba363bb0534945",
+    "duration": 13.653333333333334,
+    "generationId": "z7UMJNb1CJevssnCtqjx",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.family-cycling.trail.cs",
+    "file": "game-assets/audio/story.family-cycling.trail.cs.mp3",
+    "bytes": 221969,
+    "sha256": "99c37d7dee2786bf456a3f7636243895ce6f02f6f232eb960c71ccda92c53162",
+    "duration": 12.72453514739229,
+    "generationId": "iUuD0cUdMXXcGExxQjsU",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.family-cycling.trail.en",
+    "file": "game-assets/audio/story.family-cycling.trail.en.mp3",
+    "bytes": 235343,
+    "sha256": "1fba1b71136cf30975adbef3dca3d90340f1833d1ffac10bcf007ce6d85b8b04",
+    "duration": 13.56045351473923,
+    "generationId": "nXxLpVimwwGq8wCWWaYc",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.family-cycling.leaf.en",
+    "file": "game-assets/audio/story.family-cycling.leaf.en.mp3",
+    "bytes": 178501,
+    "sha256": "8c3a80f5c17ff51c3cdbe997361a5ebf7ea8bdf1a0442b5136f04790e28db910",
+    "duration": 10.031020408163265,
+    "generationId": "Sf7w6Bb06XCHihBWnc7N",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.family-cycling.leaf.cs",
+    "file": "game-assets/audio/story.family-cycling.leaf.cs.mp3",
+    "bytes": 203996,
+    "sha256": "91740196a1781680559f6306ebf8a5d3e0b1afdfd6057d40962df9a6f26a88a0",
+    "duration": 11.609977324263038,
+    "generationId": "YuFU06lJECFVEsqoXmdB",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.family-cycling.ending.cs",
+    "file": "game-assets/audio/story.family-cycling.ending.cs.mp3",
+    "bytes": 209848,
+    "sha256": "8f6a1487ad58eea2a4681f54e66e53f97e210831324544f894976cba9b352913",
+    "duration": 11.981496598639456,
+    "generationId": "UQyTVD3yHqnoZMwYWY7S",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.family-cycling.ending.en",
+    "file": "game-assets/audio/story.family-cycling.ending.en.mp3",
+    "bytes": 203996,
+    "sha256": "5de3b8534f5851fda18959a0df40f6541c96406a1df37f351bc5dd80eb109b01",
+    "duration": 11.609977324263038,
+    "generationId": "ephcONDZe6EAbwydHnm6",
+    "status": "generated-awaiting-adult-review"
+  }
+]

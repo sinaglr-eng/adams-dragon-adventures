@@ -1,5 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { activeQuests, validateQuest } from "../app/src/quest-content";
+import { questsAtHome } from "../app/src/WorldAtlas";
 import {
   freshSave,
   startRun,
@@ -17,6 +18,22 @@ import {
 } from "../app/src/family-data";
 
 describe("data-driven stories", () => {
+  it("routes each active quest to exactly one home, including added country topics", () => {
+    const iowa = questsAtHome("iowa"),
+      czech = questsAtHome("pribram");
+    expect(iowa.some((q) => q.id === "iowa-snack-shop")).toBe(true);
+    expect(czech.some((q) => q.id === "pribram-crown-shop")).toBe(true);
+    expect(
+      iowa.every((q) => !q.cast.some((c) => ["babi", "deda"].includes(c))),
+    ).toBe(true);
+    expect(
+      czech.every((q) => !q.cast.some((c) => ["mama", "tata"].includes(c))),
+    ).toBe(true);
+    expect(new Set([...iowa, ...czech].map((q) => q.id)).size).toBe(
+      activeQuests.length,
+    );
+    expect(iowa.length + czech.length).toBe(activeQuests.length);
+  });
   it("rejects unknown concepts, misleading choices and misplaced relatives", () => {
     const q = structuredClone(activeQuests[0]);
     q.tasks[0].concept = "unknown";

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "story.romca-fishing.boot.cs",
+    "file": "game-assets/audio/story.romca-fishing.boot.cs.mp3",
+    "bytes": 237433,
+    "sha256": "85bd4b1bc8859d979430528ed474f72d5d1dc15c3a970aacbf5bcabe1829d142",
+    "duration": 13.699773242630386,
+    "generationId": "ekkrKpIjiYXTUfNw13pg",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.romca-fishing.water.cs",
+    "file": "game-assets/audio/story.romca-fishing.water.cs.mp3",
+    "bytes": 202324,
+    "sha256": "a9b7df5724e718844548807a7a29a36231c4f3f4fbc53de4191fd33e87af2d22",
+    "duration": 11.517097505668934,
+    "generationId": "aPTkEsUbr7cctXN39tmK",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.romca-fishing.water.en",
+    "file": "game-assets/audio/story.romca-fishing.water.en.mp3",
+    "bytes": 234507,
+    "sha256": "42339c3e894ca3cc41cc33e62c2215252692c7b246c9b65ff60cba2a90d27cd4",
+    "duration": 13.514013605442177,
+    "generationId": "53Tmh7iscP1QLbA4dpuZ",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.romca-fishing.boot.en",
+    "file": "game-assets/audio/story.romca-fishing.boot.en.mp3",
+    "bytes": 215281,
+    "sha256": "7eb89a6f9c4b11dd0c565543139e939eb9300b0366eca7541dced5758bf0255d",
+    "duration": 12.30657596371882,
+    "generationId": "srX7Sgy8a2FlxwCIlN4H",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.romca-fishing.carp.cs",
+    "file": "game-assets/audio/story.romca-fishing.carp.cs.mp3",
+    "bytes": 216535,
+    "sha256": "e8d4243cd93bd012b18eb3108e6eb766c427aa082ee44699f58bc5ec792559c0",
+    "duration": 12.399455782312925,
+    "generationId": "tnMATLKjnbG1lbsu9ctY",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.romca-fishing.ending.cs",
+    "file": "game-assets/audio/story.romca-fishing.ending.cs.mp3",
+    "bytes": 232836,
+    "sha256": "8d805ca4c22e3be5da29d91dc00602cd612d7478d4042aed470e9fff8357b052",
+    "duration": 13.421133786848072,
+    "generationId": "dQpjj0wZ8dOY6HFDGKa1",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.romca-fishing.carp.en",
+    "file": "game-assets/audio/story.romca-fishing.carp.en.mp3",
+    "bytes": 242031,
+    "sha256": "73a460a73ea62ba3714a31a5df37e97e08f9151dd729a74630ff9c940753387b",
+    "duration": 13.978412698412699,
+    "generationId": "rymIm2Gab3RpDRN6hPD0",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "word.dollar.cs",
+    "file": "game-assets/audio/word.dollar.cs.mp3",
+    "bytes": 33051,
+    "sha256": "ec86d0e7d4f794b0f31b7ab21a59d85d99330424d94e98f3c22c923fb255e57f",
+    "duration": 0.9287981859410431,
+    "generationId": "wKSwJPR4KESh9HhQ9yeK",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.romca-fishing.ending.en",
+    "file": "game-assets/audio/story.romca-fishing.ending.en.mp3",
+    "bytes": 236597,
+    "sha256": "af7ca449b27b6f3931ae43e8dcad7671e313463eb3925f43043493f571faced5",
+    "duration": 13.653333333333334,
+    "generationId": "RU3JMTQzAC0pjmQ0pcFy",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "meaning.dollar.cs",
+    "file": "game-assets/audio/meaning.dollar.cs.mp3",
+    "bytes": 59800,
+    "sha256": "4ca0a8bfffa42db5ce8d70fb096274495b8e937cc30a6b2752ab13f8b4b2a13b",
+    "duration": 2.6006349206349206,
+    "generationId": "VnCU9yRDkqacAtmPdKqo",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "meaning.dollar.en",
+    "file": "game-assets/audio/meaning.dollar.en.mp3",
+    "bytes": 69413,
+    "sha256": "e91edbbfa328511dac1aec852f23d92e254e9ed88ded0a322391e20ed3203c21",
+    "duration": 3.2043537414965986,
+    "generationId": "UJ3i2fuLWXGgEB5LP6zp",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "word.dollar.en",
+    "file": "game-assets/audio/word.dollar.en.mp3",
+    "bytes": 36813,
+    "sha256": "169a87f4b3a73b2b7fc87b5560a13a2b288e13d3236eb6026416b8e859741323",
+    "duration": 1.1609977324263039,
+    "generationId": "Ag5TTOFTyuCtkyONV8it",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "phrase.dollar.cs",
+    "file": "game-assets/audio/phrase.dollar.cs.mp3",
+    "bytes": 32215,
+    "sha256": "24b5b472b67cef434d938dea730b4db520c6cbd1049652048a41f06202c8f9d1",
+    "duration": 0.8823582766439909,
+    "generationId": "6f2TU9mzDXEEhxj2dhfp",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "phrase.dollar.en",
+    "file": "game-assets/audio/phrase.dollar.en.mp3",
+    "bytes": 35977,
+    "sha256": "5da7aff38cf1fd38edd6cddf3d87a8d92058435a78f46b764ff4ed6d39ba21d7",
+    "duration": 1.1145578231292517,
+    "generationId": "8olCWsG2a5an0wdat99p",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "word.koruna.en",
+    "file": "game-assets/audio/word.koruna.en.mp3",
+    "bytes": 35977,
+    "sha256": "f364fd78be8f6950f5c9da18d2bc0e63123e9f48d8d82cdeb5c8cbfb69e3f540",
+    "duration": 1.1145578231292517,
+    "generationId": "b3wn7VVyPPH8XR0XuKf7",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "word.koruna.cs",
+    "file": "game-assets/audio/word.koruna.cs.mp3",
+    "bytes": 31379,
+    "sha256": "11ef71f41f22cfda14058d14047ff50e748e2e224b92559ee3ec0264fb326f75",
+    "duration": 0.8359183673469388,
+    "generationId": "9HTC1Wr4AEg0BVSniDnc",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "meaning.koruna.cs",
+    "file": "game-assets/audio/meaning.koruna.cs.mp3",
+    "bytes": 84878,
+    "sha256": "0ade48cc15fb4367369f2a367ac9422db4f27fe7c80ad1aaeda075b782648e96",
+    "duration": 4.179591836734694,
+    "generationId": "MnZjVD4eZnpqEcXQEwtr",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "meaning.koruna.en",
+    "file": "game-assets/audio/meaning.koruna.en.mp3",
+    "bytes": 131689,
+    "sha256": "b708dcef90840e3202440652099d537d9df89a345461256a355d898cc1cc2453",
+    "duration": 7.1053061224489795,
+    "generationId": "AIWUdZqJqbbLDoZgvpw8",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "phrase.koruna.cs",
+    "file": "game-assets/audio/phrase.koruna.cs.mp3",
+    "bytes": 36813,
+    "sha256": "9570b2441dac0c00a494b8376f462dd50315afe11f03996bbce622b1f755ac51",
+    "duration": 1.1609977324263039,
+    "generationId": "fB3z59z8HBsDzb1E5CUZ",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "title.iowa-snack-shop.cs",
+    "file": "game-assets/audio/title.iowa-snack-shop.cs.mp3",
+    "bytes": 40574,
+    "sha256": "44f8e8a8f7d496c052f27750dde68051e7f6ebb5c8b50fc7bd8aba08fdfa64e3",
+    "duration": 1.3931972789115645,
+    "generationId": "7ZNtTijm2u4sAhGIHvjP",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "phrase.koruna.en",
+    "file": "game-assets/audio/phrase.koruna.en.mp3",
+    "bytes": 40574,
+    "sha256": "d91d10c842a5aca36ec89654d3d4f88d57ad1186b947cf0360dc26a6c9efe0f2",
+    "duration": 1.3931972789115645,
+    "generationId": "jBzjYWiaF0246kuAdF5y",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "title.iowa-snack-shop.en",
+    "file": "game-assets/audio/title.iowa-snack-shop.en.mp3",
+    "bytes": 44754,
+    "sha256": "e8841d01a28c6f53d58a1b72017877e17129cbe987272fc014a3e64f948ca194",
+    "duration": 1.6718367346938776,
+    "generationId": "Wh8tV41p6jbTK2dpEwDD",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.iowa-snack-shop.snack-plan.cs",
+    "file": "game-assets/audio/story.iowa-snack-shop.snack-plan.cs.mp3",
+    "bytes": 221133,
+    "sha256": "0c1d43586cf82dc76aec8222855574d90afacb97213d0608f19297cd8bd88737",
+    "duration": 12.678095238095239,
+    "generationId": "JFO81z03Jw0AuigKSP5i",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.iowa-snack-shop.snack-plan.en",
+    "file": "game-assets/audio/story.iowa-snack-shop.snack-plan.en.mp3",
+    "bytes": 205250,
+    "sha256": "ef73ab1942d94dd7ab2bff9e3ada05f4475054025ff6f2670738694adb09630f",
+    "duration": 11.702857142857143,
+    "generationId": "xCRi0pjs1tHc9DeonOZV",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.iowa-snack-shop.dollar-pocket.cs",
+    "file": "game-assets/audio/story.iowa-snack-shop.dollar-pocket.cs.mp3",
+    "bytes": 225312,
+    "sha256": "e19b5520e03ca984de3763c55cef5a23cfb7f941a0e41b8e620430c65a3d1c05",
+    "duration": 12.956734693877552,
+    "generationId": "KAGecfeDaQ9bIBeXZuEz",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.iowa-snack-shop.dollar-pocket.en",
+    "file": "game-assets/audio/story.iowa-snack-shop.dollar-pocket.en.mp3",
+    "bytes": 229074,
+    "sha256": "414179c7a92a2ca13fec46db615232cb06946a9a162372878b5639bb9b07b675",
+    "duration": 13.188934240362812,
+    "generationId": "sl9fcAFZYGefSjZ06qg7",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.iowa-snack-shop.pay-here.cs",
+    "file": "game-assets/audio/story.iowa-snack-shop.pay-here.cs.mp3",
+    "bytes": 198563,
+    "sha256": "4ab21a2184ca8adc3a9b6fc61eb98f0973fb2803918b3026ee2f06d193b21f56",
+    "duration": 11.284897959183674,
+    "generationId": "kLFTviKcQ4D3HFs5zGDl",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.iowa-snack-shop.other-pocket.en",
+    "file": "game-assets/audio/story.iowa-snack-shop.other-pocket.en.mp3",
+    "bytes": 368254,
+    "sha256": "cf72cc6523fce9b64a199d603f9cd23318d4ec4e0fede4d39bbf920371c2916a",
+    "duration": 21.873197278911565,
+    "generationId": "qzY12WT6HbzO2r292CL2",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.iowa-snack-shop.other-pocket.cs",
+    "file": "game-assets/audio/story.iowa-snack-shop.other-pocket.cs.mp3",
+    "bytes": 257495,
+    "sha256": "059d1f1212b7147a8490a1b3c9181b38348487f78d4458ce42df12e8ae748c06",
+    "duration": 14.953650793650795,
+    "generationId": "NWqXCsuBLFIUicIBnODz",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.iowa-snack-shop.pay-here.en",
+    "file": "game-assets/audio/story.iowa-snack-shop.pay-here.en.mp3",
+    "bytes": 175157,
+    "sha256": "1278acf2870ebadb734d88c28ed23742da08accdf5ea6615e44428ad0956af28",
+    "duration": 9.798820861678005,
+    "generationId": "cCfRRctHmK2qfvBtLoPH",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.iowa-snack-shop.please.en",
+    "file": "game-assets/audio/story.iowa-snack-shop.please.en.mp3",
+    "bytes": 209012,
+    "sha256": "34d5cc8a77a148cb6da1757f8149151a49d438eb6e918502a1a0186b2f6835a4",
+    "duration": 11.935056689342403,
+    "generationId": "m2ZjTDPDEtdUQ3i85SUn",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.iowa-snack-shop.please.cs",
+    "file": "game-assets/audio/story.iowa-snack-shop.please.cs.mp3",
+    "bytes": 235761,
+    "sha256": "6aaf9278559a9deb1ac464f5cf62cb2d34f4c4aff7d6fc4a6ac4b6ee9c0bf8aa",
+    "duration": 13.606893424036281,
+    "generationId": "29TqFWN1R3IdYMxyvyaQ",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.iowa-snack-shop.ending.cs",
+    "file": "game-assets/audio/story.iowa-snack-shop.ending.cs.mp3",
+    "bytes": 209012,
+    "sha256": "92db768947e5d34010f12ec01be848d4ca333543a191991fe8806e25a80c6af6",
+    "duration": 11.935056689342403,
+    "generationId": "Jz8Q8sTh4qT4FwtpbChp",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "call.iowa-snack-shop.0.en",
+    "file": "game-assets/audio/call.iowa-snack-shop.0.en.mp3",
+    "bytes": 91147,
+    "sha256": "aa59b35d36e3ec0108dd330d3c394b65ce4921da621d0f0603e9f490117030c6",
+    "duration": 4.551111111111111,
+    "generationId": "vVSLpu72OmsDLJenVYCR",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "call.iowa-snack-shop.0.cs",
+    "file": "game-assets/audio/call.iowa-snack-shop.0.cs.mp3",
+    "bytes": 76101,
+    "sha256": "c792b253a82d5405fd703d85614ca2ec11af92937d50a924aea897f5d7c32df6",
+    "duration": 3.622312925170068,
+    "generationId": "8bpMww9rtLTgsVNDpM9w",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "call.iowa-snack-shop.1.cs",
+    "file": "game-assets/audio/call.iowa-snack-shop.1.cs.mp3",
+    "bytes": 87386,
+    "sha256": "c5e206d05721f5edcabdfb2163d21bbf505b19d4358186abac6ce9fb05afa01f",
+    "duration": 4.31891156462585,
+    "generationId": "lhRkF45CK3imeZim9YXT",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "call.iowa-snack-shop.1.en",
+    "file": "game-assets/audio/call.iowa-snack-shop.1.en.mp3",
+    "bytes": 98253,
+    "sha256": "07da9711641b13e0f7028b1edaff1281fa0c5377629e9b4138ca6ef2926210dd",
+    "duration": 5.015510204081632,
+    "generationId": "zldeGUVXVv9qCPQlIWEo",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "title.pribram-crown-shop.cs",
+    "file": "game-assets/audio/title.pribram-crown-shop.cs.mp3",
+    "bytes": 43500,
+    "sha256": "a9ccac09ec854f2b4aa15cf8bc449faeb8bb12c1c991796a6b901b490e3fc1e1",
+    "duration": 1.5789569160997732,
+    "generationId": "CIy3jPeZ78i0t9UmWvqQ",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "title.pribram-crown-shop.en",
+    "file": "game-assets/audio/title.pribram-crown-shop.en.mp3",
+    "bytes": 53949,
+    "sha256": "ca05684b376127848a51663b51e0a6868e42fb421b492a0e095ccee1312118b6",
+    "duration": 2.2291156462585033,
+    "generationId": "XxRBNULfBJbnypTP7wY3",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.iowa-snack-shop.ending.en",
+    "file": "game-assets/audio/story.iowa-snack-shop.ending.en.mp3",
+    "bytes": 226148,
+    "sha256": "05af448ebab44ac0fee789cdbb7452f03170e413ffb62425a676b98dc5138ee2",
+    "duration": 13.003174603174603,
+    "generationId": "s19CfNNpncDwe6n9bZdh",
+    "status": "generated-awaiting-adult-review"
+  }
+]

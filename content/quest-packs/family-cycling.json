@@ -27,8 +27,8 @@
     "leaf"
   ],
   "prerequisites": [],
-  "scriptCs": "V Iowě je pěkný den na kolo. Máma s tátou plánují krátkou rodinnou vyjížďku. Adam pojede svým tempem a cestou bude spousta zastávek. Klepni na kolo!",
-  "scriptEn": "It is a lovely day for a bike ride in Iowa. Mom and Dad are planning a short family ride. Adam can go at his own pace, with plenty of stops along the way. Tap the bicycle!",
+  "scriptCs": "Hele, venku je parádně! Máma s tátou chystají kola na projížďku po Iowě. Žádnej závod, prcku, cestou toho chceme spoustu objevit. Helmu připravit, tlapky protáhnout. Klepni na kolo a jdeme se sbalit!",
+  "scriptEn": "Hey, what a lovely day! Mom and Dad are getting the bikes ready for a ride in Iowa. No race today, buddy. We’ve got exploring to do! Get your helmet ready and stretch those paws. Tap the bicycle and let’s pack!",
   "suggestedMinutes": [
     6,
     12
@@ -42,8 +42,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "V Iowě je pěkný den na kolo. Máma s tátou plánují krátkou rodinnou vyjížďku. Adam pojede svým tempem a cestou bude spousta zastávek. Klepni na kolo!",
-        "en": "It is a lovely day for a bike ride in Iowa. Mom and Dad are planning a short family ride. Adam can go at his own pace, with plenty of stops along the way. Tap the bicycle!"
+        "cs": "Hele, venku je parádně! Máma s tátou chystají kola na projížďku po Iowě. Žádnej závod, prcku, cestou toho chceme spoustu objevit. Helmu připravit, tlapky protáhnout. Klepni na kolo a jdeme se sbalit!",
+        "en": "Hey, what a lovely day! Mom and Dad are getting the bikes ready for a ride in Iowa. No race today, buddy. We’ve got exploring to do! Get your helmet ready and stretch those paws. Tap the bicycle and let’s pack!"
       },
       "art": "props/bicycle",
       "action": "bicycle"
@@ -78,8 +78,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Táta zkontroloval kola a máma má připravenou helmu. Ještě svačinu! Adam přibalí jablko a podívá se na barvu svého kola. Klepni na košík.",
-        "en": "Dad checks the bicycles, and Mom has her helmet ready. One more thing: a snack! Adam packs an apple and looks at the color of his bicycle. Tap the basket."
+        "cs": "Táta mrknul na kola a máma má helmu. Co nám chybí? No jasně, svačina! Bez jablka by nám kručelo v bříšku už za rohem. Přibalíme ho a mrkneme na barvu kola. Klepni na košík.",
+        "en": "Dad checked the bikes, and Mom has her helmet. What’s missing? A snack, of course! Without an apple, our tummies would rumble before we got around the corner. Let’s pack it and check the bike’s color. Tap the basket!"
       },
       "art": "props/apple",
       "action": "suitcase"
@@ -122,8 +122,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Vyjeli jsme na klidnou cestu. Máma i táta jsou s Adamem. U každé zastávky si poslechneme slovíčko a vybereme obrázek. Nikam nespěcháme. Klepni na kolo.",
-        "en": "We are on a quiet trail now. Mom and Dad are with Adam. At each stop, we will hear a word and choose its picture. There is no hurry. Tap the bicycle."
+        "cs": "A jedem! Máma i táta jsou s tebou. U zastávek si poslechneme český slovíčko a najdeme obrázek. Když budeš potřebovat, klidně zastavíme. Tahle výprava nám nikam neuteče. Klepni na kolo.",
+        "en": "And we’re off! Mom and Dad are right here with you. At each stop, listen for a Czech word and find its picture. Need a break? We can stop anytime. Our adventure isn’t going anywhere. Tap the bicycle!"
       },
       "art": "props/bicycle",
       "action": "bicycle",
@@ -144,8 +144,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "U cesty se zatřepetal list. Adam zastavil a všichni se rozhlédli. I malá zastávka může být objev. Najdeme list a pak se vrátíme domů. Klepni na list.",
-        "en": "A leaf flutters beside the trail. Adam stops, and everyone looks around. Even a little stop can become a discovery. Let us find the leaf before we head home. Tap the leaf."
+        "cs": "Počkej, Áďo, támhle něco poletuje! To není motýl, to je list. Zastavíme s rodiči a prohlídneme si ho. I u cesty se dají najít poklady, co? Klepni na list.",
+        "en": "Hang on, Adam! Something’s fluttering over there. Not a butterfly, a leaf! Let’s stop with Mom and Dad and take a look. Even a little trail has treasures, huh? Tap the leaf!"
       },
       "art": "props/leaf",
       "action": "next",
@@ -164,8 +164,8 @@
       "kind": "narrative",
       "concept": "hello",
       "text": {
-        "cs": "Rodina je zpátky doma v Iowě. Adam jel s helmou, zastavoval a užil si cestu s rodiči. Babi a dědovi může vyprávět, co viděl. Klepni na hvězdičku.",
-        "en": "The family is back home in Iowa. Adam wore his helmet, took breaks, and enjoyed the ride with Mom and Dad. He can tell Grandma and Grandpa what he saw. Tap the star."
+        "cs": "Jsme doma, cyklisto! Helma splnila svůj úkol, svačina zmizela a máme co vyprávět. Až zavoláš do Příbrami, ukaž dědovi, jak jsi šlapal. Klepni na hvězdičku a protáhni tlapky.",
+        "en": "Home again, little cyclist! Helmet on, snack eaten, and a story to share. When you call Příbram, show Grandpa how you pedaled! Tap the star and give those paws a stretch."
       },
       "art": "adam-actions/cycling",
       "action": "star"

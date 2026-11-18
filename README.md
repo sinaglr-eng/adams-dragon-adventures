@@ -1,18 +1,22 @@
-# Adamovy dračí výpravy — příběhové questy
+# Adamovy dračí výpravy — atlas dvou domovů
 
 [Hrát](https://sinaglr-eng.github.io/adams-dragon-adventures/) · [Pro babi a dědu](https://sinaglr-eng.github.io/adams-dragon-adventures/#grandparents)
 
-Nová verze nabízí pět samostatných příběhových questů: Domov v Iowě, Školka doma, Domov u dědy a babi, Cyklistika s rodiči a Rybaření s Romčou. Obrázkové interakce a namluvené příběhy vedou dítě bez nutnosti číst. Anglické vysvětlení propojí význam s českým slovem, následuje obrázková volba podle českého poslechu.
+Velký rozevřený atlas propojuje Iowu a Příbram. Klepnutí na domov s rodiči nebo dům babi a dědy otevře příběhy příslušné země. Sedm samostatných výprav zahrnuje domov, školku, kola, rybaření i nákup svačiny za dolary a české koruny. Romča vypráví jako parťák, s humorem a hovorově. Schválená dračí rodina je součástí hry.
 
-Babi a děda mají české rozhraní, vlastní anglické procvičování a přípravu společného hovoru. Adamův postup dostanou **rodičem poslanou pohlednicí**, nikoli automatickou synchronizací. Původních osm kapitol a uložený postup zůstávají zachované. Audio knihovna obsahuje 392 MP3 včetně 94 nových replik.
+Český slovníkový vzor zazní vždy normálně a potom pomaleji, s pauzami na zopakování. Babi a děda mají u všech 38 anglických slov orientační český přepis výslovnosti, vlastní procvičování a témata k hovoru. Adamův postup dostanou **rodičem poslanou pohlednicí**, nikoli automatickou synchronizací. Uložený postup původních výprav zůstává zachovaný.
+
+Zvuková knihovna má 450 ověřených MP3; atlasová aktualizace přidává nebo mění 110 klipů.
+
+[Co obsahuje atlas a jak funguje výslovnost](docs/ATLAS_UPDATE.md)
 
 [Jak přidat quest a jak funguje rodinná kniha](docs/QUEST_AUTHORING.md)
 
-![Dračí rodina](art/source/cover.png)
+![Atlas dvou domovů](art/source/atlas-two-homes.png)
 
 ## Hraní
 
-Otevřete web a klepněte na velké tlačítko. Výchozí průvodce mluví anglicky a učí česká slova; rodič může přepnout průvodce do češtiny. Atlas nabízí i opačný směr. Nových pět questů si lze vybrat podle tématu; každý si pamatuje vlastní rozehranou pozici. Původní kapitoly v deníku zachovávají své odemykání. Žádné časové tresty, ztracené série ani placené balíčky.
+Otevřete web a klepněte na velké tlačítko. Výchozí průvodce mluví anglicky a učí česká slova; rodič může přepnout průvodce do češtiny. Atlas nabízí i opačný směr. Sedm questů si lze vybrat podle tématu; každý si pamatuje vlastní rozehranou pozici. Původní kapitoly v deníku zachovávají své odemykání. Žádné časové tresty, ztracené série ani placené balíčky.
 
 Na iPadu lze použít Safari → Sdílet → Přidat na plochu. Rozložení podporuje šířku i výšku, klepnutí namísto přetahování a klávesnici. Navštívené obrázky a repliky se ukládají do offline cache. Nové výpravy a dosud nepřehrané audio vyžadují připojení; nejde o plně předstaženou offline aplikaci.
 

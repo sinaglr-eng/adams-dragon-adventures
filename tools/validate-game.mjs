@@ -6,5 +6,6 @@ const expected=[...script.lines.map(l=>l.id),...(await json('content/story-audio
 const audio=await json('content/audio-batches/all.json');
 for(const id of expected){const entry=audio.find(a=>a.id===id);if(!entry)throw Error('Missing audio '+id);const file=await readFile('app/public/'+entry.file);if(createHash('sha256').update(file).digest('hex')!==entry.sha256)throw Error('Audio hash mismatch '+id);if(entry.duration<=0||entry.bytes<300)throw Error('Empty audio '+id);}
 const art=await json('art/manifest.json');for(const a of art.assets){for(const id of a.frames?.length?a.frames.map(f=>f.id.replace('/','-')):[a.id]){await stat(`app/public/game-assets/art/${id}.webp`);}}
+for(const a of (await json('art/atlas-manifest.json')).assets){if(createHash('sha256').update(await readFile(a.path)).digest('hex')!==a.sha256)throw Error('Changed atlas source '+a.id);for(const id of a.frames?.length?a.frames.map(f=>f.id.replace('/','-')):[a.id])await stat(`app/public/game-assets/art/${id}.webp`);}
 console.log(`PASS: ${expected.length} actual MP3 clips with hashes/durations, all runtime art derivatives present.`);
 console.log('Audio is synthesized. Native-speaking adult review and physical iPad Safari verification remain manual checks.');

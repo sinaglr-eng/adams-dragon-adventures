@@ -1,0 +1,164 @@
+[
+  {
+    "id": "story.story-iowa.morning.cs",
+    "file": "game-assets/audio/story.story-iowa.morning.cs.mp3",
+    "bytes": 276721,
+    "sha256": "9d2ddc0fd097382938337309f41606d382819b12024e125cbccc7e73c0c084af",
+    "duration": 16.16108843537415,
+    "generationId": "cCCk0lqm1PAbMBXLvuPV",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.story-iowa.morning.en",
+    "file": "game-assets/audio/story.story-iowa.morning.en.mp3",
+    "bytes": 272124,
+    "sha256": "4120b882d45e0d9ca795a24960a3a3b5c6670ec5be85127eb75dc3f2cb388220",
+    "duration": 15.882448979591837,
+    "generationId": "Pp7eVONhkr9JLGvB7QzZ",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.story-iowa.ocean.cs",
+    "file": "game-assets/audio/story.story-iowa.ocean.cs.mp3",
+    "bytes": 267108,
+    "sha256": "9b1503070f6fe96e56cb65fe9e4054b0f20b7a741d8e4cf8149dcccf81585b8a",
+    "duration": 15.557369614512472,
+    "generationId": "rdmUc9Po8wliR03X4r5g",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.story-iowa.languages.en",
+    "file": "game-assets/audio/story.story-iowa.languages.en.mp3",
+    "bytes": 316009,
+    "sha256": "cfae2286e9e9c4249caa5f3759467e9d5ac2330a0eadfa4597b2e11fb12a8e91",
+    "duration": 18.622403628117915,
+    "generationId": "3Us2PixR1taoaujaH2Yf",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.story-iowa.ocean.en",
+    "file": "game-assets/audio/story.story-iowa.ocean.en.mp3",
+    "bytes": 272960,
+    "sha256": "22a8f15d56dc0d08c684cae7d67bf546f8ae2bdb6fbdf835418c8c1613917a60",
+    "duration": 15.928888888888888,
+    "generationId": "tYm2v7jeB1OkgrUhpiZE",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.story-iowa.languages.cs",
+    "file": "game-assets/audio/story.story-iowa.languages.cs.mp3",
+    "bytes": 272960,
+    "sha256": "6ed6b44e0bf6b8f411349463d0fb89a14b3231ac064c7d30335c02ad72801f1a",
+    "duration": 15.928888888888888,
+    "generationId": "qXoLOzK1eFfptRqOyKac",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.home-kindergarten.pretend.cs",
+    "file": "game-assets/audio/story.home-kindergarten.pretend.cs.mp3",
+    "bytes": 275467,
+    "sha256": "035da4f19375a4afd90a987d8329958737e37b0f2a12b973e8bac7a424874422",
+    "duration": 16.068208616780044,
+    "generationId": "lJrWCeTlYUKXDOz67DvI",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.home-kindergarten.pretend.en",
+    "file": "game-assets/audio/story.home-kindergarten.pretend.en.mp3",
+    "bytes": 275885,
+    "sha256": "36fbf7fc1b39e34c9249cd7640c4083ea75a495648b3b62c415714feac9cc100",
+    "duration": 16.114648526077097,
+    "generationId": "1z4BMH06a7azDPxmKKFs",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.home-kindergarten.sizes.cs",
+    "file": "game-assets/audio/story.home-kindergarten.sizes.cs.mp3",
+    "bytes": 268780,
+    "sha256": "6d67fe3551bb942a0f29cbb6d4b42f1111cf28cf4269a796dc0d912e90f1d95d",
+    "duration": 15.650249433106575,
+    "generationId": "h8ybJi9Ttc1AMiZs1m5M",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.home-kindergarten.ending.cs",
+    "file": "game-assets/audio/story.home-kindergarten.ending.cs.mp3",
+    "bytes": 244120,
+    "sha256": "c6287c281f808c18d84f33ba8b2869a0ab8782608866ea3fd932e94248b26212",
+    "duration": 14.117732426303855,
+    "generationId": "Jynlw8vsVohHncS0euv7",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.home-kindergarten.ending.en",
+    "file": "game-assets/audio/story.home-kindergarten.ending.en.mp3",
+    "bytes": 247882,
+    "sha256": "7c2688e89f28ed4eb563e9e240da2ccd45d008a6bb39bf46d6a0d49ef64b9532",
+    "duration": 14.349931972789115,
+    "generationId": "F4bNTAABrYt1qM0UlPaP",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.grandparents-home.arrival.en",
+    "file": "game-assets/audio/story.grandparents-home.arrival.en.mp3",
+    "bytes": 258749,
+    "sha256": "f1d916992cdb89fc8256d99fc9efe4649804b966bccb2d0ec981331a15fd487b",
+    "duration": 15.046530612244897,
+    "generationId": "eECblvUcZdHV7XcpTFPB",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.family-cycling.plan.en",
+    "file": "game-assets/audio/story.family-cycling.plan.en.mp3",
+    "bytes": 238269,
+    "sha256": "f9a5cdea6d5979dc3f0b572e7b3e4e97f51e3ba4bbfb9e6bf413482e88421b9d",
+    "duration": 13.746213151927437,
+    "generationId": "LiKK0FimyooV0g0HIqYy",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.grandparents-home.garden.en",
+    "file": "game-assets/audio/story.grandparents-home.garden.en.mp3",
+    "bytes": 239523,
+    "sha256": "38f87482d01f42b8d82ec84a02e033b46ac21754678e07c27e813f491e9b92b3",
+    "duration": 13.839092970521541,
+    "generationId": "OMpk8GOO0PdptQPoY2m0",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.grandparents-home.table.en",
+    "file": "game-assets/audio/story.grandparents-home.table.en.mp3",
+    "bytes": 252898,
+    "sha256": "1a1f78ac5fde47ff48472c80c9728e3fade467de6ee4919e23d60bb8d6dd570d",
+    "duration": 14.675011337868481,
+    "generationId": "ObxxQX6nGngu232189d9",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.family-cycling.snack.en",
+    "file": "game-assets/audio/story.family-cycling.snack.en.mp3",
+    "bytes": 231582,
+    "sha256": "87ac67253e9876840d117df50ba9a6eec43c25bcda27a6ad800cfd659f4f86b4",
+    "duration": 13.328253968253968,
+    "generationId": "QhNg4Akyqtl5anWj2sBf",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.romca-fishing.promise.cs",
+    "file": "game-assets/audio/story.romca-fishing.promise.cs.mp3",
+    "bytes": 247046,
+    "sha256": "c9fee0e96c226324f929d87b238bacce90fed22aa45adfe7b83df094e68b9bad",
+    "duration": 14.303492063492063,
+    "generationId": "BMflglCWCRRbHSMO5NNK",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.romca-fishing.promise.en",
+    "file": "game-assets/audio/story.romca-fishing.promise.en.mp3",
+    "bytes": 214445,
+    "sha256": "df404d0f1a1d1b4bfac2419db29449ef868b06e746d148f4ad66e21e6dca7f2a",
+    "duration": 12.26013605442177,
+    "generationId": "kytYoAwEudnzkzRoo3gN",
+    "status": "generated-awaiting-adult-review"
+  }
+]
