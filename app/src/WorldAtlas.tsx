@@ -53,15 +53,6 @@ export function WorldAtlas({
                   : "EUROPE · CZECHIA"}
             </span>
             <h2>{home === "iowa" ? "Iowa" : "Příbram"}</h2>
-            <small>
-              {home === "iowa"
-                ? lang === "cs"
-                  ? "angličtina · dolary"
-                  : "English · dollars"
-                : lang === "cs"
-                  ? "čeština · koruny"
-                  : "Czech · crowns"}
-            </small>
           </div>
         ))}
         {(["iowa", "pribram"] as const).map((home) => (

@@ -63,8 +63,8 @@
       "id": "mama",
       "art": "family/mama",
       "text": {
-        "cs": "Z kuchyně voní jablíčka. Máma ti jedno schovala! Víš, kde vyrostla? V Čechách, až za oceánem. Je Češka. Tady v Iowě na tebe mluví i česky, tak jak na ni mluvili její rodiče. Najdeme její jablko?",
-        "en": "Sniff! Apples! Mom saved one for you. She grew up across the ocean, in Czechia. She’s Czech. Here in Iowa she speaks Czech to you too, just like her parents spoke to her. Can you find her apple?"
+        "cs": "Áďo, cítíš ty jablíčka? Máma ti jedno schovala ke svačině. Když byla malá jako ty, bydlela v Čechách, až za oceánem. A teď bydlí tady s tebou. Kam jen to jablíčko schovala?",
+        "en": "Hey, Adam, can you smell those apples? Mom tucked one away for your snack. When she was little like you, she lived across the ocean in Czechia. Now she lives right here with you. Where did she hide that apple?"
       },
       "concept": "hello",
       "action": "next",
@@ -98,8 +98,8 @@
       "id": "tata",
       "art": "family/tata",
       "text": {
-        "cs": "Hele, táta na verandě! Taky pochází z Čech, je Čech jako máma. Teď spolu žijete v Iowě. Když táta ukáže na kolo, ty znáš anglický slovo a on tě naučí to český. Pořád je to tvoje kolo!",
-        "en": "There’s Dad on the porch! He comes from Czechia too. Both your parents are Czech, and now you all live together in Iowa. Look where Dad’s pointing. You know the English word for your bicycle. Dad can teach you the Czech one!"
+        "cs": "Cink, cink! Slyšíš to, Áďo? To táta zvoní na verandě. Táta je Čech jako máma a teď spolu všichni bydlíte v Iowě. Hele, jednou tlapkou ti mává a druhou drží řídítka. Poznáš, co ti přivezl?",
+        "en": "Ring, ring! Hear that, Adam? Dad’s ringing a bell on the porch. He’s Czech like Mom, and now you all live together in Iowa. He’s waving with one paw and holding the handlebars with the other. Can you find what he brought you?"
       },
       "concept": "hello",
       "action": "next",

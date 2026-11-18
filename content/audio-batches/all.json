@@ -4070,36 +4070,36 @@
   {
     "id": "story.meet-iowa.mama.cs",
     "file": "game-assets/audio/story.meet-iowa.mama.cs.mp3",
-    "bytes": 111744,
-    "sha256": "65735b10de19d8236d1f8fcad6b1f327e50dd1dacba5fc85334d556db289d3e2",
-    "duration": 18.624,
+    "bytes": 89568,
+    "sha256": "1f0752a95d739c248b09645e3a93f8d9fb3f1e5f25340b6027135813c4f32e24",
+    "duration": 14.928,
     "voice": "cs-CZ-AntoninNeural",
     "status": "generated-awaiting-adult-review"
   },
   {
     "id": "story.meet-iowa.mama.en",
     "file": "game-assets/audio/story.meet-iowa.mama.en.mp3",
-    "bytes": 109296,
-    "sha256": "b77caa33ac38226cea22e543fe3adca92726b2e6ee8767362e63b16590007fa6",
-    "duration": 18.216,
+    "bytes": 95040,
+    "sha256": "239c7c2e91eee888a94d02fd522860dba10c4325217be006cd7f305eeee81b9c",
+    "duration": 15.84,
     "voice": "en-US-GuyNeural",
     "status": "generated-awaiting-adult-review"
   },
   {
     "id": "story.meet-iowa.tata.cs",
     "file": "game-assets/audio/story.meet-iowa.tata.cs.mp3",
-    "bytes": 94896,
-    "sha256": "a91092c3c206f4bbcf8610cfeb2dd8289af8c438026bd822c326bc4b50448082",
-    "duration": 15.816,
+    "bytes": 103392,
+    "sha256": "b4075b516c196a90308e0c54cec10a77d441756a0bd6efae9948d4ff3bd42e67",
+    "duration": 17.232,
     "voice": "cs-CZ-AntoninNeural",
     "status": "generated-awaiting-adult-review"
   },
   {
     "id": "story.meet-iowa.tata.en",
     "file": "game-assets/audio/story.meet-iowa.tata.en.mp3",
-    "bytes": 105408,
-    "sha256": "606ea234f2317ff2fedf3363c5acdf7380d6d9f5d0d75099469ad9cf13581bbc",
-    "duration": 17.568,
+    "bytes": 109008,
+    "sha256": "0f7dc50d0a042e2da45bc832684f98add0a16ecdfa39d9023feff3c574b8453f",
+    "duration": 18.168,
     "voice": "en-US-GuyNeural",
     "status": "generated-awaiting-adult-review"
   },

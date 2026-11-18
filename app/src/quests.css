@@ -684,9 +684,6 @@
   letter-spacing: 0.14em;
   font-weight: 900;
 }
-.atlas-page-heading small {
-  font-size: clamp(10px, 1.5vw, 19px);
-}
 .atlas-home {
   position: absolute;
   top: 42%;
