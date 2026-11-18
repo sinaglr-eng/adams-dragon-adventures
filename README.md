@@ -2,13 +2,13 @@
 
 [Hrát](https://sinaglr-eng.github.io/adams-dragon-adventures/) · [Pro babi a dědu](https://sinaglr-eng.github.io/adams-dragon-adventures/#grandparents)
 
-V atlasu jsou dvě seznamovací výpravy. V Iowě Adam prozkoumává zelený dům a zahradu s rodiči a Matyášem. V Příbrami ho čekají babi, děda, Romča, Klárka, pes Chase a na návštěvě také Slow babi a Slow děda, rodiče maminky. Za dokončení každé výpravy lze u rodičů aktivovat vlastní rodinnou odměnu.
+V atlasu jsou dvě seznamovací výpravy. V Iowě se Adam probouzí v posteli, kontroluje svého gekona a schází po schodech na snídani s rodinou. V Příbrami ho čekají babi, děda, Romča, Klárka, pes Chase a na návštěvě také Slow babi a Slow děda, rodiče maminky. Za dokončení každé výpravy lze u rodičů aktivovat vlastní rodinnou odměnu.
 
 ![Atlas rodinných domovů](art/source/home-atlas.png)
 
 ## Hraní
 
-Otevřete web a klepněte na velké tlačítko. Výchozí průvodce mluví anglicky a učí česká slova; rodič může přepnout průvodce do češtiny. Atlas nabízí i opačný směr. Dva questy si lze vybrat podle domova; každý si pamatuje vlastní rozehranou pozici.  Žádné časové tresty, ztracené série ani placené balíčky.
+Otevřete web a klepněte na velké tlačítko. Romča vypráví Adamův příběh anglicky. Každou lekci uvádí situací z příběhu a pak vysloví český název přirozeně i pomalu s pauzou na zopakování. Jazyk ovládání si můžete přepnout. Atlas nabízí i opačný směr. Dva questy si lze vybrat podle domova; každý si pamatuje vlastní rozehranou pozici.  Žádné časové tresty, ztracené série ani placené balíčky.
 
 Na iPadu lze použít Safari → Sdílet → Přidat na plochu. Rozložení podporuje šířku i výšku, klepnutí namísto přetahování a klávesnici. Navštívené obrázky a repliky se ukládají do offline cache. Nové výpravy a dosud nepřehrané audio vyžadují připojení; nejde o plně předstaženou offline aplikaci.
 

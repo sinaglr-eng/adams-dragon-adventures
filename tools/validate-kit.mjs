@@ -7,6 +7,7 @@ const manifest=read('art/manifest.json');
 const jobs=read('art/generation-prompts.json').jobs;
 assert(manifest.assets.length===jobs.length,'Missing generated assets');
 const artIds=new Set(manifest.assets.flatMap(a=>[a.id,...a.frames.map(f=>f.id)]));
+for(const a of read('art/atlas-manifest.json').assets) for(const id of [a.id,...(a.frames??[]).map(f=>f.id)])artIds.add(id);
 for(const a of manifest.assets){assert(fs.existsSync(path.join(root,a.path)),`Missing ${a.path}`);for(const f of a.frames)assert(f.rect.x>=0&&f.rect.y>=0&&f.rect.x+f.rect.w<=a.width&&f.rect.y+f.rect.h<=a.height,`Out of bounds ${f.id}`);}
 const {vocabulary}=read('content/vocabulary.json');
 const {quests}=read('content/quests.json');

@@ -1937,6 +1937,150 @@
       "speaker": "romca",
       "status": "generated-awaiting-adult-review",
       "file": "game-assets/audio/ui.finish.en.mp3"
+    },
+    {
+      "id": "word.bed.cs",
+      "locale": "cs-CZ",
+      "text": "postel",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.bed.cs.mp3"
+    },
+    {
+      "id": "word.bed.en",
+      "locale": "en-US",
+      "text": "bed",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.bed.en.mp3"
+    },
+    {
+      "id": "meaning.bed.cs",
+      "locale": "cs-CZ",
+      "text": "V posteli spíš.",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.bed.cs.mp3"
+    },
+    {
+      "id": "meaning.bed.en",
+      "locale": "en-US",
+      "text": "A bed is the cozy place where you sleep.",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.bed.en.mp3"
+    },
+    {
+      "id": "phrase.bed.cs",
+      "locale": "cs-CZ",
+      "text": "Vstávám z postele.",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.bed.cs.mp3"
+    },
+    {
+      "id": "phrase.bed.en",
+      "locale": "en-US",
+      "text": "I get out of bed.",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.bed.en.mp3"
+    },
+    {
+      "id": "word.gecko.cs",
+      "locale": "cs-CZ",
+      "text": "gekon",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.gecko.cs.mp3"
+    },
+    {
+      "id": "word.gecko.en",
+      "locale": "en-US",
+      "text": "gecko",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.gecko.en.mp3"
+    },
+    {
+      "id": "meaning.gecko.cs",
+      "locale": "cs-CZ",
+      "text": "Gekon je druh ještěrky.",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.gecko.cs.mp3"
+    },
+    {
+      "id": "meaning.gecko.en",
+      "locale": "en-US",
+      "text": "A gecko is a kind of lizard.",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.gecko.en.mp3"
+    },
+    {
+      "id": "phrase.gecko.cs",
+      "locale": "cs-CZ",
+      "text": "Můj gekon je na větvi.",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.gecko.cs.mp3"
+    },
+    {
+      "id": "phrase.gecko.en",
+      "locale": "en-US",
+      "text": "My gecko is on his branch.",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.gecko.en.mp3"
+    },
+    {
+      "id": "word.stairs.cs",
+      "locale": "cs-CZ",
+      "text": "schody",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.stairs.cs.mp3"
+    },
+    {
+      "id": "word.stairs.en",
+      "locale": "en-US",
+      "text": "stairs",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/word.stairs.en.mp3"
+    },
+    {
+      "id": "meaning.stairs.cs",
+      "locale": "cs-CZ",
+      "text": "Po schodech můžeš jít nahoru i dolů.",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.stairs.cs.mp3"
+    },
+    {
+      "id": "meaning.stairs.en",
+      "locale": "en-US",
+      "text": "Stairs are steps that take you up or down.",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/meaning.stairs.en.mp3"
+    },
+    {
+      "id": "phrase.stairs.cs",
+      "locale": "cs-CZ",
+      "text": "Jdeme dolů po schodech.",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.stairs.cs.mp3"
+    },
+    {
+      "id": "phrase.stairs.en",
+      "locale": "en-US",
+      "text": "We go down the stairs.",
+      "speaker": "romca",
+      "status": "generated-awaiting-adult-review",
+      "file": "game-assets/audio/phrase.stairs.en.mp3"
     }
   ]
 }

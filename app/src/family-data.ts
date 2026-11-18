@@ -67,6 +67,10 @@ export function validatePostcard(value: unknown): Postcard {
     const q = Object.hasOwn(questById, entry.id)
       ? questById[entry.id]
       : undefined;
+    const knownConcepts = new Set([
+      ...(q?.concepts ?? []),
+      ...(q?.previousConcepts ?? []),
+    ]);
     if (
       !q ||
       ids.has(entry.id) ||
@@ -75,7 +79,7 @@ export function validatePostcard(value: unknown): Postcard {
       entry.step < 0 ||
       entry.step > q.tasks.length ||
       !Array.isArray(entry.words) ||
-      entry.words.length > q.concepts.length
+      entry.words.length > knownConcepts.size
     )
       throw Error(
         "Pohlednice obsahuje neznámý nebo poškozený quest. Aktualizujte hru.",
@@ -85,7 +89,7 @@ export function validatePostcard(value: unknown): Postcard {
     const safeWords = entry.words.map((w) => {
       if (
         !w ||
-        !q.concepts.includes(w.id) ||
+        !knownConcepts.has(w.id) ||
         !words[w.id] ||
         seen.has(w.id) ||
         !["seen", "helped", "recognized", "spoken"].includes(w.state)

@@ -6,7 +6,7 @@
   "cast": [
     "adam"
   ],
-  "background": "iowa-house",
+  "background": "iowa-bedroom",
   "narrator": "romca",
   "mechanics": [
     "narrative",
@@ -14,63 +14,189 @@
     "find"
   ],
   "concepts": [
+    "bed",
+    "gecko",
+    "stairs",
     "hello",
-    "apple",
-    "bicycle",
-    "leaf",
-    "ladybird"
+    "apple"
   ],
   "prerequisites": [],
-  "scriptCs": "Čau, Áďo! Tady strejda Romča. Vidíš ten světle zelenej domeček? Tady v Iowě bydlíš a tady v Americe ses narodil. Jsi Američan, malej dráčku! Zamávej a pojď mi ukázat, kdo je doma.",
-  "scriptEn": "Hey, Adam! Uncle Romča here. See that little green house? This is your home in Iowa. You were born right here in America. You’re American, little dragon! Give me a wave. Who's home?",
+  "scriptCs": "Dobré ráno, Áďo! Tady strejda Romča. Sluníčko tě v tom vašem zeleném domku v Iowě lechtá na čumáku. Ještě jsi zachumlanej pod modrou peřinou. Protáhni křídla! Kam položíš polštář, až vstaneš?",
+  "scriptEn": "Morning, Adam! Uncle Romča here. A sunbeam tickles your nose in your little green house in Iowa. You peek out from under your blue quilt and stretch your wings. Where will you leave your pillow when you get up?",
   "suggestedMinutes": [
     6,
     12
   ],
   "speechOptionalForCompletion": true,
   "archived": false,
-  "version": 1,
+  "version": 2,
   "tasks": [
     {
       "kind": "narrative",
-      "id": "adam",
+      "id": "wake",
+      "concept": "bed",
+      "background": "iowa-bedroom",
       "art": "family/adam",
       "text": {
-        "cs": "Čau, Áďo! Tady strejda Romča. Vidíš ten světle zelenej domeček? Tady v Iowě bydlíš a tady v Americe ses narodil. Jsi Američan, malej dráčku! Zamávej a pojď mi ukázat, kdo je doma.",
-        "en": "Hey, Adam! Uncle Romča here. See that little green house? This is your home in Iowa. You were born right here in America. You’re American, little dragon! Give me a wave. Who's home?"
+        "cs": "Dobré ráno, Áďo! Tady strejda Romča. Sluníčko tě v tom vašem zeleném domku v Iowě lechtá na čumáku. Ještě jsi zachumlanej pod modrou peřinou. Protáhni křídla! Kam položíš polštář, až vstaneš?",
+        "en": "Morning, Adam! Uncle Romča here. A sunbeam tickles your nose in your little green house in Iowa. You peek out from under your blue quilt and stretch your wings. Where will you leave your pillow when you get up?"
       },
-      "concept": "hello",
-      "action": "next",
       "cast": [
         "adam"
-      ]
+      ],
+      "action": "next"
     },
     {
       "kind": "learn",
-      "concept": "hello"
+      "concept": "bed",
+      "cast": [
+        "adam"
+      ],
+      "background": "iowa-bedroom",
+      "contextEn": "Pull back the quilt and put your pillow on the bed. That’s where you slept last night. In Czech, a bed is called…"
     },
     {
       "kind": "find",
-      "concept": "hello",
+      "concept": "bed",
+      "cast": [
+        "adam"
+      ],
+      "background": "iowa-bedroom",
       "options": [
-        "hello",
-        "apple",
-        "cup"
+        "bed",
+        "cup",
+        "apple"
       ]
     },
     {
       "kind": "narrative",
-      "id": "mama",
-      "art": "family/mama",
+      "id": "pet",
+      "concept": "gecko",
+      "background": "iowa-terrarium",
+      "art": "iowa-terrarium",
       "text": {
-        "cs": "Áďo, cítíš ty jablíčka? Máma ti jedno schovala ke svačině. Když byla malá jako ty, bydlela v Čechách, až za oceánem. A teď bydlí tady s tebou. Kam jen to jablíčko schovala?",
-        "en": "Hey, Adam, can you smell those apples? Mom tucked one away for your snack. When she was little like you, she lived across the ocean in Czechia. Now she lives right here with you. Where did she hide that apple?"
+        "cs": "Než seběhneš na snídani, mrkni do terárka. Včera večer byl tvůj gekon schovanej. Hele! Z větvičky na tebe koukají dvě oči. Našel jsi ho?",
+        "en": "Before breakfast, you always check on your pet. Last night he was hiding. This morning, two little eyes peek out from behind the branch in his tank. There’s your gecko! Can you spot his long tail?"
       },
-      "concept": "hello",
-      "action": "next",
       "cast": [
         "adam"
+      ],
+      "action": "next"
+    },
+    {
+      "kind": "learn",
+      "concept": "gecko",
+      "cast": [
+        "adam"
+      ],
+      "background": "iowa-terrarium",
+      "contextEn": "Look at the little lizard on the branch. He’s your pet gecko! Let’s tell Dad who you spotted. In Czech, a gecko is called…"
+    },
+    {
+      "kind": "find",
+      "concept": "gecko",
+      "cast": [
+        "adam"
+      ],
+      "background": "iowa-terrarium",
+      "options": [
+        "gecko",
+        "frog",
+        "ladybird"
       ]
+    },
+    {
+      "kind": "narrative",
+      "id": "downstairs",
+      "concept": "stairs",
+      "background": "iowa-stairs",
+      "art": "family/tata",
+      "text": {
+        "cs": "Slyšíš, jak dole cinkla lžička? Táta už chystá snídani. Máš pokoj nahoře a kuchyň je dole. Chytni se zábradlí a pojď za ním.",
+        "en": "Clink! That’s Dad’s spoon downstairs. Your bedroom is up here, but the kitchen is down there. Put a paw on the railing. Dad’s waiting at the bottom. Shall we go down together?"
+      },
+      "cast": [
+        "adam"
+      ],
+      "action": "next"
+    },
+    {
+      "kind": "learn",
+      "concept": "stairs",
+      "cast": [
+        "adam",
+        "tata"
+      ],
+      "background": "iowa-stairs",
+      "contextEn": "One step, two steps! Hold the railing as you go down the stairs to breakfast. In Czech, stairs are called…"
+    },
+    {
+      "kind": "find",
+      "concept": "stairs",
+      "cast": [
+        "adam",
+        "tata"
+      ],
+      "background": "iowa-stairs",
+      "options": [
+        "stairs",
+        "bed",
+        "gecko"
+      ]
+    },
+    {
+      "kind": "narrative",
+      "id": "wave",
+      "concept": "hello",
+      "background": "iowa-kitchen",
+      "art": "family/matyas",
+      "text": {
+        "cs": "Jé, u stolu už sedí tvůj malej bráška Matyáš. Zahlídl tě a mává oběma tlapkama! Vidíte se dneska poprvé. Co mu řekneš?",
+        "en": "At the bottom, your little brother Matyáš spots you from his chair. He waves both paws. It’s the first time you’ve seen each other today. What can you say to greet him?"
+      },
+      "cast": [
+        "adam"
+      ],
+      "action": "wave"
+    },
+    {
+      "kind": "learn",
+      "concept": "hello",
+      "cast": [
+        "adam",
+        "matyas"
+      ],
+      "background": "iowa-kitchen",
+      "contextEn": "Wave back to Matyáš so he knows you saw him. You can say hello! In Czech, to say hello to your brother, you say…"
+    },
+    {
+      "kind": "find",
+      "concept": "hello",
+      "cast": [
+        "adam",
+        "matyas"
+      ],
+      "background": "iowa-kitchen",
+      "options": [
+        "hello",
+        "gecko",
+        "bed"
+      ]
+    },
+    {
+      "kind": "narrative",
+      "id": "breakfast",
+      "concept": "apple",
+      "background": "iowa-kitchen",
+      "art": "family/mama",
+      "text": {
+        "cs": "Máma ti přistrčí misku s kaší. Chceš do ní kousky ovoce? Na stole je něco kulatýho, červenýho a křupavýho. Máma počká, až jí ukážeš, co má nakrájet.",
+        "en": "Mom slides a bowl of oatmeal toward you. Would you like some fruit on top? Something round, red and crunchy is sitting on the table. Mom waits for you to show her what to slice."
+      },
+      "cast": [
+        "adam"
+      ],
+      "action": "next"
     },
     {
       "kind": "learn",
@@ -78,134 +204,38 @@
       "cast": [
         "adam",
         "mama"
-      ]
+      ],
+      "background": "iowa-kitchen",
+      "contextEn": "There’s the apple! Point to it so Mom can slice it into your oatmeal. In Czech, an apple is called…"
     },
     {
       "kind": "find",
       "concept": "apple",
+      "cast": [
+        "adam",
+        "mama"
+      ],
+      "background": "iowa-kitchen",
       "options": [
         "apple",
         "cup",
-        "key"
-      ],
-      "cast": [
-        "adam",
-        "mama"
+        "gecko"
       ]
     },
     {
       "kind": "narrative",
-      "id": "tata",
-      "art": "family/tata",
-      "text": {
-        "cs": "Cink, cink! Slyšíš to, Áďo? To táta zvoní na verandě. Táta je Čech jako máma a teď spolu všichni bydlíte v Iowě. Hele, jednou tlapkou ti mává a druhou drží řídítka. Poznáš, co ti přivezl?",
-        "en": "Ring, ring! Hear that, Adam? Dad’s ringing a bell on the porch. He’s Czech like Mom, and now you all live together in Iowa. He’s waving with one paw and holding the handlebars with the other. Can you find what he brought you?"
-      },
+      "id": "breakfast-map",
       "concept": "hello",
-      "action": "next",
-      "cast": [
-        "adam"
-      ]
-    },
-    {
-      "kind": "learn",
-      "concept": "bicycle",
-      "cast": [
-        "adam",
-        "tata"
-      ]
-    },
-    {
-      "kind": "find",
-      "concept": "bicycle",
-      "options": [
-        "bicycle",
-        "apple",
-        "cup"
-      ],
-      "cast": [
-        "adam",
-        "tata"
-      ]
-    },
-    {
-      "kind": "narrative",
-      "id": "matyas",
-      "art": "family/matyas",
-      "text": {
-        "cs": "A kdopak šustí pod schůdkama? Tvůj malej bráška Matyáš! Našel list a myslí si, že je to dračí deštník. Zkusíme mu ten list ukázat a říct, jak se jmenuje.",
-        "en": "Who's rustling around by the steps? Your little brother Matyáš! He found a leaf and thinks it’s a tiny dragon umbrella. Let's point to his leaf and try its Czech name."
-      },
-      "concept": "hello",
-      "action": "next",
-      "cast": [
-        "adam"
-      ]
-    },
-    {
-      "kind": "learn",
-      "concept": "leaf",
-      "cast": [
-        "adam",
-        "matyas"
-      ]
-    },
-    {
-      "kind": "find",
-      "concept": "leaf",
-      "options": [
-        "leaf",
-        "apple",
-        "cup"
-      ],
-      "cast": [
-        "adam",
-        "matyas"
-      ]
-    },
-    {
-      "kind": "narrative",
-      "id": "garden",
-      "art": "creatures/ladybird",
-      "text": {
-        "cs": "Pojď k zahradní brance, Áďo. Na listu sedí červená beruška. Spočítáme jí tečky? Ty jo, než jsme došli od dveří k plotu, máme celý dobrodružství!",
-        "en": "Come to the garden gate, Adam. A red ladybug landed on that leaf. Want to count its spots? Wow! We only went from the front door to the fence, and we've had a whole adventure!"
-      },
-      "concept": "hello",
-      "action": "next",
-      "cast": [
-        "adam"
-      ],
-      "background": "iowa-garden"
-    },
-    {
-      "kind": "learn",
-      "concept": "ladybird",
-      "background": "iowa-garden"
-    },
-    {
-      "kind": "find",
-      "concept": "ladybird",
-      "options": [
-        "ladybird",
-        "apple",
-        "cup"
-      ],
-      "background": "iowa-garden"
-    },
-    {
-      "kind": "narrative",
-      "id": "flight",
+      "background": "iowa-kitchen",
       "art": "atlas-two-homes",
       "text": {
-        "cs": "Až pojedete k babi a dědovi, přes plot to nepůjde. Bydlí v Příbrami v Česku! Proto za nimi letíte přes oceán a pak se vracíte domů do Iowy. Přejeď tlapkou po mapě a klepni na letadlo.",
-        "en": "Grandma and Grandpa live a little farther away than that fence! They live in Příbram, in Czechia. That's why you fly across the ocean to visit them, then come home to Iowa. Trace the trip with your paw and tap the plane."
+        "cs": "Mňam! Táta u snídaně rozložil mapu. Ty ses narodil tady v Iowě, jsi Američan. Máma s tátou vyrostli v Čechách, jsou Češi. Vidíš ten oceán? Přes něj lítáte za babi a dědou do Příbrami. Pak se zase vrátíte domů.",
+        "en": "Mmm! Over breakfast, Dad unfolds a map. You were born right here in Iowa, Adam. You’re American. Mom and Dad grew up in Czechia. They’re Czech. See that ocean? You fly across it to visit Grandma and Grandpa in Příbram, then fly back home."
       },
-      "concept": "hello",
-      "action": "plane",
       "cast": [
         "adam"
-      ]
+      ],
+      "action": "plane"
     },
     {
       "kind": "narrative",
@@ -219,13 +249,19 @@
       "action": "star",
       "cast": [
         "adam"
-      ]
+      ],
+      "background": "iowa-kitchen"
     }
   ],
   "callPrompts": [
     {
-      "cs": "Koho jsi našel na verandě a co měl Matyáš?",
-      "en": "Who did you find on the porch, and what did Matyáš have?"
+      "cs": "Kde byl gekon, když ses probudil, a co ti máma nakrájela do kaše?",
+      "en": "Where was your gecko when you woke up, and what did Mom slice into your oatmeal?"
     }
+  ],
+  "previousConcepts": [
+    "bicycle",
+    "leaf",
+    "ladybird"
   ]
 }

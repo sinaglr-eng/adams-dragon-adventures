@@ -20,6 +20,7 @@ export type Task = {
   options?: string[];
   id?: string;
   text?: Pair;
+  contextEn?: string;
   art?: string;
   pictures?: string[];
   action?: string;
@@ -37,6 +38,7 @@ export type Quest = {
   narrator: string;
   mechanics: string[];
   concepts: string[];
+  previousConcepts?: string[];
   prerequisites: string[];
   scriptCs: string;
   scriptEn: string;
@@ -58,6 +60,10 @@ const artIds = new Set(
 );
 for (const id of [
   "iowa-house",
+  "iowa-bedroom",
+  "iowa-terrarium",
+  "iowa-stairs",
+  "iowa-kitchen",
   "pribram-house",
   "iowa-garden",
   "atlas-two-homes",
@@ -211,7 +217,14 @@ const packs = import.meta.glob("../../content/quest-packs/*.json", {
 });
 const order = ["meet-iowa", "meet-pribram"];
 export const activeQuests = Object.values(packs)
-  .map(validateQuest)
+  .map((input) => {
+    const quest = validateQuest(input);
+    for (const task of quest.tasks) {
+      if (task.kind === "learn" && !task.contextEn?.trim())
+        throw Error(`Quest ${quest.id}: missing English story context for ${task.concept}`);
+    }
+    return quest;
+  })
   .sort((a, b) => {
     const ia = order.indexOf(a.id),
       ib = order.indexOf(b.id);

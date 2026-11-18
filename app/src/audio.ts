@@ -63,7 +63,7 @@ export async function play(ids: string | string[]) {
           { id, rate: 1, pause: 1600 },
           { id, rate: 0.76, pause: 2200 },
         ]
-      : [{ id, rate: 1, pause: 0 }],
+      : [{ id, rate: 1, pause: id.startsWith("echo.") ? 2500 : 0 }],
   );
   const unavailable = new Set<string>();
   for (const { id, rate, pause } of sequence) {

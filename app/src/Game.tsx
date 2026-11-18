@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type DragEvent } from "react";
+import { useEffect, useMemo, useRef, useState, type DragEvent } from "react";
 import { asset, questById, words, title, type Lang } from "./data";
 import {
   addEvidence,
@@ -47,6 +47,8 @@ export function Game({
   const narrative = task?.kind === "narrative" && r.phase !== "summary";
   const [storyActing, setStoryActing] = useState(false);
   const [heard, setHeard] = useState(false);
+  const playback = useRef(0);
+  const lesson = task?.kind === "learn" ? task.contextEn : undefined;
   const instructionKey = narrative
     ? null
     : r.phase === "intro"
@@ -77,22 +79,31 @@ export function Game({
                       : "cycle"
                   : task?.kind;
   const instruction = narrative
-    ? task.text![ui]
-    : r.phase === "intro"
-      ? ui === "cs"
-        ? q.scriptCs
-        : q.scriptEn
-      : r.phase === "summary"
+    ? task.text!.en
+    : lesson
+      ? lesson
+      : r.phase === "intro"
         ? ui === "cs"
-          ? "Výprava je hotová. Teď si můžeme odpočinout."
-          : "Our adventure is complete. Now we can take a break."
-        : line((instructionKey ?? "find") as Parameters<typeof line>[0], ui);
+          ? q.scriptCs
+          : q.scriptEn
+        : r.phase === "summary"
+          ? ui === "cs"
+            ? "Výprava je hotová. Teď si můžeme odpočinout."
+            : "Our adventure is complete. Now we can take a break."
+          : line((instructionKey ?? "find") as Parameters<typeof line>[0], ui);
   const cues = () => {
-    if (narrative) return [`story.${q.id}.${task.id}.${ui}`];
+    if (narrative) return [`story.${q.id}.${task.id}.en`];
     if (r.phase === "intro") return [`quest.${q.id}.intro.${ui}`];
     if (r.phase === "summary") return [`questui.finish-story.${ui}`];
     if (r.phase === "correct")
       return [`game.packed.${ui}`, `word.${task.concept}.${r.language}`];
+    if (lesson)
+      return [
+        `lesson.${q.id}.${task.concept}.en`,
+        `model.${task.concept}.cs`,
+        "lesson.repeat.cs",
+        `echo.${task.concept}.cs`,
+      ];
     if (task.kind === "learn")
       return ui === "en"
         ? task.concept === "hello"
@@ -123,14 +134,20 @@ export function Game({
     ];
   };
   const replay = () => {
+    const request = ++playback.current;
     setHeard(false);
-    void play(cues()).then(() => setHeard(true));
+    void play(cues()).then(() => {
+      if (request === playback.current) setHeard(true);
+    });
   };
   useEffect(() => {
     setFeedback("");
     setStoryActing(false);
     if (!paused) replay();
-    return () => stopAudio();
+    return () => {
+      playback.current++;
+      stopAudio();
+    };
   }, [r.id, r.step, r.phase, paused]);
   useEffect(() => {
     if (!storyActing || paused) return;
@@ -490,24 +507,47 @@ export function Game({
               </span>
               <h2>{words[task.concept].cs}</h2>
               <p className="translation">{words[task.concept].en}</p>
-              <p>{words[task.concept].meaning[ui]}</p>
-              <div className="button-row">
-                <Button
-                  icon="speaker"
-                  className="secondary"
-                  onClick={() => void play(`word.${task.concept}.cs`)}
-                >
-                  Česky
-                </Button>
-                <Button
-                  icon="speaker"
-                  className="secondary"
-                  onClick={() => void play(`word.${task.concept}.en`)}
-                >
-                  English
-                </Button>
-              </div>
-              <Button icon="next" onClick={next}>
+              {lesson ? (
+                <p lang="cs">
+                  A nyní opakuj po mně.{" "}
+                  <strong>{words[task.concept].syllablesCs}</strong>
+                </p>
+              ) : (
+                <p>{words[task.concept].meaning[ui]}</p>
+              )}
+              {(!lesson || heard) && (
+                <div className="button-row">
+                  <Button
+                    icon="speaker"
+                    className="secondary"
+                    onClick={() =>
+                      void play(
+                        lesson
+                          ? [
+                              `model.${task.concept}.cs`,
+                              "lesson.repeat.cs",
+                              `echo.${task.concept}.cs`,
+                            ]
+                          : `word.${task.concept}.cs`,
+                      )
+                    }
+                  >
+                    Česky
+                  </Button>
+                  <Button
+                    icon="speaker"
+                    className="secondary"
+                    onClick={() => void play(`word.${task.concept}.en`)}
+                  >
+                    English
+                  </Button>
+                </div>
+              )}
+              <Button
+                icon="next"
+                disabled={!!lesson && !heard && !save.prefs.muted}
+                onClick={next}
+              >
                 {ui === "cs" ? "Zkusím to" : "I’m ready"}
               </Button>
             </div>

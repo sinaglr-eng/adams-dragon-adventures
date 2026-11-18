@@ -405,7 +405,8 @@
         "acceptInflectionsInContext": true,
         "automaticProviderValidated": false
       },
-      "enPronunciationCs": "fišing rod"
+      "enPronunciationCs": "fišing rod",
+      "syllablesCs": "prut"
     },
     {
       "id": "bucket",
@@ -550,7 +551,8 @@
         "acceptInflectionsInContext": true,
         "automaticProviderValidated": false
       },
-      "enPronunciationCs": "kí"
+      "enPronunciationCs": "kí",
+      "syllablesCs": "klíč"
     },
     {
       "id": "cup",
@@ -579,7 +581,8 @@
         "acceptInflectionsInContext": true,
         "automaticProviderValidated": false
       },
-      "enPronunciationCs": "mag"
+      "enPronunciationCs": "mag",
+      "syllablesCs": "hr-nek"
     },
     {
       "id": "treasure",
@@ -695,7 +698,8 @@
         "acceptInflectionsInContext": true,
         "automaticProviderValidated": false
       },
-      "enPronunciationCs": "megnyfajing gles"
+      "enPronunciationCs": "megnyfajing gles",
+      "syllablesCs": "lu-pa"
     },
     {
       "id": "jar",
@@ -753,7 +757,8 @@
         "acceptInflectionsInContext": true,
         "automaticProviderValidated": false
       },
-      "enPronunciationCs": "epl"
+      "enPronunciationCs": "epl",
+      "syllablesCs": "ja-bl-ko"
     },
     {
       "id": "leaf",
@@ -840,7 +845,8 @@
         "acceptInflectionsInContext": true,
         "automaticProviderValidated": false
       },
-      "enPronunciationCs": "uótering ken"
+      "enPronunciationCs": "uótering ken",
+      "syllablesCs": "ko-nev"
     },
     {
       "id": "hello",
@@ -869,7 +875,8 @@
         "acceptInflectionsInContext": true,
         "automaticProviderValidated": false
       },
-      "enPronunciationCs": "helou"
+      "enPronunciationCs": "helou",
+      "syllablesCs": "a-hoj"
     },
     {
       "id": "please",
@@ -1102,6 +1109,96 @@
         "automaticProviderValidated": false
       },
       "enPronunciationCs": "ček kraun"
+    },
+    {
+      "id": "bed",
+      "cs": "postel",
+      "en": "bed",
+      "meaning": {
+        "cs": "V posteli spíš.",
+        "en": "A bed is the cozy place where you sleep."
+      },
+      "phrase": {
+        "cs": "Vstávám z postele.",
+        "en": "I get out of bed."
+      },
+      "art": "iowa-bedroom",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.bed.cs",
+        "wordEn": "word.bed.en",
+        "meaningCs": "meaning.bed.cs",
+        "meaningEn": "meaning.bed.en",
+        "phraseCs": "phrase.bed.cs",
+        "phraseEn": "phrase.bed.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      },
+      "enPronunciationCs": "bed",
+      "syllablesCs": "po-stel"
+    },
+    {
+      "id": "gecko",
+      "cs": "gekon",
+      "en": "gecko",
+      "meaning": {
+        "cs": "Gekon je druh ještěrky.",
+        "en": "A gecko is a kind of lizard."
+      },
+      "phrase": {
+        "cs": "Můj gekon je na větvi.",
+        "en": "My gecko is on his branch."
+      },
+      "art": "iowa-terrarium",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.gecko.cs",
+        "wordEn": "word.gecko.en",
+        "meaningCs": "meaning.gecko.cs",
+        "meaningEn": "meaning.gecko.en",
+        "phraseCs": "phrase.gecko.cs",
+        "phraseEn": "phrase.gecko.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      },
+      "enPronunciationCs": "gekou",
+      "syllablesCs": "ge-kon"
+    },
+    {
+      "id": "stairs",
+      "cs": "schody",
+      "en": "stairs",
+      "meaning": {
+        "cs": "Po schodech můžeš jít nahoru i dolů.",
+        "en": "Stairs are steps that take you up or down."
+      },
+      "phrase": {
+        "cs": "Jdeme dolů po schodech.",
+        "en": "We go down the stairs."
+      },
+      "art": "iowa-stairs",
+      "level": 1,
+      "audio": {
+        "wordCs": "word.stairs.cs",
+        "wordEn": "word.stairs.en",
+        "meaningCs": "meaning.stairs.cs",
+        "meaningEn": "meaning.stairs.en",
+        "phraseCs": "phrase.stairs.cs",
+        "phraseEn": "phrase.stairs.en"
+      },
+      "assessment": {
+        "targetLanguage": "cs-CZ",
+        "acceptInflectionsInContext": true,
+        "automaticProviderValidated": false
+      },
+      "enPronunciationCs": "stérz",
+      "syllablesCs": "scho-dy"
     }
   ]
 }

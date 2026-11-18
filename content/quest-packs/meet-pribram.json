@@ -65,7 +65,8 @@
       "cast": [
         "adam",
         "chase"
-      ]
+      ],
+      "contextEn": "Chase found something by the gate. Grandpa needs the key to open it. Let’s show him what Chase found! In Czech, a key is called…"
     },
     {
       "kind": "find",
@@ -100,7 +101,8 @@
       "cast": [
         "adam",
         "babi"
-      ]
+      ],
+      "contextEn": "Grandma’s flowers are thirsty. Help her carry water to them in the watering can. In Czech, a watering can is called…"
     },
     {
       "kind": "find",
@@ -135,7 +137,8 @@
       "cast": [
         "adam",
         "deda"
-      ]
+      ],
+      "contextEn": "Grandpa is holding his warm drink by the handle. That’s his favorite mug. In Czech, a mug is called…"
     },
     {
       "kind": "find",
@@ -180,7 +183,8 @@
     },
     {
       "kind": "learn",
-      "concept": "rod"
+      "concept": "rod",
+      "contextEn": "Uncle Romča is packing for your next fishing trip. What will he use to cast his line? His fishing rod! In Czech, a fishing rod is called…"
     },
     {
       "kind": "find",
@@ -211,7 +215,8 @@
       "cast": [
         "adam",
         "klarka"
-      ]
+      ],
+      "contextEn": "Aunt Klárka spotted a tiny paw print. Look through her magnifying glass to see it up close. In Czech, a magnifying glass is called…"
     },
     {
       "kind": "find",

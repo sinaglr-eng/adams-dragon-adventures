@@ -674,11 +674,11 @@
     },
     {
       "id": "call.meet-iowa.0.cs",
-      "text": "Koho jsi našel na verandě a co měl Matyáš?"
+      "text": "Kde byl gekon, když ses probudil, a co ti máma nakrájela do kaše?"
     },
     {
       "id": "call.meet-iowa.0.en",
-      "text": "Who did you find on the porch, and what did Matyáš have?"
+      "text": "Where was your gecko when you woke up, and what did Mom slice into your oatmeal?"
     },
     {
       "id": "story.meet-pribram.arrival.cs",
@@ -778,11 +778,11 @@
     },
     {
       "id": "homeguide.iowa.cs",
-      "text": "Pojď dál, prcku! Klepni na obrázek a prozkoumáme váš zelenej domek od verandy až k brance."
+      "text": "Dobré ráno, Áďo! Klepni na výpravu v zeleném domku. Vstaneme z postele a před snídaní mrkneme, jak se má tvůj gekon."
     },
     {
       "id": "homeguide.iowa.en",
-      "text": "Come on in, buddy! Tap the picture and let's explore your green house, from the porch to the garden gate!"
+      "text": "Good morning, Adam! Tap your little green house adventure. We’ll wake up in your bed and check on your gecko before breakfast."
     },
     {
       "id": "homeguide.pribram.cs",
@@ -791,6 +791,178 @@
     {
       "id": "homeguide.pribram.en",
       "text": "Who’s barking at the gate? Tap the picture and let’s find out who’s welcoming us to Příbram!"
+    },
+    {
+      "id": "story.meet-iowa.wake.cs",
+      "text": "Dobré ráno, Áďo! Tady strejda Romča. Sluníčko tě v tom vašem zeleném domku v Iowě lechtá na čumáku. Ještě jsi zachumlanej pod modrou peřinou. Protáhni křídla! Kam položíš polštář, až vstaneš?"
+    },
+    {
+      "id": "story.meet-iowa.wake.en",
+      "text": "Morning, Adam! Uncle Romča here. A sunbeam tickles your nose in your little green house in Iowa. You peek out from under your blue quilt and stretch your wings. Where will you leave your pillow when you get up?"
+    },
+    {
+      "id": "story.meet-iowa.pet.cs",
+      "text": "Než seběhneš na snídani, mrkni do terárka. Včera večer byl tvůj gekon schovanej. Hele! Z větvičky na tebe koukají dvě oči. Našel jsi ho?"
+    },
+    {
+      "id": "story.meet-iowa.pet.en",
+      "text": "Before breakfast, you always check on your pet. Last night he was hiding. This morning, two little eyes peek out from behind the branch in his tank. There’s your gecko! Can you spot his long tail?"
+    },
+    {
+      "id": "story.meet-iowa.downstairs.cs",
+      "text": "Slyšíš, jak dole cinkla lžička? Táta už chystá snídani. Máš pokoj nahoře a kuchyň je dole. Chytni se zábradlí a pojď za ním."
+    },
+    {
+      "id": "story.meet-iowa.downstairs.en",
+      "text": "Clink! That’s Dad’s spoon downstairs. Your bedroom is up here, but the kitchen is down there. Put a paw on the railing. Dad’s waiting at the bottom. Shall we go down together?"
+    },
+    {
+      "id": "story.meet-iowa.wave.cs",
+      "text": "Jé, u stolu už sedí tvůj malej bráška Matyáš. Zahlídl tě a mává oběma tlapkama! Vidíte se dneska poprvé. Co mu řekneš?"
+    },
+    {
+      "id": "story.meet-iowa.wave.en",
+      "text": "At the bottom, your little brother Matyáš spots you from his chair. He waves both paws. It’s the first time you’ve seen each other today. What can you say to greet him?"
+    },
+    {
+      "id": "story.meet-iowa.breakfast.cs",
+      "text": "Máma ti přistrčí misku s kaší. Chceš do ní kousky ovoce? Na stole je něco kulatýho, červenýho a křupavýho. Máma počká, až jí ukážeš, co má nakrájet."
+    },
+    {
+      "id": "story.meet-iowa.breakfast.en",
+      "text": "Mom slides a bowl of oatmeal toward you. Would you like some fruit on top? Something round, red and crunchy is sitting on the table. Mom waits for you to show her what to slice."
+    },
+    {
+      "id": "story.meet-iowa.breakfast-map.cs",
+      "text": "Mňam! Táta u snídaně rozložil mapu. Ty ses narodil tady v Iowě, jsi Američan. Máma s tátou vyrostli v Čechách, jsou Češi. Vidíš ten oceán? Přes něj lítáte za babi a dědou do Příbrami. Pak se zase vrátíte domů."
+    },
+    {
+      "id": "story.meet-iowa.breakfast-map.en",
+      "text": "Mmm! Over breakfast, Dad unfolds a map. You were born right here in Iowa, Adam. You’re American. Mom and Dad grew up in Czechia. They’re Czech. See that ocean? You fly across it to visit Grandma and Grandpa in Příbram, then fly back home."
+    },
+    {
+      "id": "lesson.meet-iowa.bed.en",
+      "text": "Pull back the quilt and put your pillow on the bed. That’s where you slept last night. In Czech, a bed is called…"
+    },
+    {
+      "id": "lesson.meet-iowa.gecko.en",
+      "text": "Look at the little lizard on the branch. He’s your pet gecko! Let’s tell Dad who you spotted. In Czech, a gecko is called…"
+    },
+    {
+      "id": "lesson.meet-iowa.stairs.en",
+      "text": "One step, two steps! Hold the railing as you go down the stairs to breakfast. In Czech, stairs are called…"
+    },
+    {
+      "id": "lesson.meet-iowa.hello.en",
+      "text": "Wave back to Matyáš so he knows you saw him. You can say hello! In Czech, to say hello to your brother, you say…"
+    },
+    {
+      "id": "lesson.meet-iowa.apple.en",
+      "text": "There’s the apple! Point to it so Mom can slice it into your oatmeal. In Czech, an apple is called…"
+    },
+    {
+      "id": "lesson.meet-pribram.key.en",
+      "text": "Chase found something by the gate. Grandpa needs the key to open it. Let’s show him what Chase found! In Czech, a key is called…"
+    },
+    {
+      "id": "lesson.meet-pribram.watering-can.en",
+      "text": "Grandma’s flowers are thirsty. Help her carry water to them in the watering can. In Czech, a watering can is called…"
+    },
+    {
+      "id": "lesson.meet-pribram.cup.en",
+      "text": "Grandpa is holding his warm drink by the handle. That’s his favorite mug. In Czech, a mug is called…"
+    },
+    {
+      "id": "lesson.meet-pribram.rod.en",
+      "text": "Uncle Romča is packing for your next fishing trip. What will he use to cast his line? His fishing rod! In Czech, a fishing rod is called…"
+    },
+    {
+      "id": "lesson.meet-pribram.magnifier.en",
+      "text": "Aunt Klárka spotted a tiny paw print. Look through her magnifying glass to see it up close. In Czech, a magnifying glass is called…"
+    },
+    {
+      "id": "lesson.repeat.cs",
+      "text": "A nyní opakuj po mně."
+    },
+    {
+      "id": "model.bed.cs",
+      "text": "postel"
+    },
+    {
+      "id": "echo.bed.cs",
+      "text": "po-stel"
+    },
+    {
+      "id": "model.gecko.cs",
+      "text": "gekon"
+    },
+    {
+      "id": "echo.gecko.cs",
+      "text": "ge-kon"
+    },
+    {
+      "id": "model.stairs.cs",
+      "text": "schody"
+    },
+    {
+      "id": "echo.stairs.cs",
+      "text": "scho-dy"
+    },
+    {
+      "id": "model.hello.cs",
+      "text": "ahoj"
+    },
+    {
+      "id": "echo.hello.cs",
+      "text": "a-hoj"
+    },
+    {
+      "id": "model.apple.cs",
+      "text": "jablko"
+    },
+    {
+      "id": "echo.apple.cs",
+      "text": "ja-bl-ko"
+    },
+    {
+      "id": "model.key.cs",
+      "text": "klíč"
+    },
+    {
+      "id": "echo.key.cs",
+      "text": "klíč"
+    },
+    {
+      "id": "model.watering-can.cs",
+      "text": "konev"
+    },
+    {
+      "id": "echo.watering-can.cs",
+      "text": "ko-nev"
+    },
+    {
+      "id": "model.cup.cs",
+      "text": "hrnek"
+    },
+    {
+      "id": "echo.cup.cs",
+      "text": "hr-nek"
+    },
+    {
+      "id": "model.rod.cs",
+      "text": "prut"
+    },
+    {
+      "id": "echo.rod.cs",
+      "text": "prut"
+    },
+    {
+      "id": "model.magnifier.cs",
+      "text": "lupa"
+    },
+    {
+      "id": "echo.magnifier.cs",
+      "text": "lu-pa"
     }
   ]
 }

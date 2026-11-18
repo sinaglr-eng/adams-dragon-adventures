@@ -80,6 +80,24 @@ describe("data-driven stories", () => {
     expect(restored.run).toEqual(s.run);
     expect(restored.runs).toEqual(s.runs);
   });
+  it("starts an older Iowa run in the bedroom once and keeps earned evidence", () => {
+    const s = freshSave();
+    startRun(s, "meet-iowa", "cs");
+    addEvidence(s, eventFor(s, "recognized", "bicycle", false));
+    delete s.run!.questVersion;
+    s.run!.step = 8;
+    s.runs = { "meet-iowa": structuredClone(s.run!) };
+    const restored = migrate(s);
+    expect(restored.run).toMatchObject({
+      step: 0,
+      phase: "ready",
+      questVersion: 2,
+    });
+    expect(restored.runs!["meet-iowa"]).toEqual(restored.run);
+    expect(restored.events).toEqual(s.events);
+    advance(restored, 0);
+    expect(migrate(restored).run!.step).toBe(1);
+  });
 });
 describe("family postcards", () => {
   it("roundtrips only a small progress snapshot, without rewards, recordings or session IDs", () => {

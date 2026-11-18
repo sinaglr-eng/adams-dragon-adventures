@@ -38,6 +38,7 @@ import type { Task } from "./quest-content";
 export type { Task, TaskKind } from "./quest-content";
 export type Run = {
   id: string;
+  questVersion?: number;
   questId: string;
   step: number;
   phase: string;
@@ -248,6 +249,7 @@ export function startRun(s: Save, questId: string, lang: Lang) {
   }
   s.run = {
     id: uid(),
+    questVersion: quests.find((q) => q.id === questId)?.version ?? 1,
     questId,
     step: quests.find((q) => q.id === questId)?.archived ? -1 : 0,
     phase: quests.find((q) => q.id === questId)?.archived ? "intro" : "ready",
@@ -462,6 +464,22 @@ export function migrate(input: unknown): Save {
         !Number.isFinite(run.orderSeed))
     )
       throw Error("Damaged adventure");
+  for (const run of [raw.run, ...Object.values(raw.runs ?? {})]) {
+    if (!run) continue;
+    const quest = quests.find((q) => q.id === run.questId)!;
+    if ((run.questVersion ?? 1) < (quest.version ?? 1)) {
+      run.questVersion = quest.version;
+      if (run.phase !== "summary") {
+        Object.assign(run, {
+          step: 0,
+          phase: phaseFor(quest.tasks[0]),
+          selected: null,
+          helped: false,
+          attempts: 0,
+        });
+      }
+    }
+  }
   refreshRewards(raw);
   return raw;
 }

@@ -4196,18 +4196,18 @@
   {
     "id": "call.meet-iowa.0.cs",
     "file": "game-assets/audio/call.meet-iowa.0.cs.mp3",
-    "bytes": 21024,
-    "sha256": "a86e872a33a15d81613d962ffb8b3dcc50b5325be4637921df8a3237ee056c4c",
-    "duration": 3.504,
+    "bytes": 27936,
+    "sha256": "a19fa08a35bb5e33c1b28f88647d32946bfd9bd6f8cf784ae3bd30585bd72f6c",
+    "duration": 4.656,
     "voice": "cs-CZ-AntoninNeural",
     "status": "generated-awaiting-adult-review"
   },
   {
     "id": "call.meet-iowa.0.en",
     "file": "game-assets/audio/call.meet-iowa.0.en.mp3",
-    "bytes": 24768,
-    "sha256": "4195b080cd5eb7c621b6923cd4aa986924bd33b7f1b74b4b97d0d97101d5b42d",
-    "duration": 4.128,
+    "bytes": 30096,
+    "sha256": "5258df99cc4b0caedfe8b9429fefb143b1c654acb440592f2289e87795310d15",
+    "duration": 5.016,
     "voice": "en-US-GuyNeural",
     "status": "generated-awaiting-adult-review"
   },
@@ -4430,18 +4430,18 @@
   {
     "id": "homeguide.iowa.cs",
     "file": "game-assets/audio/homeguide.iowa.cs.mp3",
-    "bytes": 42768,
-    "sha256": "a8478cd705c00b83e2d70dbe6e9c8e08211e8c2f645d36e5a47f368d235c9987",
-    "duration": 7.128,
+    "bytes": 59616,
+    "sha256": "a5745814479fa60b2b400e38fba73900a8d42c37b2ac8476c715d3f4fa360733",
+    "duration": 9.936,
     "voice": "cs-CZ-AntoninNeural",
     "status": "generated-awaiting-adult-review"
   },
   {
     "id": "homeguide.iowa.en",
     "file": "game-assets/audio/homeguide.iowa.en.mp3",
-    "bytes": 45072,
-    "sha256": "adf8e1fff94049a62ae45d1ce284878c9f9f5890e1300dd4a35a1a325a3c5d6b",
-    "duration": 7.512,
+    "bytes": 56016,
+    "sha256": "75f6facb030476bc1448d03473228a07176a0cae40e282f95079085c0d8502bb",
+    "duration": 9.336,
     "voice": "en-US-GuyNeural",
     "status": "generated-awaiting-adult-review"
   },
@@ -4461,6 +4461,555 @@
     "sha256": "b0726e10595dac2cae1e97ad9f3d8ddb437ebad41a64d0df45555fc3d815beb1",
     "duration": 6.648,
     "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "word.bed.cs",
+    "file": "game-assets/audio/word.bed.cs.mp3",
+    "bytes": 11232,
+    "sha256": "fa82599a920313d7061d435402e6976e52fc31b9476c4b85ee843fe9bf963df9",
+    "duration": 1.872,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "word.bed.en",
+    "file": "game-assets/audio/word.bed.en.mp3",
+    "bytes": 11232,
+    "sha256": "8b7c6f49db54f26f43f45c588c4dbe47dee5e85d0b2c37affc023d1863032f8e",
+    "duration": 1.872,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "meaning.bed.cs",
+    "file": "game-assets/audio/meaning.bed.cs.mp3",
+    "bytes": 13248,
+    "sha256": "466250a85f1802a1f765ffb9ae5e6d11e25c0b92a5f50536f39cc0e329bafc62",
+    "duration": 2.208,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "meaning.bed.en",
+    "file": "game-assets/audio/meaning.bed.en.mp3",
+    "bytes": 19296,
+    "sha256": "082ac311a62f21a6f601b84318a6c6ee49dc3137f5609779f32e30d472dee233",
+    "duration": 3.216,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "phrase.bed.cs",
+    "file": "game-assets/audio/phrase.bed.cs.mp3",
+    "bytes": 14256,
+    "sha256": "eb79bffc58cf4651402079258aaf9d7eade668dd9ccb9ca9761dc20ec7e66e9b",
+    "duration": 2.376,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "phrase.bed.en",
+    "file": "game-assets/audio/phrase.bed.en.mp3",
+    "bytes": 13392,
+    "sha256": "c1e593b0311fda426e5e992ffec1dda63eece2c85cd3a7301a91c913a544aa4a",
+    "duration": 2.232,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "word.gecko.cs",
+    "file": "game-assets/audio/word.gecko.cs.mp3",
+    "bytes": 11232,
+    "sha256": "a1e47006fb8b27df3455ac63fd650ddc865b6d117293fb282393f7c6f5c5f4fc",
+    "duration": 1.872,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "word.gecko.en",
+    "file": "game-assets/audio/word.gecko.en.mp3",
+    "bytes": 11232,
+    "sha256": "b85dff5ab04b897e2fe52297df696d3290db6de07896a5e522694ecb8de235ec",
+    "duration": 1.872,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "meaning.gecko.cs",
+    "file": "game-assets/audio/meaning.gecko.cs.mp3",
+    "bytes": 15264,
+    "sha256": "ec4bb3081391e55fd7348f59fc156f4cf387631493380ebb42a0d91d5484f8bc",
+    "duration": 2.544,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "meaning.gecko.en",
+    "file": "game-assets/audio/meaning.gecko.en.mp3",
+    "bytes": 16848,
+    "sha256": "d41474968f6bbfe253412015a0dfc3e4bc0d826ce84f3037061d40dd6bc614c9",
+    "duration": 2.808,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "phrase.gecko.cs",
+    "file": "game-assets/audio/phrase.gecko.cs.mp3",
+    "bytes": 15408,
+    "sha256": "20d58cd0e9ab02b1289d72e73687942aafe94299f66e0f9d200e8225d5a59e03",
+    "duration": 2.568,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "phrase.gecko.en",
+    "file": "game-assets/audio/phrase.gecko.en.mp3",
+    "bytes": 15552,
+    "sha256": "7a619a42afc3d33769304f654e74d3d813e1d78c36cd83f99fd6dd512e5ec956",
+    "duration": 2.592,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "word.stairs.cs",
+    "file": "game-assets/audio/word.stairs.cs.mp3",
+    "bytes": 11232,
+    "sha256": "8b5dacbeccf7b7eda47434b81b8c192479d2adfeef1ef157b2ce9066cdcfacef",
+    "duration": 1.872,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "word.stairs.en",
+    "file": "game-assets/audio/word.stairs.en.mp3",
+    "bytes": 11232,
+    "sha256": "18e3fe2d9802ea4abb43a8e7c0e61d67c689ab04b40a5dc0901fb024e0996c05",
+    "duration": 1.872,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "meaning.stairs.cs",
+    "file": "game-assets/audio/meaning.stairs.cs.mp3",
+    "bytes": 19440,
+    "sha256": "d10274f195b48f7869762e3a3aecd5d26e36c5d9c046045670c9d4031c64274b",
+    "duration": 3.24,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "meaning.stairs.en",
+    "file": "game-assets/audio/meaning.stairs.en.mp3",
+    "bytes": 19584,
+    "sha256": "a0a9770530ba4573e3f2fd8efb7d4e8bb002818899e999867bebdf7ac4157a4e",
+    "duration": 3.264,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "phrase.stairs.cs",
+    "file": "game-assets/audio/phrase.stairs.cs.mp3",
+    "bytes": 13824,
+    "sha256": "4b248c9394925b0d011b03712e1e1c804827cb103d9f3bc27cc30bc76ed6dd4c",
+    "duration": 2.304,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "phrase.stairs.en",
+    "file": "game-assets/audio/phrase.stairs.en.mp3",
+    "bytes": 14832,
+    "sha256": "93c859a132752e05448d7469143a02d50d5cc8410eea1367f55da37b5c3be78d",
+    "duration": 2.472,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.meet-iowa.wake.cs",
+    "file": "game-assets/audio/story.meet-iowa.wake.cs.mp3",
+    "bytes": 103824,
+    "sha256": "40d969dc40acefc1466e9b701176a52a5445d7adb0a17c9ddd023b73143ac296",
+    "duration": 17.304,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.meet-iowa.wake.en",
+    "file": "game-assets/audio/story.meet-iowa.wake.en.mp3",
+    "bytes": 94032,
+    "sha256": "d5d0719cfca606690689fe8a065e907cf39e5376ded2f268aede962c38ccab49",
+    "duration": 15.672,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.meet-iowa.pet.cs",
+    "file": "game-assets/audio/story.meet-iowa.pet.cs.mp3",
+    "bytes": 78048,
+    "sha256": "867d95b923cad91504705a9236b643823855c07a038e9003fa6a863cb15fe804",
+    "duration": 13.008,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.meet-iowa.pet.en",
+    "file": "game-assets/audio/story.meet-iowa.pet.en.mp3",
+    "bytes": 91152,
+    "sha256": "1205ef3c24759a3781ff3fc73583ddcd7ddfb5dd5880b7767c611f585aaed201",
+    "duration": 15.192,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.meet-iowa.downstairs.cs",
+    "file": "game-assets/audio/story.meet-iowa.downstairs.cs.mp3",
+    "bytes": 69408,
+    "sha256": "c015dc71c1ca763fb0ecdd71ab994d78cba82c985bcc27ca2d00ea6d57eab0a3",
+    "duration": 11.568,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.meet-iowa.downstairs.en",
+    "file": "game-assets/audio/story.meet-iowa.downstairs.en.mp3",
+    "bytes": 93168,
+    "sha256": "69fe8ea0a972841994c4153f023dbbc78437ff78b4da35c98b986c3e360bac5c",
+    "duration": 15.528,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.meet-iowa.wave.cs",
+    "file": "game-assets/audio/story.meet-iowa.wave.cs.mp3",
+    "bytes": 71280,
+    "sha256": "a6b55d40e4162c5b273db2d94a99f83d66eb9061da0d674a32c7011757d1a503",
+    "duration": 11.88,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.meet-iowa.wave.en",
+    "file": "game-assets/audio/story.meet-iowa.wave.en.mp3",
+    "bytes": 76608,
+    "sha256": "239e22ce4081ec27de240ca9d34485bc216b5ffd230615a574864e536939da6e",
+    "duration": 12.768,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.meet-iowa.breakfast.cs",
+    "file": "game-assets/audio/story.meet-iowa.breakfast.cs.mp3",
+    "bytes": 78768,
+    "sha256": "efab969c7f8a773e99a1d0b7d05ca562a61675e071126de2eeb0f0a80b2072ee",
+    "duration": 13.128,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.meet-iowa.breakfast.en",
+    "file": "game-assets/audio/story.meet-iowa.breakfast.en.mp3",
+    "bytes": 79200,
+    "sha256": "0d81d8abfcbe0b6618d522ce87dbf1b9c64c7f5239a8499a0aa82254011ecb77",
+    "duration": 13.2,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.meet-iowa.breakfast-map.cs",
+    "file": "game-assets/audio/story.meet-iowa.breakfast-map.cs.mp3",
+    "bytes": 118800,
+    "sha256": "a97fed36427e78089ae5db1874e706dd110846d7ba3f15b4ec5a3ef087fd1863",
+    "duration": 19.8,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "story.meet-iowa.breakfast-map.en",
+    "file": "game-assets/audio/story.meet-iowa.breakfast-map.en.mp3",
+    "bytes": 130752,
+    "sha256": "6e8ec6ea52801a47d44a88a2b32a95cbd84225f36ab5e76fa01805a5b04e595a",
+    "duration": 21.792,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "lesson.meet-iowa.bed.en",
+    "file": "game-assets/audio/lesson.meet-iowa.bed.en.mp3",
+    "bytes": 53568,
+    "sha256": "d3f5a1ad7fff3b194221288d3eed45d9cb87983a2e459c026d641a3d70c16bd0",
+    "duration": 8.928,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "lesson.meet-iowa.gecko.en",
+    "file": "game-assets/audio/lesson.meet-iowa.gecko.en.mp3",
+    "bytes": 64080,
+    "sha256": "a657fbce7c7a2035a881da1a8c08acceae6ec185bf96ce187b60ffa3ee06d940",
+    "duration": 10.68,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "lesson.meet-iowa.stairs.en",
+    "file": "game-assets/audio/lesson.meet-iowa.stairs.en.mp3",
+    "bytes": 54144,
+    "sha256": "8d48856a7e29a080a610bf7d3ebba6106e46bdcdbaa2b0b3b136dfdeeff46b23",
+    "duration": 9.024,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "lesson.meet-iowa.hello.en",
+    "file": "game-assets/audio/lesson.meet-iowa.hello.en.mp3",
+    "bytes": 56736,
+    "sha256": "88fb68fea727562e3d2a10007fa6833dc872699ea49c0bf20da8cd6a526c368d",
+    "duration": 9.456,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "lesson.meet-iowa.apple.en",
+    "file": "game-assets/audio/lesson.meet-iowa.apple.en.mp3",
+    "bytes": 50400,
+    "sha256": "a74f37e04cfc262e3069ce777427f10445505cb716782d4bf2abb19bda211646",
+    "duration": 8.4,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "lesson.meet-pribram.key.en",
+    "file": "game-assets/audio/lesson.meet-pribram.key.en.mp3",
+    "bytes": 65232,
+    "sha256": "4a1b195f0fed797ebab040f0d6b9192217710bbe4913621c10e060eede5afe07",
+    "duration": 10.872,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "lesson.meet-pribram.watering-can.en",
+    "file": "game-assets/audio/lesson.meet-pribram.watering-can.en.mp3",
+    "bytes": 56736,
+    "sha256": "ceee5637fc9cd919082dc3081e8bafce6b7235b55714d54de47dcbd26a3ce058",
+    "duration": 9.456,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "lesson.meet-pribram.cup.en",
+    "file": "game-assets/audio/lesson.meet-pribram.cup.en.mp3",
+    "bytes": 52560,
+    "sha256": "43eb5ee42b5bb2510272f1561408ed50442b2fecdc0369e50e098453cc94ff26",
+    "duration": 8.76,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "lesson.meet-pribram.rod.en",
+    "file": "game-assets/audio/lesson.meet-pribram.rod.en.mp3",
+    "bytes": 70272,
+    "sha256": "4f8cbbcc0617d28ea97976e7e43d8c64b5249eaa64dd6d254872d3113c18aa07",
+    "duration": 11.712,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "lesson.meet-pribram.magnifier.en",
+    "file": "game-assets/audio/lesson.meet-pribram.magnifier.en.mp3",
+    "bytes": 63936,
+    "sha256": "e8a2757191cfe29234815fa46334fe605948e294e57a0ee18daf115d87a0abdc",
+    "duration": 10.656,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "lesson.repeat.cs",
+    "file": "game-assets/audio/lesson.repeat.cs.mp3",
+    "bytes": 15408,
+    "sha256": "183816db8e9696db4bb01108c1fd36ca1cdbe7495cc35c84ea8028e8dabab840",
+    "duration": 2.568,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "model.bed.cs",
+    "file": "game-assets/audio/model.bed.cs.mp3",
+    "bytes": 11232,
+    "sha256": "db696e4aee361de4f812bfbdd0ffbff8a03188a9424940c0f6228138fc0ba444",
+    "duration": 1.872,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "echo.bed.cs",
+    "file": "game-assets/audio/echo.bed.cs.mp3",
+    "bytes": 17516,
+    "sha256": "f52ba8ad115321fec9e1119f08e7c68f17d8c539f55b40f0a9c5a1c4278280d8",
+    "duration": 2.919,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "model.gecko.cs",
+    "file": "game-assets/audio/model.gecko.cs.mp3",
+    "bytes": 11232,
+    "sha256": "cd98822234d27adc5821622da006870e67929639b8a761a18541b662b9331756",
+    "duration": 1.872,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "echo.gecko.cs",
+    "file": "game-assets/audio/echo.gecko.cs.mp3",
+    "bytes": 17516,
+    "sha256": "ec860a5f2858678cdf6a26cea2e20591f9c4c824560c0cc2e3936cbbeb3985f8",
+    "duration": 2.919,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "model.stairs.cs",
+    "file": "game-assets/audio/model.stairs.cs.mp3",
+    "bytes": 11232,
+    "sha256": "22a75616ebd65bc00c3c996bee1327cd00318a5fe904346b5d62f00158d23eff",
+    "duration": 1.872,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "echo.stairs.cs",
+    "file": "game-assets/audio/echo.stairs.cs.mp3",
+    "bytes": 17516,
+    "sha256": "7311b32c0968df9d9693032e450d9c4f348b45aea69b2b6f1bdcf74fcd579d2e",
+    "duration": 2.919,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "model.hello.cs",
+    "file": "game-assets/audio/model.hello.cs.mp3",
+    "bytes": 11232,
+    "sha256": "4b1270d6f1799216dacc61b1248b7cb923e81a2f3e8532e2296d4028f4ab9a35",
+    "duration": 1.872,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "echo.hello.cs",
+    "file": "game-assets/audio/echo.hello.cs.mp3",
+    "bytes": 17516,
+    "sha256": "f6b07dd9aec8aed690822ce7d3d272590239c58e54a7bb1296c8e0657cd98988",
+    "duration": 2.919,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "model.apple.cs",
+    "file": "game-assets/audio/model.apple.cs.mp3",
+    "bytes": 11232,
+    "sha256": "3cc6679f8f6ecebe4476d2d9bb924347b86e4cbeb3461e4c70524f66f4edc8c2",
+    "duration": 1.872,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "echo.apple.cs",
+    "file": "game-assets/audio/echo.apple.cs.mp3",
+    "bytes": 18956,
+    "sha256": "5eff5e72a449a602b7f48e47bf61bcbe22075e491baeb2db71215ab23fb9b94c",
+    "duration": 3.159,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "model.key.cs",
+    "file": "game-assets/audio/model.key.cs.mp3",
+    "bytes": 11232,
+    "sha256": "ae9952b020fe7033a211f5389ded86ff326a45f2546831123504a24269d8ab32",
+    "duration": 1.872,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "echo.key.cs",
+    "file": "game-assets/audio/echo.key.cs.mp3",
+    "bytes": 16076,
+    "sha256": "fddc1cc4b420dd6a076a664f7897f455709e9be322ad5c25a583a9ef6c3526a8",
+    "duration": 2.679,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "model.watering-can.cs",
+    "file": "game-assets/audio/model.watering-can.cs.mp3",
+    "bytes": 11232,
+    "sha256": "1ecf7cea91245fd83067038da7506a236a2a3e100a94dac41c9f4557f372cb07",
+    "duration": 1.872,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "echo.watering-can.cs",
+    "file": "game-assets/audio/echo.watering-can.cs.mp3",
+    "bytes": 17516,
+    "sha256": "c02667a2c3509aaf6fcc675f7bd0d82aad79aa2bfad9f3c156fe4d30fa0df00c",
+    "duration": 2.919,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "model.cup.cs",
+    "file": "game-assets/audio/model.cup.cs.mp3",
+    "bytes": 11232,
+    "sha256": "cdbb9eb71e4a5c7a114e1d70660c61652e562c931e8db1a74bbd43dc1288b58e",
+    "duration": 1.872,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "echo.cup.cs",
+    "file": "game-assets/audio/echo.cup.cs.mp3",
+    "bytes": 17516,
+    "sha256": "cdc9b0831ee7022e7ab39a9527b6574bc60c2f718976f00f4269607e92ef1eba",
+    "duration": 2.919,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "model.rod.cs",
+    "file": "game-assets/audio/model.rod.cs.mp3",
+    "bytes": 11232,
+    "sha256": "8dd06e319308c025a426ea8855a2503be866c36affe56e5212bfa6ae3b003a8c",
+    "duration": 1.872,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "echo.rod.cs",
+    "file": "game-assets/audio/echo.rod.cs.mp3",
+    "bytes": 16076,
+    "sha256": "ac8b47e6b6cc1bb34b7f746fd7f2acf24651cdc21807506443a36fe9703c1e66",
+    "duration": 2.679,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "model.magnifier.cs",
+    "file": "game-assets/audio/model.magnifier.cs.mp3",
+    "bytes": 11232,
+    "sha256": "565bed4080a91d5223ef9132f99cdbb36ed77ba9d3fb4a17e69252a137e6742f",
+    "duration": 1.872,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "echo.magnifier.cs",
+    "file": "game-assets/audio/echo.magnifier.cs.mp3",
+    "bytes": 17372,
+    "sha256": "ffde37546f6401065e96d8f38189302bb8dd29203202e05495ece164f8ca9cf4",
+    "duration": 2.895,
+    "voice": "cs-CZ-AntoninNeural",
     "status": "generated-awaiting-adult-review"
   }
 ]

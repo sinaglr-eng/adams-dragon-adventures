@@ -267,6 +267,52 @@
           }
         }
       ]
+    },
+    {
+      "id": "morning-rooms",
+      "path": "art/source/iowa-morning.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2986826,
+      "sha256": "7675fe0e11519577410167675ee3980824cee4ce6632a60fc332393f74be777d",
+      "frames": [
+        {
+          "id": "iowa-bedroom",
+          "rect": {
+            "x": 2,
+            "y": 2,
+            "w": 623,
+            "h": 623
+          }
+        },
+        {
+          "id": "iowa-terrarium",
+          "rect": {
+            "x": 629,
+            "y": 2,
+            "w": 623,
+            "h": 623
+          }
+        },
+        {
+          "id": "iowa-stairs",
+          "rect": {
+            "x": 2,
+            "y": 629,
+            "w": 623,
+            "h": 623
+          }
+        },
+        {
+          "id": "iowa-kitchen",
+          "rect": {
+            "x": 629,
+            "y": 629,
+            "w": 623,
+            "h": 623
+          }
+        }
+      ]
     }
   ]
 }
