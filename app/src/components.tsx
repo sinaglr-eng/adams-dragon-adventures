@@ -204,9 +204,11 @@ export function Modal({
 export function ParentGate({
   onSuccess,
   onClose,
+  purpose,
 }: {
   onSuccess: () => void;
   onClose: () => void;
+  purpose?: string;
 }) {
   const [a] = useState(() => 17 + Math.floor(Math.random() * 16));
   const [b] = useState(() => 12 + Math.floor(Math.random() * 12));
@@ -216,6 +218,7 @@ export function ParentGate({
     <Modal title="Jen pro dospělého · Grown-ups" onClose={onClose}>
       <div className="gate">
         <Icon name="parent" />
+        {purpose && <p>{purpose}</p>}
         <p>
           Předej zařízení dospělému.
           <br />

@@ -125,13 +125,6 @@ export default function App() {
     !!save.run &&
     save.run.phase !== "summary" &&
     activeQuests.some((q) => q.id === save.run?.questId);
-  const playStart = () => {
-    if (canResume) {
-      go("game");
-    } else if (save.events.length) {
-      go("map");
-    } else void start(activeQuests[0].id);
-  };
   const opened = discovered(save),
     finished = completed(save),
     points = xp(save),
@@ -273,30 +266,22 @@ export default function App() {
         >
           <div className="title-shade" />
           <div className="title-copy">
-            <span className="eyebrow">IOWA ↔ PŘÍBRAM</span>
-            <h1>
-              Malý dráček.
-              <br />
-              Dva domovy.
-              <br />
-              <em>Velké výpravy.</em>
-            </h1>
-            <p>
-              A little dragon. Two homes.
-              <br />A whole world of words.
-            </p>
-            <Button icon="play" className="hero-button" onClick={playStart}>
-              {canResume
-                ? resumeText
-                : lang === "cs"
-                  ? "Jdeme na výpravu!"
-                  : "Let's go, Adam!"}
-            </Button>
-            {
-              <button className="title-map" onClick={() => go("map")}>
-                {lang === "cs" ? "Otevřít mapu" : "Open my map"} →
-              </button>
-            }
+            <h1 className="screen-reader-only">Adamovy dračí výpravy</h1>
+            <button className="open-picture-atlas" onClick={() => go("map")}>
+              <img src={asset("atlas-two-homes")} alt="" />
+              <span>
+                <Icon name="atlas" /> Atlas <Icon name="next" />
+              </span>
+            </button>
+            {canResume && (
+              <Button
+                icon="play"
+                className="resume-link"
+                onClick={() => go("game")}
+              >
+                {lang === "cs" ? "Pokračovat" : "Continue"}
+              </Button>
+            )}
             <div className="language-pills">
               <button
                 aria-pressed={lang === "en"}
@@ -322,12 +307,6 @@ export default function App() {
             <button className="family-entry" onClick={() => go("family")}>
               <Icon name="heart" /> Pro babi a dědu · Learn English
             </button>
-          </div>
-          <div className="title-note">
-            <Icon name="heart" />
-            {lang === "cs"
-              ? "S Romčou, Klárkou a celou dračí rodinou"
-              : "With Romča, Klárka and your dragon family"}
           </div>
         </main>
       )}

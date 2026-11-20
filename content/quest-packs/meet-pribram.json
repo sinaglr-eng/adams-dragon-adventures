@@ -21,8 +21,8 @@
     "magnifier"
   ],
   "prerequisites": [],
-  "scriptCs": "Hele, Áďo, támhle je náš příbramskej domek! Najdi nahoře na střeše solární panely a vlevo dva balkony, jeden v každým patře. Uhodneš, kdo už u branky vrtí ocasem?",
-  "scriptEn": "Look, Adam, there's the house in Příbram! Spot the solar panels on the roof and the two balconies on the left, one on each floor. Can you guess who’s wagging a tail at the gate?",
+  "scriptCs": "Psst, Áďo! Jsme u babi a dědy v Příbrami. Slyšíš to ťapání za brankou? Někdo tě poznal dřív, než jsi zazvonil!",
+  "scriptEn": "Psst, Adam! We made it to Grandma and Grandpa’s in Příbram. Hear those paws behind the gate? Someone knows it’s you before you even ring the bell!",
   "suggestedMinutes": [
     6,
     12
@@ -36,14 +36,15 @@
       "id": "arrival",
       "art": "pribram-house",
       "text": {
-        "cs": "Hele, Áďo, támhle je náš příbramskej domek! Najdi nahoře na střeše solární panely a vlevo dva balkony, jeden v každým patře. Uhodneš, kdo už u branky vrtí ocasem?",
-        "en": "Look, Adam, there's the house in Příbram! Spot the solar panels on the roof and the two balconies on the left, one on each floor. Can you guess who’s wagging a tail at the gate?"
+        "cs": "Psst, Áďo! Jsme u babi a dědy v Příbrami. Slyšíš to ťapání za brankou? Někdo tě poznal dřív, než jsi zazvonil!",
+        "en": "Psst, Adam! We made it to Grandma and Grandpa’s in Příbram. Hear those paws behind the gate? Someone knows it’s you before you even ring the bell!"
       },
       "concept": "hello",
       "action": "next",
       "cast": [
         "adam"
-      ]
+      ],
+      "background": "pribram-house"
     },
     {
       "kind": "narrative",
@@ -86,14 +87,15 @@
       "id": "babi",
       "art": "family/babi",
       "text": {
-        "cs": "Babi! Ta má radost, že jsi tu, prcku. Tady s dědou bydlí. Zamávej jí a pojď zalít kytky, než nám Chase vypije vodu z konvičky.",
-        "en": "There’s Grandma! She's so happy you’re here, buddy. She lives in this house with Grandpa. Wave hello, then let's water the flowers before Chase drinks from the watering can!"
+        "cs": "Babi už mává z kuchyně. Jé, na stole voní koláče! Než si jeden vezmeš, pomůžeš babi zalít kytku u okna?",
+        "en": "Grandma waves from her kitchen. Mmm, little plum cakes! Before you pick one, will you help her water the flower by the window?"
       },
       "concept": "hello",
       "action": "next",
       "cast": [
         "adam"
-      ]
+      ],
+      "background": "pribram-kitchen"
     },
     {
       "kind": "learn",
@@ -102,7 +104,8 @@
         "adam",
         "babi"
       ],
-      "contextEn": "Grandma’s flowers are thirsty. Help her carry water to them in the watering can. In Czech, a watering can is called…"
+      "contextEn": "Grandma’s flowers are thirsty. Help her carry water to them in the watering can. In Czech, a watering can is called…",
+      "background": "pribram-kitchen"
     },
     {
       "kind": "find",
@@ -115,21 +118,23 @@
       "cast": [
         "adam",
         "babi"
-      ]
+      ],
+      "background": "pribram-kitchen"
     },
     {
       "kind": "narrative",
       "id": "deda",
       "art": "family/deda",
       "text": {
-        "cs": "Děda už čeká na balkoně s hrnkem. Ukazuje ti Svatou Horu. Koukej na ty věžičky! A na druhý straně města, na Březovejch Horách, uvidíš těžní věže, připomínku starých dolů. Mrknem se na mapu.",
-        "en": "Grandpa is waiting on the balcony with his mug. He points to Svatá Hora. Look at those little domes! Across town in Březové Hory, tall mining towers mark the old mines. Let’s look on the map."
+        "cs": "Ťuk, ťuk! To děda ve svojí dílně opravuje autíčku kolečko. Ukáže ti, jak se zase točí. Než autíčko svezeš do garáže, podáš dědovi jeho hrnek?",
+        "en": "Tap, tap! Grandpa is in his workshop fixing a wheel on a toy car. Give the wheel a spin! Before you roll the car into the garage, can you pass Grandpa his mug?"
       },
       "concept": "hello",
       "action": "next",
       "cast": [
         "adam"
-      ]
+      ],
+      "background": "grandpa-workshop"
     },
     {
       "kind": "learn",
@@ -138,7 +143,8 @@
         "adam",
         "deda"
       ],
-      "contextEn": "Grandpa is holding his warm drink by the handle. That’s his favorite mug. In Czech, a mug is called…"
+      "contextEn": "Grandpa is holding his warm drink by the handle. That’s his favorite mug. In Czech, a mug is called…",
+      "background": "grandpa-workshop"
     },
     {
       "kind": "find",
@@ -151,21 +157,23 @@
       "cast": [
         "adam",
         "deda"
-      ]
+      ],
+      "background": "grandpa-workshop"
     },
     {
       "kind": "narrative",
       "id": "landmarks",
-      "art": "atlas-two-homes",
+      "art": "pribram-garage",
       "text": {
-        "cs": "Na pravý stránce najdi na kopci Svatou Horu. Teď koukni k cihlový a kovový věži. Vidíš, jak jsou každá jiná? Děda přesně ví, kam se dívat. Klepni, čeká další návštěva!",
-        "en": "On the right-hand page, find Svatá Hora on the hill. Now look for the brick tower and the metal tower. See their different shapes? Grandpa knows just where to look. Tap, someone else is here!"
+        "cs": "A teď garáž, parťáku! Otevři očima tu velkou krabici. Autíčka a kostky! A tamhle u zdi? Tvoje kolo. Děda ti ho tu schoval na léto. Cink, cink!",
+        "en": "Now for the garage, buddy! Peek inside that big toy box. Cars and blocks! And what’s that by the wall? Your bicycle! Grandpa is keeping it here for your summer rides. Ring, ring!"
       },
       "concept": "hello",
       "action": "next",
       "cast": [
         "adam"
-      ]
+      ],
+      "background": "pribram-garage"
     },
     {
       "kind": "narrative",
@@ -179,12 +187,14 @@
       "action": "next",
       "cast": [
         "adam"
-      ]
+      ],
+      "background": "pribram-garage"
     },
     {
       "kind": "learn",
       "concept": "rod",
-      "contextEn": "Uncle Romča is packing for your next fishing trip. What will he use to cast his line? His fishing rod! In Czech, a fishing rod is called…"
+      "contextEn": "Uncle Romča is packing for your next fishing trip. What will he use to cast his line? His fishing rod! In Czech, a fishing rod is called…",
+      "background": "pribram-garage"
     },
     {
       "kind": "find",
@@ -193,7 +203,8 @@
         "rod",
         "apple",
         "cup"
-      ]
+      ],
+      "background": "pribram-garage"
     },
     {
       "kind": "narrative",

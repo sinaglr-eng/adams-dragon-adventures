@@ -339,9 +339,23 @@ export function Game({
       />
       <div
         className={`scene scene-${bg} ${cycle ? "cycling" : ""} ${storyActing ? "story-acting" : ""}`}
-        style={{ backgroundImage: `url(${asset(bg)})` }}
+        style={narrative ? undefined : { backgroundImage: `url(${asset(bg)})` }}
       >
-        <div className="scene-vignette" />
+        {narrative ? (
+          <img
+            className="full-scene-art"
+            alt=""
+            onLoad={({ currentTarget: image }) => {
+              image.parentElement?.style.setProperty(
+                "--scene-ratio",
+                String(image.naturalWidth / image.naturalHeight),
+              );
+            }}
+            src={asset(task.art === "atlas-two-homes" ? task.art : bg)}
+          />
+        ) : (
+          <div className="scene-vignette" />
+        )}
         <div
           className={`actors ${q.background === "iowa-lake" ? "actors-right" : ""} ${intro ? "intro-actors" : ""}`}
         >
@@ -380,56 +394,14 @@ export function Game({
               ))}
         </div>
         {narrative && (
-          <div className="story-stage">
-            <span className="story-chapter">{title(q, ui)}</span>
-            <button
-              className={`story-touch ${task.action === "plane" ? "ocean-touch" : ""} ${heard ? "invite-touch" : ""}`}
-              aria-label={
-                ui === "cs" ? "Pokračovat v příběhu" : "Continue the story"
-              }
-              disabled={storyActing || paused}
-              onClick={() => {
-                stopAudio();
-                chime();
-                setStoryActing(true);
-              }}
-            >
-              {task.pictures ? (
-                <span className="story-pictures">
-                  {task.pictures.map((id) => (
-                    <WordArt key={id} id={id} />
-                  ))}
-                </span>
-              ) : (
-                <Sprite
-                  id={task.art!}
-                  className={`story-object ${task.art!.startsWith("family/") ? "story-character" : ""}`}
-                />
-              )}
-              <span className="touch-cue">
-                <Icon
-                  name={
-                    task.action === "wave" ? "heart" : (task.action ?? "next")
-                  }
-                />
-              </span>
-              {task.action === "plane" && (
-                <span className="story-plane">
-                  <Icon name="plane" />
-                </span>
-              )}
-            </button>
-            <div
-              className="story-dots"
-              aria-label={ui === "cs" ? "Příběhové scény" : "Story scenes"}
-            >
-              {tasks
-                .filter((t) => t.kind === "narrative")
-                .map((t) => (
-                  <i key={t.id} className={t.id === task.id ? "current" : ""} />
-                ))}
-            </div>
-          </div>
+          <>
+            {task.art?.startsWith("family/") && task.art !== "family/adam" && (
+              <Sprite
+                id={task.art}
+                className="visiting-character story-character"
+              />
+            )}
+          </>
         )}
         {intro && (
           <div className="intro-scroll paper">
@@ -897,16 +869,33 @@ export function Game({
         </div>
       )}
       <div className="scene-footer">
-        <span>
-          <Icon name="heart" />
-          {ui === "cs"
-            ? "Vlastním tempem. Bez spěchu."
-            : "Your own pace. No rush."}
-        </span>
+        {!narrative && (
+          <span>
+            <Icon name="heart" />
+            {ui === "cs"
+              ? "Vlastním tempem. Bez spěchu."
+              : "Your own pace. No rush."}
+          </span>
+        )}
         {!intro && !done && (
           <span>
             {Math.min(r.step + 1, tasks.length)} / {tasks.length}
           </span>
+        )}
+        {narrative && (
+          <Button
+            icon="next"
+            className="story-next round"
+            aria-label={
+              ui === "cs" ? "Pokračovat v příběhu" : "Continue the story"
+            }
+            disabled={storyActing || paused}
+            onClick={() => {
+              stopAudio();
+              chime();
+              setStoryActing(true);
+            }}
+          />
         )}
       </div>
     </main>

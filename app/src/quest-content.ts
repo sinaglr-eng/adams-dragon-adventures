@@ -65,6 +65,8 @@ for (const id of [
   "iowa-stairs",
   "iowa-kitchen",
   "pribram-house",
+  "pribram-kitchen",
+  "pribram-garage",
   "iowa-garden",
   "atlas-two-homes",
 ]) {

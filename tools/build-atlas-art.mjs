@@ -9,7 +9,8 @@ for (const asset of manifest.assets) {
   if (asset.frames) for (const frame of asset.frames) {
     const {x,y,w,h}=frame.rect;
     const crop=await sharp(source).extract({left:x,top:y,width:w,height:h}).png().toBuffer();
-    const image = sharp(crop).trim({threshold:8}).resize({width:640,height:640,fit:'inside',withoutEnlargement:true});
+    const maxSize = frame.id.includes('/') ? 640 : 1536;
+    const image = sharp(crop).trim({threshold:8}).resize({width:maxSize,height:maxSize,fit:'inside',withoutEnlargement:true});
     if (frame.id.includes('/')) {
       image.extend({top:8,right:8,bottom:8,left:8,background:{r:0,g:0,b:0,alpha:0}});
     }

@@ -4214,18 +4214,18 @@
   {
     "id": "story.meet-pribram.arrival.cs",
     "file": "game-assets/audio/story.meet-pribram.arrival.cs.mp3",
-    "bytes": 73728,
-    "sha256": "b530838cb5349bc29b291f4ca031a28d3eb69b5b3b366d28ffccc107516ec776",
-    "duration": 12.288,
+    "bytes": 70272,
+    "sha256": "57e69a3f58b1679d3a204f9972fe1ce37c9e1577e18b7dafd482e4a9a37c4411",
+    "duration": 11.712,
     "voice": "cs-CZ-AntoninNeural",
     "status": "generated-awaiting-adult-review"
   },
   {
     "id": "story.meet-pribram.arrival.en",
     "file": "game-assets/audio/story.meet-pribram.arrival.en.mp3",
-    "bytes": 73296,
-    "sha256": "97234a06f26ee6b56a875442113890206bb8dfbc94bac9885b869dd6d52eac78",
-    "duration": 12.216,
+    "bytes": 70560,
+    "sha256": "64b96d5db0c14a36823281d5654964ccdee726631d0fb15fbc1ad89fa5ff1a1c",
+    "duration": 11.76,
     "voice": "en-US-GuyNeural",
     "status": "generated-awaiting-adult-review"
   },
@@ -4250,54 +4250,54 @@
   {
     "id": "story.meet-pribram.babi.cs",
     "file": "game-assets/audio/story.meet-pribram.babi.cs.mp3",
-    "bytes": 69408,
-    "sha256": "a6da6b8d697479056fb803e8bd809cee79706dea732ca1b6657e1920bdd398de",
-    "duration": 11.568,
+    "bytes": 56736,
+    "sha256": "3326d1838090295a1b2e8e5cd664339b89541e83708d4957b17ef946e5885cb6",
+    "duration": 9.456,
     "voice": "cs-CZ-AntoninNeural",
     "status": "generated-awaiting-adult-review"
   },
   {
     "id": "story.meet-pribram.babi.en",
     "file": "game-assets/audio/story.meet-pribram.babi.en.mp3",
-    "bytes": 77760,
-    "sha256": "3fb7ce9936c6a1c482d7ffaebae12833080ef22eb2f441090cac4f833621e368",
-    "duration": 12.96,
+    "bytes": 60048,
+    "sha256": "1ce28ffda8be1e3736e5f953e147fd78db6c264fd2f5a21338679f3ee958be08",
+    "duration": 10.008,
     "voice": "en-US-GuyNeural",
     "status": "generated-awaiting-adult-review"
   },
   {
     "id": "story.meet-pribram.deda.cs",
     "file": "game-assets/audio/story.meet-pribram.deda.cs.mp3",
-    "bytes": 97920,
-    "sha256": "dd2d5e0b21f354c2137de48814b8baeb1ad24314716436ad1907dd52b8423c86",
-    "duration": 16.32,
+    "bytes": 77760,
+    "sha256": "f1c2f6b0f2807e6ea3ebdd59f54ef4e854c4d9fe315841cd636e72f1a9dcc3d3",
+    "duration": 12.96,
     "voice": "cs-CZ-AntoninNeural",
     "status": "generated-awaiting-adult-review"
   },
   {
     "id": "story.meet-pribram.deda.en",
     "file": "game-assets/audio/story.meet-pribram.deda.en.mp3",
-    "bytes": 93312,
-    "sha256": "70ed54b4b0394e1e898417fc1281674ef1c9cbd10b50fad95084aa322ec5250a",
-    "duration": 15.552,
+    "bytes": 78480,
+    "sha256": "ae7b882407a5e545a59b38a865968c122a976f9554c6bcf4b847c5653df501dd",
+    "duration": 13.08,
     "voice": "en-US-GuyNeural",
     "status": "generated-awaiting-adult-review"
   },
   {
     "id": "story.meet-pribram.landmarks.cs",
     "file": "game-assets/audio/story.meet-pribram.landmarks.cs.mp3",
-    "bytes": 88704,
-    "sha256": "61ffe383c9f9d6f3fc6716b1cf65a5b53b49a2e589d0eec14b8040b7a8dd5935",
-    "duration": 14.784,
+    "bytes": 98352,
+    "sha256": "a1220257e1aab53aca734fe419335d2dfb7f6f579e8e3cdad8c0811bd66d6227",
+    "duration": 16.392,
     "voice": "cs-CZ-AntoninNeural",
     "status": "generated-awaiting-adult-review"
   },
   {
     "id": "story.meet-pribram.landmarks.en",
     "file": "game-assets/audio/story.meet-pribram.landmarks.en.mp3",
-    "bytes": 92304,
-    "sha256": "7f791f73c10ce600b9c02b58192feb2da427f76b1e809a2c60a8eded8ba5068a",
-    "duration": 15.384,
+    "bytes": 105120,
+    "sha256": "97e05c96d1765772a452cc2438904df739b8735065d3f74822427c63f5dadf82",
+    "duration": 17.52,
     "voice": "en-US-GuyNeural",
     "status": "generated-awaiting-adult-review"
   },
@@ -5009,6 +5009,60 @@
     "bytes": 17372,
     "sha256": "ffde37546f6401065e96d8f38189302bb8dd29203202e05495ece164f8ca9cf4",
     "duration": 2.895,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "coach.retry.en",
+    "file": "game-assets/audio/coach.retry.en.mp3",
+    "bytes": 30096,
+    "sha256": "4ee5078deb517ce03a05a852b664093f72cb605cc52292318ac145e0ece280a4",
+    "duration": 5.016,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "coach.retry.cs",
+    "file": "game-assets/audio/coach.retry.cs.mp3",
+    "bytes": 36720,
+    "sha256": "7180ec7c18eb19a117836f2663f70f02ccebe9143089cbd1e52d3964b753c23f",
+    "duration": 6.12,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "coach.success.en",
+    "file": "game-assets/audio/coach.success.en.mp3",
+    "bytes": 26784,
+    "sha256": "cf8349fd9242ece2612409552a46e8005d351c99e6b07753cfa0a50800d79b21",
+    "duration": 4.464,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "coach.success.cs",
+    "file": "game-assets/audio/coach.success.cs.mp3",
+    "bytes": 30384,
+    "sha256": "8dba2f2effe7954c39c70a324ad5ac3272bab526353952a31f73240f74936231",
+    "duration": 5.064,
+    "voice": "cs-CZ-AntoninNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "coach.start.en",
+    "file": "game-assets/audio/coach.start.en.mp3",
+    "bytes": 19728,
+    "sha256": "aca523e8515a7376ca3d4a4230520b145b03491b8bc6a98055f4119014bab896",
+    "duration": 3.288,
+    "voice": "en-US-GuyNeural",
+    "status": "generated-awaiting-adult-review"
+  },
+  {
+    "id": "coach.start.cs",
+    "file": "game-assets/audio/coach.start.cs.mp3",
+    "bytes": 19152,
+    "sha256": "c6df6ade9aac93c485b42c51d3c055552777c65493fce8af0c5fac2a441d7a91",
+    "duration": 3.192,
     "voice": "cs-CZ-AntoninNeural",
     "status": "generated-awaiting-adult-review"
   }

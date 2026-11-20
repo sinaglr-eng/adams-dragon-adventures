@@ -313,6 +313,34 @@
           }
         }
       ]
+    },
+    {
+      "id": "pribram-rooms",
+      "path": "art/source/pribram-rooms.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3787462,
+      "sha256": "81cfcb61836108b8bf044543d59c7f8868376cd5042cb5d6bca8d15e3f43d327",
+      "frames": [
+        {
+          "id": "pribram-kitchen",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1536,
+            "h": 510
+          }
+        },
+        {
+          "id": "pribram-garage",
+          "rect": {
+            "x": 0,
+            "y": 514,
+            "w": 1536,
+            "h": 510
+          }
+        }
+      ]
     }
   ]
 }

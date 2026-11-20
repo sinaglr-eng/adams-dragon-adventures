@@ -16,7 +16,7 @@ Na iPadu lze použít Safari → Sdílet → Přidat na plochu. Rozložení podp
 
 - **S dospělým:** Adam vysloví konkrétní slovo nebo větu, dospělý projde rodičovskou bránou a potvrdí srozumitelný výkon. Pečeť uvádí rodičovské ověření.
 - **Lokální pokus:** rodič může povolit mikrofon. Dítě spustí nejvýše šestisekundový pokus, poslechne si ho a při zavření dialogu se audio zahodí. Nic se neposílá na server.
-- Automatické hodnocení české dětské výslovnosti není aktivní. Hlasitost, přepis ani kliknutí ho nenahrazují. Hra funguje bez mikrofonu.
+- Mikrofon porovnává průběh zvuků ve slově nebo větě s nahranými vzory pro zvolený jazyk. Shoda musí být dostatečně blízká a odlišitelná od ostatních výrazů. Při nejasném pokusu Romča přehraje správnou výslovnost a nabídne opakování. Pečeť a body za mluvení udělí až shoda nebo potvrzení dospělého. Úspěšnost rozpoznání na dětských hlasech zatím nebyla měřena.
 - Hot Wheels, Pokémon kartičky, svačinu, výlet či vlastní odměnu nejprve aktivuje rodič. Po splnění podmínek ověří důkazy a potvrdí skutečné předání. Každou odměnu lze předat jednou. Hra nic nenakupuje.
 
 Nové příběhy vyprávějí syntetické hlasy Antonín a Guy. Stávající slovníkové klipy používají hlasy Petr a Udem. Nejde o hlasové klony rodiny. Všechny soubory jsou součástí webu; hraní nevyžaduje API klíč. **Kompletní poslechová kontrola rodilým dospělým ještě neproběhla; před samostatným hraním nahrávky zkontrolujte.** Při nedostupném souboru může pomoci označený náhradní hlas zařízení, pouze pokud je dostupný správný jazyk.

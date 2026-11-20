@@ -1060,3 +1060,169 @@
 .home-quests .quest-covers {
   grid-template-columns: minmax(0, min(100%, 480px));
 }
+.screen-reader-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.title-screen .title-copy {
+  display: grid;
+  justify-items: start;
+  align-content: center;
+  gap: 12px;
+}
+.title-copy .language-pills,
+.title-copy .family-entry {
+  margin: 0;
+}
+.open-picture-atlas {
+  display: grid;
+  gap: 0;
+  justify-items: center;
+  width: clamp(170px, 18vw, 250px);
+  border: 0;
+  background: none;
+  padding: 0 0 8px;
+  color: #273f32;
+  cursor: pointer;
+}
+.open-picture-atlas > img {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  transform: rotate(-4deg);
+  box-shadow: 0 7px 16px #46362148;
+}
+.open-picture-atlas span {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 20px;
+  margin-top: -10px;
+  position: relative;
+  background: #ffce66;
+  border: 2px solid #a66a17;
+  border-radius: 999px;
+  font-size: 1.45rem;
+  font-weight: 900;
+  box-shadow: 0 3px #aa761d;
+}
+.open-picture-atlas .icon {
+  width: 24px;
+  height: 24px;
+}
+.title-copy .resume-link {
+  min-height: 44px;
+  padding: 6px 14px;
+  background: #fff6e2;
+  color: #304c3d;
+  font-size: 1rem;
+  box-shadow: none;
+}
+.world-atlas .atlas-home {
+  top: 52%;
+  height: 32%;
+}
+.world-atlas .home-family {
+  height: 74%;
+  width: 105%;
+  filter: drop-shadow(0 1px 2px #fff4d5) drop-shadow(0 2px 3px #493c25);
+}
+.narrative-scene .scene {
+  background: #f1e4c8;
+  display: grid;
+  place-items: center;
+  min-height: 0;
+  height: auto;
+  --art-height: clamp(180px, calc(100svh - 365px), 720px);
+  width: min(100%, calc(var(--art-height) * var(--scene-ratio, 1.6)));
+  max-width: 100%;
+  margin-inline: auto;
+}
+.full-scene-art {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  max-height: var(--art-height);
+  object-fit: contain;
+}
+.narrative-scene .scene > .actors {
+  left: 2%;
+  bottom: 2%;
+  width: 36%;
+  height: 58%;
+}
+.visiting-character {
+  position: absolute;
+  width: 24%;
+  height: 62%;
+  bottom: 3%;
+  right: 20%;
+  object-fit: contain;
+  object-position: bottom;
+  transform-origin: 50% 95%;
+}
+.button.story-next {
+  position: relative;
+  z-index: 4;
+  background: #ffce66;
+  border: 3px solid #fff9e5;
+  color: #244638;
+  width: clamp(52px, 5vw, 76px);
+  height: clamp(52px, 5vw, 76px);
+}
+.story-next .icon {
+  width: 65%;
+  height: 65%;
+}
+.story-next > span:empty {
+  display: none;
+}
+.narrative-scene .compact-narrator .narrator-copy p {
+  display: none;
+}
+.narrative-scene .transcript-toggle {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+.narrative-scene .transcript-toggle .icon {
+  width: 23px;
+  height: 23px;
+}
+@media (max-width: 700px) {
+  .title-screen .title-copy {
+    bottom: 12px;
+    padding-bottom: 12px;
+    gap: 8px;
+  }
+  .open-picture-atlas {
+    width: 152px;
+  }
+}
+
+.narrative-scene .compact-narrator {
+  display: flex;
+  align-items: center;
+  min-height: 0;
+  padding-block: 6px;
+}
+.narrative-scene .compact-narrator .narrator-copy {
+  flex: 1;
+}
+.narrative-scene .compact-narrator .narrator-buttons {
+  flex-direction: row;
+}
+@media (max-width: 700px) {
+  .title-screen {
+    min-height: max(600px, 100svh);
+  }
+}

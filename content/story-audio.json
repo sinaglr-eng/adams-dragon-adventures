@@ -682,11 +682,11 @@
     },
     {
       "id": "story.meet-pribram.arrival.cs",
-      "text": "Hele, Áďo, támhle je náš příbramskej domek! Najdi nahoře na střeše solární panely a vlevo dva balkony, jeden v každým patře. Uhodneš, kdo už u branky vrtí ocasem?"
+      "text": "Psst, Áďo! Jsme u babi a dědy v Příbrami. Slyšíš to ťapání za brankou? Někdo tě poznal dřív, než jsi zazvonil!"
     },
     {
       "id": "story.meet-pribram.arrival.en",
-      "text": "Look, Adam, there's the house in Příbram! Spot the solar panels on the roof and the two balconies on the left, one on each floor. Can you guess who’s wagging a tail at the gate?"
+      "text": "Psst, Adam! We made it to Grandma and Grandpa’s in Příbram. Hear those paws behind the gate? Someone knows it’s you before you even ring the bell!"
     },
     {
       "id": "story.meet-pribram.chase.cs",
@@ -698,27 +698,27 @@
     },
     {
       "id": "story.meet-pribram.babi.cs",
-      "text": "Babi! Ta má radost, že jsi tu, prcku. Tady s dědou bydlí. Zamávej jí a pojď zalít kytky, než nám Chase vypije vodu z konvičky."
+      "text": "Babi už mává z kuchyně. Jé, na stole voní koláče! Než si jeden vezmeš, pomůžeš babi zalít kytku u okna?"
     },
     {
       "id": "story.meet-pribram.babi.en",
-      "text": "There’s Grandma! She's so happy you’re here, buddy. She lives in this house with Grandpa. Wave hello, then let's water the flowers before Chase drinks from the watering can!"
+      "text": "Grandma waves from her kitchen. Mmm, little plum cakes! Before you pick one, will you help her water the flower by the window?"
     },
     {
       "id": "story.meet-pribram.deda.cs",
-      "text": "Děda už čeká na balkoně s hrnkem. Ukazuje ti Svatou Horu. Koukej na ty věžičky! A na druhý straně města, na Březovejch Horách, uvidíš těžní věže, připomínku starých dolů. Mrknem se na mapu."
+      "text": "Ťuk, ťuk! To děda ve svojí dílně opravuje autíčku kolečko. Ukáže ti, jak se zase točí. Než autíčko svezeš do garáže, podáš dědovi jeho hrnek?"
     },
     {
       "id": "story.meet-pribram.deda.en",
-      "text": "Grandpa is waiting on the balcony with his mug. He points to Svatá Hora. Look at those little domes! Across town in Březové Hory, tall mining towers mark the old mines. Let’s look on the map."
+      "text": "Tap, tap! Grandpa is in his workshop fixing a wheel on a toy car. Give the wheel a spin! Before you roll the car into the garage, can you pass Grandpa his mug?"
     },
     {
       "id": "story.meet-pribram.landmarks.cs",
-      "text": "Na pravý stránce najdi na kopci Svatou Horu. Teď koukni k cihlový a kovový věži. Vidíš, jak jsou každá jiná? Děda přesně ví, kam se dívat. Klepni, čeká další návštěva!"
+      "text": "A teď garáž, parťáku! Otevři očima tu velkou krabici. Autíčka a kostky! A tamhle u zdi? Tvoje kolo. Děda ti ho tu schoval na léto. Cink, cink!"
     },
     {
       "id": "story.meet-pribram.landmarks.en",
-      "text": "On the right-hand page, find Svatá Hora on the hill. Now look for the brick tower and the metal tower. See their different shapes? Grandpa knows just where to look. Tap, someone else is here!"
+      "text": "Now for the garage, buddy! Peek inside that big toy box. Cars and blocks! And what’s that by the wall? Your bicycle! Grandpa is keeping it here for your summer rides. Ring, ring!"
     },
     {
       "id": "story.meet-pribram.romca.cs",
@@ -963,6 +963,30 @@
     {
       "id": "echo.magnifier.cs",
       "text": "lu-pa"
+    },
+    {
+      "id": "coach.retry.en",
+      "text": "I didn’t quite catch that. Listen, then try again."
+    },
+    {
+      "id": "coach.retry.cs",
+      "text": "Zkusíme to spolu. Poslechni si slovíčko a zkus to ještě jednou."
+    },
+    {
+      "id": "coach.success.en",
+      "text": "I heard it! Your speaking star is yours!"
+    },
+    {
+      "id": "coach.success.cs",
+      "text": "Jo, slyšel jsem to! Máš hvězdičku za mluvení!"
+    },
+    {
+      "id": "coach.start.en",
+      "text": "Tap the microphone, then say the word."
+    },
+    {
+      "id": "coach.start.cs",
+      "text": "Klepni na mikrofon a řekni to nahlas."
     }
   ]
 }

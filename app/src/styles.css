@@ -1648,7 +1648,7 @@ img {
 }
 .word-modal[open] {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
   gap: 0 25px;
 }
 .word-modal .modal-head {

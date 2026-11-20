@@ -21,7 +21,7 @@ export type Evidence = {
   taskVariant: string;
   evidenceType: EvidenceType;
   assistance: boolean;
-  assessmentSource: "interaction" | "parent";
+  assessmentSource: "interaction" | "parent" | "acoustic";
   utteranceTarget?: string;
 };
 export type Reward = {
@@ -60,6 +60,7 @@ export type Save = {
   runs?: Record<string, Run>;
   prefs: {
     language: Lang;
+    languageDefaultVersion?: number;
     muted: boolean;
     calm: boolean;
     microphone: boolean;
@@ -78,6 +79,7 @@ export function freshSave(now = Date.now()): Save {
     run: null,
     prefs: {
       language: "en",
+      languageDefaultVersion: 2,
       muted: false,
       calm: false,
       microphone: false,
@@ -88,8 +90,11 @@ export function freshSave(now = Date.now()): Save {
 }
 export function addEvidence(s: Save, e: Evidence) {
   if (s.events.some((old) => old.id === e.id)) return;
-  if (e.evidenceType === "spoken_verified" && e.assessmentSource !== "parent")
-    throw Error("Only an adult can verify speech in this release.");
+  if (
+    e.evidenceType === "spoken_verified" &&
+    !["parent", "acoustic"].includes(e.assessmentSource)
+  )
+    throw Error("Speaking evidence requires a verified attempt.");
   s.events.push(e);
   refreshRewards(s);
 }
@@ -135,7 +140,7 @@ export function xp(s: Save) {
     const points = {
       introduced: 5,
       recognized: e.assistance ? 5 : 10,
-      speech_attempted: 2,
+      speech_attempted: 0,
       spoken_verified: 15,
       quest_completed: 40,
     }[e.evidenceType];
@@ -417,9 +422,10 @@ export function migrate(input: unknown): Save {
       typeof e.questId !== "string" ||
       typeof e.sessionId !== "string" ||
       typeof e.taskVariant !== "string" ||
-      !["interaction", "parent"].includes(e.assessmentSource) ||
+      !["interaction", "parent", "acoustic"].includes(e.assessmentSource) ||
       (e.conceptId !== "" && !vocabulary.some((w) => w.id === e.conceptId)) ||
-      (e.evidenceType === "spoken_verified" && e.assessmentSource !== "parent")
+      (e.evidenceType === "spoken_verified" &&
+        !["parent", "acoustic"].includes(e.assessmentSource))
     )
       throw Error("Damaged learning evidence");
   if (new Set(raw.events.map((e) => e.id)).size !== raw.events.length)
@@ -479,6 +485,10 @@ export function migrate(input: unknown): Save {
         });
       }
     }
+  }
+  if (!raw.prefs.languageDefaultVersion) {
+    raw.prefs.language = "en";
+    raw.prefs.languageDefaultVersion = 2;
   }
   refreshRewards(raw);
   return raw;

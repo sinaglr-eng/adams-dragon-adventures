@@ -48,7 +48,9 @@ export function EvidenceList({ save }: { save: Save }) {
             </strong>
             <span>
               {e.evidenceType === "spoken_verified"
-                ? "Mluvení ověřil dospělý"
+                ? e.assessmentSource === "acoustic"
+                  ? "Shoda se zvukovým vzorem"
+                  : "Mluvení ověřil dospělý"
                 : e.evidenceType === "speech_attempted"
                   ? "Pokus, bez ověření"
                   : e.assistance
@@ -87,7 +89,7 @@ export function Requirement({
       </li>
       <li>
         {Math.min(p.spoken, conditions.distinctVerifiedSpokenConcepts)} /{" "}
-        {conditions.distinctVerifiedSpokenConcepts} slov ověřených dospělým
+        {conditions.distinctVerifiedSpokenConcepts} ověřených slov
       </li>
       {conditions.withoutModelCount > 0 && (
         <li>
@@ -235,7 +237,7 @@ export function Parents({
                 checked={save.prefs.microphone}
                 onChange={(e) => pref("microphone", e.target.checked)}
               />
-              Povolit lokální nahrávání pokusu
+              Povolit mikrofon pro hlasové kartičky
             </label>
             <p>
               Mikrofon se spustí až po klepnutí dítěte a povolení prohlížeče.
@@ -243,9 +245,9 @@ export function Parents({
               zařízení, neposílá se na server a při zavření dialogu se zahodí.
             </p>
             <p>
-              <strong>Výslovnost ověřuje dospělý.</strong> Hra nepředstírá
-              automatické hodnocení české dětské řeči. Pečeť získá Adam po
-              potvrzení konkrétního slova nebo věty.
+              Hra v zařízení porovná zvuk slova či věty s nahranými vzory. Za
+              přesvědčivou shodu získá Adam pečeť. Mluvení můžete potvrdit také
+              osobně.
             </p>
           </section>
         </div>
